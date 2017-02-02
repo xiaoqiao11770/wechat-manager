@@ -3,13 +3,9 @@ from wechat_sdk.exceptions import ParseError
 
 
 class MessageManager(object):
-    def __init__(self, conf, signature='', timestamp='', nonce=''):
+    def __init__(self, conf):
         self.wechat = WechatBasic(conf=conf)
-        # check wechat connect.
-        if self.wechat.check_signature(signature, timestamp, nonce):
-            print 'Accept'
-        else:
-            print 'Wrong'
+
 
     def receive(self, body_text):
         try:
@@ -24,7 +20,7 @@ class MessageManager(object):
         raw = self.wechat.message.raw  # 原始 XML 文本，方便进行其他分析
         if isinstance(self.wechat.message, TextMessage):
             content = self.wechat.message.content   # 对应于 XML 中的 Content
-
+            print '===content===>>>', content
 
         if isinstance(self.wechat.message, ImageMessage):
             picurl = self.wechat.message.picurl  # 对应于 XML 中的 PicUrl
@@ -111,3 +107,4 @@ class MessageManager(object):
                     'url': u'http://www.v2ex.com/',
                 }
             ])
+        return xml
