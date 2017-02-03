@@ -1,0 +1,88 @@
+#type: node
+#context: sop
+#internal: uvlayout
+#icon: SOP/uvlayout
+#tags: uvs, textures, cleanup
+
+= UV Layout =
+
+"""Rewrites UVs by packing the UV islands into a specific area."""
+
+UV Layout produces a packing that tries to minimize the wasted UV area. This is achieved by translating and uniform scaling of the UV islands. The result is a non-overlapping placement of all islands into one or several UV tiles according to the __Packing Method__. The input geometry should have a valid vertex UV attribute. UV Layout uses this attribute to rewrite the UVs.
+
+:vimeo:UV layout
+    #id: 116671421
+
+@parameters
+
+Packing Method:
+    #id: packing
+    
+    Single Tile:
+        Provides a packing of all islands into the square `[0,1] * [0,1]`.
+        
+        [Image:/images/uv/uvlayout1.png]
+
+    Fixed Scale:
+        Provides a packing of all islands, scaled by a fixed factor given by the user,
+        into as few tiles as possible.
+            
+        [Image:/images/uv/uvlayout2.png]
+
+    `udim` Attribute:
+        Provides a packing of all islands into specific tiles according to the primitive attribute `udim`. Islands with the same `udim` value are packed into the tile of the same udim number. Valid `udim` numbers start at 1000.
+             
+        It is enough for one primitive of an island to have a valid udim
+        number for the island to get that number. If multiple primitives in an island
+        have valid `udim` numbers, the smallest of these numbers is taken as the `udim`
+        number of the island. 
+        
+        UV Layout packs islands intended for a `udim` tile into that tile, scaling them 
+        proportionally trying to maximize the covered area of the tile. Islands with invalid `udim` values are assumed to have `udim` of 1000 and are placed into the first tile (square `[0,1] * [0,1]`).
+            
+    NOTE:
+        The `udim` numbering of tiles assigns an integer index only to the 
+        subset of tiles in the UV plane that form a 10-tiles-wide column 
+        bounded from below by the U axis and from the left at the V axis.
+            Tile `udim` numbers start at 1000 for square `[0,1] * [0,1]`. It
+        increases by one for the next nine tiles to the right of it. Tile
+        1010 is the tile `[0,1] * [1,2]`, i.e. the tile above tile number
+        1000. The nine tiles to the right of tile 1010 are respectively numbered
+        1011 to 1019. Tile 1020 is the tile above the tile 1010, and so forth. 
+        So to have primitive numbers `86` and `87`show up in the next tile, change their `udim` values to `1001` in the Geometry Spreadsheet.
+            
+        [Image:/images/uv/uvlayout3.png]    
+
+Current Tile:
+    Groups the islands based on the tile that contains their leftmost among 
+    their vertices with the smallest V coordinates and packs each group into 
+    their respective tile.
+    
+Scale:
+    #id: scale
+
+    The scale parameter for the second packing method.
+    
+Padding:
+    #id: padding
+
+    Indicates the distance between distinct islands, measured in 1/1000 of the
+    frame length.
+    
+Apply Padding to Tile Boundaries:
+    #id: paddingboundary
+
+    Indicates whether the padding should be also applied to the frame 
+    boundaries.
+
+Correct Island Area Proportions:
+    Resizes the islands before packing (maintaining their combined area) so that the relative areas of any two islands is the same as their corresponding surface areas on the 3D mesh. 
+        
+@related
+
+- [Node:sop/uvproject]
+- [Node:sop/uvquickshade]
+- [Node:sop/texture]
+- [Node:sop/uvpelt]
+- [Node:sop/uvunwrap]
+

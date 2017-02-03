@@ -1,0 +1,39 @@
+﻿= Channel nodes =
+
+#bestbet: chop
+#icon: NETWORKS/chop
+
+Channel nodes create, filter, and manipulate channel data.
+
+[Image:/images/nodes/CHOP.png]
+
+[Icon:NODEFLAGS/bypass] Bypass:
+        Makes this node have no effect.
+        
+[Icon:NODEFLAGS/lock] Lock:
+        Caches the input data and stops cooking the inputs to improve performance.
+        
+        NOTE:
+                Locking a node that uses channels using __Current Frame__, will only keep a single time sample from the last evaluation. Locking a node that uses channels generated using a time range such as __Use Full Animation Range__ will cache the evaluation of the whole time range. It will evaluate properly when the time changes, but not if an input parameter or connection changes. 
+        
+[Icon:NODEFLAGS/export] Export:
+        CHOP nodes cook a list of channel values for a single time of for a time range. Each channel has a name and most CHOP nodes also have a Export Prefix parameter. This is used to make a string representing an Export path. 
+        
+        When the Export flag is on, and if the Export path matches a parameter name, the value from the CHOP channel is exported on to the parameter value which overrides any channel animation, expression, or value. The normal parameter value evaluation is skipped.
+
+[Icon:NODEFLAGS/audio] Audio:
+        The Audio flag turns on CHOP node into an audio wave. Only one CHOP node within the whole scene can have the Audio Flag turned on.
+        
+        To play the audio, the Audio panel must also points to the CHOP node and it must be in scrub mode. You can visualize the CHOP audio wave in the [Animation Editor Graph View|/ref/panes/changraph] by turning on __Settings/Show Audio in Timeline__.
+        
+[Icon:NODEFLAGS/display] Graph:
+        The Graph flag drives the displayed channel in the [Motion FX Viewer|/ref/views/chopview]. To display a channel in the Motion FX Viewer, its CHOP node needs to have the Graph Flag on and you must use the [Icon:BUTTONS/plus] or [Icon:BUTTONS/equal] buttons to adjust the channel name filters. 
+        
+        NOTE:
+                The [Icon:BUTTONS/plus],[Icon:NODEFLAGS/xray], and [Icon:BUTTONS/equal] buttons on the bottom of the Motion FX Viewer also controls the Graph Flag.
+
+@subtopics Nodes
+#display: show-icons
+
+:list:
+    #query: type:node context:chop

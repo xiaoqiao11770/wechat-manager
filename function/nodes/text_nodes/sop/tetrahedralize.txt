@@ -1,0 +1,184 @@
+#type: node
+#context: sop
+#internal: tetrahedralize
+#icon: SOP/tetrahedralize
+#tags: polygons, topology, cleanup, cloth
+
+= Tetrahedralize =
+
+"""Performs variations of a Delaunay Tetrahedralization."""
+
+Tetrahedralize generates tetrahedral meshes given a set of 3D points and polyhedral meshes.
+
+This operator is useful for creating tetrahedral meshes for various dynamic solvers such as the [finite element solver|Nodes:dop/finiteelementsolver] for soft body dynamics.  A generated tetrahedral mesh can also be used to generate realistic fractures.
+
+The Tetrahedralize SOP allows you to create a constrained delaunay tetrahedralization for an input polygon mesh. This roughly means that the interior of the input surface mesh is filled with nicely shaped tetrahedrons that fit exactly to the existing polygons and don't cut through the polygons.
+
+In addition, this operator is useful for building a graph connecting nearby points together in space.  It is also useful for building convex hulls.
+
+NOTE:
+    When performing a Constrained Delaunay Tetrahedralization (i.e. with polygons in the input), you must insure that the input surface is closed and not self-intersecting. Poorly formed surfaces may not be tetrahedralized.
+
+The secondary input provides a way to add internal point constraints to the resulting tetrahedron mesh.
+
+NOTE:
+        The tetrahedralize SOP outputs polygons when it fails to tetrahedralize.
+
+@parameters
+
+Group:
+    The point group to use for tetrahedralization.  Only primitives whose points are in the given point group are used as constraints or tetrahedra for refinement.
+    
+Output:
+    Connected Polylines:
+        Each point is connected to its neighbor in the Delaunay Tetrahedralization.  This point connectivity graph is very useful for determining which points are adjacent.  The set of connected points are those which have some third point that they are both closer to than any other point.
+        
+    Individual Tetrahedra:
+        Constructs a four-triangle tetrahedron for each tetrahedron in the tetrahedralization. 
+
+    Polygons:
+        Constructs a triangle for each tetrahedron face on the surface.
+
+    Polygons and Tetrahedra:
+        Outputs triangles and tetrahedra as in the above two outputs, but together.
+        
+    Convex Hull:
+        Keeps only the exterior triangles of the tetrahedralization.  This forms a convex hull of the object, the smallest convex shape that contains all the points.
+
+    Marked Polygon Intersections:
+        This option skips tetrahedralization, and simply attempts to detect any intersections in the input geometry, which will otherwise cause problems when tetrahedralizing.
+
+    TIP:
+        Generating a convex hull this way will never scale as well as a dedicated convex hull algorithm. So if you have lots of points, such as more than 250,000 it will start to slow down. 
+
+        Also, it can only return a convex hull for sets of points with valid tetrahedralization. So no primitives will be returned for things such as points on a 2D plane. However, you can special case these cases and for example use [Triangulate2D|Node:sop/triangulate2d] followed by [Divide|Node:sop/divide] and turn on __Remove Shared Edges__.
+        
+Batch:
+    Determines which pieces of the input to treat individually.  This allows Tetrahedralize to process pieces separately, which is useful when fracturing.
+    
+    Entire:
+        Tetrahedralize the input as a whole.
+
+    Connected Components:
+        Automatically determine pieces of the input, and tetrahedralize each piece individually.
+
+    Attribute:
+        Use __Piece Attribute__ and tetrahedralize each group of polygons with the same attribute value as one.
+
+Piece Attribute:
+    Name of an attribute used to determine independent pieces of geometry (if __Batch__ is set to __Attribute__), or to output automatically determined pieces (if __Batch__ is set to __Connected Components__).
+
+Keep Primitives:
+    Whether to keep the original primitives.
+    
+Remove Unused Points:
+    Remove duplicate points and other points not used in the tetrahedralization. Only points in the source group are considered.
+
+One Surface Face per Tetrahedron:
+    Insure that no two surface triangles belong to the same tetrahedron.
+
+Propagate Primitive Attributes to Internal Tetrahedra:
+    Interpolate attribute values from the surface polygons to output tetrahedra inside the mesh (not just to surface tetrahedra, which happens irrespective of this toggle).
+
+Refine Existing Tetrahedron Mesh:
+    Given a tetrahedral mesh in the input, this option will refine the existing mesh. Together with the __Quality__ controls, you can improve the quality of an existing mesh.
+
+Suppress Boundary Modifications:
+    Prevents any changes to the input surface. Only new internal points (Steiner points) are allowed.
+
+== Quality ==
+
+Enable:
+    Turns on the controls for this tab and allows you to control the quality of the resulting tetrahedron mesh.
+
+Max Radius-Edge Ratio:
+    This option specifies a constraint on each generated tetrahedron.  In particular, the radius of the circumscribed sphere of each tetrahedron, divided by the length of the shortest-edge of the same tetrahedron must be smaller than the value given in this parameter.  This is a heuristic that helps generate tetrahedrons that are as close as possible to being equilateral.
+
+Min Dihedral Angle:
+    This parameter specifies a constraint on the minimum angle allowed between each two faces of each tetrahedron in the output mesh.  Together  with the __Max Radius-Edge Ratio__, this constraint forces out a good quality generated tetrahedral mesh.
+
+Metric Attribute:
+    The name of a point attribute given to points in the input geometry, which specifies a constraint on the lengths of edges in the output mesh. Each edge in the output mesh conforms to this size attribute given by the nearest input points.
+
+Max Volume Constraint:
+    Type of constraint to use on maximum tetrahedron volumes in the output mesh.
+
+    None:
+            No constraints.
+    Attribute:
+           If the input contains a tetrahedron mesh, we use a primitive attribute on the input tetrahedron mesh to specify the volume constraint on the refined mesh.
+    Uniform:
+            Use one value to constrain the volumes of all tetrahedra on the output.
+    Both:
+            Both of the above constraints are enforced on the output mesh.
+    
+Max Volume:
+    The uniform maximum volume constraint.
+
+Max Volume Attribute:
+    The primitive attribute used constraint tetrahedra volume on the output.
+
+Max Repair Iterations:
+    Maximum number of iterations used internally by the Delaunay Tetrahedralization algorithm.  This forces this operator to finish tetrahedralizing a mesh, even if the resulting mesh may not fully satisfy all the given quality constraints.
+
+Max Steiner Points:
+    Maximum number of internal points allowed to be inserted into the tetrahedron mesh on the output.  This may prevent the resulting mesh to satisfy all the given quality constraints.
+
+== Optimization ==
+
+    Mesh optimization further improves the mesh quality after a mesh as been generated.
+
+Optimization Iterations:
+    Number of iterations the algorithm takes to improve the quality of the mesh.  A larger number may slow down tetrahedralization.
+    
+Edge/Face Flips:
+    Allow edge and face flips between neighboring tetrahedra.
+    
+Vertex Smoothing:
+    Allow vertex smoothing.
+    
+Vertex Insertion/Deletion:
+    Allow inserting and/or deleting vertices after a mesh has been generated to improve quality.
+
+== Troubleshooting ==
+
+Handle Failure:
+    This control provides various workflow options, by changing how this node behaves
+    when a piece or components (as determined by the __Batch__ option) fails to
+    tetrahedralize.
+
+    Remove Failed Components: 
+            Ignore any pieces that failed to tetrahedralize. Give a warning if something went wrong but no other indication of failure.
+
+    Keep Failed Components:
+            Keep failed components for debugging purposes, such that the user may chose to mark these with a color and/or add them to a group.
+
+    Fail on Error:
+            Let the node \"error out\" as soon as a single piece fails to tetrahedralize. This is the least forgiving option.
+
+Random Seed:
+    An internal random number generator uses this seed to generate random numbers.  Changing this value may produce a slightly different result in complex tetrahedralizations.
+
+Precision Tolerance:
+    An internal tolerance used to determine if two neighboring triangles are coplanar for edge flips, and other proximity tests in the algorithm. It may be useful to change this tolerance in case there is a problem with small features in the input mesh.
+
+Invalid Prim Color:
+    The color to give components that couldn't be tetrahedralized.
+    
+Invalid Prim Group:
+    The group created on the output that contains all primitives which were part of components that couldn't be tetrahedralized.
+
+Intersection Color:
+    The color to give polygons, which intersect other polygons.
+    
+Intersection Group:
+    The group created on the output, which contains all intersecting polygons.
+
+@related
+
+- [Node:sop/solidify]
+- [Node:sop/remesh]
+- [Node:sop/divide]
+- [Node:sop/polyreduce]
+- [Node:sop/triangulate2d]
+- [Node:sop/pointcloudiso]

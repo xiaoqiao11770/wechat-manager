@@ -1,0 +1,51 @@
+#type: node
+#context: dop
+#internal: springnetworkrelationship
+#icon: DOP/springnetworkrelationship
+
+= Spring Network Relationship =
+
+"""Defines a spring relationship based on geometry."""
+
+The spring network relationship is a low level tool to define 
+spring relationships based on geometry.
+
+The Spring Network Constraint DOP should likely be used instead of building
+from this node.
+
+Geometry subdata attached to this node will specify the constraint
+network.  Like all relationships, a Solver named subdata can be
+added to run a per frame solver on the relationship.  Each point in the
+geometry represents a DOP object's point, according to the `name` and `pointid`
+attributes.  Each two-point polygon represents a spring constraint.
+
+== Attributes ==
+
+You can [create attributes|/model/attributes] on the geometry to customize
+each spring's behavior.  Most of these attributes allow fine-tuning of the
+wire by scaling values set in this node.
+
+[Include:standard_springnetworkattribs]
+
+@parameters
+
+== Data Options ==
+
+Strength:
+    Specifies the strength of the spring connections.
+
+Damping:
+    Specifies the damping strength of the spring connections.
+
+[Include:standard_conguide_parms]
+
+    [Include:standard_dataactive_parms]
+
+@inputs
+    [Include:standard_data_inputs]
+
+@outputs
+    [Include:standard_data_outputs]
+
+@locals
+    [Include:standard_locals]

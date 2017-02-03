@@ -1,0 +1,40 @@
+#type: node
+#context: dop
+#internal: agentterrainprojection
+#icon: CROWDS/agentterrainprojection
+
+= Agent Terrain Projection =
+
+"""Project the agent/particle points onto the terrain"""
+
+This node projects agents/particles onto the terrain.
+
+@parameters
+
+Activation:
+	Whether or not to activate this node.
+Terrain Source:
+    Source for the terrain object (SOP path or DOP object)
+Mode:
+        Controls direction of the agent projection.
+    Direction Vector:
+        Use the direction specified.
+    Up Attribute:
+        Use the agent Up attribute.
+Offset:
+    Additional offset that will shift all agents up or down.
+
+@inputs
+
+Agents:
+    The packed primitive agents to modify. 
+
+@outputs
+
+Agents:
+    The modified packed primitive agents with terrain projection applied.
+
+@related
+- [Node:sop/agentprep]
+- [Node:dop/agentterrainadaptation]
+- [Node:dop/crowdsolver]

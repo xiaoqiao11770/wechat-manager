@@ -1,0 +1,103 @@
+#type: node
+#context: dop
+#internal: gluenetworkconstraint
+#icon: DOP/gluenetworkconstraint
+
+= Glue Network Constraint =
+
+"""Glues pairs of RBD objects together according to a polygon network."""
+
+NOTE:
+    This DOP does not work with the RBD Solver.
+
+The glue network constraint defines pairs of RBD objects that should be glued
+together.  Glued RBD objects move as one whole object until enough force is
+applied to break the glue bonds.
+
+With the glue network constraint, SOP Geometry is specified which defines what
+objects should be glued.  This makes it easy to procedurally generate a set of
+constraint relationships.  Each point in the geometry represents an object, according to the object name attribute.  Each two-point polygon represents
+a glue bond.
+
+NOTE:
+    Glue Network Constraint is a digital asset.
+
+
+@parameters
+
+== Data Options ==
+
+Constraint Network:
+    The SOP geometry to use to determine the constraints.
+
+Overwrite with SOP:
+    The constraint network will be updated and broken by the RBD solver.  This
+    flag will re-import it whenever it is set, allowing a completely
+    animated glue behavior.
+
+Strength:
+    Specifies the bond strength of the glue connections.  A value of -1 means
+    the connections will never break.
+
+Half-Life:
+    The number of seconds for the glue impulse to decay by one half. Whenever a
+    glued object gets hit, it accumulates a glue impulse force. This controls
+    how fast that force decays.
+
+Impact Propagations:
+    When one of the objects is hit, its impact value is spread along the glue
+    network.  This allows distant glue bonds that are weak to be broken prior
+    to nearer, strong bonds.  The impact propagations is the number of rounds
+    of propagation to do.  Impulses will not travel more than this number of
+    bonds each solve step.
+
+Propagate Rate:
+    Specifies how much the impacts propagate along each bond.
+
+== Attributes ==
+
+Object Name:
+    A point attribute giving the name that each point represents.  More than
+    one point can refer to the same object.  If this is a string attribute, it
+    is a dopname.  If it is an integer attribute, it is a DOP id.
+
+Strength:
+    The primitive attribute to specify the per bond strength.  If present, the
+    attribute value will be multiplied with the __Strength__ parameter.
+    However, if the attribute value is -1, the bond will be unbreakable
+    regardless of the __Strength__ parameter.  If the __Strength__ 
+    parameter is -1, then the primitive attribute will replace the
+    parameter.
+
+Half-Life:
+    The primitive attribute to specify the per bond glue impulse rate of decay.
+    If present, the attribute value will be multiplied with the __Half-Life__
+    parameter.
+
+Propagate Rate:
+    The primitive attribute to specify the per bond impact propagation rate.
+    If present, the attribute value will be multiplied with the __Propagate Rate__
+    parameter.
+
+[Include:standard_conguide_parms]
+
+[Include:standard_dataactive_parms]
+
+@inputs
+    Object:
+	The objects to apply this relationship to, that will be eligible for
+	being constrained by the object name attribute.
+    Solvers:
+	SOP solvers may be attached to update the glue network dynamically in
+	response to events.  Only a single geometry is shared by all the
+	objects, so this solver is executed once per relationship, not per
+	object.
+	
+
+@outputs
+    [Include:standard_data_outputs]
+
+@locals
+    [Include:standard_locals]
+
+

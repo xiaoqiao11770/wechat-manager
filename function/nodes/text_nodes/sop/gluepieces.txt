@@ -1,0 +1,53 @@
+﻿= Glue Pieces =
+
+#type: node
+#context: sop
+#internal: gluepieces
+#icon: SOP/gluepieces
+#tags: breaking, glue, dynamics
+
+"""Creates a glue constraint network between adjacent pieces."""
+
+The Glue Pieces operator attempts to create a glue constraint network between
+adjacent pieces.
+
+A glue constraint network consists of one point for each piece.  Each pair of
+points are connected by a polygon, if the two pieces are detected to be close
+enough to each other.
+
+If the `piece` attribute is present, it is used to determine which primitives are
+in which pieces.  Otherwise, connectivity is used to group primitives and their
+induced attributes stored in the `piece` attribute.
+
+@parameters
+
+Piece Attribute:
+	Name of a primitive attribute.  The primitives of each piece should have the same piece attribute value.  If not, it will be set by computing connectivity.
+
+Name Prefix:
+	The resulting point cloud will have a name point attribute, which will
+	be this prefix followed by the piece attribute value.  This is useful
+	for procedurally building the DOP Object names.
+
+Points per Area:
+	To determine proximity, points are seeded on the surface of all the
+	objects.  There must be enough points for close points to occur to
+	detect close surfaces.  This should be scaled down by the square of the
+	geometry size. If your geometry is 10x bigger, you want 1/100 the
+	points per area. The defaults are based on unit sized geometry i.e. the collection of objects being glued together.
+
+Search Radius:
+	How far apart pieces can be to be considered glued together.  The needs
+	to be slightly larger than the actual piece separation since this is
+	point-to-point comparisons, not surface-to-surface.
+
+Max Search Points:
+	A clamp on the number of points that can be inspected to test if within
+	range of the seed point.  Lower numbers increase efficiency, but run
+	the risk that points on the same surface will be detected rather than
+	points on the opposite piece, causing connections to be missed.
+        
+@inputs
+
+Pieces:
+	The geometry to find adjacent pieces in.

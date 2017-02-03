@@ -1,0 +1,65 @@
+#type: node
+#context: dop
+#internal: springnetworkconstraint
+#icon: DOP/springnetworkconstraint
+
+= Spring Network Constraint =
+
+"""Constrains pairs of SBD objects together according to a polygon network."""
+
+The spring network constraint defines pairs of SBD objects that should be
+constrained together.
+
+With the spring network constraint, SOP Geometry is specified which defines
+which objects should be constrained.  This makes it easy to procedurally
+generate a set of constraint relationships.  Each point in the geometry
+represents a DOP object's point, according to the `name` and `pointid`
+attributes.  Each two-point polygon represents a spring constraint.
+
+NOTE:
+    Spring Network Constraint is a digital asset.
+
+== Attributes ==
+
+You can [create attributes|/model/attributes] on the geometry to customize
+each spring's behavior.  Most of these attributes allow fine-tuning of the
+wire by scaling values set in this node.
+
+[Include:standard_springnetworkattribs]
+
+@parameters
+
+== Data Options ==
+
+Constraint Network:
+    The SOP geometry to use to determine the constraints.
+
+Overwrite with SOP:
+    This flag will re-import the network whenever it is set, allowing a
+    completely animated spring behavior.
+
+Strength:
+    Specifies the strength of the spring connections.
+
+Damping:
+    Specifies the damping strength of the spring connections.
+
+[Include:standard_conguide_parms]
+
+[Include:standard_dataactive_parms]
+
+@inputs
+    Object:
+	The objects to apply this relationship to, that will be eligible for
+	being constrained by the object name attribute.
+    Solvers:
+	SOP solvers may be attached to update the spring network dynamically in
+	response to events.  Only a single geometry is shared by all the
+	objects, so this solver is executed once per relationship, not per
+	object.
+
+@outputs
+    [Include:standard_data_outputs]
+
+@locals
+    [Include:standard_locals]

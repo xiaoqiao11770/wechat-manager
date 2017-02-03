@@ -1,0 +1,60 @@
+﻿= Mantra: Houdini Engine Procedural =
+
+#type: node
+#context: shop
+#internal: vm_geo_engine
+#icon: SHOP/vm_geo_engine
+
+"""Invokes Houdini Engine for each point on the object's geometry and instances
+the geometry output by the script at that point."""
+
+When Houdini Engine is run, it adds a single SOP of the specified type and then opparms each of the points attributes to that SOP.  For example, if the SOP is platonic, and the geometry had a point attribute type, which platonic solid is used will vary according to the point attribute.
+
+If the bounding box is not specified for the procedural, the bounding box of this object's geometry, increased by the predicted instance sizes, will be used.
+
+If the SOP to be included contains a SHOPNET with SHOPs that are used, a non-displayed version of the SOP should be in your scene file. You should also set the output driver to have the __SHOP References__ parameter set to __Declare all SHOPS__.
+
+NOTE:
+    The level of detail of the procedural will be opparmed to the parameter named lod. If there is an attribute named `lod`, it will override the innate level of detail calculated by mantra.
+
+
+NOTE:
+    Mantra must be invoked with the Engine option by adding -E to the command
+    line.  This will cause Mantra to check out a Houdini Engine license for the
+    duration of the render.
+
+@parameters
+
+=== Main ===
+
+SOP:
+    Name of the SOP type.  This is the name, not the label.  Examples: box, platonic, sphere.
+
+OTL Files:
+    Filenames with paths of OTL libraries that hscript should otload prior to creating the SOP.
+
+Basic Size:
+    If not overridden by the size attribute, this is used to know how big each hscript generated procedural will be. It gives the radius in each direction.
+
+Size Attribute:
+    The name of the attribute to use for the instance size. If a 3 float attribute, specifies the x,y,z radii. If a one float attribute, it is the uniform radius. This is multiplied by the basic size to guess the size of each instance.
+
+Scale to Size Attribute:
+    If turned on, it will rescale the generated geometry by the size in the size attribute. Only uniform scaling is currently supported.
+
+Orient to Point:
+    If turned on, it will try to orient to the points velocity, etc.  Even if not set, a translation to the point's space will be performed.
+
+=== IFD Bounds ===
+
+Bounding Box:    
+    The bounding box controls let you specify a bounding box for the referenced geometry. Only when this bounding box is "on screen" will mantra load the referenced geometry. You can set __Bounding box__ to __No bounding box required__, in which case mantra will always load the references geometry regardless. You can also specify the bounding box by referencing the SOP's bounding box in the __SOP Bounds__ parameter.
+       
+SOP Bounds:
+    The geometry whose bounding box you want to reference.
+
+Min Bounds:
+    The minimum bounding box dimensions, when setting explicit bounds.
+
+Max Bounds:
+    The maximum bounding box dimensions, when setting explicit bounds.

@@ -1,0 +1,98 @@
+= TopoBuild =
+
+#type: node
+#context: sop
+#internal: topobuild
+#icon: SOP/topobuild
+#tags: re-topologizing, topology, modeling
+
+"""Lets you interactively draw a reduced quad mesh automatically snapped to existing geometry."""
+
+== Overview ==
+
+:vimeo: TopoBuild
+    #id: 142306098
+
+This node is useful when you have a very high-resolution model and want to create a much lower-resolution model from it. You can draw the quads of the new mesh by hand, automatically snapping the corners to the existing surface.
+
+[Image:/images/model/topobuild.jpg]
+<small>(3D model by [Artec Group inc.|http://www.artec3d.com])</small>
+
+== How to ==
+
+:task:Start using the tool:
+    # Select the geometry you want to use as the template.
+    
+    # On the __Model__ shelf, click [Icon:SOP/topobuild] Topo Build.
+    
+        The tool creates a new [Geometry object|Node:obj/geo] for the new surface. It imports the selected surface into the new object.
+    
+    # Click four points on the template surface to create the first face.
+
+:task:Draw new quads:
+    * Click an existing point to start drawing a new quad.
+    
+    # Click the other three corners to finish the new quad.
+    
+        Drawing automatically snaps to existing points.
+
+:task:Extend edges:
+    * Click an edge to start creating new faces from the edge.
+    
+    * You can click multiple times to create a strip of new quads.
+    
+    * You can ((Shift))-drag to scale or ((Ctrl))-drag to rotate the edges before you click to place them.
+    
+    * Press ((Esc)) or click ((MMB)) to stop adding.
+
+:task:Create free points to snap to:
+    Click outside existing quads.
+
+:task:Select points/edges:
+    * To select a free point, click it.
+    
+    * To select a point that's part of a quad, click it and then press ((Esc)) to cancel drawing.
+    
+    * To select an edge, click it and then press ((Esc)) to cancel extending. You can use [edge loop selection|/basics/select#edges].
+    
+    * To select additional points/edges, hold ((Shift)) and click them.
+
+:task:Move existing points/edges:
+    Drag existing points or edges to move them across the template surface.
+
+:task:Temporarily disable snapping:
+    Hold ((Ctrl)) and click to disable automatically snapping to existing points.
+
+:task: Delete all free points:
+    Press ((Shift + Del)).
+
+== Tips ==
+
+* You can drag points onto other points to fuse them.
+
+* You can use a [visualizer|/basics/visualizers] to color the original surface to make it easier to distinguish the new surface.
+
+* Change your [shading mode|/basics/view] to __Hidden Line Ghost__ to get a better view of the new surface.
+
+* Hide the [construction plane|/model/aids] to get a better view of the new surface's edges.
+
+@parameters
+
+Number of Edits:
+    As you work, the node records the edits you make in these parameters.
+
+Commit Edits:
+    Saves the current edits and resets the parameters to start new edits.
+
+Reset All Edits:
+    Restores the geometry to its initial state.
+
+@inputs
+
+Mesh Geometry:
+    Quad-mesh geometry from a previous operation. If provided, TopoBuild will continue to build upon this mesh geometry.
+
+Template Geometry:
+    The source geometry to re-topologize. The points of the quad mesh will snap to the surface of this geometry.
+
+

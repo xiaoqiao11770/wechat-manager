@@ -1,0 +1,64 @@
+= Draw Curve =
+
+#type: node
+#context: sop
+#internal: drawcurve
+#icon: SOP/drawcurve
+#tags: curve, stroke
+
+"""Creates a curve based on user input in the viewport."""
+
+The Draw Curve allows freehand drawing of curves in the viewport. Different projection options allow the curve to be snapped to either a construction plane or a collision geometry. 
+
+NOTE:
+    Drawing with a stylus input device will account for pressure and tilt.
+        
+This tool uses the [Stroke SOP|Node:sop/stroke] internally.
+
+[Include:/shelf/drawcurve#includeme]
+
+@parameters
+
+== Curve ==
+
+Radius:
+    Radius of the curve.
+
+Tool:
+    For future feature development.
+
+Color:
+    Color of the curve.
+
+Opacity:
+    Opacity of the curve.
+
+== Projection ==
+
+Live Reprojection:
+    None:
+        Projection is only done at drawing stage.
+        
+    Send Rays:
+        Reproject by resending rays on underlying changing collision geometry.
+        
+    Use UVs:
+        Use the uv coordinates from the initial projection on changing collision geometry.
+
+Trim Curves:
+    Delete parts of drawn curves that don't hit any collision geometry.
+
+Projection:
+    XY/YZ/ZX/Screen Plane:
+        Projection of the curve is done on specified orthographic plane.
+    Geometry:
+        Projection is done on the collision geometry that is plugged into first input.                       
+Projection Center:
+    Center of the orthographic projection plane.
+
+@related
+
+- [Node:sop/paintcolorvolume]
+- [Node:sop/paintmaskvolume]
+- [Node:sop/paintsdfvolume]
+- [Node:sop/volumerasterizecurve]

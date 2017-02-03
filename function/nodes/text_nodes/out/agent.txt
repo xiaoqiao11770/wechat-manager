@@ -1,0 +1,139 @@
+#type: node
+#context: out
+#internal: agent
+#icon: CROWDS/agent
+
+= Agent =
+
+"""This output operator is used to write agent definition files."""
+
+This output operator is used to write files that define an agent. The created
+files can then be loaded in by the [Node:sop/agent] geometry node to create
+agent primitives for crowds.
+
+NOTE:
+    Agent primitives currently only support deforming point normals and not
+    vertex normals. When the deforming geometry is written out, vertex normals
+    will be automatically promoted to point normals as a result.
+
+@parameters
+
+[Include:standard#render_buttons_only/]
+
+Valid Frame Range:
+    What frames to render.
+
+    Render Current Frame:
+        Allow the baking any and all frames.
+        
+    Render Frame Range:
+        Only bake the frames in the range set below, but allow the baking other
+        frames if they are referenced by in-range frames.
+        
+    Render Frame Range Only (Strict):
+        Only bake the frames in the range set below, and don't allow baking of
+        other frames, even if they are referenced by in-range frames.
+
+Start/End/Inc:
+    The range of frames for the clip (start frame, end frame, and
+    increment), inclusive.
+    
+    All values may be decimal (for example, start on frame 1.5).. 
+
+Render with Take:
+    Uses the settings in a particular take while rendering. Choose
+    __Current__ to use the current take when rendering.
+
+Source:
+    Specifies the source of the agent definition that will be written to disk.
+
+    Object Subnet:
+        Generate an agent definition from a character rig.
+
+    Agent Primitive:
+        Use the agent definition from an existing agent primitive.
+
+    FBX:
+	Generate an agent definition from an FBX file containing a character.
+
+* [Include:/nodes/sop/agent#objsubnet]
+
+SOP Path:
+    Specifies a SOP network that contains an agent primitive.
+
+* [Include:/nodes/sop/agent#fbxfile]
+
+* [Include:/nodes/sop/agent#minimalnodes]
+
+* [Include:/nodes/sop/agent#layername]
+* [Include:/nodes/sop/agent#generatecollision]
+* [Include:/nodes/sop/agent#collisionname]
+
+* [Include:/nodes/sop/agent#clipname]
+* [Include:/nodes/sop/agent#shiftstart]
+* [Include:/nodes/sop/agent#inplace]
+* [Include:/nodes/sop/agent#locomotionnode]
+* [Include:/nodes/sop/agent#locomotionlookat]
+* [Include:/nodes/sop/agent#firstframepivot]
+
+Agent Name:
+    Name of the agent. The parameter is provided for convenience
+    so that it can be referenced via the `$AGENT` local variable in other
+    parameter values.
+
+Cache Directory:
+    Parent directory of agent definition files. This parameter is
+    provided for convenience so that its value can be referenced via the
+    `$CACHEDIR` local variable in the other filename parameters.
+
+Rig:
+    Filename for the agent rig. This is a JSON file describing the
+    transform hierarchy of the agent.
+
+Agent Layers:
+    Filename pattern for the agent layer files. The <<LAYER>> local
+    variable is used a placeholder here so that the name of the layer can be
+    inferred from the filename. Layer files are JSON files describing which
+    shapes (from the __Shape Library__) are assigned to which transform in the
+    __Rig__.
+
+Shape Library:
+    Filename for the agent shape library. This is a regular Houdini
+    geometry file where each shape is a packed geometry primitive and the
+    corresponding `name` primitive attribute value denotes the name of the
+    shape.
+
+Clips:
+    Filename pattern for agent clip files. The actual name of the clip
+    is the full filename of the file without the extension.  The <<CLIP>> local
+    variable is used as a `*` placeholder here so that all matching files are
+    loaded for only each particular agent.
+
+* [Include:standard#soho_mkpath]
+
+Pre-Render Script:
+    Execute this script before any baking.
+Post-Render Script:
+    Execute this script after all baking
+
+@locals
+
+AGENT:
+    The name of agent. The value either comes from the `agentname` string
+    attribute on the input points when __Allow Attributes to Override__ is
+    enabled, or from the value of the __Agent Name__ parameter.
+
+CACHEDIR:
+    A local variable provided for convenience so that the value of the __Cache
+    Directory__ parameter can be easily referenced.
+
+LAYER:
+    Used as a placeholder in the __Agent Layers__ parameter to specify the
+    layer name portion of the filename.
+
+CLIP:
+    Used as a wildcard in the __Clips__ parameter for specifying the clip files
+    to load.
+
+@related
+    - [Node:sop/agent]

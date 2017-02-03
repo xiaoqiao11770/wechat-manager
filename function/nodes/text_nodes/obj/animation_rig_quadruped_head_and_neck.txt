@@ -1,0 +1,76 @@
+#type: node
+#context: obj
+#internal: animation_rig_quadruped_head_and_neck
+#icon: OBJ/autorig_quadruped_head
+
+= Animation Rig Quadruped Head and Neck =
+
+"""Provides parameters to animate the head and neck for a quadruped character."""
+
+@parameters
+
+Display Bodypart:
+     Toggles the display of proxy geometry for the head and neck.
+    
+== Animation ==
+
+Control LOD:
+    Changes the level of display for the head and neck controls.
+
+Set Animation Defaults:
+    Sets the animation parameter values to their default values.
+    
+=== Head Space Blend ===
+
+Translate/Rotate World Head Space Blend: 
+    Controls to translate and rotate the world head space blend.
+
+Stretch Ratio:
+    Controls the stretch ratio for IK body parts.  A value of 0 is no stretch, and a value of 1 is full stretch.  Stretch is a percentage of the distance between the end of the bone and IK control.
+
+The rest of the controls on this tab are for translating and rotating different parts of the head and neck.
+    
+== Rigging ==
+
+Hook Object:
+    The path of the hook object.
+    
+    NOTE:
+        The hook object provides parent transforms to the body part. 
+        
+Hook Controls:  
+    References to global character placer so the head and neck move relative to it.
+    
+=== Pretransforms ===
+
+Provides controls to change the pretransform positions of the parts of the head and neck.
+
+=== Bone Lengths ===
+Provides controls to set the bone lengths for the head and neck bones.
+
+=== Kinematic Solvers ===
+Points to the kinematic solvers for the neck and head.
+
+=== Hook Out Rotations ===
+Provides controls to set the hook out rotations for the neck bones, neck bone end, and hook out head.
+
+== Preferences ==
+
+Display Bones:
+    Toggles the display of bones on the rig.
+
+Display Animation Controls:
+    Toggles the display of animation controls on the rig.
+
+Display Proxy Geometry:
+    Toggles the display of the proxy geometry for the body part.
+
+Control Scale:
+    Modify the per-part control scale.
+
+Control Color:
+    Modify the per-part control color.
+
+=== Control Level of Detail ===
+
+These parameters allow you to modify the display of the neck, head, head gimbal, jaw, eyes look at, left/right eye look at, and left/right eye.

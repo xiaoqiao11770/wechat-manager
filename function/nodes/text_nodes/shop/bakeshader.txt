@@ -1,0 +1,47 @@
+#type: node
+#context: shop
+#internal: bakeshader
+
+= Bake Shader =
+
+"""Shader offering standard set of bake outputs"""
+
+This shader offers a standard set of outputs based on common baking workflows. For example, baking tangent-space normal maps from high-res to low-res objects.
+
+@inputs
+
+High Res Object:
+    #id: highResObj
+    Specifies the high-res object to bake shading from. If a high-res object is specified then a correspondence is found between points on the low-res object and the high-res object. Shading then occurs at the high-res object's surface. If a high-res object is not specified then shading will occur at the low-res object's surface.
+
+Max Distance:
+    #id: maxDistance
+    Controls the maximum distance that rays traced against the high-res object will be considered. Useful for limiting the areas of the scene that will be baked onto the low-res object.
+
+Samples:
+    #id: samples
+    Number of samples to use when sampling raytraced output types (eg. Occlusion, Cavity, Thickness). Increasing the number of samples will reduce noise in the shading.
+
+Normal Space:
+    #id: normalSpace
+    Specifies the space that normals are output in. `0 to 1` unitizes the normal, which is useful for engines that require normalized textures. `-1 to 1` leaves the normals in their natural coordinate space.
+
+Tangent Normal Flip X:
+    #id tangentNormalFlipX
+    Toggles flipping of the normal's X axis. Various packages may expect normal maps in different spaces. The flip parameters allow you to match these various spaces.
+
+Tangent Normal Flip Y:
+    #id tangentNormalFlipY
+    Toggles flipping of the normal's Y axis. Various packages may expect normal maps in different spaces. The flip parameters allow you to match these various spaces.
+
+Occlusion Bias:
+    #id: occlusionBias
+    This acts as a contrast control over the occlusion shading, with values higher and lower than `0.5` resulting in more and less contrast.
+
+Cavity Distance:
+    #id: cavityDistance
+    Controls the distance within which features will influence the shading.
+
+Cavity Bias:
+    #id: cavityBias
+    This acts as a contrast control over the cavity occlusion shading, with values higher and lower than `0.5` resulting in more and less contrast.

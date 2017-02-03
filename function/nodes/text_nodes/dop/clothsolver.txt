@@ -1,0 +1,13 @@
+#type: node
+#context: dop
+#internal: clothsolver
+#icon: DOP/clothsolver
+
+= Cloth Solver =
+
+This solver has been replaced by the [Finite Element Solver|Node:dop/finiteelementsolver], which can solve both Cloth Objects (2D finite elements) and Solid Objects (3D finite elements).
+
+@related
+    - [Node:dop/clothobject]
+    - [Node:dop/finiteelementsolver]
+

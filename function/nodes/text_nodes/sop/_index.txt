@@ -1,0 +1,77 @@
+= Geometry nodes =
+
+#bestbet: sop
+#icon: OBJ/geo
+
+"""Nodes that control the shape of geometry."""
+
+== Overview ==
+
+Surface nodes create and manipulate geometry (curves, surfaces, metaballs, and so on). Surface nodes live inside a [Geometry container object|Node:obj/geo].
+
+== Surface node flags == (sop_flags)
+
+[Image:/images/nodes/sop_node_anno.png]
+
+TIP:
+    Select a node and press ((1)) to set its _display_ flag, or ((2)) to set its _render_ flag.
+
+[Icon:NODEFLAGS/lock] |
+    Lock |
+        Caches the input geometry and stops [cooking|/basics/cooking] the inputs to improve performance.
+
+[Icon:NODEFLAGS/bypass] |
+    Bypass |
+        Makes this node have no effect: passes the geometry through from the input to the output untouched. This is useful for testing and visualizing the effect the node is having in the viewer.
+
+[Icon:NODEFLAGS/template] |
+    Template |
+        Makes the geometry in this node visible and snappable, but unrenderable. This is useful for "guide" geometry, where you want to edit, visually match, or snap to, existing geometry.
+
+        Templated geometry only appears at the [Geometry level|/basics/objects], for use in modeling operations. It does not appear at the Scene level (it is not part of the "final" geometry of the object).
+        
+        To prevent snapping to template geometry, [open the snapping options window|/model/aids] and turn off __Apply to: Templates__.
+        
+[Icon:NODEFLAGS/selectabletemplate] |
+    Selectable template |
+        Ctrl-click the template flag to make the node's geometry templated but selectable in the 3D viewer (at the Geometry level).
+
+        Like normal templated geometry, selectable templates only appear at the [Geometry level|/basics/objects], not the Scene level. This flag is equivalent to the "footprint" flag in previous versions of Houdini.
+
+[Icon:NODEFLAGS/display] |
+    Display |
+        This flag indicates which node provides the geometry for the container object. Only one node at a time can have the display flag.
+
+        Unlike an object's display flag, this flag does not make a node visible or invisible in the viewer.
+
+        If you want geometry from more than one node in the object, use a [Merge operator|Node:sop/merge] to merge the output of the nodes, then click the display flag on the Merge node.
+
+        A common problem when you first start working directly in the network is that you connect a node but it seems to have no effect. This is often because you haven't clicked the display flag on the new node.
+
+[Icon:NODEFLAGS/render] |
+    Render |
+        The display flag normally indicates which node provides the geometry shown in the viewer and rendered by the [renderer|/rendering]. You can set separate display and _render flags_, so one node provides the geometry for the viewer and a different node provides the geometry for the renderer. This lets you show proxy geometry in the viewer and render more detailed geometry.
+
+        [Image:/images/nodes/render_flag1.png]
+        [Image:/images/nodes/render_flag2.png]
+
+Ctrl-click the display flag on another node to move the render flag there. The ring marks the display node, the circle marks the render node.
+
+To fuse the display and render flags back together, Ctrl-click the active display flag.
+
+== Unload flag == (unload)
+
+The [Icon:NODEFLAGS/unload] unload flag is available in list mode. When the unload flag is on, a surface node will _not_ cache the geometry that passes through it.
+
+This is useful for finished, static props and other non-time-dependent objects, where the geometry network cooks only once. Even if a node in a geometry is dynamic (its output changes depending on the frame number), you can turn on the unload flag of all the nodes above it to save memory.
+
+(Unloading cached geometry will probably not decrease the total amount of memory Houdini uses, but it will free the memory for use in other parts of Houdini.)
+
+To switch the network editor to list mode, right-click the network background and choose __View nodes as a list__, or move the mouse over the network editor and press ((T)).
+
+@subtopics Nodes
+#display: show-icons
+
+:list:
+    #query: type:node context:sop
+

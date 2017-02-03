@@ -1,0 +1,17 @@
+#type: include
+
+div id="layerTip">>
+    TIP:
+        Use a [Layer|Node:sop/layer] operation in conjunction with this
+        operation to create multiple sets of texture coordinates.
+
+div id="visualizePara">>
+    The effect of this operation is best visualized in the UV viewport,
+    or with textures turned on in the 3D viewport.
+
+    XYZ:
+        Corresponds to distance on the geometry.
+    UVW:
+        Corresponds to distance in UVW (texture) space.
+    UV:
+        Ignores the third dimension in texture space.

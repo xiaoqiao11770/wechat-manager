@@ -1,0 +1,86 @@
+#type: node
+#context: obj
+#internal: Quadruped_animation_rig
+#icon: OBJ/autorig_quadruped
+
+= Quadruped Animation Rig =
+
+"""Provides parameters to animate the quadruped autorig."""
+
+NOTE:
+    After you generate the Animation and Deform rigs, you have to __Refresh Imports__ from the gear menu in the Parameters tab of the [Operator Type Properties|/ref/windows/optype] of the two assets, since the parameter dialogs are relatively empty. The dialogs are build using the new Import Blocks, so you have to tell the assets to refresh and populate the import folders, and currently HOM can't do that but will be able to in the future so the assets will be able to be put down locked and ready to go.
+
+@parameters
+
+Control LOD:
+    Changes the level of display for all rig animation controls.
+    
+== Animation ==
+
+Set Animation Defaults:
+    Sets all animation parameter values to their default values.
+
+=== Body Part Sub-tabs ===
+
+The controls on these tabs are for animating the body parts of the character.
+    
+== Animation Data ==
+
+Generate Mocap Rig:
+    Generate a motion capture rig asset from the character.
+
+=== Read Autorig ===
+
+Source File:
+    Load Autorig animation data from a file.
+
+Refit Tolerance:
+    Tolerance to use when attempting to refit raw keyframes.
+
+Read/Reload:
+    Apply the animation in the specified file to the rig, with keyframes
+    being refit using the tolerance.
+
+=== Write Autorig ===
+
+File Path:
+    File to write keyframe data to.
+
+Write Keyframe Data:
+    Convert the current animation to keyframes and write out to the
+    specified file.
+    
+== Preferences ==
+
+Display Bones:
+    Toggles the display of bones on the rig.
+
+Display Proxy Geometry:
+    Toggles the display of proxy geometry on the rig.
+
+Proxy File:
+    Where the Proxy geometry for the animation rig is stored. This can be either a disk file, or embedded in the asset definition.
+    
+Reload Geometry:
+    Causes Houdini to hit the reload button on the File SOP that is used to read in the proxy geometry.
+
+Use Embedded Proxy:
+    Puts a path representing the embedded proxy geometry into the __Proxy File__ parameter.
+
+Display Parts:
+    Toggles the display of individual body parts.
+
+=== Body Part Sub-tabs ===
+
+Display Animation Controls:
+    Toggles the display of animation controls on the rig.
+
+Control Scale:
+    Modify the per-part control scale.
+
+Control Color:  
+    Modify the per-part control color.
+
+Control Level of Detail:
+    Modify the level of detail level for individual controls.
+

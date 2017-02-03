@@ -1,0 +1,57 @@
+#type: node
+#context: vop
+#internal: hscriptinstance
+#icon: VOP/hscriptinstance
+
+= Instance with Hscript Procedural =
+
+"""This procedural will run hscript for each point in the geometry and instance the output geometry to the point."""
+
+When hscript is run, it adds a single SOP of the specified type and then opparms each of the points attributes to that SOP.  For example, if the SOP is platonic, and the geometry had a point attribute type, which platonic solid is used will vary according to the point attribute."
+
+If the bounding box is not specified for the procedural, the bounding box of this object's geometry, increased by the predicted instance sizes, will be used.
+
+If the SOP to be included contains a SHOPNET with SHOPs that are used, a non-displayed version of the SOP should be in your scene file.  You should also set the output driver to have the __SHOP References__ parameter set to __Declare all SHOPS__.
+
+NOTE:
+    The LOD of the procedural will be opparmed to the parameter named lod.  If there is an attribute named lod, it will override the innate LOD calculated by mantra.
+
+@parameters
+
+== Main ==
+
+SOP:
+    Name of the SOP type.  This is the name, not the label.  Examples: box, platonic, sphere.
+
+OTL Files:
+    Filenames with paths of OTL libraries that hscript should otload prior to creating the SOP.
+
+Basic Size:
+    If not overridden by the size attribute, this is used to know how big each hscript generated procedural will be. It gives the radius in each direction.
+
+Size Attribute:
+    The name of the attribute to use for the instance size.  If this is a 3 float attribute, it specifies the x,y,z radii. If this is a one float attribute, it is the uniform radius.  This is multiplied by the basic size to guess the size of each instance.
+
+Scale to Size Attribute:
+    If this checkbox is turned on, it will rescale the generated geometry by the size in the size attribute.  Only uniform scaling is currently supported.
+
+Orient to Point:
+    If this checkbox is turned on, it will try to orient to the points velocity.  If this checkbox is turned off, a translation to the point's space will be performed.
+
+Use Non-Graphics Token:
+    This will start hscript with the -R option, causing it to request a non-graphics token.  This is useful to prevent your render farm from consuming Houdini FX licenses.
+
+
+== IFD Bounds ==
+
+Bounding Box:
+    The bounding box controls let you specify a bounding box for the referenced geometry. Only when this bounding box is "on screen" will mantra load the referenced geometry. You can set __Bounding Box__ to __No bounding box required__, in which case mantra will always load the references geometry regardless. You can also specify the bounding box by referencing the SOP's bounding box in the __SOP Bounds__ parameter.
+
+SOP Bounds:
+    The geometry whose bounding box you want to reference.
+
+Min Bounds:
+    The minimum bounding box dimensions, when setting explicit bounds.
+
+Max Bounds:
+    The maximum bounding box dimensions, when setting explicit bounds. 

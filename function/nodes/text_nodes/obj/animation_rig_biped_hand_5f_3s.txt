@@ -1,0 +1,82 @@
+#type: node
+#context: obj
+#internal: animation_rig_biped_hand_5f_3s
+#icon: OBJ/autorig_hand
+
+= Animation Rig Biped Hand =
+
+"""Provides parameters to animate the hand for a biped character."""
+
+@parameters
+
+Display Bodypart:
+     Toggles the display of proxy geometry for the hand.
+    
+== Animation ==
+
+Control LOD:
+    Changes the level of display for the hand controls.
+
+Set Animation Defaults:
+    Sets the animation parameter values to their default values.
+    
+=== Thumb ===
+
+Provides controls to translate and rotate the three sections of the thumb.
+
+=== Index ===
+
+Provides controls to translate and rotate the three sections of the index finger.
+
+=== Middle ===
+
+Provides controls to translate and rotate the three sections of the middle finger.
+
+=== Ring ===
+
+Provides controls to translate and rotate the three sections of the ring finger.
+
+=== Pinky ===
+
+Provides controls to translate and rotate the three sections of the pinky finger.
+
+== Rigging ==
+
+Hook Object:
+    The path of the hook object.
+    
+    NOTE:
+        The hook object provides parent transforms to the body part. 
+
+Side:
+    Determines if the hand is the left or right hand of the character.
+
+=== Pretransforms ===
+
+Provides controls to change the pretransform positions for the parts of the fingers.
+
+=== Deform Rotations ===
+
+Provides controls to change the deform rotations of the fingers.
+
+=== Hook Out Rotations ===
+
+Provides controls to set the hook out rotations for the parts of the fingers.
+
+== Preferences ==
+
+Display Animation Controls:
+    Toggles the display of animation controls on the rig.
+
+Display Proxy Geometry:
+    Toggles the display of the proxy geometry for the body part.
+
+Control Scale:
+    Modify the per-part control scale.
+
+Control Color:
+    Modify the per-part control color.
+    
+=== Control Level of Detail ===
+
+These parameters allow you to modify the display of the thumb, indexes, middles, pinkies, and knuckles.

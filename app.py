@@ -4,6 +4,7 @@ import hashlib
 
 import config
 from function.messages import receive, reply
+from function.nodes import read
 
 app = Flask(__name__)
 
@@ -43,14 +44,19 @@ def weixin():
             webData = request.stream.read()
             print "Handle Post webdata is ", webData   #后台打日志
             recMsg = receive.parse_xml(webData)
-            if isinstance(recMsg, receive.Msg)
+            if isinstance(recMsg, receive.Msg):
                 toUser = recMsg.FromUserName
                 fromUser = recMsg.ToUserName
-                if recMsg.MsgType == 'test':
+                if recMsg.MsgType == 'text':
+                    rec_content = recMsg.Content
                     content = "test"
+
+                    node_list = read.Read('sop').node_list()
+                    if rec_content in node_list:
+                        content = read.Read('sop').hand(rec_content)
+
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
                     return replyMsg.send()
-
                 if recMsg.MsgType == 'image':
                     mediaId = recMsg.MediaId
                     replyMsg = reply.ImageMsg(toUser, fromUser, mediaId)

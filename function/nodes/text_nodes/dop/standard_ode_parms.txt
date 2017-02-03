@@ -1,0 +1,68 @@
+#type: include
+
+=== ODE Primitive ===
+
+    Enable ODE Data:
+        In order to use the object with the ODE Solver, you need to turn enable this checkbox and change the __Solver Engine__ to __ODE__ on the [RBD Object|Node:dop/rbdobject]. 
+
+    Display ODE Primitive:
+	Toggles the display of the ODE approximation, drawn in red
+	wireframe.
+
+    Object Type:
+	    ODE uses simplified collision objects.  This selects what collision object type will be used.
+
+	    Box:
+		    A regular box.
+	    Sphere:
+		    A sphere.  Note that unlike Houdini's primitive spheres, this sphere must be equal in all directions.
+	    Cylinder:
+		    A tube.  No tapering is possible and it must be circular in cross section.  
+		    
+		    NOTE:
+		        This option does not currently support cylinder-cylinder and cylinder-capsule collisions.
+		    
+	    Capsule:
+		    Like the tube, but capped with spheres on either end rather than circles, making a pill shaped object. Most similar to Houdini Capture Regions.
+		        
+	    Composite:
+		    This advanced option takes a point cloud.  The attributes on the point cloud are used to create ODE primitives at each point location. 
+
+                NOTE:
+                    You will need to wire in all of your geometry to a [Bake ODE SOP|Node:sop/bakeode]. All geometry must be primitives. 
+
+                All the points in the odePointGroup are candidates to create sub-objects.
+    
+                primRotation:
+        		    RX/RY/RZ rotation for the sub-object.
+                primScale:
+        		    Vector attribute storing size of a box primitive.
+                primRadius:
+        		    Float storing the radius for cylinders and spheres.
+                primType:
+        		    Integer storing what sort of sub object to create.  A value of 0-3 should be used which corresponds to Box, Sphere, Cylinder, or Capsule.
+
+    Composite Object:
+        You must reference the [Bake ODE SOP|Node:sop/bakeode] that your geometry is wired into.
+
+    Automatically Fit Geometry:
+	The parameters for the object type will be determined by a
+	rough bounding calculation of the object geometry.  This fit
+	may be smaller or greater than the actual objects geometry.
+
+    Position:
+	Offset of the object type relative to the center of the rbd
+	object.
+
+    Rotation:
+	Rx/Ry/Rz rotation angles for the object.
+
+    Box Size:
+	Dimensions of the object if in Box mode.
+
+    Radius:
+	The uniform radius used for sphere, tube, or capsule mode.
+
+    Cylinder Length:
+	The length of the cylinder for tubes and capsules.
+

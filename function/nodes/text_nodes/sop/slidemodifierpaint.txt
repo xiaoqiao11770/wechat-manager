@@ -1,0 +1,77 @@
+#type: node
+#context: sop
+#internal: slidemodifierpaint
+#icon: SOP/slidemodifierpaint
+
+#tags: slide, brush, attrs
+
+= Slide Modifier Paint =
+
+"""Lets you paint the slide modifier and inflation modifier attributes
+onto geometry interactively."""
+
+The slide modifier attribute is used by the
+[Deform Muscle node|Node:sop/deformmuscle]
+to determine how much sliding is allowed for each point in the geometry.
+This SOP is used to increase or decrease the amount of sliding that
+occurs when deforming points in the geometry. The sliding attribute can
+take any value between 0 and 1. A value of 0 or less results in no
+sliding, while a value of 1 or more results in the maximum level of
+sliding.  This node may also be used to paint an inflation modifier
+attribute on points in its input geometry.  This attribute is used by
+the [Deform Muscle node|Node:sop/deformmuscle] to determine how much
+a given point should inflate over underlying muscle geometry.
+
+[Include:/shelf/slidemodifierpaint#includeme]
+
+@parameters
+
+    == Operation ==
+
+        Attribute to Paint:
+            The attribute to paint on the input surface.
+            Surface Sliding Modifier:
+                Painting modifies an attribute controlling how much
+                points should slide over their underlying muscle geometry
+                when transformed by the [Deform Muscle SOP|Node:sop/deformmuscle].
+            Surface Inflation Modifier:
+                Painting modifiers an attribute controlling which points
+                should inflate over their underlying muscle geometry
+                in the [Deform Muscle SOP|Node:sop/deformmuscle].  A value of
+                1 on a point indicates that the point should fully inflate
+                over underlying muscles.  A value of 0 indicates that no inflation
+                should occur, while values in between 0 and 1 blend points
+                between their uninflated and fully inflated positions.
+                This can be used to control precisely which points in the
+                input geometry are inflated by the
+                [Deform Muscle node|Node:sop/deformmuscle].
+        Operation:
+            The operation used by Apply To All.
+        Merge Mode:
+            How the painted attribute value is to be applied to the
+            surface.
+        Accumulate To Stencil:
+            See  [about accumulate to stencil|/basics/brush] . By
+            default, the operation is applied and the stencil cleared
+            after every brush stroke. When this option is on, Houdini
+            does not apply the stencil until you click __Apply and Clear
+            Stencil__.
+        Apply & Clear Stencil:
+            Applies the operation and clears the stencil. This is
+            equivalent to right-clicking in the viewport.
+        Apply To All:
+            Paints all of the selected geometry.
+        Reset All Changes:
+            Restores geometry to initial state.
+        Visualize Attribute:
+            Whether to do a false color visualization of the sliding
+            attribute and what range to map to.
+        Visualize Mode:
+            How to map the attribute value to a color.
+    [Include:standard_brush]
+
+
+@related
+    - [Node:sop/deformmeta]
+    - [Node:sop/paint]
+
