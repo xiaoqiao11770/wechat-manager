@@ -3,7 +3,7 @@ from flask import Flask, request
 import hashlib
 
 import config
-from function.messages import handle
+from function.messages import receive, reply
 
 app = Flask(__name__)
 
@@ -17,15 +17,14 @@ def index():
 def weixin():
     try:
         if request.method == 'GET':
-            return get()
+            return GET()
         else:
-            handle.Handle.POST()
-
+            return POST()
     except Exception, Argument:
         return Argument
 
 
-def get():
+def GET():
     data = request.args
     print '=' * 20, 'GET', '=' * 20
     print 'DATA===>>', data
@@ -47,3 +46,21 @@ def get():
         return echostr
     else:
         return ""
+
+
+def POST(self):
+    try:
+        webData = request.stream.read()
+        print "Handle Post webdata is ", webData   #后台打日志
+        recMsg = receive.parse_xml(webData)
+        if isinstance(recMsg, receive.Msg) and recMsg.MsgType == 'text':
+            toUser = recMsg.FromUserName
+            fromUser = recMsg.ToUserName
+            content = "test"
+            replyMsg = reply.TextMsg(toUser, fromUser, content)
+            return replyMsg.send()
+        else:
+            print "暂且不处理"
+            return "success"
+    except Exception, Argment:
+        return Argment
