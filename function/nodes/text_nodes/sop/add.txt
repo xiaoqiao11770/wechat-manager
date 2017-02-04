@@ -22,7 +22,7 @@ and polygons below as a new entity.
     {{{
     point("geo1/grid1",5,"P",0),point("geo2/grid1",5,"P",1), point("geo3/grid1",5,"P",2)
     }}}
-    Points added in this way are appended to the end of the point list
+    Points added in this way are appended to the end of the point listb
     if a Source is specified. Click the Information Pop-up on the op
     Tile to find out how many points there are. For example, if you have
     added two points and there are 347 points (from 0 to 346), you have

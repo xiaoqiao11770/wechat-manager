@@ -52,8 +52,14 @@ def weixin():
                     content = "test"
 
                     node_list = read.Read('sop').node_list()
+                    if rec_content == 'sop':
+                        t = ''
+                        for node in node_list:
+                            t += node + '|'
+                        content = t
                     if rec_content in node_list:
-                        content = read.Read('sop').hand(rec_content)
+                        node_read = read.Read('sop', rec_content)
+                        content = node_read.hand() + '\r\n' + node_read.bewirte()
 
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
                     return replyMsg.send()

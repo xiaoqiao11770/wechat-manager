@@ -1,29 +1,51 @@
 # -*- coding: utf-8 -*-
 import os
+import sys
 
 
 class Read(object):
-    def __init__(self, type):
+    def __init__(self, type, name):
         self.type = type
-        self.path = os.getcwd()
+        self.name = name
+        self.path = os.path.split(os.path.realpath(__file__))[0]
         self.dir = self.path + '/text_nodes/%s/' %(type,)
-        if not os.path.isdir(self.dir):
-            raise Exception("Not find this dir: %s" %(self.dir))
+        self.node = self.dir + name + '.txt'
+        if not os.path.isfile(self.node):
+            raise Exception("Not find this file: %s" %(self.node))
 
-    def hand(self, name):
-        node_file = self.dir + name + '.txt'
-        if not os.path.isfile(node_file):
-            raise Exception("Not find this file: %s" %(node_file))
-        text = open(node_file)
+    def hand(self):
+        text = open(self.node)
         hand = ''
-        start = True
-        while start:
-            test_line = text.readline()
-            if test_line[:3] == '"""':
-                start = False
-                hand = test_line[3:-4]
+        run = 1
+        while run:
+            text_line = text.readline()
+            if text_line[:3] == '"""':
+                run = None
+                hand = text_line[3:-4]
         if hand:
             return hand
+        else:
+            return
+
+    def bewirte(self):
+        text = open(self.node)
+        beweirte = ''
+        run = 1
+        start = (0, 0)
+        text_line = ''
+        while run:
+            text_line = text.readline()
+            if start == (1, 1) and text_line:
+                beweirte += text_line
+            if text_line[:3] == '"""':
+                start = (1, 0)
+                continue
+            if start == (1, 0) and '\n' == text_line:
+                start = (1, 1)
+                continue
+            if start == (1, 1) and '\n' == text_line:
+                run = None
+        return beweirte
 
     def node_list(self):
         file_list = []
@@ -33,4 +55,4 @@ class Read(object):
         return file_list
 
 if __name__ == '__main__':
-    print Read('pop').node_list()
+    print Read('sop', 'add').node_list()
