@@ -51,11 +51,12 @@ def weixin():
                     rec_content = recMsg.Content
                     content = "test"
 
-                    node_list = read.Read('sop').node_list()
+                    node_list = read.Read('sop', rec_content).node_list()
                     if rec_content == 'sop':
                         t = ''
                         for node in node_list:
-                            t += node + '|'
+                            a = node + '|'
+			    t += a
                         content = t
                     if rec_content in node_list:
                         node_read = read.Read('sop', rec_content)
