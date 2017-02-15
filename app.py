@@ -3,6 +3,7 @@ from flask import Flask, request
 import hashlib
 
 import config
+import function.tuling as tuling
 from function.messages import receive, reply
 from function.nodes import read
 
@@ -46,22 +47,17 @@ def weixin():
             recMsg = receive.parse_xml(webData)
             if isinstance(recMsg, receive.Msg):
                 toUser = recMsg.FromUserName
+                print "to User ====>", toUser
                 fromUser = recMsg.ToUserName
+                print "from User ====>", fromUser
                 if recMsg.MsgType == 'text':
                     rec_content = recMsg.Content
-                    content = "test"
-
                     node_list = read.Read('sop', rec_content).node_list()
-                    if rec_content == 'sop':
-                        t = ''
-                        for node in node_list:
-                            a = node + '|'
-			    t += a
-                        content = t
                     if rec_content in node_list:
                         node_read = read.Read('sop', rec_content)
                         content = node_read.hand() + '\r\n' + node_read.bewirte()
-
+                    else:
+                        content = function.tuling.result(rec_content)
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
                     return replyMsg.send()
                 if recMsg.MsgType == 'image':
