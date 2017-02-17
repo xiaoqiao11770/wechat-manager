@@ -57,7 +57,7 @@ def weixin():
                         node_read = read.Read('sop', rec_content)
                         content = node_read.hand() + '\r\n' + node_read.bewirte()
                     else:
-                        content = function.tuling.result(rec_content)
+                        content = tuling.result(rec_content)
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
                     return replyMsg.send()
                 if recMsg.MsgType == 'image':
