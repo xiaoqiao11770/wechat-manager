@@ -2,6 +2,7 @@
 import os
 import sys
 
+import config
 
 class Read(object):
     def __init__(self, type, name):
@@ -54,5 +55,57 @@ class Read(object):
             file_list.append(os.path.splitext(f)[0])
         return file_list
 
+
+def find_node(rec):
+    ntype = ''
+    name = ''
+    file_dict = config.files_dict
+    node_list = ['sop', 'dop', 'shop', 'obj', 'pop', 'chop', 'vop', 'vex', 'out']
+    if ':' in rec:
+        rec_list = rec.split(':')
+        if len(rec_list) != 2:
+            print rec_list, 'have more ":"'
+            return
+        else:
+            ntype, name = rec_list
+            if ntype not in node_list:
+                print ntype, 'Not in node_list.'
+                return
+            else:
+                file_list = file_dict[ntype]
+                if name + '.txt' not in file_list:
+                    print name, 'Not in node_names.'
+                    return
+    else:
+        i = 0
+        while i < len(node_list):
+            file_list = file_dict[node_list[i]]
+            if rec + '.txt' in file_list:
+                ntype = node_list[i]
+                name = rec
+                break
+            i += 1
+    return (ntype, name)
+
+
+def _create_ndict(nodes_path):
+    ntype_list = config.node_data['node_types']
+    files_dict = {}
+    for ntype in ntype_list:
+        file_value = []
+        ntype_path = nodes_path + '/' + ntype
+        file_list = os.listdir(ntype_path)
+        for file in file_list:
+            file_value.append(file)
+        files_dict[ntype] = file_value
+    print files_dict
+    # print files_dict.keys()
+
+
 if __name__ == '__main__':
-    print Read('sop', 'add').node_list()
+    rec = find_node('add')
+    # print Read(rec[0], rec[1]).bewirte()
+    # a = os.listdir('E:/Project/scripts/wechat-manager/function/nodes/text_nodes/dop')
+    # print a,'\r\n', len(a)
+    # print _create_ndict('E:/Project/scripts/wechat-manager/function/nodes/text_nodes')
+

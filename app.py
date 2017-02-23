@@ -52,12 +52,12 @@ def weixin():
                 print "from User ====>", fromUser
                 if recMsg.MsgType == 'text':
                     rec_content = recMsg.Content
-                    node_list = read.Read('sop', rec_content).node_list()
-                    if rec_content in node_list:
-                        node_read = read.Read('sop', rec_content)
-                        content = node_read.hand() + '\r\n' + node_read.bewirte()
-                    else:
-                        content = tuling.result(rec_content)
+                    try:
+                        node_type, node_name = read.find_node()
+                        node_hand = read.Read(node_type, node_name).hand()
+                        content = node_hand
+                    except:
+                        content = tuling.result(rec_content).encode('utf-8')
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
                     return replyMsg.send()
                 if recMsg.MsgType == 'image':
