@@ -59,6 +59,7 @@ class Read(object):
 def find_node(rec):
     ntype = ''
     name = ''
+    rec = rec.lower()
     file_dict = config.files_dict
     node_list = ['sop', 'dop', 'shop', 'obj', 'pop', 'chop', 'vop', 'vex', 'out']
     if ':' in rec:
@@ -88,6 +89,23 @@ def find_node(rec):
     return (ntype, name)
 
 
+def type_nodes(rec):
+    ntype_list = ['sop', 'dop', 'shop', 'obj', 'pop', 'chop', 'vop', 'vex', 'out']
+    rec = rec.lower()
+    if rec in ntype_list:
+        type = rec
+        file_dict = config.files_dict
+        file_list = file_dict[type]
+        nodes = '%s ::|' % (rec.upper())
+        for f in file_list:
+            node = os.path.splitext(f)[0]
+            node_str = ' ' + node + ' |'
+            nodes += node_str
+        return nodes
+    else:
+        return
+
+
 def _create_ndict(nodes_path):
     ntype_list = config.node_data['node_types']
     files_dict = {}
@@ -103,9 +121,10 @@ def _create_ndict(nodes_path):
 
 
 if __name__ == '__main__':
-    rec = find_node('add')
+    # rec = find_node('ADD')
+    # print rec
     # print Read(rec[0], rec[1]).bewirte()
     # a = os.listdir('E:/Project/scripts/wechat-manager/function/nodes/text_nodes/dop')
     # print a,'\r\n', len(a)
     # print _create_ndict('E:/Project/scripts/wechat-manager/function/nodes/text_nodes')
-
+    print type_nodes('SOsp')
