@@ -52,13 +52,13 @@ def weixin():
                 print "from User ====>", fromUser
                 if recMsg.MsgType == 'text':
                     rec_content = recMsg.Content
-                    content = read.type_nodes(rec_content)
+                    content = read.type_nodes(rec_content).encode('utf-8')
                     if not content:
                         try:
                             node_type, node_name = read.find_node(rec_content)
                             node_hand = read.Read(node_type, node_name).hand()
                             node_bewirte = read.Read(node_type, node_name).bewirte()
-                            content = node_hand + "\n" + -------- "\n" + node_bewirte
+                            content = node_hand + "\n" + "-------" + "\n" + node_bewirte
                         except:
                             content = tuling.result(rec_content).encode('utf-8')
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
