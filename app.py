@@ -57,7 +57,8 @@ def weixin():
                         try:
                             node_type, node_name = read.find_node(rec_content)
                             node_hand = read.Read(node_type, node_name).hand()
-                            content = node_hand
+                            node_bewirte = read.Read(node_type, node_name).bewirte()
+                            content = node_hand + "\n" + -------- "\n" + node_bewirte
                         except:
                             content = tuling.result(rec_content).encode('utf-8')
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
