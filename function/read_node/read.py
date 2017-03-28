@@ -1,127 +1,54 @@
 # -*- coding: utf-8 -*-
 import os
 import json
-import sys
 
-import config
-
-class Read(object):
-    def __init__(self, type, name):
-        self.type = type
-        self.name = name
-        self.path = os.path.split(os.path.realpath(__file__))[0]
-        self.dir = self.path + '/text_nodes/%s/' %(type,)
-        self.node = self.dir + name + '.txt'
-        if not os.path.isfile(self.node):
-            raise Exception("Not find this file: %s" %(self.node))
-
-    def hand(self):
-        text = open(self.node)
-        hand = ''
-        run = 1
-        while run:
-            text_line = text.readline()
-            if text_line[:3] == '"""':
-                run = None
-                hand = text_line[3:-4]
-        if hand:
-            return hand
-        else:
-            return
-
-    # def bewirte(self):
-    #     text = open(self.node)
-    #     beweirte = ''
-    #     run = 1
-    #     start = (0, 0)
-    #     text_line = ''
-    #     while run:
-    #         text_line = text.readline()
-    #         if start == (1, 1) and text_line:
-    #             beweirte += text_line
-    #         if text_line[:3] == '"""':
-    #             start = (1, 0)
-    #             continue
-    #         if start == (1, 0) and '\n' == text_line:
-    #             start = (1, 1)
-    #             continue
-    #         if start == (1, 1) and '\n' == text_line:
-    #             run = None
-    #     return beweirte
-    #
-    # def node_list(self):
-    #     file_list = []
-    #     all_file = os.listdir(self.dir)
-    #     for f in all_file:
-    #         file_list.append(os.path.splitext(f)[0])
-    #     return file_list
+DATA_NAME = 'data_nodes'
+data_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), DATA_NAME)
 
 
-def find_node(rec):
-    ntype = ''
-    name = ''
-    rec = rec.lower()
-    file_dict = config.files_dict
-    node_list = ['sop', 'dop', 'shop', 'obj', 'pop', 'chop', 'vop', 'vex', 'out']
-    if ':' in rec:
-        rec_list = rec.split(':')
-        if len(rec_list) != 2:
-            print rec_list, 'have more ":"'
-            return
-        else:
-            ntype, name = rec_list
-            if ntype not in node_list:
-                print ntype, 'Not in node_list.'
-                return
-            else:
-                file_list = file_dict[ntype]
-                if name + '.txt' not in file_list:
-                    print name, 'Not in node_names.'
-                    return
-    else:
-        i = 0
-        while i < len(node_list):
-            file_list = file_dict[node_list[i]]
-            if rec + '.txt' in file_list:
-                ntype = node_list[i]
-                name = rec
-                break
-            i += 1
-    return (ntype, name)
-
-
-def type_nodes(rec):
-    ntype_list = ['sop', 'dop', 'shop', 'obj', 'pop', 'chop', 'vop', 'vex', 'out']
-    rec = rec.lower()
-    if rec in ntype_list:
-        type = rec
-        file_dict = config.files_dict
-        file_list = file_dict[type]
-        nodes = '%s: ' % (rec.upper())
-        for f in file_list:
-            node = os.path.splitext(f)[0]
-            node_str = + node + ','
-            nodes += node_str
-        return nodes
-    else:
+def parse_node(text):
+    type_name, node_name = _normal_input(text)
+    if not _is_node(node_name):
         return
+    types = _is_node(node_name)
+    ntype_list = ['sop', 'dop', 'shop', 'obj', 'pop', 'chop', 'cop2', 'vop', 'vex', 'out']
+    if type_name:
+        if type_name not in ntype_list:
+            return
+        return _read_node(type_name, node_name)
+    else:
+        type_name = types[0]
+        return _read_node(type_name, node_name)
 
 
-def _create_ndict(nodes_path):
-    ntype_list = config.node_data['node_types']
-    files_dict = {}
-    for ntype in ntype_list:
-        file_value = []
-        ntype_path = nodes_path + '/' + ntype
-        file_list = os.listdir(ntype_path)
-        for file in file_list:
-            file_value.append(file)
-        files_dict[ntype] = file_value
-    print files_dict
-    # print files_dict.keys()
+def _read_node(type_name, node_name):
+    data_file = data_dir + '/' + type_name + '.json'
+    f = open(data_file, 'r')
+    content = json.loads(f.read())
+    f.close()
+    data = content[node_name]
+    return data
 
 
-def out_json(nodes_path):
+def _normal_input(text):
+    if text.count(':') == 1:
+        type_name, node_name = text.split(':')
+        return type_name, node_name
+    return None, text
+
+
+def _is_node(text):
+    data_nodes = data_dir + '/' + 'nodes.json'
+    f = open(data_nodes, 'r')
+    content = json.loads(f.read())
+    f.close()
+    if text in content:
+        return content[text]
+    else:
+        return None
+
+
+def _out_json(nodes_path):
     ntype_list = ['sop', 'dop', 'shop', 'obj', 'pop', 'chop', 'cop2', 'vop', 'vex', 'out']
     nodes = {}
     for index, type in enumerate(ntype_list):
@@ -136,7 +63,7 @@ def out_json(nodes_path):
             else:
                 nodes[key] = [value]
             node_file = nodes_path + type + '/' + node_name + '.txt'
-            summary = node_summary(node_file)
+            summary = __node_summary(node_file)
             like = 'http://www.sidefx.com/docs/houdini/nodes/%s/%s' % (type, node_name)
             print summary
             node[key] = (summary, 'icon', like)
@@ -156,7 +83,7 @@ def out_json(nodes_path):
     f.close()
 
 
-def node_summary(node_file):
+def __node_summary(node_file):
     text = open(node_file)
     hand = ''
     run = 1
@@ -177,12 +104,9 @@ def node_summary(node_file):
 
 
 if __name__ == '__main__':
-    # rec = find_node('ADD')
-    # print rec
-    # print Read(rec[0], rec[1]).bewirte()
-    a = os.listdir('E:/Project/scripts/wechat-manager/function/nodes/text_nodes/')
-    path = 'E:/Project/scripts/wechat-manager/function/nodes/text_nodes/'
-    # print a,'\r\n', len(a)
-    # print _create_ndict('E:/Project/scripts/wechat-manager/function/nodes/text_nodes')
-    # print len(type_nodes('obj'))
-    out_json(path)
+    # a = os.listdir('E:/Project/scripts/wechat-manager/function/nodes/text_nodes/')
+    # path = 'E:/Project/scripts/wechat-manager/function/nodes/text_nodes/'
+    # _out_json(path)
+    # print is_node('add')
+    # print _normal_input('addsdf')
+    print parse_node('哈：哈')

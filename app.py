@@ -1,94 +1,85 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, request
-import hashlib
+from __future__ import absolute_import, unicode_literals
+import os
 
-# import config
-# import function.tuling as tuling
-# from function.messages import receive, reply
-# from function.nodes import read
-
+from flask import Flask, request, abort, render_template
+from wechatpy import parse_message, create_reply
 from wechatpy.utils import check_signature
-from wechatpy.exceptions import InvalidSignatureException
-from wechatpy import parse_message
-from wechatpy.replies import TextReply
+from wechatpy.exceptions import (
+    InvalidSignatureException,
+    InvalidAppIdException,
+)
+
+from function.read_node import read
+from function import tuling
+
+# set token or get from environments
+TOKEN = os.getenv('WECHAT_TOKEN', 'test_houdini')
+AES_KEY = os.getenv('WECHAT_AES_KEY', 'XUi5VjeFWb7v5LFVIFOwL0iT0fQLTQv3TkLrZfigu6h')
+APPID = os.getenv('WECHAT_APPID', 'wx332e0321845c6e3c')
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    return "Hello World!"
+    host = request.url_root
+    return render_template('index.html', host=host)
 
 
-@app.route('/wx', methods=['GET', 'POST'])
-def weixin():
+@app.route('/wechat', methods=['GET', 'POST'])
+def wechat():
+    signature = request.args.get('signature', '')
+    timestamp = request.args.get('timestamp', '')
+    nonce = request.args.get('nonce', '')
+    encrypt_type = request.args.get('encrypt_type', 'raw')
+    msg_signature = request.args.get('msg_signature', '')
     try:
-        if request.method == 'GET':
-            data = request.args
-            print '=' * 20, 'GET', '=' * 20
-            print 'DATA===>>', data
-            if len(data) == 0:
-                return "hello, this is handle view"
-            signature = data.get('signature', '')
-            timestamp = data.get('timestamp', '')
-            nonce = data.get('nonce', '')
-            echostr = data.get('echostr', '')
-            token = "test_houdini"
+        check_signature(TOKEN, signature, timestamp, nonce)
+    except InvalidSignatureException:
+        abort(403)
+    if request.method == 'GET':
+        echo_str = request.args.get('echostr', '')
+        return echo_str
 
-            list = [token, timestamp, nonce]
-            list.sort()
-            sha1 = hashlib.sha1()
-            map(sha1.update, list)
-            hashcode = sha1.hexdigest()
-            print "handle/GET func: hashcode, signature: ", hashcode, signature
-            # if hashcode == signature:
-            #     return echostr
-            # else:
-            #     return ""
-            try:
-                check_signature(token, signature, timestamp, nonce)
-            except InvalidSignatureException:
-                print 'Authentication failed'
-                return ''
+    # POST request
+    if encrypt_type == 'raw':
+        # plaintext mode
+        msg = parse_message(request.data)
+        if msg.type == 'text':
+            user_content = msg.content
+            node_data = read.parse_node(user_content)
+            if node_data:
+                run_content = node_data[0] + '\n' + node_data[2]
+            else:
+                run_content = tuling.result(user_content)
+            run_content = run_content.encoed('utf-8')
+            reply = create_reply(run_content, msg)
         else:
-            print '=' * 20, 'POSE', '=' * 20
-            webData = request.stream.read()
-            print "Handle Post webdata is ", webData   #后台打日志
-            # recMsg = receive.parse_xml(webData)
-            msg = parse_message(webData)
-            # if isinstance(recMsg, receive.Msg):
-            #     toUser = recMsg.FromUserName
-            #     print "to User ====>", toUser
-            #     fromUser = recMsg.ToUserName
-            #     print "from User ====>", fromUser
-            #     if recMsg.MsgType == 'text':
-            #         rec_content = recMsg.Content
-            #         content = read.type_nodes(rec_content)
-            #         if not content:
-            #             try:
-            #                 node_type, node_name = read.find_node(rec_content)
-            #                 node_hand = read.Read(node_type, node_name).hand()
-            #                 node_bewirte = read.Read(node_type, node_name).bewirte()
-            #                 content = node_hand + "\n" + "-------" + "\n" + node_bewirte
-            #             except:
-            #                 content = tuling.result(rec_content)
-            #             content = content.encode('utf-8')
-            #         replyMsg = reply.TextMsg(toUser, fromUser, content)
-            #         return replyMsg.send()
-            #     if recMsg.MsgType == 'image':
-            #         mediaId = recMsg.MediaId
-            #         replyMsg = reply.ImageMsg(toUser, fromUser, mediaId)
-            #         return replyMsg.send()
-            #
-            #     else:
-            #         return reply.Msg().send()
-            reply = TextReply(message=msg)
-            reply.content = 'text reply'
-            # 转换成 XML
-            xml = reply.render()
-            return xml
-            # else:
-            #     print "暂且不处理"
-            #     return "success"
-    except Exception, Argument:
-        return Argument
+            reply = create_reply('Sorry, can not handle this for now', msg)
+        return reply.render()
+    else:
+        # encryption mode
+        from wechatpy.crypto import WeChatCrypto
+
+        crypto = WeChatCrypto(TOKEN, AES_KEY, APPID)
+        try:
+            msg = crypto.decrypt_message(
+                request.data,
+                msg_signature,
+                timestamp,
+                nonce
+            )
+        except (InvalidSignatureException, InvalidAppIdException):
+            abort(403)
+        else:
+            msg = parse_message(msg)
+            if msg.type == 'text':
+                reply = create_reply(msg.content, msg)
+            else:
+                reply = create_reply('Sorry, can not handle this for now', msg)
+            return crypto.encrypt_message(reply.render(), nonce, timestamp)
+
+
+if __name__ == '__main__':
+    app.run('127.0.0.1', 5001, debug=True)
