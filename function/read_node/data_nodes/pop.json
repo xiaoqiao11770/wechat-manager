@@ -1,0 +1,317 @@
+{
+    "_index": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/_index"
+    ],
+    "acceleration": [
+        "Explicitly sets a particle's acceleration.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/acceleration"
+    ],
+    "advectbyvolumes": [
+        "Advects particles by a velocity field defined by three volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/advectbyvolumes"
+    ],
+    "age": [
+        "Sets the ages and/or expected lifespan of particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/age"
+    ],
+    "angvelocity": [
+        "Sets a particle's angular velocity.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/angvelocity"
+    ],
+    "attractor": [
+        "Attracts or repels particles using a referenced Force SOP or Po",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/attractor"
+    ],
+    "attribtransfer": [
+        "Transfers point or vertex attributes from reference geometry o",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/attribtransfer"
+    ],
+    "attribute": [
+        "Adds custom attributes to particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/attribute"
+    ],
+    "collect": [
+        "Merges particle streams together so you can act on t",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/collect"
+    ],
+    "collision": [
+        "Sets attributes on and/or groups particles when they collide w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/collision"
+    ],
+    "color": [
+        "Changes a particle's diffuse color and/or alpha.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/color"
+    ],
+    "commonParms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/commonParms"
+    ],
+    "creep": [
+        "Causes particles to stick to geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/creep"
+    ],
+    "curlnoise": [
+        "Applies a divergent free noise field to particles..",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/curlnoise"
+    ],
+    "drag": [
+        "Applies drag to the velocity of particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/drag"
+    ],
+    "event": [
+        "Generates events based on rules.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/event"
+    ],
+    "fan": [
+        "Applies force on particles like a cone-shaped fan.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/fan"
+    ],
+    "fetch": [
+        "Imports particle streams from other networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/fetch"
+    ],
+    "fireworks": [
+        "Creates a simple fireworks system.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/fireworks"
+    ],
+    "follow": [
+        "Makes particles follow a leader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/follow"
+    ],
+    "force": [
+        "Applies a global directional force, such as gravity.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/force"
+    ],
+    "gen_locals": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/gen_locals"
+    ],
+    "group": [
+        "Creates and/or combines named groups of particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/group"
+    ],
+    "hitinfo": [
+        "Manually sets attributes associated with collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/hitinfo"
+    ],
+    "instance": [
+        "Renders instanced geometry on a particle.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/instance"
+    ],
+    "interact": [
+        "Make particles attract or repel other particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/interact"
+    ],
+    "kill": [
+        "Kills particles based on expressions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/kill"
+    ],
+    "limit": [
+        "Creates collisions when particles reach a limit boundary.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/limit"
+    ],
+    "lineage": [
+        "Manually sets attributes associated with the particle's fam",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/lineage"
+    ],
+    "location": [
+        "Emits particles at a location in space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/location"
+    ],
+    "lookat": [
+        "Rotates particles so they point in a certain direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/lookat"
+    ],
+    "null": [
+        "Passes inputs through unaffected.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/null"
+    ],
+    "orbit": [
+        "Makes particles orbit a center-point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/orbit"
+    ],
+    "popLocals": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/popLocals"
+    ],
+    "position": [
+        "Explicitly sets a particle's position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/position"
+    ],
+    "property": [
+        "Manually set physical attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/property"
+    ],
+    "proximity": [
+        "Sets attributes on and/or creates groups of particles based on wh",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/proximity"
+    ],
+    "render": [
+        "Controls how particles render.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/render"
+    ],
+    "resistance": [
+        "Calculates air or water resistance on instanced geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/resistance"
+    ],
+    "rotation": [
+        "Rotates the particle frame of reference, allowing instanced geome",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/rotation"
+    ],
+    "softbody": [
+        "Performs soft body deformations similar to the Spring SOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/softbody"
+    ],
+    "softlimit": [
+        "Creates a boundary collisions like Limit, but with spong",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/softlimit"
+    ],
+    "source": [
+        "Emits particles from geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/source"
+    ],
+    "speedlimit": [
+        "Enforces minimum and maximum velocities.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/speedlimit"
+    ],
+    "sphdensitytest": [
+        "Kills particles if the surrounding region exceeds a certain density.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/sphdensitytest"
+    ],
+    "split": [
+        "Splits (emits) particles from existing particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/split"
+    ],
+    "sprinkler": [
+        "Simulates a sprinkler.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/sprinkler"
+    ],
+    "sprite": [
+        "Changes sprite rendering attributes like texture coordinates, SH",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/sprite"
+    ],
+    "standard_locals": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/standard_locals"
+    ],
+    "state": [
+        "Sets the state information of particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/state"
+    ],
+    "stream": [
+        "Emit particles from areas where streams of particles mix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/stream"
+    ],
+    "subnet": [
+        "Encapsulates the functionality of a POP network inside a node.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/subnet"
+    ],
+    "suppress": [
+        "Turns off default rules controlling particle behavior.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/suppress"
+    ],
+    "switch": [
+        "Switches between input streams.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/switch"
+    ],
+    "torque": [
+        "Rotates particles around another point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/torque"
+    ],
+    "translation": [
+        "Moves the particle frame of reference, offsetting instanced geome",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/translation"
+    ],
+    "turn": [
+        "Changes the direction of particles without affecting speed.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/turn"
+    ],
+    "upvector": [
+        "Manually sets a particle's up vector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/upvector"
+    ],
+    "velocity": [
+        "Explicitly sets a particle's velocity.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/velocity"
+    ],
+    "velocitystream": [
+        "Emits a stream of evenly-spaced particles from geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/velocitystream"
+    ],
+    "vex": [
+        "Executes VEX code to modify particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/vex"
+    ],
+    "voppop": [
+        "Contains a VOP network that can manipulate particle attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/voppop"
+    ],
+    "wind": [
+        "Pushes particles up to a maximum speed.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/pop/wind"
+    ]
+}

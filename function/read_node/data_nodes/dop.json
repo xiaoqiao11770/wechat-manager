@@ -1,0 +1,2662 @@
+{
+    "_index": [
+        "Dynamics nodes set up the conditions and rules for dynamics simulations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/_index"
+    ],
+    "_parameter_locals": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/_parameter_locals"
+    ],
+    "activevalue": [
+        "Marks a simulation object as active or passive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/activevalue"
+    ],
+    "affector": [
+        " Creates affector relationships between groups of objects. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/affector"
+    ],
+    "agentcliplayer": [
+        "Layers additional animation clips onto an agent.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/agentcliplayer"
+    ],
+    "agentlookat": [
+        "Chooses an object/position for the head of an agent to look at.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/agentlookat"
+    ],
+    "agentlookatapply": [
+        "Moves the head of an agent to look at a target.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/agentlookatapply"
+    ],
+    "agentterrainadaptation": [
+        "Adapts the legs of an agent to conform to terrain and prevent the feet from sliding.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/agentterrainadaptation"
+    ],
+    "agentterrainadaptation-": [
+        "Adapts the legs of a biped agent to conform to terrain.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/agentterrainadaptation-"
+    ],
+    "agentterrainadaptation-2.0": [
+        "Adapts the legs of an agent to conform to terrain.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/agentterrainadaptation-2.0"
+    ],
+    "agentterrainprojection": [
+        "Project the agent/particle points onto the terrain",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/agentterrainprojection"
+    ],
+    "anchoralignaxis": [
+        "Defines an orientation that aligns an axis in object space with a second axis defined by the relative locations of two positional anchors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchoralignaxis"
+    ],
+    "anchorobjpointgrouppos": [
+        "Defines multiple points, specified by their number or group, on the given geometry of a simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjpointgrouppos"
+    ],
+    "anchorobjpointgrouprot": [
+        "Defines orientations based on multiple points on the given geometry of a simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjpointgrouprot"
+    ],
+    "anchorobjpointidpos": [
+        "Defines a position by looking at the position of a point on the geometry of a simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjpointidpos"
+    ],
+    "anchorobjpointidrot": [
+        "Defines an orientation by looking at a point on the geometry of a simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjpointidrot"
+    ],
+    "anchorobjpointnumpos": [
+        "Defines a position by looking at the position of a point on the geometry of a simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjpointnumpos"
+    ],
+    "anchorobjpointnumrot": [
+        "Defines an orientation by looking at a point on the geometry of a simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjpointnumrot"
+    ],
+    "anchorobjprimpos": [
+        "Defines a position by looking at the position of a particular UV coordinate location on a primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjprimpos"
+    ],
+    "anchorobjspacepos": [
+        "Defines a position by specifying a position in the space of some simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjspacepos"
+    ],
+    "anchorobjspacerot": [
+        "Defines an orientation by specifying a rotation in the space of some simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjspacerot"
+    ],
+    "anchorobjsurfacepos": [
+        "Defines multiple attachment points on a polygonal surface of an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorobjsurfacepos"
+    ],
+    "anchorworldspacepos": [
+        "Defines a position by specifying a position in world space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorworldspacepos"
+    ],
+    "anchorworldspacerot": [
+        "Defines an orientation by specifying a rotation in world space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/anchorworldspacerot"
+    ],
+    "applydata": [
+        " Attaches data to simulation objects or other data. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/applydata"
+    ],
+    "applyrel": [
+        " Creates relationships between simulation objects. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/applyrel"
+    ],
+    "blendfactor": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/blendfactor"
+    ],
+    "blendsolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/blendsolver"
+    ],
+    "bullet_solver_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/bullet_solver_parms"
+    ],
+    "bulletdata": [
+        "Attaches the appropriate data for Bullet Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/bulletdata"
+    ],
+    "bulletrbdsolver": [
+        " Sets and configures an Bullet Dynamics solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/bulletrbdsolver"
+    ],
+    "buoyancyforce": [
+        "Applies a uniform force to objects submerged in a fluid.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/buoyancyforce"
+    ],
+    "clothattachconstraint": [
+        "Constrains a set of points on a cloth object to the surface of a Static Object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothattachconstraint"
+    ],
+    "clothconfigureobject": [
+        "Attaches the appropriate data for Cloth Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothconfigureobject"
+    ],
+    "clothgeometry": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothgeometry"
+    ],
+    "clothmassproperties": [
+        "Defines the mass properties.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothmassproperties"
+    ],
+    "clothmaterial": [
+        "Defines the physical material for a deformable surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothmaterial"
+    ],
+    "clothmaterialbehavior": [
+        "Defines the internal cloth forces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothmaterialbehavior"
+    ],
+    "clothobject": [
+        "Creates a Cloth Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothobject"
+    ],
+    "clothobject-": [
+        "Creates a Cloth Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothobject-"
+    ],
+    "clothplasticityproperties": [
+        "Defines the plasticity properties.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothplasticityproperties"
+    ],
+    "clothsolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothsolver"
+    ],
+    "clothsolver-": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothsolver-"
+    ],
+    "clothsolver-2.0": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothsolver-2.0"
+    ],
+    "clothstitchconstraint": [
+        "Constrains part of the boundary of a cloth object to the boundary of another cloth object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothstitchconstraint"
+    ],
+    "clothtargetproperties": [
+        "Defines how cloth uses target.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothtargetproperties"
+    ],
+    "clothvisualization": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothvisualization"
+    ],
+    "clothvolumecollider": [
+        "Defines a way of resolving collisions involving a cloth object ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/clothvolumecollider"
+    ],
+    "colliderel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/colliderel"
+    ],
+    "colliderlabel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/colliderlabel"
+    ],
+    "conetwistconrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/conetwistconrel"
+    ],
+    "conrelationship": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/conrelationship"
+    ],
+    "constraint": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/constraint"
+    ],
+    "constraintnetwork": [
+        "Constrains pairs of RBD objects together according to a polygon network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/constraintnetwork"
+    ],
+    "constraintnetworkrelationship": [
+        "Defines a set of constraints based on geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/constraintnetworkrelationship"
+    ],
+    "container": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/container"
+    ],
+    "control_settings": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/control_settings"
+    ],
+    "copydata": [
+        " Creates multiple copies of the input data. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/copydata"
+    ],
+    "copyobject": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/copyobject"
+    ],
+    "copyobjectinfo": [
+        " Mimics the information set by the Copy Object DOP. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/copyobjectinfo"
+    ],
+    "copysolver": [
+        "Sets and configures a Copy Data Solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/copysolver"
+    ],
+    "crowd_fov_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowd_fov_parms"
+    ],
+    "crowd_steer_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowd_steer_parms"
+    ],
+    "crowdfuzzylogic": [
+        "Defines a Crowd Fuzzy Logic",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdfuzzylogic"
+    ],
+    "crowdobject": [
+        "Creates a crowd object with required agent attributes to be used in the crowd simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdobject"
+    ],
+    "crowdsolver": [
+        "Updates agents according to their steer forces and animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdsolver"
+    ],
+    "crowdsolver-": [
+        "Update crowd agents based on the custom steerforces and adjusting animation playback of clips",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdsolver-"
+    ],
+    "crowdsolver-2.0": [
+        "Update crowd agents based on the custom steerforces and adjusting animation playback of clips",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdsolver-2.0"
+    ],
+    "crowdstate": [
+        "Defines a Crowd State",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdstate"
+    ],
+    "crowdstate-": [
+        "Defines a Crowd State.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdstate-"
+    ],
+    "crowdstate-2.0": [
+        "Defines a Crowd State",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdstate-2.0"
+    ],
+    "crowdtransition": [
+        "Defines a transition between crowd states.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdtransition"
+    ],
+    "crowdtransition-": [
+        "Defines a transition between crowd states.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdtransition-"
+    ],
+    "crowdtransition-2.0": [
+        "Defines a transition between crowd states.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdtransition-2.0"
+    ],
+    "crowdtrigger": [
+        "Defines a Crowd Trigger",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdtrigger"
+    ],
+    "crowdtrigger-": [
+        "Defines a Crowd Trigger",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdtrigger-"
+    ],
+    "crowdtriggerlogic": [
+        "Combines multiple crowd triggers to build a more complex trigger.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/crowdtriggerlogic"
+    ],
+    "delete": [
+        "Deletes both objects and data according to patterns.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/delete"
+    ],
+    "drag": [
+        "Applies force and torque to objects that resists their curr",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/drag"
+    ],
+    "dragproperties": [
+        "Defines how the surrounding medium affects a soft body object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/dragproperties"
+    ],
+    "embeddingproperties": [
+        "Controls Embedded Geometry that can be deformed along with the simulated geometry in a finite element simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/embeddingproperties"
+    ],
+    "emptydata": [
+        " Creates an Empty Data for holding custom information. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/emptydata"
+    ],
+    "emptyobject": [
+        " Creates an Empty Object. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/emptyobject"
+    ],
+    "emptyrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/emptyrel"
+    ],
+    "enablesolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/enablesolver"
+    ],
+    "fan": [
+        "Applies forces on the objects as if a cone-shaped fan were acting",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fan"
+    ],
+    "feoutputattributes": [
+        "Allows a finite-element object to generate optional output attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/feoutputattributes"
+    ],
+    "fetchdata": [
+        "Fetches a piece of data from a simulation object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fetchdata"
+    ],
+    "fieldforce": [
+        "Applies forces to an object using some piece of geometry as a vec",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fieldforce"
+    ],
+    "filamentobject": [
+        "Creates a vortex filament object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/filamentobject"
+    ],
+    "filamentsolver": [
+        "Evolves vortex filament geometry over time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/filamentsolver"
+    ],
+    "file": [
+        " Saves and loads simulation objects to external files. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/file"
+    ],
+    "filedata": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/filedata"
+    ],
+    "finiteelementsolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/finiteelementsolver"
+    ],
+    "finiteelementsolver-": [
+        "Sets and configures a Finite Element solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/finiteelementsolver-"
+    ],
+    "flipconfigureobject": [
+        "Attaches the appropriate data for Particle Fluid Objects to become a F",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/flipconfigureobject"
+    ],
+    "flipobject": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/flipobject"
+    ],
+    "flipsolver": [
+        "Evolves an object as a FLIP fluid object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/flipsolver"
+    ],
+    "flipsolver-": [
+        "Evolves an object as a FLIP fluid object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/flipsolver-"
+    ],
+    "fluidconfigureobject": [
+        "Attaches the appropriate data for Fluid Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fluidconfigureobject"
+    ],
+    "fluidforce": [
+        "Applies forces to resist the current motion of soft body objects relative to a fluid.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fluidforce"
+    ],
+    "fluidobject": [
+        "Attaches the appropriate data for Fluid Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fluidobject"
+    ],
+    "fluidsolver": [
+        "A solver for Sign Distance Field (SDF) liquid simulations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fluidsolver"
+    ],
+    "fluidsolver-": [
+        "Sets and configures a Fluid solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/fluidsolver-"
+    ],
+    "gasadjustelasticity": [
+        "A microsolver that adjusts the strength of elastic bonds betw",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasadjustelasticity"
+    ],
+    "gasadjustparticlecoordinates": [
+        "A microsolver that adjusts an internal coordinate system attac",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasadjustparticlecoordinates"
+    ],
+    "gasadvect": [
+        "A microsolver that advects fields and geometry by a veloc",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasadvect"
+    ],
+    "gasadvectcl": [
+        "A microsolver that advects fields and geometry by a veloc",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasadvectcl"
+    ],
+    "gasadvectfield": [
+        "A microsolver that advects fields and geometry by a veloc",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasadvectfield"
+    ],
+    "gasanalysis": [
+        "A microsolver that computes analytic property of fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasanalysis"
+    ],
+    "gasattribswap": [
+        "A microsolver that swaps geometry attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasattribswap"
+    ],
+    "gasblenddensity": [
+        "A microsolver that blends the density of two fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasblenddensity"
+    ],
+    "gasblur": [
+        "A microsolver that blurs fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasblur"
+    ],
+    "gasbuildcollisionmask": [
+        "A microsolver that determines the collision field between the fl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasbuildcollisionmask"
+    ],
+    "gasbuildrelationshipmask": [
+        "A microsolver that builds a mask for each voxel to show the presence or absence of relationships between objects. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasbuildrelationshipmask"
+    ],
+    "gasbuoyancy": [
+        "A microsolver that calculates an adhoc buoyancy force and update",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasbuoyancy"
+    ],
+    "gasburngeometry": [
+        "Sets the object to use the Gas Burn solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasburngeometry"
+    ],
+    "gasburngeometryobject": [
+        "Creates an object with appropriate data to use as a fire source.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasburngeometryobject"
+    ],
+    "gascalculate": [
+        "A microsolver that performs general calculations on a pair",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gascalculate"
+    ],
+    "gascollisiondetect": [
+        "A microsolver that detects collisions between particles and geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gascollisiondetect"
+    ],
+    "gascombustion": [
+        "A microsolver that applies a combustion model to the simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gascombustion"
+    ],
+    "gascomputeparticleattributes": [
+        "A microsolver that calculates particle fluid attribute values ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gascomputeparticleattributes"
+    ],
+    "gascorrectbymarkers": [
+        "A microsolver that adjusts an SDF according to surface markers.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gascorrectbymarkers"
+    ],
+    "gascross": [
+        "A microsolver that computes the cross product of two vector fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gascross"
+    ],
+    "gascurveforce": [
+        "A DOP node that creates forces generated from a curve.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gascurveforce"
+    ],
+    "gasdamp": [
+        "A microsolver that scales down velocity, damping motion.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdamp"
+    ],
+    "gasdiffuse": [
+        "A microsolver that diffuses a field or point attribute. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdiffuse"
+    ],
+    "gasdissipate": [
+        "A microsolver that dissipates a field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdissipate"
+    ],
+    "gasdisturb": [
+        "Adds detail at a certain scale by applying \"disturbance\" forces to a scalar or vector field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdisturb"
+    ],
+    "gasdisturbfieldcl": [
+        "Adds detail at a certain scale by applying \"disturbance\" forces to a scalar or vector field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdisturbfieldcl"
+    ],
+    "gasdsd": [
+        "A microsolver that applies one round detontation shock dyanamics.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdsd"
+    ],
+    "gasdsdconfigureobject": [
+        "Attaches the appropriate data for Smoke Objects to become a fl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdsdconfigureobject"
+    ],
+    "gasdsdsolver": [
+        "A microsolver that applies the flamefront-based fire simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasdsdsolver"
+    ],
+    "gaseachdatasolver": [
+        "A microsolver that runs once for each matching data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaseachdatasolver"
+    ],
+    "gaselasticity": [
+        "A microsolver that computes pairwise elastic forces between partic",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaselasticity"
+    ],
+    "gasembedfluid": [
+        "A microsolver that embeds one fluid inside another.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasembedfluid"
+    ],
+    "gasenforceboundary": [
+        "A microsolver that enforces boundary conditions on a field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasenforceboundary"
+    ],
+    "gasequalizedensity": [
+        "A microsolver that equalizes the density of two fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasequalizedensity"
+    ],
+    "gasequalizevolume": [
+        "A microsolver that equalizes the volume of two fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasequalizevolume"
+    ],
+    "gasexternalforces": [
+        "A microsolver that evaluates the external DOPs forces for each po",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasexternalforces"
+    ],
+    "gasextrapolate": [
+        "A microsolver that extrapolates a field's value along an SDF. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasextrapolate"
+    ],
+    "gasfeatherfield": [
+        "A microsolver that creates a feathered mask out of a field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasfeatherfield"
+    ],
+    "gasfeedback": [
+        "A microsolver that calculates and applies feedback forces to collision geometry. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasfeedback"
+    ],
+    "gasfetchfieldstoembed": [
+        "A data node that fetches the fields needed to embed one fluid",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasfetchfieldstoembed"
+    ],
+    "gasfieldtoparticle": [
+        "A microsolver that copies the values of a field into a po",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasfieldtoparticle"
+    ],
+    "gasfieldvop": [
+        "Runs CVEX on a set of fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasfieldvop"
+    ],
+    "gasfieldwrangle": [
+        "Runs CVEX on a set of fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasfieldwrangle"
+    ],
+    "gasgeometrydefragment": [
+        "A microsolver that defragments geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasgeometrydefragment"
+    ],
+    "gasgeometrytosdf": [
+        "A microsolver that creates a signed distance field out of geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasgeometrytosdf"
+    ],
+    "gasguidingvolume": [
+        "Blends a set of SOP volumes into a set of new collision fields for the creation of a guided simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasguidingvolume"
+    ],
+    "gasimpacttoattributes": [
+        "A microsolver that copies Impact data onto point attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasimpacttoattributes"
+    ],
+    "gasintegrator": [
+        "A microsolver that applies forces to a particle fluid system.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasintegrator"
+    ],
+    "gasintermittentsolve": [
+        "A microsolver that solves its subsolvers at a regular interval.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasintermittentsolve"
+    ],
+    "gaslimit": [
+        "A microsolver that clamps a field within certain values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaslimit"
+    ],
+    "gaslimitparticles": [
+        "A microsolver that keeps particles within a box.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaslimitparticles"
+    ],
+    "gaslinearcombination": [
+        "A microsolver that combines multiple fields or attributes together.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaslinearcombination"
+    ],
+    "gaslocalsharpen": [
+        "A microsolver that adaptively sharpens a field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaslocalsharpen"
+    ],
+    "gaslookup": [
+        "A microsolver that looksup field values according to a posit",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaslookup"
+    ],
+    "gasmatchfield": [
+        "A microsolver that rebuilds fields to match in size and resolut",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasmatchfield"
+    ],
+    "gasmistsolver": [
+        "A microsolver that passively moves particles by a velocity field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasmistsolver"
+    ],
+    "gasnetfetchdata": [
+        "A microsolver that arbitrary simulation data between multi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasnetfetchdata"
+    ],
+    "gasnetfieldborderexchange": [
+        "A microsolver that exchanges boundary data between multi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasnetfieldborderexchange"
+    ],
+    "gasnetslicebalance": [
+        "A microsolver that balances slices data between multiple machines.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasnetslicebalance"
+    ],
+    "gasnetsliceexchange": [
+        "A microsolver that exchanges boundary data between multiple machines.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasnetsliceexchange"
+    ],
+    "gasopencl": [
+        "Executes the provided kernel with the given paramters",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasopencl"
+    ],
+    "gasparticlecount": [
+        "A microsolver that counts the number of particles in each voxel of a field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticlecount"
+    ],
+    "gasparticleforces": [
+        "A microsolver that computes pairwise collision forces betw",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticleforces"
+    ],
+    "gasparticlemovetoiso": [
+        "A microsolver that moves particles to lie along a certain isosurf",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticlemovetoiso"
+    ],
+    "gasparticleneighbourupdate": [
+        " Updates a neighbourhood list for Geometry to match moved points. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticleneighbourupdate"
+    ],
+    "gasparticlepressure": [
+        "A microsolver that computes pairwise fluid pressure forces betw",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticlepressure"
+    ],
+    "gasparticleseparate": [
+        "A microsolver that separates adjacent particles by adjust",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticleseparate"
+    ],
+    "gasparticletofield": [
+        "A microsolver that copies a particle system's point attribute int",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticletofield"
+    ],
+    "gasparticletosdf": [
+        "A microsolver that converts a particle system into a signed dista",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasparticletosdf"
+    ],
+    "gasprojectnondivergent": [
+        "A microsolver that removes the divergent components of a veloc",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasprojectnondivergent"
+    ],
+    "gasprojectnondivergentmultigrid": [
+        "A microsolver that removes the divergent components of a veloc",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasprojectnondivergentmultigrid"
+    ],
+    "gasprojectnondivergentvariational": [
+        "A microsolver that removes the divergent components of a veloc",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasprojectnondivergentvariational"
+    ],
+    "gasreduce": [
+        "A microsolver that reduces a field to a single constant field .",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasreduce"
+    ],
+    "gasreducelocal": [
+        "A microsolver that reduces surrounding voxels to a single value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasreducelocal"
+    ],
+    "gasreinitializesdf": [
+        "A microsolver that reinitializes a signed distance field wh",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasreinitializesdf"
+    ],
+    "gasrepeatsolver": [
+        "A microsolver that repeatedly solves its input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasrepeatsolver"
+    ],
+    "gasresizefield": [
+        "A microsolver that changes the size of fields. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasresizefield"
+    ],
+    "gasresizefluid": [
+        "A microsolver that resizes a fluid to match another object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasresizefluid"
+    ],
+    "gasresizefluiddynamic": [
+        "A microsolver that resizes a fluid to match simulating fluid bounds",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasresizefluiddynamic"
+    ],
+    "gasrest": [
+        "A microsolver that initializes a rest field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasrest"
+    ],
+    "gassandforces": [
+        "A microsolver that computes the forces to treat the fluid simulat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gassandforces"
+    ],
+    "gassdftofog": [
+        "A microsolver that converts an SDF field to a Fog field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gassdftofog"
+    ],
+    "gasseedmarkers": [
+        "A microsolver that seeds marker particles around the boundary of a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasseedmarkers"
+    ],
+    "gasseedparticles": [
+        "A microsolver that seeds particles uniformly inside a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasseedparticles"
+    ],
+    "gasseedvolume": [
+        "A microsolver that seeds flip particles into a new volume region.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasseedvolume"
+    ],
+    "gasshred": [
+        "Applies a Shredding Force to the velocity field specified.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasshred"
+    ],
+    "gasslicetoindexfield": [
+        "A microsolver that computes slice numbers into an index field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasslicetoindexfield"
+    ],
+    "gassphdensity": [
+        "A microsolver that calculates the density at particle positions i",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gassphdensity"
+    ],
+    "gassphforces": [
+        "A microsolver that uses techniques from Smoothed Parti",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gassphforces"
+    ],
+    "gasstickoncollision": [
+        "Adjusts a fluid velocity field to match collision velocities.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasstickoncollision"
+    ],
+    "gasstrainforces": [
+        "A microsolver that calculates the forces imparted by a str",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasstrainforces"
+    ],
+    "gasstrainintegrate": [
+        "A microsolver that updates the strain field according to the curr",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasstrainintegrate"
+    ],
+    "gassubstep": [
+        "A microsolver that substeps input microsolvers.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gassubstep"
+    ],
+    "gassurfacesnap": [
+        "A microsolver that snaps a surface onto a collision surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gassurfacesnap"
+    ],
+    "gassurfacetension": [
+        "A microsolver that calculates a surface tension force proportional",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gassurfacetension"
+    ],
+    "gastargetforce": [
+        "A microsolver that applies a force towards a target object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gastargetforce"
+    ],
+    "gastemperatureupdate": [
+        "Modifies the temperature of a FLIP over time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gastemperatureupdate"
+    ],
+    "gasturbulence": [
+        "Applies Turbulence to the specified velocity field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasturbulence"
+    ],
+    "gasupres": [
+        "Up-scales and/or modifies a smoke, fire, or liquid simulations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasupres"
+    ],
+    "gasupres-": [
+        "Upscales a smoke simulation to a higher resolution by add",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasupres-"
+    ],
+    "gasupresobject": [
+        "Creates an Gas Upres Object from a low resolution fluid sim.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasupresobject"
+    ],
+    "gasvelocitystretch": [
+        "A microsolver that reorients geometry according to motion o",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvelocitystretch"
+    ],
+    "gasviscosity": [
+        "A microsolver that applies viscosity to a velocity field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasviscosity"
+    ],
+    "gasvolumeramp": [
+        "Remaps a field according to a ramp.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvolumeramp"
+    ],
+    "gasvortexboost": [
+        "Applies a confinement force on specific bands of sampled energy.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvortexboost"
+    ],
+    "gasvortexconfinement": [
+        "Applies a vortex confinement force to a velocity field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvortexconfinement"
+    ],
+    "gasvortexequalizer": [
+        "Applies a confinement force on specific bands of sampled energy.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvortexequalizer"
+    ],
+    "gasvorticleforces": [
+        "A microsolver that applies forces to a velocity field or geome",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvorticleforces"
+    ],
+    "gasvorticlegeometry": [
+        "A DOP node that adds the appropriately formatted data to repres",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvorticlegeometry"
+    ],
+    "gasvorticlerecycle": [
+        "A DOP node that recycles vorticles by moving them to the oppos",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gasvorticlerecycle"
+    ],
+    "gaswavelets": [
+        "A microsolver that performs a wavelet decomposition of a field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaswavelets"
+    ],
+    "gaswind": [
+        "A microsolver that applies a wind force.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gaswind"
+    ],
+    "geometrycopy": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/geometrycopy"
+    ],
+    "geometryvop": [
+        "Runs CVEX on geometry attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/geometryvop"
+    ],
+    "geometrywrangle": [
+        "Runs a VEX snippet to modify attribute values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/geometrywrangle"
+    ],
+    "glueconrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/glueconrel"
+    ],
+    "gluenetworkconstraint": [
+        "Glues pairs of RBD objects together according to a polygon network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gluenetworkconstraint"
+    ],
+    "gluenetworkrelationship": [
+        "Defines a glue relationship based on geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gluenetworkrelationship"
+    ],
+    "gravity": [
+        " Applies a gravity-like force to objects. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/gravity"
+    ],
+    "groundplane": [
+        "Creates a ground plane suitable for RBD or cloth simulations. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/groundplane"
+    ],
+    "group": [
+        " Creates simulation object groups. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/group"
+    ],
+    "grouprel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/grouprel"
+    ],
+    "hardconrel": [
+        " Defines a constraint relationship that must always be satisfied.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/hardconrel"
+    ],
+    "hybridconfigureobject": [
+        "Attaches the appropriate data for Hybrid Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/hybridconfigureobject"
+    ],
+    "hybridobject": [
+        "Creates a Hybrid Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/hybridobject"
+    ],
+    "impactanalysis": [
+        "Stores filtered information about impacts on an RBD object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/impactanalysis"
+    ],
+    "impulseforce": [
+        "Applies an impulse to an object. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/impulseforce"
+    ],
+    "indexfield": [
+        "Creates an index field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/indexfield"
+    ],
+    "indexfieldvisualization": [
+        "Visualizes an index field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/indexfieldvisualization"
+    ],
+    "instancedobject": [
+        "Creates DOP Objects according to instance attributes",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/instancedobject"
+    ],
+    "intangiblevalue": [
+        "Marks a simulation object as intangible or tangible.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/intangiblevalue"
+    ],
+    "linktosourceobject": [
+        " Stores the name of the scene level object source for this DOP object. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/linktosourceobject"
+    ],
+    "magnetforce": [
+        "Apply forces on objects using a force field defined by metabal",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/magnetforce"
+    ],
+    "mask": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/mask"
+    ],
+    "matrixfield": [
+        "Creates a matrix field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/matrixfield"
+    ],
+    "matrixfieldvisualization": [
+        "Visualizes a matrix field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/matrixfieldvisualization"
+    ],
+    "merge": [
+        " Merges multiple streams of objects or data into a single stre",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/merge"
+    ],
+    "modifydata": [
+        "Modifies or creates options on arbitrary data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/modifydata"
+    ],
+    "motion": [
+        " Defines an object's position, orientation, linear velocity, ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/motion"
+    ],
+    "multifieldvisualization": [
+        "Unified visualization of multiple fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/multifieldvisualization"
+    ],
+    "multisolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/multisolver"
+    ],
+    "netfetchdata": [
+        "A DOP that transfers arbitrary simulation data between multiple machines.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/netfetchdata"
+    ],
+    "nocollider": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/nocollider"
+    ],
+    "noconrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/noconrel"
+    ],
+    "noise": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/noise"
+    ],
+    "null": [
+        " Does nothing. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/null"
+    ],
+    "objpos": [
+        " Creates position information from an object's transform. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/objpos"
+    ],
+    "ode_solver_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/ode_solver_parms"
+    ],
+    "odeconfigureobject": [
+        "Attaches the appropriate data for ODE Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/odeconfigureobject"
+    ],
+    "odesolver": [
+        " Sets and configures an ODE Dynamics solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/odesolver"
+    ],
+    "old_relationships": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/old_relationships"
+    ],
+    "onlyonce": [
+        " Adds a data only once to an object, regardless of number of wires. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/onlyonce"
+    ],
+    "output": [
+        "Serves as the end-point of the simulation netwo",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/output"
+    ],
+    "particlefieldvisualization": [
+        "Visualizes particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/particlefieldvisualization"
+    ],
+    "particlefluidconfigureobject": [
+        "Attaches the appropriate data for Particle Fluid Objects to",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/particlefluidconfigureobject"
+    ],
+    "particlefluidemitter": [
+        "Emits particles into a particle fluid simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/particlefluidemitter"
+    ],
+    "particlefluidobject": [
+        "Creates a Particle Fluid Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/particlefluidobject"
+    ],
+    "particlefluidsink": [
+        "Removes fluid particles that flow inside of a specified boundary from a simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/particlefluidsink"
+    ],
+    "particlefluidsolver": [
+        "Evolves an object as a particle fluid object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/particlefluidsolver"
+    ],
+    "partition": [
+        " Creates simulation object groups based on an expression. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/partition"
+    ],
+    "physparms": [
+        "Defines the base physical parameters of DOP objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/physparms"
+    ],
+    "pointcollider": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/pointcollider"
+    ],
+    "pointforce": [
+        " Applies a force to an object from a particular location in spa",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/pointforce"
+    ],
+    "pointpos": [
+        " Creates position information from a point on some SOP geometry. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/pointpos"
+    ],
+    "popCommonParms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popCommonParms"
+    ],
+    "popadvectbyfilaments": [
+        "Uses vortex filaments to move particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popadvectbyfilaments"
+    ],
+    "popadvectbyvolumes": [
+        "A POP node that uses velocity volumes to move particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popadvectbyvolumes"
+    ],
+    "popattract": [
+        "A POP node that attracts particles to positions and geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popattract"
+    ],
+    "popattribfromvolume": [
+        "A POP node that copies volume values into a particle attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popattribfromvolume"
+    ],
+    "popawaken": [
+        "A POP node that resets the stopped attribute on particles, waking them up.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popawaken"
+    ],
+    "popaxisforce": [
+        "A POP node that applies a force around an axis.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popaxisforce"
+    ],
+    "popcollisionbehavior": [
+        "A POP node that reacts to collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popcollisionbehavior"
+    ],
+    "popcollisiondetect": [
+        "A POP node that detects and reacts to collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popcollisiondetect"
+    ],
+    "popcollisionignore": [
+        "A POP node marks particles to ignore implicit collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popcollisionignore"
+    ],
+    "popcolor": [
+        "A POP node that colors particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popcolor"
+    ],
+    "popcurveforce": [
+        "A POP node that creates forces generated from a curve.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popcurveforce"
+    ],
+    "popdrag": [
+        "A POP node that applies drag to particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popdrag"
+    ],
+    "popdragspin": [
+        "A POP node that applies drag to the spin of particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popdragspin"
+    ],
+    "popfan": [
+        "A POP node that applies a conical fan wind to particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popfan"
+    ],
+    "popfireworks": [
+        "A POP node that creates a simple fireworks system.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popfireworks"
+    ],
+    "popfloatbyvolumes": [
+        "A POP node that floats particles on the surface of a liquid simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popfloatbyvolumes"
+    ],
+    "popflock": [
+        "A POP node that applies a flocking algorithm to particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popflock"
+    ],
+    "popforce": [
+        "A POP node that applies forces to particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popforce"
+    ],
+    "popgrains": [
+        "A POP node that applies sand grain interaction to particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popgrains"
+    ],
+    "popgroup": [
+        "A POP node that groups particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popgroup"
+    ],
+    "popinstance": [
+        "A POP node that sets up the instancepath for particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popinstance"
+    ],
+    "popinteract": [
+        "A POP node that applies forces between particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popinteract"
+    ],
+    "popkill": [
+        "A POP node that kills particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popkill"
+    ],
+    "poplimit": [
+        "A POP node that limits particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/poplimit"
+    ],
+    "poplocalforce": [
+        "A POP node that applies forces within the particle's frame.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/poplocalforce"
+    ],
+    "poplocation": [
+        "A POP solver that generates particles at a point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/poplocation"
+    ],
+    "poplookat": [
+        "A POP node makes a particle look at a point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/poplookat"
+    ],
+    "popmetaballforce": [
+        "A POP node that applies forces according to metaballs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popmetaballforce"
+    ],
+    "popobject": [
+        "Converts a regular particle system into a dynamic object capable of interacting correctly with other objects in the DOP environment.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popobject"
+    ],
+    "popproperty": [
+        "A POP node that sets various common attributes on particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popproperty"
+    ],
+    "popproximity": [
+        "A POP node that sets attributes based on nearby particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popproximity"
+    ],
+    "popreplicate": [
+        "A POP Node that generates particles from incoming particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popreplicate"
+    ],
+    "popshapematch": [
+        " Defines the parameters to be used to match a particle system with a target shape. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popshapematch"
+    ],
+    "popsoftlimit": [
+        "A POP node that creates a spongy boundary.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsoftlimit"
+    ],
+    "popsolver": [
+        "A POP solver updates particles according to their velocities and forces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsolver"
+    ],
+    "popsolver-": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsolver-"
+    ],
+    "popsource": [
+        "A POP node that generates particles from geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsource"
+    ],
+    "popspeedlimit": [
+        "A POP node that sets the speed limits for particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popspeedlimit"
+    ],
+    "popspin": [
+        "A POP node that sets the spin of particles..",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popspin"
+    ],
+    "popspinbyvolumes": [
+        "A POP node that uses the vorticity of velocity volumes to spin particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popspinbyvolumes"
+    ],
+    "popsprite": [
+        "A POP node that sets the sprite display for particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsprite"
+    ],
+    "popsteeralign": [
+        "Applies force to agents/particles to align them with neighbors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteeralign"
+    ],
+    "popsteeravoid": [
+        "Applies anticipatory avoidance force to agents/particles to avoid potential future collisions with other agents/particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteeravoid"
+    ],
+    "popsteercohesion": [
+        "Applies forces to agents/particles to bring them closer to their neighbors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteercohesion"
+    ],
+    "popsteercustom": [
+        "Applies forces to agents/particles calulated using a VOP network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteercustom"
+    ],
+    "popsteerobstacle": [
+        "Applies force to agents/particles to avoid potential collisions with static objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteerobstacle"
+    ],
+    "popsteerpath": [
+        "Applies force to agents/particles according to directions from a path curve.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteerpath"
+    ],
+    "popsteerseek": [
+        "Applies force to agents/particles to move them toward a target position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteerseek"
+    ],
+    "popsteerseparate": [
+        "Apply force to agents/particles to move them apart from each other.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteerseparate"
+    ],
+    "popsteersolver": [
+        "Used internally in the crowd solver to integrate [steering forces|/crowds/weights].",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteersolver"
+    ],
+    "popsteersolver-": [
+        "Used internally in the crowd solver to integrate custom steering forces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteersolver-"
+    ],
+    "popsteerturnconstraint": [
+        "Constrains agent velocity to only go in a direction within a certain angle range of its current heading, to prevent agents from floating backward.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteerturnconstraint"
+    ],
+    "popsteerwander": [
+        "Apply forces to agents/particles to create a random motion.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popsteerwander"
+    ],
+    "popstream": [
+        "A POP node that creates a new stream of particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popstream"
+    ],
+    "poptorque": [
+        "A POP node that applies torque to particles, causing them to spin.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/poptorque"
+    ],
+    "popvelocity": [
+        "A POP node that directly changes the velocity of particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popvelocity"
+    ],
+    "popvop": [
+        "Runs CVEX on a particle system.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popvop"
+    ],
+    "popwind": [
+        "A POP node that applies wind to particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popwind"
+    ],
+    "popwrangle": [
+        "Runs a VEX snippet to modify particles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/popwrangle"
+    ],
+    "position": [
+        " Associates a position and orientation to an object. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/position"
+    ],
+    "pumprel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/pumprel"
+    ],
+    "pyrosolver": [
+        "Sets and configures a Pyro solver. This solver can be used to create both fire and smoke.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/pyrosolver"
+    ],
+    "pyrosolver-": [
+        "Sets and configures a Pyro solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/pyrosolver-"
+    ],
+    "rbd_solver_collisions": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbd_solver_collisions"
+    ],
+    "rbd_solver_substeps": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbd_solver_substeps"
+    ],
+    "rbdangularconstraint": [
+        "Constrains an RBD object to a certain orientation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdangularconstraint"
+    ],
+    "rbdangularspringconstraint": [
+        "Constrains an RBD object to have a certain orientation, but w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdangularspringconstraint"
+    ],
+    "rbdautofreeze": [
+        "Automatically freezes RBD Objects that have come to rest",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdautofreeze"
+    ],
+    "rbdconetwistconstraint": [
+        "Constrains an object to remain a certain distance from the constraint, and limits the object's rotation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdconetwistconstraint"
+    ],
+    "rbdconfigureobject": [
+        "Attaches the appropriate data for RBD Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdconfigureobject"
+    ],
+    "rbdfracturedobject": [
+        "Creates a number of RBD Objects from SOP Geometry. These individual RBD Objects are created from the geometry name attributes. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdfracturedobject"
+    ],
+    "rbdglueobject": [
+        " Creates a number of RBD Objects from SOP Geometry. These individ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdglueobject"
+    ],
+    "rbdhingeconstraint": [
+        "Constrains an object to two constraints, creating a rotation simi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdhingeconstraint"
+    ],
+    "rbdkeyactive": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdkeyactive"
+    ],
+    "rbdobject": [
+        "Creates an RBD Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdobject"
+    ],
+    "rbdpackedobject": [
+        " Creates a single DOP object from SOP Geometry that represents a number of RBD Objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdpackedobject"
+    ],
+    "rbdpinconstraint": [
+        "Constrains an RBD object a certain distance from the constraint.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdpinconstraint"
+    ],
+    "rbdpointobject": [
+        "Creates a simulation object at each point of some source geometry, similarly to how the Copy surface node copies geometry onto points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdpointobject"
+    ],
+    "rbdsliderconstraint": [
+        "Constrains an object to rotate and translate on a single axis, and limits the rotation and translation on that axis.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdsliderconstraint"
+    ],
+    "rbdsolver": [
+        " Sets and configures a Rigid Body Dynamics solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdsolver"
+    ],
+    "rbdspringconstraint": [
+        "Constrains an object to remain a certain distance from the constrai",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdspringconstraint"
+    ],
+    "rbdstate": [
+        " Alters the state information for an RBD Object. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdstate"
+    ],
+    "rbdvisualization": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rbdvisualization"
+    ],
+    "referenceframeforce": [
+        " Applies forces to an object according to the difference betw",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/referenceframeforce"
+    ],
+    "renderparms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/renderparms"
+    ],
+    "renderparmsvolatile": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/renderparmsvolatile"
+    ],
+    "rigidbodysolver": [
+        " Sets and configures a Rigid Body Dynamics solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rigidbodysolver"
+    ],
+    "rippleconfigureobject": [
+        "Attaches the appropriate data for Ripple Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rippleconfigureobject"
+    ],
+    "rippleobject": [
+        "Creates an object from existing geometry that will be defor",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rippleobject"
+    ],
+    "ripplesolver": [
+        "Animates wave propagation across Ripple Objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/ripplesolver"
+    ],
+    "rop_dop": [
+        "Saves the state of a DOP network simulation into files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/rop_dop"
+    ],
+    "sandconfigureobject": [
+        "Attaches the appropriate data for Sand Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sandconfigureobject"
+    ],
+    "sandobject": [
+        "Attaches the appropriate data for Sand Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sandobject"
+    ],
+    "sandsolver": [
+        "Sets and configures a Sand solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sandsolver"
+    ],
+    "sbdconstraint": [
+        "Constrains a set of points on a soft body object to a certain position using a hard constraint or soft constraint.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sbdconstraint"
+    ],
+    "sbdpinconstraint": [
+        "Constrains a point on a soft body object to a certain position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sbdpinconstraint"
+    ],
+    "sbdspringconstraint": [
+        "Constrains a point on a soft body to a certain positi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sbdspringconstraint"
+    ],
+    "scalarfield": [
+        "Creates a scalar field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/scalarfield"
+    ],
+    "scalarfieldvisualization": [
+        "Visualizes a scalar field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/scalarfieldvisualization"
+    ],
+    "scriptsolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/scriptsolver"
+    ],
+    "seamproperties": [
+        "Defines the internal seam angle.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/seamproperties"
+    ],
+    "shellmassproperties": [
+        "Defines the mass density of a Cloth Object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/shellmassproperties"
+    ],
+    "sinkrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sinkrel"
+    ],
+    "slicealongline": [
+        "Divides a particle system uniformly into multiple slices alon",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/slicealongline"
+    ],
+    "sliceplane": [
+        "Specifies a cutting plane to divide a particle system into ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sliceplane"
+    ],
+    "sliderconrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sliderconrel"
+    ],
+    "smokeconfigureobject": [
+        "Attaches the appropriate data for Smoke Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/smokeconfigureobject"
+    ],
+    "smokeobject": [
+        "Creates an Smoke Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/smokeobject"
+    ],
+    "smokesolver": [
+        "Sets and configures a Smoke solver. This is a slightly lower-level solver that is the basis for the Pyro solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/smokesolver"
+    ],
+    "smokesolver-": [
+        " Sets and configures a Smoke solver. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/smokesolver-"
+    ],
+    "softattachconrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softattachconrel"
+    ],
+    "softbodycollisionproperties": [
+        "Defines how a soft body object responds to collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softbodycollisionproperties"
+    ],
+    "softbodyfractureproperties": [
+        "Defines how a Soft Body Object responds to collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softbodyfractureproperties"
+    ],
+    "softbodymaterialbehavior": [
+        "Defines how a Soft Body Object responds to collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softbodymaterialbehavior"
+    ],
+    "softbodyplasticityproperties": [
+        "Defines how a Soft Body Object responds to collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softbodyplasticityproperties"
+    ],
+    "softbodyrestproperties": [
+        "Allows the user to import the rest state from a SOP node.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softbodyrestproperties"
+    ],
+    "softbodysolver": [
+        "Sets and configures a Soft Body solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softbodysolver"
+    ],
+    "softbodytargetproperties": [
+        "Defines the strengths of the soft constraint on a soft body object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/softbodytargetproperties"
+    ],
+    "solidanisoproperties": [
+        "Controls the anisotropic behavior of a Solid Object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidanisoproperties"
+    ],
+    "solidconfigureobject": [
+        "Attaches the appropriate data for Solid Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidconfigureobject"
+    ],
+    "solidmassproperties": [
+        "Defines the mass density of a Solid Object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidmassproperties"
+    ],
+    "solidmodeldata": [
+        "Defines how a Solid Object reacts to strain and change of volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidmodeldata"
+    ],
+    "solidobject": [
+        "Creates a Solid Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidobject"
+    ],
+    "solidobject-": [
+        "Creates a Solid Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidobject-"
+    ],
+    "solidsolver-": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidsolver-"
+    ],
+    "solidsolver-2.0": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidsolver-2.0"
+    ],
+    "solidvisualization": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/solidvisualization"
+    ],
+    "sopgeo": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sopgeo"
+    ],
+    "sopguide": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sopguide"
+    ],
+    "sopscalarfield": [
+        "Creates a scalar field from a SOP Volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sopscalarfield"
+    ],
+    "sopsolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sopsolver"
+    ],
+    "sopvectorfield": [
+        "Creates a vector field from a SOP Volume Primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sopvectorfield"
+    ],
+    "sourceapply": [
+        "Turns objects into a source for a fluid sim.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sourceapply"
+    ],
+    "sourcefilaments": [
+        "Imports vortex filaments from a SOP network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sourcefilaments"
+    ],
+    "sourcerel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sourcerel"
+    ],
+    "sourcevolume": [
+        "A microsolver that imports and directly applies SOP volume data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sourcevolume"
+    ],
+    "sphereedgetree": [
+        " This builds a tree of spheres producing bounding information for",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/sphereedgetree"
+    ],
+    "spherepointtree": [
+        " This builds a tree of spheres producing bounding information fo",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/spherepointtree"
+    ],
+    "split": [
+        " Splits an incoming object stream into as many as four out",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/split"
+    ],
+    "springconrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/springconrel"
+    ],
+    "springnetworkconstraint": [
+        "Constrains pairs of SBD objects together according to a polygon network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/springnetworkconstraint"
+    ],
+    "springnetworkrelationship": [
+        "Defines a spring relationship based on geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/springnetworkrelationship"
+    ],
+    "squishyobject": [
+        "The Squishy Object DOP converts a geometry object into a dynamic object t",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/squishyobject"
+    ],
+    "standard_bulletconstraint_parm": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_bulletconstraint_parm"
+    ],
+    "standard_bulletdata_parm": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_bulletdata_parm"
+    ],
+    "standard_clothcollision_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_clothcollision_parms"
+    ],
+    "standard_clothinitial_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_clothinitial_parms"
+    ],
+    "standard_clothmaterial_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_clothmaterial_parms"
+    ],
+    "standard_clothobjectattribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_clothobjectattribs"
+    ],
+    "standard_clothshell_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_clothshell_parms"
+    ],
+    "standard_clothvisualization": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_clothvisualization"
+    ],
+    "standard_clothvisualization_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_clothvisualization_parms"
+    ],
+    "standard_conanchorpos_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_conanchorpos_parms"
+    ],
+    "standard_conanchorrot_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_conanchorrot_parms"
+    ],
+    "standard_conetwistconrelguide_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_conetwistconrelguide_parms"
+    ],
+    "standard_conguide_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_conguide_parms"
+    ],
+    "standard_conrel_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_conrel_parms"
+    ],
+    "standard_conrelguide_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_conrelguide_parms"
+    ],
+    "standard_conspring_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_conspring_parms"
+    ],
+    "standard_constraintnetworkattribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_constraintnetworkattribs"
+    ],
+    "standard_data_idparms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_data_idparms"
+    ],
+    "standard_data_inputs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_data_inputs"
+    ],
+    "standard_data_locals": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_data_locals"
+    ],
+    "standard_data_outputs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_data_outputs"
+    ],
+    "standard_data_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_data_parms"
+    ],
+    "standard_dataactive_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_dataactive_parms"
+    ],
+    "standard_datagroup_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_datagroup_parms"
+    ],
+    "standard_dataname_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_dataname_parms"
+    ],
+    "standard_dataop_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_dataop_parms"
+    ],
+    "standard_datashare_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_datashare_parms"
+    ],
+    "standard_distribution": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_distribution"
+    ],
+    "standard_embedding_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_embedding_parms"
+    ],
+    "standard_febody_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_febody_parms"
+    ],
+    "standard_fehybridshell_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_fehybridshell_parms"
+    ],
+    "standard_fehybridsolid_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_fehybridsolid_parms"
+    ],
+    "standard_feinitial_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_feinitial_parms"
+    ],
+    "standard_feoutputattributes_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_feoutputattributes_parms"
+    ],
+    "standard_ferest_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_ferest_parms"
+    ],
+    "standard_fesolid_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_fesolid_parms"
+    ],
+    "standard_fetarget_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_fetarget_parms"
+    ],
+    "standard_finiteelement_attribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_finiteelement_attribs"
+    ],
+    "standard_fluidpositionpath": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_fluidpositionpath"
+    ],
+    "standard_force_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_force_parms"
+    ],
+    "standard_gas_calculate": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_gas_calculate"
+    ],
+    "standard_gas_divisions": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_gas_divisions"
+    ],
+    "standard_gas_slice": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_gas_slice"
+    ],
+    "standard_gas_timestep": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_gas_timestep"
+    ],
+    "standard_locals": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_locals"
+    ],
+    "standard_objcreation": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_objcreation"
+    ],
+    "standard_ode_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_ode_parms"
+    ],
+    "standard_physparms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_physparms"
+    ],
+    "standard_pop_inputs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_pop_inputs"
+    ],
+    "standard_pop_outputs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_pop_outputs"
+    ],
+    "standard_pop_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_pop_parms"
+    ],
+    "standard_rbdphysparms_attribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_rbdphysparms_attribs"
+    ],
+    "standard_rbdvolume_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_rbdvolume_parms"
+    ],
+    "standard_reldata_inputs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_reldata_inputs"
+    ],
+    "standard_reldata_outputs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_reldata_outputs"
+    ],
+    "standard_reldata_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_reldata_parms"
+    ],
+    "standard_rorcollider_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_rorcollider_parms"
+    ],
+    "standard_sliderconrelguide_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_sliderconrelguide_parms"
+    ],
+    "standard_softbodycollision_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_softbodycollision_parms"
+    ],
+    "standard_softbodydrag_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_softbodydrag_parms"
+    ],
+    "standard_softbodyrest_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_softbodyrest_parms"
+    ],
+    "standard_softbodytarget_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_softbodytarget_parms"
+    ],
+    "standard_solidcollision_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_solidcollision_parms"
+    ],
+    "standard_solidinitial_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_solidinitial_parms"
+    ],
+    "standard_solidmaterial_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_solidmaterial_parms"
+    ],
+    "standard_solidmodel_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_solidmodel_parms"
+    ],
+    "standard_solidobjectattribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_solidobjectattribs"
+    ],
+    "standard_solver_mutualparms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_solver_mutualparms"
+    ],
+    "standard_solver_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_solver_parms"
+    ],
+    "standard_springnetworkattribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_springnetworkattribs"
+    ],
+    "standard_voronoifracture_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_voronoifracture_parms"
+    ],
+    "standard_wave_attribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_wave_attribs"
+    ],
+    "standard_wireelasticity_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_wireelasticity_parms"
+    ],
+    "standard_wireobjectattribs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_wireobjectattribs"
+    ],
+    "standard_wireobjecttabs": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_wireobjecttabs"
+    ],
+    "standard_wirephys_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_wirephys_parms"
+    ],
+    "standard_wireplasticity_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_wireplasticity_parms"
+    ],
+    "standard_wirevisualization_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/standard_wirevisualization_parms"
+    ],
+    "staticobject": [
+        "Creates a Static Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/staticobject"
+    ],
+    "staticsolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/staticsolver"
+    ],
+    "staticvisualization": [
+        "Allows you to inspect the behavior of a static object in the viewport.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/staticvisualization"
+    ],
+    "subnet": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/subnet"
+    ],
+    "surfacecollisionparms": [
+        "Control the thickness of the object that collides with cloth.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/surfacecollisionparms"
+    ],
+    "switch": [
+        " Passes one of the input object or data streams to the output. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/switch"
+    ],
+    "switchsolver": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/switchsolver"
+    ],
+    "switchvalue": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/switchvalue"
+    ],
+    "targetconstraint": [
+        "Constrains a soft body object to a target trajectory using a hard constraint or soft constraint.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/targetconstraint"
+    ],
+    "targetrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/targetrel"
+    ],
+    "terrainobject": [
+        "Creates a Terrain Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/terrainobject"
+    ],
+    "thinplatecollider": [
+        " Defines a way of resolving collisions between two rigid bodies. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/thinplatecollider"
+    ],
+    "twostateconrel": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/twostateconrel"
+    ],
+    "uniformforce": [
+        "Applies a uniform force and torque to objects. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/uniformforce"
+    ],
+    "vectorfield": [
+        "Creates a vector field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/vectorfield"
+    ],
+    "vectorfieldvisualization": [
+        "Visualizes a vector field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/vectorfieldvisualization"
+    ],
+    "velimpulseforce": [
+        "Applies an impulse to an object. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/velimpulseforce"
+    ],
+    "visualizegeometry": [
+        "A microsolver to create soft references to visualizers on itself.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/visualizegeometry"
+    ],
+    "volume": [
+        " Creates a signed distance field representation of a piece",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/volume"
+    ],
+    "volumecollider": [
+        " Defines a way of resolving collisions involving two rigid bod",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/volumecollider"
+    ],
+    "vopforce": [
+        "Applies forces on the objects according to a VOP network. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/vopforce"
+    ],
+    "voronoi_fracture_solver_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/voronoi_fracture_solver_parms"
+    ],
+    "voronoifractureconfigureobject": [
+        "Attaches the appropriate data to make an object fractureable by the Voronoi Fracture Solver",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/voronoifractureconfigureobject"
+    ],
+    "voronoifractureparms": [
+        "Defines the parameters for dynamic fracturing using the Voro",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/voronoifractureparms"
+    ],
+    "voronoifracturesolver": [
+        "Dynamically fractures objects based on data from the Voro",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/voronoifracturesolver"
+    ],
+    "vortexforce": [
+        " Applies a vortex-like force on objects, causing them to orbit ab",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/vortexforce"
+    ],
+    "whitewateremitter": [
+        "A POP solver that generates particles for the Whitewater Solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/whitewateremitter"
+    ],
+    "whitewaterobject": [
+        " Creates a Whitewater Object that holds data for a whitewater simulation. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/whitewaterobject"
+    ],
+    "whitewatersolver": [
+        " Sets and configures a Whitewater solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/whitewatersolver"
+    ],
+    "windforce": [
+        "Applies forces to resist the current motion of objects relative",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/windforce"
+    ],
+    "wireangularconstraint": [
+        "Constrains a wire point's orientation to a certain direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wireangularconstraint"
+    ],
+    "wireangularspringconstraint": [
+        "Constrains a wire point's orientation to a certain directi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wireangularspringconstraint"
+    ],
+    "wireconfigureobject": [
+        "Attaches the appropriate data for Wire Objects to an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wireconfigureobject"
+    ],
+    "wireelasticity": [
+        "Defines the elasticity of a wire object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wireelasticity"
+    ],
+    "wireglueconstraint": [
+        "Constraints a wire point to a certain position and direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wireglueconstraint"
+    ],
+    "wireobject": [
+        "Creates a Wire Object from SOP Geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wireobject"
+    ],
+    "wirephysparms": [
+        "Defines the physical parameters of a wire object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wirephysparms"
+    ],
+    "wireplasticity": [
+        "Defines the plasticity of a wire object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wireplasticity"
+    ],
+    "wiresolver": [
+        "Sets and configures a Wire solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wiresolver"
+    ],
+    "wirevisualization": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wirevisualization"
+    ],
+    "wirevolumecollider": [
+        " Defines a way of resolving collisions involving a wire object ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wirevolumecollider"
+    ],
+    "wirewirecollider": [
+        " Defines a way of resolving collisions between two wires. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/dop/wirewirecollider"
+    ]
+}

@@ -1,3 +1,0 @@
-#type:include
-
-This COP node is a [generator|_generators].

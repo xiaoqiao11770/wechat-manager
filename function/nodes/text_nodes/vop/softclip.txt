@@ -1,9 +1,0 @@
-= Soft Clip =
-
-#type: node
-#context: Vop
-#internal: softclip
-
-"""Increases or decreases contrast for values at the _top_ of the input range."""
-
-This note is used by the [Node:shop/pyro] Shader to shape field values.

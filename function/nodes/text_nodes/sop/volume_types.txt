@@ -1,3 +1,0 @@
-#type: include
-
-See [volumes|/model/volumes] for an explanation of standard volumes and OpenVDB volumes.

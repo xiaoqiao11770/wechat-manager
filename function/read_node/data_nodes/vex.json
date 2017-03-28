@@ -1,0 +1,102 @@
+{
+    "_index": [
+        "Containers for VOP networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/_index"
+    ],
+    "chop": [
+        "This network defines a CHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/chop"
+    ],
+    "cop2filter": [
+        "This network defines a COP operator type that requires at least ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/cop2filter"
+    ],
+    "cop2gen": [
+        "This network defines a COP operator type that takes no inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/cop2gen"
+    ],
+    "cvex": [
+        "This network defines a CVEX shader (SHOP).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/cvex"
+    ],
+    "displace": [
+        "This network defines a SHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/displace"
+    ],
+    "fog": [
+        "This network defines a SHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/fog"
+    ],
+    "image3d": [
+        "This network defines a SHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/image3d"
+    ],
+    "light": [
+        "This network defines a SHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/light"
+    ],
+    "photon": [
+        "This network defines a SHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/photon"
+    ],
+    "pop": [
+        "This network defines a POP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/pop"
+    ],
+    "rsl_displace": [
+        "Creates a RenderMan RSL displacement shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/rsl_displace"
+    ],
+    "rsl_imager": [
+        "Creates a RenderMan RSL imager shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/rsl_imager"
+    ],
+    "rsl_light": [
+        "Creates a RenderMan RSL light shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/rsl_light"
+    ],
+    "rsl_surface": [
+        "Creates a RenderMan RSL surface shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/rsl_surface"
+    ],
+    "rsl_volume": [
+        "Creates a RenderMan RSL volume shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/rsl_volume"
+    ],
+    "shadow": [
+        "This network defines a SHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/shadow"
+    ],
+    "sop": [
+        "This network defines a surface node (SOP).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/sop"
+    ],
+    "subnet": [
+        "This network contains other VOP networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/subnet"
+    ],
+    "surface": [
+        "This network defines a SHOP operator type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vex/surface"
+    ]
+}

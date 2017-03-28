@@ -1,7 +1,0 @@
-#type: node
-#context: vop
-#internal: rsl_illuminance
-
-= RenderMan Illuminance Loop =
-
-See the RSL illuminance loop construct in the RenderMan documentation.

@@ -1,0 +1,2567 @@
+{
+    "_heightfield_common": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/_heightfield_common"
+    ],
+    "_index": [
+        "Geometry nodes live inside Geo objects and generate geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/_index"
+    ],
+    "add": [
+        "Creates Points or Polygons, or adds points/polys to an input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/add"
+    ],
+    "agent": [
+        "Creates agent primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agent"
+    ],
+    "agentclip": [
+        "Adds new clips to agent primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentclip"
+    ],
+    "agentclipproperties": [
+        "Defines how agents' animation clips should be played back.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentclipproperties"
+    ],
+    "agentcliptransitiongraph": [
+        "Creates geometry describing possible transitions between animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentcliptransitiongraph"
+    ],
+    "agentcollisionlayer": [
+        "Creates a new agent layer that is suitable for collision detection.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentcollisionlayer"
+    ],
+    "agentconfigurejoints": [
+        "Creates point attributes that specify the rotation limits of an agent's joints.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentconfigurejoints"
+    ],
+    "agentconstraintnetwork": [
+        "Builds a constraint network to hold an agent's limbs together.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentconstraintnetwork"
+    ],
+    "agentedit": [
+        "Edits properties of agent primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentedit"
+    ],
+    "agentlayer": [
+        "Adds a new layer to agent primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentlayer"
+    ],
+    "agentlookat": [
+        "Adjusts the head of an agent to look at a specific object or position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentlookat"
+    ],
+    "agentlookat-": [
+        "Adjusts the head of an agent to look at a specific object or position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentlookat-"
+    ],
+    "agentprep": [
+        "Adds various common point attributes to agents for use by other crowd nodes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentprep"
+    ],
+    "agentprep-": [
+        "Adds various common point attributes to agents for use by other crowd nodes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentprep-"
+    ],
+    "agentprep-2.0": [
+        "Adds various common point attributes to agents for use by other crowd nodes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentprep-2.0"
+    ],
+    "agentproxy": [
+        "Provides simple proxy geometry for an agent.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentproxy"
+    ],
+    "agentterrainadaptation": [
+        "Adapts agents' legs to conform to terrain and prevent the feet from sliding.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agentterrainadaptation"
+    ],
+    "agenttransformgroup": [
+        "Adds new transform groups to agent primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/agenttransformgroup"
+    ],
+    "alembic": [
+        "Loads the geometry from an Alembic scene archive (`.abc`) file into a geometry network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/alembic"
+    ],
+    "alembicgroup": [
+        "Creates a geometry group for Alembic primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/alembicgroup"
+    ],
+    "alembicprimitive": [
+        "Modifies intrinsic properties of Alembic primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/alembicprimitive"
+    ],
+    "align": [
+        "Aligns a group of primitives to each other or to an auxiliary input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/align"
+    ],
+    "assemble": [
+        "Cleans up a series of break operations and creates the resulting pieces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/assemble"
+    ],
+    "attribblur": [
+        "Blurs out (or \"relaxes\") points in a mesh or a point cloud.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribblur"
+    ],
+    "attribcast": [
+        "Changes the size/precision Houdini uses to store an attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribcast"
+    ],
+    "attribcomposite": [
+        "Composites vertex, point, primitive, and",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribcomposite"
+    ],
+    "attribcopy": [
+        "Copies attributes between groups of vertic",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribcopy"
+    ],
+    "attribcreate": [
+        "Adds or edits user defined attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribcreate"
+    ],
+    "attribcreate-": [
+        "Adds or edits user defined attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribcreate-"
+    ],
+    "attribdelete": [
+        "Deletes point and primitive attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribdelete"
+    ],
+    "attribexpression": [
+        "Allows simple VEX expressions to modify attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribexpression"
+    ],
+    "attribfade": [
+        "Fades a point attribute in and out over time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribfade"
+    ],
+    "attribfrommap": [
+        " Samples texture map information to a point attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribfrommap"
+    ],
+    "attribfromvolume": [
+        "Copies information from a volume onto the point attributes",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribfromvolume"
+    ],
+    "attribinterpolate": [
+        "Interpolates attributes within primitives or based on explicit weights.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribinterpolate"
+    ],
+    "attribmirror": [
+        "Copies and flips attributes from one side of a plane",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribmirror"
+    ],
+    "attribpromote": [
+        "Promotes or demotes attributes from one geometry level to another.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribpromote"
+    ],
+    "attribrandomize": [
+        "Generates random attribute values of various distributions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribrandomize"
+    ],
+    "attribreorient": [
+        "Modifies point attributes based on differences between two models.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribreorient"
+    ],
+    "attribstringedit": [
+        "Edits string attribute values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribstringedit"
+    ],
+    "attribswap": [
+        "Copies, moves and swaps entire attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribswap"
+    ],
+    "attribtransfer": [
+        "Transfers vertex, point, primitive, and",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribtransfer"
+    ],
+    "attribtransferbyuv": [
+        "Transfers attributes between two geometries based on UV proximity.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribtransferbyuv"
+    ],
+    "attribute": [
+        "Renames or deletes point and primitive attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribute"
+    ],
+    "attribvop": [
+        "Runs a VOP network to modify geometry attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribvop"
+    ],
+    "attribwrangle": [
+        "Runs a VEX snippet to modify attribute values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/attribwrangle"
+    ],
+    "bakeode": [
+        "Converts primitives for ODE and Bullet solvers.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bakeode"
+    ],
+    "bakevolume": [
+        "Computes lighting values within volume primitives",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bakevolume"
+    ],
+    "basis": [
+        "Provides operations for moving knots within the parametric sp",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/basis"
+    ],
+    "bend": [
+        "Applies deformations such as bend, taper, squash/stretch, and twist.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bend"
+    ],
+    "blast": [
+        "Deletes primitives, points, edges or breakpoints.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/blast"
+    ],
+    "blendshapes": [
+        "Computes a 3D metamorphosis between shapes with the s",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/blendshapes"
+    ],
+    "block_begin": [
+        "The start of a looping block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/block_begin"
+    ],
+    "block_end": [
+        "The end/output of a looping block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/block_end"
+    ],
+    "bonecapturebiharmonic": [
+        "Supports Deform by assigning capture weights to points based on biharmonic functions on tetrahedral meshes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bonecapturebiharmonic"
+    ],
+    "bonecapturelines": [
+        "Supports Bone Capture Biharmonic by creating lines from bones with suitable attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bonecapturelines"
+    ],
+    "bonelink": [
+        "Creates default geometry for Bone objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bonelink"
+    ],
+    "boolean": [
+        "Combines two polygonal objects with boolean operators, or finds the intersection lines between two polygonal objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/boolean"
+    ],
+    "bound": [
+        "Creates an axis-aligned bounding box or sphere for the input geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bound"
+    ],
+    "box": [
+        "Creates a cube or six-sided rectangular box.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/box"
+    ],
+    "break": [
+        "Breaks the input geometry using the specified cutting shape.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/break"
+    ],
+    "bridge": [
+        "Skins trimmed surfaces or holes, creates highly controllable jo",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bridge"
+    ],
+    "bulge": [
+        "Deforms the points in the first input using one or more magn",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/bulge"
+    ],
+    "cache": [
+        "Records and caches its input geometry for faster playback.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cache"
+    ],
+    "cap": [
+        "Closes open areas with flat or rounded coverings.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cap"
+    ],
+    "capture": [
+        "Supports Bone Deform by assigning capture weights to bones.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/capture"
+    ],
+    "captureattribpack": [
+        "Converts array attributes into a single index-pair capture attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/captureattribpack"
+    ],
+    "captureattribunpack": [
+        "Converts a single index-pair capture attribute into per-point and detail array attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/captureattribunpack"
+    ],
+    "capturecorrect": [
+        "Adjusts capture regions and capture weights.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/capturecorrect"
+    ],
+    "capturelayerpaint": [
+        "Lets you paint capture attributes directly onto geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/capturelayerpaint"
+    ],
+    "capturemeta": [
+        "Captures points on geometry to metabal",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/capturemeta"
+    ],
+    "capturemirror": [
+        "Copies capture attributes from one half of a symmetric model to ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/capturemirror"
+    ],
+    "captureoverride": [
+        "Overrides the capture weights on individual points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/captureoverride"
+    ],
+    "captureproximity": [
+        "Supports Bone Deform by assigning capture weights to points based on distance to bones.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/captureproximity"
+    ],
+    "carve": [
+        "Slices, cuts or extracts points or cross-sections fro",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/carve"
+    ],
+    "channel": [
+        "Reads sample data from a chop and converts it into point positi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/channel"
+    ],
+    "circle": [
+        "Creates open or closed arcs, circles and ellipses.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/circle"
+    ],
+    "clay": [
+        "Lets you deform NURBS faces and NURBS surfaces by pulling points that ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/clay"
+    ],
+    "clean": [
+        "Helps clean up dirty models.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/clean"
+    ],
+    "clip": [
+        "Removes or groups geometry on one side of a pla",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/clip"
+    ],
+    "clothcapture": [
+        "Captures low-res simulated cloth.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/clothcapture"
+    ],
+    "clothdeform": [
+        "Deforms geometry captured by the Cloth Capture SOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/clothdeform"
+    ],
+    "cloud": [
+        "Creates a volume representation of source geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cloud"
+    ],
+    "cloudlight": [
+        "Fills a volume with a diffuse light.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cloudlight"
+    ],
+    "cloudnoise": [
+        "Applies a cloud like noise to a Fog volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cloudnoise"
+    ],
+    "cluster": [
+        "Low-level machinery to cluster points based on their positions (or any vector attribute).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cluster"
+    ],
+    "clusterpoints": [
+        "Higher-level node to cluster points based on their positions (or any vector attribute).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/clusterpoints"
+    ],
+    "collisionsource": [
+        "Creates geometry and VDB volumes for use with DOPs collisions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/collisionsource"
+    ],
+    "color": [
+        "Adds color attributes to geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/color"
+    ],
+    "comb": [
+        "Adjust surface point normals by painting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/comb"
+    ],
+    "compile_begin": [
+        "The start of a compile block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/compile_begin"
+    ],
+    "compile_end": [
+        "The end/output of a compile block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/compile_end"
+    ],
+    "connectadjacentpieces": [
+        "Creates lines between nearby pieces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/connectadjacentpieces"
+    ],
+    "connectivity": [
+        "Creates an attribute with a unique value for each set of connected primitives or points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/connectivity"
+    ],
+    "control": [
+        "Creates simple geometry for use as control shapes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/control"
+    ],
+    "convert": [
+        "Converts geometry from one geometry type to another.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/convert"
+    ],
+    "convertheightfield": [
+        "Converts a 2D height field to a 3D VDB volume, polygon surface, or polygon soup surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/convertheightfield"
+    ],
+    "convertline": [
+        "Converts the input geometry into line segments.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/convertline"
+    ],
+    "convertmeta": [
+        "Polygonizes metaball geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/convertmeta"
+    ],
+    "convertvdb": [
+        "Converts sparse volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/convertvdb"
+    ],
+    "convertvdbpoints": [
+        "Converts a Point Cloud into a VDB Points Primitive, or vice versa.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/convertvdbpoints"
+    ],
+    "convertvolume": [
+        "Converts the iso-surface of a volume into a polygonal surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/convertvolume"
+    ],
+    "cookie": [
+        "Combines two polygonal objects with boolean operators, or compu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cookie"
+    ],
+    "copy": [
+        "Creates multiple copies of the input geometry, or copies the geome",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/copy"
+    ],
+    "copytopoints": [
+        "Copies the geometry onto the points of the second input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/copytopoints"
+    ],
+    "copyxform": [
+        "Copies geometry and applies transformations to the copies.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/copyxform"
+    ],
+    "crease": [
+        "Manually adds or removes a creaseweight attribute to/from poly",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/crease"
+    ],
+    "creep": [
+        "Deforms and animates a piece of geometry across a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/creep"
+    ],
+    "cregion": [
+        "Supports Capture and Deform operation by creating a volume within wh",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/cregion"
+    ],
+    "crowdsource": [
+        "Populates a crowd of agent primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/crowdsource"
+    ],
+    "crowdsource-": [
+        "Creates crowd agents to be used with the crowd solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/crowdsource-"
+    ],
+    "crowdsource-2.0": [
+        "Creates agent primitives for use with the crowd solver.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/crowdsource-2.0"
+    ],
+    "curve": [
+        "Creates polygonal, NURBS, or Bezier curves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/curve"
+    ],
+    "curveclay": [
+        "Deforms a spline surface by reshaping a curve on the surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/curveclay"
+    ],
+    "curvesect": [
+        "Finds the intersections (or points of minimum distance) between ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/curvesect"
+    ],
+    "debrissource": [
+        "Generates point emission sources for debris from separating fractured rigid body objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/debrissource"
+    ],
+    "deform": [
+        "Uses capture attributes created from bones to deform geometry according to their movement.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/deform"
+    ],
+    "deformationwrangle": [
+        "Runs a VEX snippet to deform geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/deformationwrangle"
+    ],
+    "deformmeta": [
+        "Deforms captured points according to metaball deformations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/deformmeta"
+    ],
+    "deformmuscle": [
+        "Deforms captured points according to muscle deformations. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/deformmuscle"
+    ],
+    "delete": [
+        "Deletes input geometry by group, entity number, bounding volu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/delete"
+    ],
+    "delete_overlapping_polygons": [
+        "Removes polygons that overlap.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/delete_overlapping_polygons"
+    ],
+    "deltamush": [
+        "Smooths out (or \"relaxes\") point deformations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/deltamush"
+    ],
+    "dissolve": [
+        "Deletes edges from the input polygonal geometry merging polygons w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/dissolve"
+    ],
+    "dissolve-": [
+        "Deletes points, primitives, and edges from the input geometry ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/dissolve-"
+    ],
+    "divide": [
+        "Divides, smooths, and triangulates polygons.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/divide"
+    ],
+    "dopimport": [
+        "Imports and transforms geometry based on information extracted fro",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/dopimport"
+    ],
+    "dopimportfield": [
+        "Imports scalar and vector fields from a DOP simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/dopimportfield"
+    ],
+    "dopimportrecords": [
+        "Imports option and record data from DOP simulations into points w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/dopimportrecords"
+    ],
+    "dopio": [
+        "Imports fields from DOP simulations, saves them to disk, and lo",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/dopio"
+    ],
+    "dopnet": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/dopnet"
+    ],
+    "drawcurve": [
+        "Creates a curve based on user input in the viewport.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/drawcurve"
+    ],
+    "drawhairguides": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/drawhairguides"
+    ],
+    "duplicate": [
+        "Copies geometry and applies transformations to the copies.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/duplicate"
+    ],
+    "each": [
+        "Culls the input geometry according to the specifications of ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/each"
+    ],
+    "edgecollapse": [
+        "Collapses edges and faces to their centerpoints.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/edgecollapse"
+    ],
+    "edgecusp": [
+        "Sharpens edges by uniquing their points and recomputing po",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/edgecusp"
+    ],
+    "edgedivide": [
+        "Inserts points on the edges of polygons and optionally connects them.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/edgedivide"
+    ],
+    "edgeflip": [
+        "Flips the direction of polygon edges.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/edgeflip"
+    ],
+    "edgespec": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/edgespec"
+    ],
+    "edit": [
+        "Edits points, edges, or faces interactively.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/edit"
+    ],
+    "ends": [
+        "Closes, opens, or clamps end points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/ends"
+    ],
+    "enumerate": [
+        "Sets an attribute on selected points or primitives to sequential numbers.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/enumerate"
+    ],
+    "error": [
+        "Generates a message, warning, or error, which can show up on a parent asset.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/error"
+    ],
+    "explodedview": [
+        "Pushes geometry out from the center to create an exploded view.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/explodedview"
+    ],
+    "extrude": [
+        "Extrudes geometry along a normal.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/extrude"
+    ],
+    "extrudevolume": [
+        "Extrudes surface geometry into a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/extrudevolume"
+    ],
+    "facet": [
+        "Controls the smoothness of faceting of a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/facet"
+    ],
+    "filament_advect_pos": [
+        "Evolves polygonal curves as vortex filaments.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/filament_advect_pos"
+    ],
+    "file": [
+        "Reads, writes, or caches geometry on disk.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/file"
+    ],
+    "filecache": [
+        "Writes and reads geometry sequences to disk.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/filecache"
+    ],
+    "filemerge": [
+        "Reads and collates data from disk.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/filemerge"
+    ],
+    "fillet": [
+        "Creates smooth bridging geometry between two curves or surfaces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fillet"
+    ],
+    "finalizewaves": [
+        "Imparts wave velocities to points in waveform geometry",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/finalizewaves"
+    ],
+    "findshortestpath": [
+        "Finds the shortest paths from start points to end points, following the edges of a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/findshortestpath"
+    ],
+    "fit": [
+        "Fits a spline curve to points, or a spline surface to a mesh of points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fit"
+    ],
+    "fluidcompress": [
+        "Compresses the output of fluid simulations to decrease size on disk",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fluidcompress"
+    ],
+    "fluidsource": [
+        " Creates one or multiple volumes out of geometry to be used in a fluid simulation ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fluidsource"
+    ],
+    "font": [
+        "Creates 3D text from Type 1, TrueType and OpenType fonts.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/font"
+    ],
+    "force": [
+        "Uses a metaball to attract or repel points or springs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/force"
+    ],
+    "foreach": [
+        "Repeatedly applies a set of SOPs to the input geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/foreach"
+    ],
+    "fractal": [
+        "Creates jagged mountain-like divisions of the in",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fractal"
+    ],
+    "fur": [
+        "Creates a set of hair-like curves across a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fur"
+    ],
+    "fur_common": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fur_common"
+    ],
+    "fuse": [
+        "Merges or splits (uniques) points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/fuse"
+    ],
+    "gluecluster": [
+        "Adds strength to a glue constraint network according to clus",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/gluecluster"
+    ],
+    "gluepieces": [
+        "Creates a glue constraint network between adjacent pieces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/gluepieces"
+    ],
+    "grainsource": [
+        "Generates particles to be used as sources in a particle-based grain simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/grainsource"
+    ],
+    "grid": [
+        "Creates planar geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/grid"
+    ],
+    "group": [
+        "Generates groups of points, primitives, or edges according to various criteria.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/group"
+    ],
+    "groupcombine": [
+        "Combines point groups, primitive groups, or edge groups according to boolean operations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/groupcombine"
+    ],
+    "groupcopy": [
+        "Copies groups between two pieces of geomet",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/groupcopy"
+    ],
+    "groupcreate": [
+        "Generates groups of points, primitives, or edges according to various criteria.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/groupcreate"
+    ],
+    "groupdelete": [
+        "Deletes groups of points, primitives, or edges according to patterns.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/groupdelete"
+    ],
+    "groupexpression": [
+        "Runs VEX expressions to modify group membership.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/groupexpression"
+    ],
+    "grouppaint": [
+        "Sets group membership interactively by painting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/grouppaint"
+    ],
+    "grouppromote": [
+        "Converts point, primitive, and edge groups into point, primitive, or edge groups.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/grouppromote"
+    ],
+    "grouprange": [
+        "Groups points and primitives by ranges.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/grouprange"
+    ],
+    "grouprename": [
+        "Renames groups according to patterns.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/grouprename"
+    ],
+    "grouptransfer": [
+        "Transfers groups between two pieces of geometry, based",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/grouptransfer"
+    ],
+    "guidecollidevdb": [
+        "Resolves collisions of guide curves with VDB signed distance fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/guidecollidevdb"
+    ],
+    "guidegroom": [
+        "Allows intuitive manipulation of guide curves in the viewport.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/guidegroom"
+    ],
+    "guidegroup": [
+        "Creates standard primitive groups used by grooming tools.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/guidegroup"
+    ],
+    "guideinit": [
+        "Quickly give hair guides some initial direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/guideinit"
+    ],
+    "guideprocess": [
+        "Modifies guide or hair using one or more operations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/guideprocess"
+    ],
+    "guidetangentspace": [
+        "Constructs a coherent tangent space along a curve.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/guidetangentspace"
+    ],
+    "hairclump": [
+        "Clumps guide curves together.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/hairclump"
+    ],
+    "hairgen": [
+        "Generates hair on a surface or from points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/hairgen"
+    ],
+    "hairgrowthfield": [
+        "Generates a velocity field based on stroke primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/hairgrowthfield"
+    ],
+    "heightfield": [
+        "Generates an initial heightfield volume for use with terrain tools.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield"
+    ],
+    "heightfield_blur": [
+        "Blurs a terrain height field or mask.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_blur"
+    ],
+    "heightfield_clip": [
+        "Limits height values to a certain minimum and/or maximum.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_clip"
+    ],
+    "heightfield_copylayer": [
+        "Creates a copy of a height field or mask.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_copylayer"
+    ],
+    "heightfield_crop": [
+        "Extracts a square of a certain width/length from a larger height volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_crop"
+    ],
+    "heightfield_distort": [
+        "Advects the input volume through a noise pattern to break up hard edges and add variety.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_distort"
+    ],
+    "heightfield_drawmask": [
+        "Lets you draw shapes to create a mask for height field tools.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_drawmask"
+    ],
+    "heightfield_erode": [
+        "Calculates thermal and hydraulic erosion over time (frames) to create more realistic terrain.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_erode"
+    ],
+    "heightfield_file": [
+        "Imports a 2D image map from a file or compositing node into a height field or mask.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_file"
+    ],
+    "heightfield_isolatelayer": [
+        "Copies another layer over the mask layer, and optionally flattens the height field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_isolatelayer"
+    ],
+    "heightfield_layer": [
+        "Composites together two height fields.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_layer"
+    ],
+    "heightfield_layerclear": [
+        "Sets all values in a heightfield layer to 0.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_layerclear"
+    ],
+    "heightfield_layerproperty": [
+        "Sets the border voxel policy on a height field volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_layerproperty"
+    ],
+    "heightfield_maskbyconcavity": [
+        "Creates a mask where the input terrain is hollow/depressed, for example riverbeds and valleys.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_maskbyconcavity"
+    ],
+    "heightfield_maskbyfeature": [
+        "Creates a mask based on different features of the height layer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_maskbyfeature"
+    ],
+    "heightfield_maskbyobject": [
+        "Creates a mask based some other geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_maskbyobject"
+    ],
+    "heightfield_maskbyshadow": [
+        "Creates a mask which areas are shadowed from a certain direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_maskbyshadow"
+    ],
+    "heightfield_noise": [
+        "Adds vertical noise to a height field, creating peaks and valleys.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_noise"
+    ],
+    "heightfield_output": [
+        "Exports height and/or mask layers to disk as an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_output"
+    ],
+    "heightfield_paint": [
+        "Lets you paint values into a height or mask field using strokes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_paint"
+    ],
+    "heightfield_pattern": [
+        "Adds displacement in the form of a ramps, steps, stripes, Voronoi cells, or other patterns.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_pattern"
+    ],
+    "heightfield_project": [
+        "Projects 3D geometry into a height field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_project"
+    ],
+    "heightfield_quickshade": [
+        "Applies a material that lets you plug in textures for different layers.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_quickshade"
+    ],
+    "heightfield_remap": [
+        "Remaps the values in a height field or mask layer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_remap"
+    ],
+    "heightfield_resample": [
+        "Changes the resolution of a height field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_resample"
+    ],
+    "heightfield_scatter": [
+        "Scatters points across the surface of a height field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_scatter"
+    ],
+    "heightfield_slump": [
+        "Simulates loose material sliding down inclines and piling at the bottom.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_slump"
+    ],
+    "heightfield_terrace": [
+        "Creates stepped plains from slopes in the terrain.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_terrace"
+    ],
+    "heightfield_tilesplice": [
+        "Stitches height field tiles back together.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_tilesplice"
+    ],
+    "heightfield_tilesplit": [
+        "Splits a height field volume into rows and columns.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_tilesplit"
+    ],
+    "heightfield_visualize": [
+        "Visualizes elevations using a custom ramp material, and mask layers using tint colors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_visualize"
+    ],
+    "heightfield_xform": [
+        "Height field specific scales and offsets.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/heightfield_xform"
+    ],
+    "hole": [
+        "Makes holes in surfaces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/hole"
+    ],
+    "inflate": [
+        "Deforms the points in the first input to make room for ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/inflate"
+    ],
+    "instance": [
+        "Instances Geometry on Points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/instance"
+    ],
+    "intersectionanalysis": [
+        "Creates points with attributes at intersections between a triangle and/or curve mesh with itself, or with an optional second set of triangles and/or curves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/intersectionanalysis"
+    ],
+    "intersectionstitch": [
+        "Composes triangle surfaces and curves together into a single connected mesh.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/intersectionstitch"
+    ],
+    "iso": [
+        "Generates an isometric surface from an implicit function.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/iso"
+    ],
+    "isooffset": [
+        "Builds an offset surface from geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/isooffset"
+    ],
+    "join": [
+        "The Join op connects a sequence of faces or surfaces into a sin",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/join"
+    ],
+    "knife": [
+        "Divides, deletes, or groups geometry based on an interactively drawn line.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/knife"
+    ],
+    "lattice": [
+        "Deforms geometry based on how you reshape control geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/lattice"
+    ],
+    "layer": [
+        "Lets you maintain multiple layers of attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/layer"
+    ],
+    "lidarimport": [
+        "Reads a lidar file and imports a point cloud from its data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/lidarimport"
+    ],
+    "line": [
+        "Creates polygon or NURBS lines from a position, direction, and distance.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/line"
+    ],
+    "loadslices": [
+        "Reads and collates distributed data from disk.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/loadslices"
+    ],
+    "lsystem": [
+        "Creates fractal geometry from the recursive application of simple rules.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/lsystem"
+    ],
+    "magnet": [
+        "Deforms geometry by using another piece of geome",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/magnet"
+    ],
+    "matchaxis": [
+        "Aligns the input geometry to a specific axis.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/matchaxis"
+    ],
+    "matchsize": [
+        "Resizes and recenters the geometry according to refere",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/matchsize"
+    ],
+    "matchtopology": [
+        "Reorders the primitive and point numbers of the input geometry to match some reference geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/matchtopology"
+    ],
+    "material": [
+        "Assigns one or more materials to geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/material"
+    ],
+    "mdd": [
+        "Animates points using an MDD file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/mdd"
+    ],
+    "measure": [
+        "Measures volume, area, and perimeter of polyg",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/measure"
+    ],
+    "merge": [
+        "Merges geometry from its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/merge"
+    ],
+    "metaball": [
+        "Creates metaballs and meta-superquadric surfaces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/metaball"
+    ],
+    "metagroups": [
+        "Defines groupings of metaballs so that separate groupings are trea",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/metagroups"
+    ],
+    "mirror": [
+        "Duplicates and mirrors geometry across a mirror plane.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/mirror"
+    ],
+    "mountain": [
+        "Displaces points along their normals based on fractal noise.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/mountain"
+    ],
+    "mountain-2.0": [
+        "Displaces points along their normals based on fractal noise.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/mountain-2.0"
+    ],
+    "muscle": [
+        "Support node for the Muscle object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/muscle"
+    ],
+    "musclecapture": [
+        "Supports Muscle Deform by assigning capture weights to points based on distance away from given primitives",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/musclecapture"
+    ],
+    "muscledeform": [
+        "Deforms a surface mesh representing skin to envelop or drape over geometry representing muscles",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/muscledeform"
+    ],
+    "name": [
+        "Creates a \"naming\" attribute on points or primitives allowing ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/name"
+    ],
+    "no_vdb": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/no_vdb"
+    ],
+    "normal": [
+        "Computes surface normal attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/normal"
+    ],
+    "null": [
+        "Does nothing.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/null"
+    ],
+    "object_merge": [
+        "Merges geometry from multiple sources and allows you to define the manner in which they are grouped together and transformed.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/object_merge"
+    ],
+    "oceanevaluate": [
+        "Deforms input geometry based on ocean \"spectrum\" volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/oceanevaluate"
+    ],
+    "oceanevaluate-": [
+        "Deforms input geometry based on ocean \"spectrum\" volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/oceanevaluate-"
+    ],
+    "oceanfoam": [
+        "Generates particle-based foam",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/oceanfoam"
+    ],
+    "oceansource": [
+        "Generates particles and volumes from ocean \"spectrum\" volumes for use in simulations",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/oceansource"
+    ],
+    "oceansource-": [
+        "Generates particles and volumes from ocean \"spectrum\" volumes for use in simulations",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/oceansource-"
+    ],
+    "oceanspectrum": [
+        "Generates volumes containing information for simulating ocean waves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/oceanspectrum"
+    ],
+    "oceanwaves": [
+        "Instances individual waveforms onto input points and generated points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/oceanwaves"
+    ],
+    "opencl": [
+        "Executes an OpenCL kernel on geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/opencl"
+    ],
+    "output": [
+        "Marks the output of a sub-network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/output"
+    ],
+    "pack": [
+        "Packs geometry into an embedded primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pack"
+    ],
+    "packeddiskedit": [
+        "Editing Packed Disk Primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/packeddiskedit"
+    ],
+    "packededit": [
+        "Editing Packed Primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/packededit"
+    ],
+    "packgroom": [
+        "Packs the components of a groom into a set of named Packed Primitives for the purpose of writing it to disk.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/packgroom"
+    ],
+    "packpoints": [
+        "Packs points into a tiled grid of packed primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/packpoints"
+    ],
+    "paint": [
+        "Lets you paint color or other attributes on geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/paint"
+    ],
+    "paintcolorvolume": [
+        "Creates a color volume based on drawn curve",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/paintcolorvolume"
+    ],
+    "paintfogvolume": [
+        "Creates a fog volume based on drawn curve",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/paintfogvolume"
+    ],
+    "paintsdfvolume": [
+        "Creates an SDF volume based on drawn curve",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/paintsdfvolume"
+    ],
+    "particle": [
+        "Creates simple particle simulati",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/particle"
+    ],
+    "particlefluidmask": [
+        "Generates a Volume mask from a particle fluid simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/particlefluidmask"
+    ],
+    "particlefluidsurface": [
+        "Generates a surface around the particles from a particle fluid simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/particlefluidsurface"
+    ],
+    "particlefluidsurface-": [
+        "Generates a polygonal surface around the particles from a particle fluid simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/particlefluidsurface-"
+    ],
+    "particlefluidtank": [
+        "Creates a set of regular points filling a tank.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/particlefluidtank"
+    ],
+    "partition": [
+        "Places points and primitives into groups based on a user-suppl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/partition"
+    ],
+    "peak": [
+        "Moves primitives, points, edges or breakpoints along their normals.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/peak"
+    ],
+    "platonic": [
+        "Creates platonic solids of different types.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/platonic"
+    ],
+    "point": [
+        "Manually adds or edits point attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/point"
+    ],
+    "pointcloudiso": [
+        "Constructs an iso surface from its input points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointcloudiso"
+    ],
+    "pointdeform": [
+        "Deforms geometry on an arbitrary connected point mesh.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointdeform"
+    ],
+    "pointgenerate": [
+        "Creates new points, optionally based on point positions in the input geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointgenerate"
+    ],
+    "pointjitter": [
+        "Jitters points in random directions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointjitter"
+    ],
+    "pointmap": [
+        "A VEX node that generates points based on the luminance of a texture map.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointmap"
+    ],
+    "pointreplicate": [
+        "Generates a cloud of points around the input points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointreplicate"
+    ],
+    "pointsfromvolume": [
+        "Creates set of regular points filling a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointsfromvolume"
+    ],
+    "pointwrangle": [
+        "Runs a VEX snippet to modify point attributes, including position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pointwrangle"
+    ],
+    "polybevel": [
+        "Creates straight, rounded, or custom fillets along edges and corners.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polybevel"
+    ],
+    "polybevel-": [
+        "Bevels points and edges.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polybevel-"
+    ],
+    "polybridge": [
+        "Creates flat or tube-shaped polygon surfaces between source and destination edge loops, with controls for the shape of the bridge.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polybridge"
+    ],
+    "polycap": [
+        "Fills in polygons between boundary edges.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polycap"
+    ],
+    "polycut": [
+        "Breaks curves where an attribute crosses a threshold.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polycut"
+    ],
+    "polydoctor": [
+        "Helps repair invalid polygonal geometry, such as for cloth simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polydoctor"
+    ],
+    "polyexpand2d": [
+        "Creates offset polygonal geometry for planar polygonal graphs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyexpand2d"
+    ],
+    "polyextrude": [
+        "Extrudes polygonal faces and edges.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyextrude"
+    ],
+    "polyextrude-": [
+        "Extrudes polygonal faces and edges.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyextrude-"
+    ],
+    "polyfill": [
+        "Fills holes with polygonal patches.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyfill"
+    ],
+    "polyframe": [
+        "Creates coordinate frame attributes for points and vertices.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyframe"
+    ],
+    "polyknit": [
+        "Creates new polygons to join existing polygons.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyknit"
+    ],
+    "polyloft": [
+        "Creates new polygons using existing points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyloft"
+    ],
+    "polypatch": [
+        "Creates a smooth polygonal patch from primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polypatch"
+    ],
+    "polypath": [
+        "Cleans up topology of polygon curves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polypath"
+    ],
+    "polyreduce": [
+        "Reduces the number of polygons in a mo",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyreduce"
+    ],
+    "polysoup": [
+        "Combines polygons into a single primitive that can be more efficient for many polygons",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polysoup"
+    ],
+    "polyspline": [
+        "The PolySpline SOP fits a spline curve to a polygon or hull ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polyspline"
+    ],
+    "polysplit": [
+        "Divides an existing polygon into multiple new polygons.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polysplit"
+    ],
+    "polysplit-": [
+        "Divides an existing polygon into multiple new polygons.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polysplit-"
+    ],
+    "polystitch": [
+        "Stitches polygonal surfaces together, attempting to remove cracks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polystitch"
+    ],
+    "polywire": [
+        "Constructs polygonal tubes around polylines, creat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/polywire"
+    ],
+    "pop": [
+        "Loads the geometry from a pop network back in",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/pop"
+    ],
+    "popnet": [
+        "Contains a Particle node network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/popnet"
+    ],
+    "posescope": [
+        "Assigns channel paths and/or pickscripts to geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/posescope"
+    ],
+    "primitive": [
+        "Edits primitive, primitive attributes, and profile curves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/primitive"
+    ],
+    "primitivesplit": [
+        "Takes a primitive attribute and splits any points whose primiti",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/primitivesplit"
+    ],
+    "profile": [
+        "Extracts or manipulates profile curves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/profile"
+    ],
+    "project": [
+        "Creates profile curves on surfaces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/project"
+    ],
+    "python": [
+        "Runs a Python snippet to modify the incoming geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/python"
+    ],
+    "rails": [
+        "Generates surfaces by stretching cross-sections betw",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/rails"
+    ],
+    "ray": [
+        "Projects one surface onto another.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/ray"
+    ],
+    "refine": [
+        "Increases the number of points/CVs in a curve or surf",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/refine"
+    ],
+    "reguide": [
+        "Scatters new guides, interpolating the properties of existing guides.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/reguide"
+    ],
+    "relax": [
+        "Moves points with overlapping radii away from each other, optionally on a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/relax"
+    ],
+    "remesh": [
+        "Recreates the shape of the input surface using \"high-quality\" (nearly equilateral) triangles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/remesh"
+    ],
+    "repack": [
+        "Repacks geometry as an embedded primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/repack"
+    ],
+    "resample": [
+        "Resamples one or more curves or surfaces into even length segments.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/resample"
+    ],
+    "rest": [
+        "Sets the alignment of solid textures to the geometry so ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/rest"
+    ],
+    "reverse": [
+        "Reverses or cycles the vertex order of faces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/reverse"
+    ],
+    "revolve": [
+        "Revolves a curve around a center axis to sweep out a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/revolve"
+    ],
+    "rewire": [
+        "Rewires vertices to different points specified by an attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/rewire"
+    ],
+    "ripple": [
+        "Generates ripples by displacing points along the up direct",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/ripple"
+    ],
+    "ripple-2.0": [
+        "Generates ripples by displacing points along the up direct",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/ripple-2.0"
+    ],
+    "rishader": [
+        "Attaches RenderMan shaders to groups of faces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/rishader"
+    ],
+    "rop_alembic": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/rop_alembic"
+    ],
+    "rop_geometry": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/rop_geometry"
+    ],
+    "round": [
+        "Generates round fillets of a specified radius between two surfaces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/round"
+    ],
+    "sblend": [
+        "Sequence Blend lets you do 3D Metamorphosis between shapes ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sblend"
+    ],
+    "scatter": [
+        "Scatters new points randomly across a surface or through a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/scatter"
+    ],
+    "scatter-": [
+        "Scatters new points randomly across a surface or through a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/scatter-"
+    ],
+    "script": [
+        "Runs scripts when cooked.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/script"
+    ],
+    "sculpt": [
+        "Lets you interactively reshape a surface by brushing.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sculpt"
+    ],
+    "shrinkwrap": [
+        "Computes the convex hull of the input geometry and moves its polygons inwards along their normals.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/shrinkwrap"
+    ],
+    "shrinkwrap-": [
+        "Takes the convex hull of input geometry and moves its polygons inwards along their normals.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/shrinkwrap-"
+    ],
+    "skin": [
+        "Builds a skin surface between any number of shape curves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/skin"
+    ],
+    "sky": [
+        "Creates a sky filled with volumentric clouds",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sky"
+    ],
+    "slidemodifierpaint": [
+        "Lets you paint the slide modifier and inflation modifier attribu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/slidemodifierpaint"
+    ],
+    "smooth": [
+        "Smooths out (or \"relaxes\") polygons, meshes and curves without increasing the number of points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/smooth"
+    ],
+    "smooth-": [
+        "Smooths out (or \"relaxes\") polygons, meshes ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/smooth-"
+    ],
+    "softpeak": [
+        "Moves the selected point along its normal, with smooth rolloff",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/softpeak"
+    ],
+    "softxform": [
+        "Moves the selected point, with smooth rolloff to surrounding points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/softxform"
+    ],
+    "solidconform": [
+        "Creates a tetrahedral mesh that conforms to a connected mesh as much as possible.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/solidconform"
+    ],
+    "solidembed": [
+        "Creates a simple tetrahedral mesh that covers a connected mesh.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/solidembed"
+    ],
+    "solidfracture": [
+        "Creates a partition of a tetrahedral mesh that can be used for finite-element fracturing.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/solidfracture"
+    ],
+    "solidify": [
+        "Converts a polygonal mesh into a self-intersection free and watertight polygonal surface mesh.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/solidify"
+    ],
+    "solver": [
+        "Allows running a SOP network iteratively over some input geometry, with the output of the network from the previous frame serving as the input for the network at the current frame.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/solver"
+    ],
+    "sort": [
+        "Reorders points and primitives in different ways.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sort"
+    ],
+    "sphere": [
+        "Creates a sphere or ovoid surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sphere"
+    ],
+    "split": [
+        "Splits primitives or points into two streams.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/split"
+    ],
+    "spraypaint": [
+        "Spray paints random points onto a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/spraypaint"
+    ],
+    "spring": [
+        "Simulates the behavior of points as if the edges connecting them w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/spring"
+    ],
+    "sprite": [
+        "A SOP node that sets the sprite display for points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sprite"
+    ],
+    "sssscatter": [
+        " Generates a point cloud based on the input geometry that is suitable for the sub-surface scattering VOPs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sssscatter"
+    ],
+    "standard_brush": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/standard_brush"
+    ],
+    "standard_crowdsim_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/standard_crowdsim_parms"
+    ],
+    "standardvariables": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/standardvariables"
+    ],
+    "starburst": [
+        "Insets points on polygonal faces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/starburst"
+    ],
+    "stash": [
+        "Caches the input geometry in the node on command, and then uses it as the node's output.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/stash"
+    ],
+    "stitch": [
+        "Stretches two curves or surfaces to cover a smooth area.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/stitch"
+    ],
+    "stroke": [
+        "Low level tool for building interactive assets.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/stroke"
+    ],
+    "strokecache": [
+        "Simplifies the building of tools that incrementally modify geometry based on strokes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/strokecache"
+    ],
+    "subdivide": [
+        "Subdivides polygons into smoother, higher-resolution polygons.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/subdivide"
+    ],
+    "subnet": [
+        "The Subnet op is essentially a way of creating a macro to represent a collection of ops as a single op in the Network Editor.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/subnet"
+    ],
+    "superquad": [
+        "Generates an isoquadric surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/superquad"
+    ],
+    "surfsect": [
+        "Trims or creates profile curves along the intersection li",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/surfsect"
+    ],
+    "sweep": [
+        "Creates a surface by sweeping cross-sections along a backb",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/sweep"
+    ],
+    "switch": [
+        "Switches between network branches based on an express",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/switch"
+    ],
+    "tableimport": [
+        "Reads a CSV file creating point per row.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tableimport"
+    ],
+    "testgeometry_pighead": [
+        "Creates a pig head, which can be used as test geometry..",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/testgeometry_pighead"
+    ],
+    "testgeometry_rubbertoy": [
+        "Creates a rubber toy, which can be used as test geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/testgeometry_rubbertoy"
+    ],
+    "testgeometry_shaderball": [
+        "Creates a shader ball, which can be used to test shaders.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/testgeometry_shaderball"
+    ],
+    "testgeometry_squab": [
+        "Creates a squab, which can be used as test geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/testgeometry_squab"
+    ],
+    "testsim_crowdtransition": [
+        "Provides a simple crowd simulation for testing transitions between animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/testsim_crowdtransition"
+    ],
+    "testsim_ragdoll": [
+        "Provides a simple Bullet simulation for testing the behavior of a ragdoll.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/testsim_ragdoll"
+    ],
+    "tetpartition": [
+        "Partitions a given tetrahedron mesh into groups of tets isolated by a given polygon mesh",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tetpartition"
+    ],
+    "tetrahedralize": [
+        "Performs variations of a Delaunay Tetrahedralization.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tetrahedralize"
+    ],
+    "tetrasurface": [
+        "Generates the oriented surface of a tetrahedron mesh. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tetrasurface"
+    ],
+    "texture": [
+        "Assigns texture UV coordinates to geome",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/texture"
+    ],
+    "texture_common": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/texture_common"
+    ],
+    "timeblend": [
+        "Blends intraframe values for geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/timeblend"
+    ],
+    "timeshift": [
+        "Cooks the input at a different time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/timeshift"
+    ],
+    "timewarp": [
+        "Retimes the input to a different time range.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/timewarp"
+    ],
+    "tissuesolver": [
+        "BETA: Collects muscles, modeled anatomical bones, and skin objects and places them into a single dynamics simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tissuesolver"
+    ],
+    "toonshaderattribs": [
+        "Sets attributes used by the [Toon Color Shader|Node:shop/tooncolorshader] and [Toon Outline Shader|Node:shop/toonoutlineshader].",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/toonshaderattribs"
+    ],
+    "topobuild": [
+        "Lets you interactively draw a reduced quad mesh automatically snapped to existing geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/topobuild"
+    ],
+    "torus": [
+        "Creates a torus (doughnut) shaped surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/torus"
+    ],
+    "trace": [
+        "Traces curves from an image file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/trace"
+    ],
+    "trail": [
+        "Creates trails behind points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/trail"
+    ],
+    "transferguides": [
+        "Transfer hair guides between geometries.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/transferguides"
+    ],
+    "triangulate2d": [
+        "Connects points to form well-shaped triangles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/triangulate2d"
+    ],
+    "triangulate2d-": [
+        "Connects points to form well-shaped triangles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/triangulate2d-"
+    ],
+    "tribez": [
+        "Creates a triangular Bezier surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tribez"
+    ],
+    "tridivide": [
+        "Refines triangular meshes using various metrics.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tridivide"
+    ],
+    "trim": [
+        "Trims away parts of a spline surface defined by a profile cu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/trim"
+    ],
+    "tristrip": [
+        "Converts polygons to triangle strips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tristrip"
+    ],
+    "tube": [
+        "Creates open or closed tubes, cones, or pyramids.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/tube"
+    ],
+    "twist": [
+        "Applies deformations such as bend, linear taper, she",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/twist"
+    ],
+    "unix": [
+        "Processes geometry using an external program.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/unix"
+    ],
+    "unpack": [
+        "Unpacks packed primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/unpack"
+    ],
+    "unpackgroom": [
+        "Unpacks the components of a groom from a packed groom.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/unpackgroom"
+    ],
+    "unpackpoints": [
+        "Unpacks points from packed primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/unpackpoints"
+    ],
+    "unpaste": [
+        "The Unpaste op removes one or more pasted surfaces from a pa",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/unpaste"
+    ],
+    "uvbrush": [
+        "Adjusts texture coordinates in the UV viewport by painting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvbrush"
+    ],
+    "uvedit": [
+        "Lets you interactively move UVs in the texture view.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvedit"
+    ],
+    "uvflatten": [
+        "Creates flattened pieces in texture space from 3D geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvflatten"
+    ],
+    "uvfuse": [
+        "Merges UVs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvfuse"
+    ],
+    "uvlayout": [
+        "Rewrites UVs by packing the UV islands into a specific area.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvlayout"
+    ],
+    "uvpelt": [
+        "Relaxes UVs by pulling them out toward the edges of the texture area.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvpelt"
+    ],
+    "uvpelt-": [
+        "Relaxes UVs by pulling them out toward the edges of the texture area.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvpelt-"
+    ],
+    "uvproject": [
+        "Assigns UVs by projecting them onto the surface f",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvproject"
+    ],
+    "uvquickshade": [
+        "Applies an image file as a textured shader to a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvquickshade"
+    ],
+    "uvtransform": [
+        "Transforms UV texture coordinates on the source geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvtransform"
+    ],
+    "uvunwrap": [
+        "Separates UVs into reasonably flat, non-overlapping groups.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/uvunwrap"
+    ],
+    "vdb": [
+        "Creates one or more empty/uniform VDB volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdb"
+    ],
+    "vdbactivate": [
+        "Activates voxel regions of a VDB for further processing.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbactivate"
+    ],
+    "vdbactivatesdf": [
+        "Expand or contract signed distance fields stored on VDB volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbactivatesdf"
+    ],
+    "vdbadvectpoints": [
+        "Moves points in the input geometry along a VDB velocity field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbadvectpoints"
+    ],
+    "vdbadvectsdf": [
+        "Moves SDF VDBs in the input geometry along a VDB velocity field.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbadvectsdf"
+    ],
+    "vdbanalysis": [
+        "Computes an analytic property of a VDB volumes, such as gradient or curvature.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbanalysis"
+    ],
+    "vdbclip": [
+        "Clips VDB volume primitives using a bounding box or another VDB as a mask.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbclip"
+    ],
+    "vdbcombine": [
+        "Combines the values of two aligned VDB volumes in various ways.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbcombine"
+    ],
+    "vdbdiagnostics": [
+        "Tests VDBs for Bad Values and Repairs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbdiagnostics"
+    ],
+    "vdbfracture": [
+        "Cuts level set VDB volume primitives into multiple pieces.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbfracture"
+    ],
+    "vdbfromparticlefluid": [
+        "Generates a signed distance field (SDF) VDB volume representing the surface of a set of particles from a particle fluid simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbfromparticlefluid"
+    ],
+    "vdbfromparticles": [
+        "Converts point clouds and/or point attributes into VDB volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbfromparticles"
+    ],
+    "vdbfrompolygons": [
+        "Converts polygonal surfaces and/or surface attributes into VDB volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbfrompolygons"
+    ],
+    "vdblod": [
+        "Build an LOD Pyramid from a VDB.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdblod"
+    ],
+    "vdbmorphsdf": [
+        "Blends between source and target SDF VDBs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbmorphsdf"
+    ],
+    "vdbocclusionmask": [
+        "Create a mask of the voxels in shadow from a camera for VDB primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbocclusionmask"
+    ],
+    "vdbpointsgroup": [
+        "Manipulates the Internal Groups of a VDB Points Primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbpointsgroup"
+    ],
+    "vdbprojectnondivergent": [
+        "Removes divergence from a Vector VDB.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbprojectnondivergent"
+    ],
+    "vdbrenormalizesdf": [
+        "Fixes signed distance fields stored in VDB volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbrenormalizesdf"
+    ],
+    "vdbresample": [
+        "Re-samples a VDB volume primitive into a new orientation and/or voxel size.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbresample"
+    ],
+    "vdbreshapesdf": [
+        "Reshapes signed distance fields in VDB volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbreshapesdf"
+    ],
+    "vdbsegmentbyconnectivity": [
+        "Splits SDF VDBs into connected components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbsegmentbyconnectivity"
+    ],
+    "vdbsmooth": [
+        "Smooths out the values in a VDB volume primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbsmooth"
+    ],
+    "vdbsmoothsdf": [
+        "Smooths out SDF values in a VDB volume primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbsmoothsdf"
+    ],
+    "vdbtopologytosdf": [
+        "Creates an SDF VDB based on the active set of another VDB.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbtopologytosdf"
+    ],
+    "vdbtospheres": [
+        "Fills a VDB volume with adaptively-sized spheres.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbtospheres"
+    ],
+    "vdbvectormerge": [
+        "Merges three scalar VDB into one vector VDB.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbvectormerge"
+    ],
+    "vdbvectorsplit": [
+        "Splits a vector VDB primitive into three scalar VDB primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbvectorsplit"
+    ],
+    "vdbvisualizetree": [
+        "Replaces a VDB volume with geometry that visualizes its structure.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vdbvisualizetree"
+    ],
+    "verify_bsdf": [
+        "Verify that a bsdf conforms to the required interface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/verify_bsdf"
+    ],
+    "vertex": [
+        "Manually adds or edits attributes on vertices (rather than on points).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vertex"
+    ],
+    "vertexsplit": [
+        "Takes a vertex attribute and splits any point whose vertices dif",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vertexsplit"
+    ],
+    "vex": [
+        "References a VEX program that can manipulate point attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vex"
+    ],
+    "visibility": [
+        "Shows/hides primitives in the 3D viewer and UV editor.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/visibility"
+    ],
+    "visualize": [
+        "Lets you attach visualizations to different nodes in a geometry network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/visualize"
+    ],
+    "volume": [
+        "Creates a volume primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volume"
+    ],
+    "volume_types": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volume_types"
+    ],
+    "volumeanalysis": [
+        "Computes analytic properties of volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumeanalysis"
+    ],
+    "volumearrivaltime": [
+        "Computes a speed-defined travel time from source points to voxels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumearrivaltime"
+    ],
+    "volumeblur": [
+        "Blurs the voxels of a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumeblur"
+    ],
+    "volumebound": [
+        "Bounds voxel data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumebound"
+    ],
+    "volumebreak": [
+        "Cuts polygonal objects using a signed distance field volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumebreak"
+    ],
+    "volumecompress": [
+        "Re-compresses Volume Primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumecompress"
+    ],
+    "volumeconvolve3": [
+        "Convolves a volume by a 3x3x3 kernel.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumeconvolve3"
+    ],
+    "volumefeather": [
+        "Feathers the edges of volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumefeather"
+    ],
+    "volumefft": [
+        "Compute the Fast Fourier Transform of volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumefft"
+    ],
+    "volumefromattrib": [
+        "Sets the voxels of a volume from point attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumefromattrib"
+    ],
+    "volumemerge": [
+        "Flattens many volumes into one volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumemerge"
+    ],
+    "volumemix": [
+        "Combines the scalar fields of volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumemix"
+    ],
+    "volumeramp": [
+        "Remaps a volume according to a ramp.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumeramp"
+    ],
+    "volumerasterize": [
+        "Rasterizes into a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumerasterize"
+    ],
+    "volumerasterizecurve": [
+        "Converts a curve into a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumerasterizecurve"
+    ],
+    "volumerasterizehair": [
+        "Converts fur or hair to a volume for rendering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumerasterizehair"
+    ],
+    "volumerasterizeparticles": [
+        "Converts a point cloud into a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumerasterizeparticles"
+    ],
+    "volumerasterizepoints": [
+        "Converts a point cloud into a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumerasterizepoints"
+    ],
+    "volumereduce": [
+        "Reduces the values of a volume into a single number.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumereduce"
+    ],
+    "volumeresample": [
+        "Resamples the voxels of a volume to a new resolution.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumeresample"
+    ],
+    "volumeresize": [
+        "Resizes the bounds of a volume without changing voxels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumeresize"
+    ],
+    "volumesdf": [
+        "Builds a Signed Distance Field from an isocontour of a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumesdf"
+    ],
+    "volumeslice": [
+        "Extracts 2d slices from volumes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumeslice"
+    ],
+    "volumesplice": [
+        "Splices overlapping volume primitives together.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumesplice"
+    ],
+    "volumestamp": [
+        "Stamps volumes instanced on points into a single target volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumestamp"
+    ],
+    "volumesurface": [
+        "Adaptively surfaces a volume hierarchy with a regular triangle mesh.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumesurface"
+    ],
+    "volumetrail": [
+        "Computes a trail of points through a velocity volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumetrail"
+    ],
+    "volumevelocity": [
+        "Computes a velocity volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumevelocity"
+    ],
+    "volumevisualization": [
+        "Adjusts attributes for multi-volume visualization.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumevisualization"
+    ],
+    "volumevop": [
+        "Runs CVEX on a set of volume primitives.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumevop"
+    ],
+    "volumewrangle": [
+        "Runs a VEX snippet to modify voxel values in a volume.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/volumewrangle"
+    ],
+    "vopsop": [
+        "Contains a VOP network that can manipulate point attributes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vopsop"
+    ],
+    "voronoifracture": [
+        "Fractures the input geometry by performing a Voronoi decomposit",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/voronoifracture"
+    ],
+    "voronoifracturepoints": [
+        "Given an object and points of impact on the object, this ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/voronoifracturepoints"
+    ],
+    "voronoisplit": [
+        "Cuts the geometry into small pieces according to a set of c",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/voronoisplit"
+    ],
+    "vortexforceattribs": [
+        "Creates the point attributes needed to create a Vortex Force DOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/vortexforceattribs"
+    ],
+    "waveform": [
+        "Creates a waveform shape out of surface geometry",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/waveform"
+    ],
+    "whitewatersource": [
+        "Generates emission particles and volumes to be used as sources in a Whitewater simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/whitewatersource"
+    ],
+    "wire": [
+        "Constructs polygonal tubes around polylines, creat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/wire"
+    ],
+    "wireblend": [
+        "Morphs between curve shapes while maintaining curve length.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/wireblend"
+    ],
+    "wirecapture": [
+        "Captures surfaces to a wi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/wirecapture"
+    ],
+    "wiredeform": [
+        "Deforms geometry captured to a curve via the Wire Capture node.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/wiredeform"
+    ],
+    "wiretransfershape": [
+        "Transfers the shape of one curve to another.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/wiretransfershape"
+    ],
+    "wrangle_syntax": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/wrangle_syntax"
+    ],
+    "xform": [
+        "The Transform operation transforms the source geometry in \"object space\" using a transformation matrix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/xform"
+    ],
+    "xformaxis": [
+        "Transforms the input geometry relative to a specific axis.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/xformaxis"
+    ],
+    "xformbyattrib": [
+        "Transforms the input geometry by a point attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/xformbyattrib"
+    ],
+    "xformpieces": [
+        "Transforms input geometry according to transformation attributes on template geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/sop/xformpieces"
+    ]
+}

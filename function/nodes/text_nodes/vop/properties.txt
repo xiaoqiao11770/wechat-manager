@@ -1,7 +1,0 @@
-#type: node
-#context: vop
-#internal: properties
-
-= Properties =
-
-This VOP is the property container for materials.

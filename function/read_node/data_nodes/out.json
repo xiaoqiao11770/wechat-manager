@@ -1,0 +1,197 @@
+{
+    "_index": [
+        "Render nodes either render the scene or set up render dependency networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/_index"
+    ],
+    "agent": [
+        "This output operator is used to write agent definition files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/agent"
+    ],
+    "alembic": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/alembic"
+    ],
+    "alf": [
+        "Tractor is a program shipped out with Pixar's distribution of RenderMan.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/alf"
+    ],
+    "archive": [
+        "Generates disk-based archives which can",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/archive"
+    ],
+    "baketexture": [
+        "Generates a texture map from one or more objects' rendered appearance.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/baketexture"
+    ],
+    "batch": [
+        "Renders the input ROP in a single batch job.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/batch"
+    ],
+    "brickmap": [
+        "Allows you to convert Houdini volume primitives into Pixar brickmap files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/brickmap"
+    ],
+    "channel": [
+        "The Channel output operator generates clip files from a particu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/channel"
+    ],
+    "comp": [
+        "The Composite output operator renders the image(s) produced in ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/comp"
+    ],
+    "dop": [
+        " Saves the state of a DOP network simulation into files. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/dop"
+    ],
+    "dsmmerge": [
+        "Merges two or more deep shadow/camera map files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/dsmmerge"
+    ],
+    "extra_image_planes": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/extra_image_planes"
+    ],
+    "fetch": [
+        "Makes a dependency link to a ROP in a different network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/fetch"
+    ],
+    "filmboxfbx": [
+        "Exports entire scenes to FBX files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/filmboxfbx"
+    ],
+    "framecontainer": [
+        "Prevents frame dependency changes in the contained nodes from affecting its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/framecontainer"
+    ],
+    "framedep": [
+        "Allows an output frame to depend on one or more input frames.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/framedep"
+    ],
+    "geo2i3d": [
+        "Converts .bgeo and .geo volumes into .i3d",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/geo2i3d"
+    ],
+    "geometry": [
+        "Generates geometry files from a SOP or DOP network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/geometry"
+    ],
+    "hq_render": [
+        "HQueue, or Houdini Queue, is a distributed job scheduling syst",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/hq_render"
+    ],
+    "hq_sim": [
+        "HQueue, or Houdini Queue, is a distributed job scheduling syst",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/hq_sim"
+    ],
+    "ifd": [
+        "Renders the scene using Houdini\u2019s standard mantra renderer and generates IFD files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/ifd"
+    ],
+    "ifdarchive": [
+        "Generates disk-based archives which can be used by mantra.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/ifdarchive"
+    ],
+    "image3d": [
+        "This output operator is used to drive the image3d program wh",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/image3d"
+    ],
+    "mdd": [
+        "This output operator is used to write an MDD animation file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/mdd"
+    ],
+    "merge": [
+        "Merges several render dependencies into one.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/merge"
+    ],
+    "netbarrier": [
+        "Blocks the ROP network until synchronization occurs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/netbarrier"
+    ],
+    "null": [
+        "Does nothing.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/null"
+    ],
+    "opengl": [
+        "Render an image using the hardware-accelerated 3D viewport renderer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/opengl"
+    ],
+    "prepost": [
+        "Renders ROPs before and after a main job.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/prepost"
+    ],
+    "rib": [
+        "Renders the scene using Pixar\u2019s RenderMan renderer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/rib"
+    ],
+    "ribarchive": [
+        "Generates disk-based archives which can be used by RenderMan .",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/ribarchive"
+    ],
+    "ris": [
+        "Renders the scene using Pixar\u2019s RenderMan RIS renderer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/ris"
+    ],
+    "shell": [
+        "Runs an external command.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/shell"
+    ],
+    "standard": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/standard"
+    ],
+    "subnet": [
+        "The SubNetwork output operator provides an easy way to manage la",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/subnet"
+    ],
+    "switch": [
+        "Renders one of several inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/switch"
+    ],
+    "wedge": [
+        "Re-renders the same ROP multiple times with different settings",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/wedge"
+    ],
+    "wren": [
+        "This output operator is used to drive the Wren rendering program.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/out/wren"
+    ]
+}

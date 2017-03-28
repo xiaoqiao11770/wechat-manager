@@ -1,7 +1,0 @@
-#type: node
-#context: vop
-#internal: rsl_log
-
-= RenderMan Logarithm =
-
-See the RSL `logarithm` function in the RenderMan documentation.

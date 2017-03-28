@@ -1,0 +1,802 @@
+{
+    "_index": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/_index"
+    ],
+    "approxsss_eval": [
+        "Evaluates the SSS BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/approxsss_eval"
+    ],
+    "approxsss_sample": [
+        "Samples the SSS BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/approxsss_sample"
+    ],
+    "diffuse_eval": [
+        "Evaluates the diffuse BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/diffuse_eval"
+    ],
+    "diffuse_sample": [
+        "Samples the diffuse BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/diffuse_sample"
+    ],
+    "fresneldiffuse_eval": [
+        "Evaluates the fresnel diffuse BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/fresneldiffuse_eval"
+    ],
+    "fresneldiffuse_sample": [
+        "Samples the fresnel diffuse BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/fresneldiffuse_sample"
+    ],
+    "fur_density_map": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/fur_density_map"
+    ],
+    "gen_bsdfshader": [
+        "Implements a generic bsdfshader shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_bsdfshader"
+    ],
+    "gen_displace": [
+        "Implements a generic displacement shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_displace"
+    ],
+    "gen_fog": [
+        "Implements a generic fog shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_fog"
+    ],
+    "gen_generic": [
+        "Implements a generic shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_generic"
+    ],
+    "gen_integrator": [
+        "Implements a generic integrator shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_integrator"
+    ],
+    "gen_interior": [
+        "Implements a generic interior fog shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_interior"
+    ],
+    "gen_light": [
+        "Implements a generic light shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_light"
+    ],
+    "gen_output": [
+        "Implements a generic output shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_output"
+    ],
+    "gen_shadow": [
+        "Implements a generic shadow shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_shadow"
+    ],
+    "gen_surface": [
+        "Implements a generic surface shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/gen_surface"
+    ],
+    "ggx_eval": [
+        "Evaluates the GGX BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ggx_eval"
+    ],
+    "ggx_sample": [
+        "Samples the GGX BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ggx_sample"
+    ],
+    "hair_eval": [
+        "Evaluates the hair BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/hair_eval"
+    ],
+    "hair_sample": [
+        "Samples the hair BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/hair_sample"
+    ],
+    "hairshader": [
+        "A physically based hair shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/hairshader"
+    ],
+    "henyeygreenstein_eval": [
+        "Evaluates the Henyey-Greenstein BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/henyeygreenstein_eval"
+    ],
+    "henyeygreenstein_sample": [
+        "Samples the Henyey-Greenstein BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/henyeygreenstein_sample"
+    ],
+    "mantrasurface": [
+        "Flexible material including multiple reflection layers, subsurface scattering, refractions and displacement.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/mantrasurface"
+    ],
+    "material": [
+        "A higher-level shader that can contain one or more sub-shade",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/material"
+    ],
+    "matnet": [
+        "A network that contains materials and shaders.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/matnet"
+    ],
+    "mergecoshader": [
+        "Merge multiple co-shaders for output.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/mergecoshader"
+    ],
+    "oslnet": [
+        "The OSL Network shop contains OSL shader nodes composited together to form more complex materials.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/oslnet"
+    ],
+    "phong_eval": [
+        "Evaluates the Phong BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/phong_eval"
+    ],
+    "phong_sample": [
+        "Samples the Phong BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/phong_sample"
+    ],
+    "principledshader": [
+        "An artist-friendly shader that can model a large number of materials realistically.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/principledshader"
+    ],
+    "properties": [
+        "Attach its properties to any objects that have the shader assigned.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/properties"
+    ],
+    "pyro": [
+        "Flexible, production-quality fire and smoke shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/pyro"
+    ],
+    "pyro-": [
+        "Flexible, production-quality fire and smoke shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/pyro-"
+    ],
+    "ri_bumpy": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_bumpy"
+    ],
+    "ri_carpet": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_carpet"
+    ],
+    "ri_cloth": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_cloth"
+    ],
+    "ri_cmarble": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_cmarble"
+    ],
+    "ri_constant": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_constant"
+    ],
+    "ri_delayedreadarchive": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_delayedreadarchive"
+    ],
+    "ri_depthcue": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_depthcue"
+    ],
+    "ri_diaknurl": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_diaknurl"
+    ],
+    "ri_distantlight": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_distantlight"
+    ],
+    "ri_dynamicload": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_dynamicload"
+    ],
+    "ri_fog": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_fog"
+    ],
+    "ri_glass": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_glass"
+    ],
+    "ri_glassbal": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_glassbal"
+    ],
+    "ri_lightlight": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_lightlight"
+    ],
+    "ri_matte": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_matte"
+    ],
+    "ri_metal": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_metal"
+    ],
+    "ri_paintplastic": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_paintplastic"
+    ],
+    "ri_plastic": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_plastic"
+    ],
+    "ri_pointnofallofflight": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_pointnofallofflight"
+    ],
+    "ri_rmarble": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_rmarble"
+    ],
+    "ri_rsmetal": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_rsmetal"
+    ],
+    "ri_runprogram": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_runprogram"
+    ],
+    "ri_shadowdistantlight": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_shadowdistantlight"
+    ],
+    "ri_shadowpointlight": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_shadowpointlight"
+    ],
+    "ri_shadowspotlight": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_shadowspotlight"
+    ],
+    "ri_shinymetal": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_shinymetal"
+    ],
+    "ri_sinknurl": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_sinknurl"
+    ],
+    "ri_spatter": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_spatter"
+    ],
+    "ri_spotlight": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_spotlight"
+    ],
+    "ri_stippled": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_stippled"
+    ],
+    "ri_stone": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_stone"
+    ],
+    "ri_threads": [
+        "Pixar's prman factory shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/ri_threads"
+    ],
+    "risnet": [
+        "Serves as a container for RIS shaders.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/risnet"
+    ],
+    "rsl_vopdisplace": [
+        "Container for an RSL displacement shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_vopdisplace"
+    ],
+    "rsl_vopimager": [
+        "Container for an RSL imager shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_vopimager"
+    ],
+    "rsl_voplight": [
+        "Container for an RSL light shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_voplight"
+    ],
+    "rsl_vopmaterial": [
+        "A higher-level shader that can contain one or more sub-shade",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_vopmaterial"
+    ],
+    "rsl_vopshaderclass": [
+        "A class-based shader for RenderMan.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_vopshaderclass"
+    ],
+    "rsl_vopstruct": [
+        "A SHOP that provides a struct type definition for use in RenderMan VOP networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_vopstruct"
+    ],
+    "rsl_vopsurface": [
+        "A shader node containing a RenderMan surface shader VOP network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_vopsurface"
+    ],
+    "rsl_vopvolume": [
+        "Container for an RSL volume shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/rsl_vopvolume"
+    ],
+    "select": [
+        "Select which shop to use for rendering based on valid render ty",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/select"
+    ],
+    "standard_shading_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/standard_shading_parms"
+    ],
+    "subnet": [
+        "The Subnet shop is essentially a way of creating a macro",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/subnet"
+    ],
+    "suboutput": [
+        "Collects shaders for output.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/suboutput"
+    ],
+    "switch": [
+        "Switch shops based on a single expression.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/switch"
+    ],
+    "tooncolorshader": [
+        "Shades objects with a stylized cartoon look.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/tooncolorshader"
+    ],
+    "toonoutlineshader": [
+        "Creates lines around the silhouettes of objects",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/toonoutlineshader"
+    ],
+    "v_aluminum": [
+        "This surface implements anisotropic shading based on the light",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_aluminum"
+    ],
+    "v_ambient": [
+        "Ambient Light Source.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_ambient"
+    ],
+    "v_asadlens": [
+        "This is a simple example of a perspective lens shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_asadlens"
+    ],
+    "v_asadlight": [
+        "ASAD Light - All Singing And Dancing Light Shader This sha",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_asadlight"
+    ],
+    "v_attenlight": [
+        "An attenuated light source.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_attenlight"
+    ],
+    "v_attenspot": [
+        "An attenuated cone light source.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_attenspot"
+    ],
+    "v_blurshadow": [
+        "The blur shadow shader generates soft shadows by sending out multi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_blurshadow"
+    ],
+    "v_burlap": [
+        "This displacement shader simulates rough cloth like burlap Text",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_burlap"
+    ],
+    "v_cartoon": [
+        "This shader colors like a cartoon.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_cartoon"
+    ],
+    "v_choppywater": [
+        "This shader gives the appearance of choppy waves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_choppywater"
+    ],
+    "v_clay": [
+        "The clay shader uses the Oren-Nayar diffuse lighting model",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_clay"
+    ],
+    "v_collada": [
+        "The collada shader is used when importing collada files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_collada"
+    ],
+    "v_constant": [
+        "This shader will constant shade a surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_constant"
+    ],
+    "v_corrugated": [
+        "This displacement shader simulates corrugated material (l",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_corrugated"
+    ],
+    "v_decal": [
+        "This surface shader generates a plastic surface which has a text",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_decal"
+    ],
+    "v_dented": [
+        "This shader generates creates a dented surface The rest posit",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_dented"
+    ],
+    "v_diffuselighting": [
+        "Evaluates the diffuse lighting for PBR.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_diffuselighting"
+    ],
+    "v_distant": [
+        "Simulates a distant attenuated light source.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_distant"
+    ],
+    "v_dmap": [
+        "This shader will displace the surface geometry based on the lumina",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_dmap"
+    ],
+    "v_fastzmap": [
+        "A fast volumetric light shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_fastzmap"
+    ],
+    "v_fbx": [
+        "The fbx shader is used when importing fbx files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_fbx"
+    ],
+    "v_fluffy": [
+        "This shader is used by the i3dgen program (or the 3D Texture out",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_fluffy"
+    ],
+    "v_gilight": [
+        "This light source can be used to add some global illuminat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_gilight"
+    ],
+    "v_gingham": [
+        "This shader will generate gingham checks (like a ging",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_gingham"
+    ],
+    "v_glass": [
+        "The glass shader simulates a transparent, refractive surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_glass"
+    ],
+    "v_hair": [
+        "This shader implements a lighting model approximating hair-to-hair and hair-to-skin shadowing of a thin coat of fur.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_hair"
+    ],
+    "v_krinkle": [
+        "This shader gives the appearance of crinkled up paper which has b",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_krinkle"
+    ],
+    "v_lighttracer": [
+        "Experimental light-centric PBR rendering engine.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_lighttracer"
+    ],
+    "v_litfog": [
+        "This fog shader computes lit fog by marching a ray from the eye",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_litfog"
+    ],
+    "v_matte": [
+        "Occludes geometry behind the surface being rendered.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_matte"
+    ],
+    "v_metacloud": [
+        "This shader is used by the i3dgen program (or the 3D Texture out",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_metacloud"
+    ],
+    "v_metal": [
+        "Simulates a reflective metallic surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_metal"
+    ],
+    "v_mislighting": [
+        "Evaluates MIS lighting for PBR.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_mislighting"
+    ],
+    "v_oglmaterial": [
+        "This shader is used to represent an Open GL material.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_oglmaterial"
+    ],
+    "v_pathtracer": [
+        "The pathtracer shader is used by PBR rendering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_pathtracer"
+    ],
+    "v_photontracer": [
+        "The photontracer shader is used to generate photon maps in mantra.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_photontracer"
+    ],
+    "v_plastic": [
+        "Simulates a plastic surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_plastic"
+    ],
+    "v_pointlight": [
+        "A point light source.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_pointlight"
+    ],
+    "v_polka": [
+        "This shader generates polka dots.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_polka"
+    ],
+    "v_rayshadow": [
+        "The rayshadow shader generates shadows based on one of four differ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_rayshadow"
+    ],
+    "v_riverbed": [
+        "This shader gives the appearance of a dried up riverbed.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_riverbed"
+    ],
+    "v_sampler_uvlens": [
+        "This is the UV lens sampler.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_sampler_uvlens"
+    ],
+    "v_shadowmatte": [
+        "The shadowmatte shader generates an alpha image that sto",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_shadowmatte"
+    ],
+    "v_softtoon": [
+        "This non-photorealistic shader shades the surface facing away f",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_softtoon"
+    ],
+    "v_supermat": [
+        "Phong, Blinn or Cook shading models use all three aspects of ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_supermat"
+    ],
+    "v_tracer_pcphoton": [
+        "Point Cloud Photon Light Intersector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_tracer_pcphoton"
+    ],
+    "v_uniform": [
+        "This generates uniform fog.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_uniform"
+    ],
+    "v_uvlens": [
+        "This is the UV rendering lens shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_uvlens"
+    ],
+    "v_volumecloud": [
+        " This volume shader will shade volume objects as if they were f",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_volumecloud"
+    ],
+    "v_volumefire": [
+        " This volume shader will shade volume objects as if they were fla",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_volumefire"
+    ],
+    "v_vrlens": [
+        "Lens shader supporting VR image rendering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_vrlens"
+    ],
+    "v_window": [
+        "Simulates light streaming through a window.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_window"
+    ],
+    "v_zdepth": [
+        "This fog shader computes the coverage based on an ease-in ease-",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/v_zdepth"
+    ],
+    "vm_geo_agent": [
+        "Creates crowds geometry for agent primitives at render time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_agent"
+    ],
+    "vm_geo_alembic": [
+        "Renders Alembic primitives directly in mantra.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_alembic"
+    ],
+    "vm_geo_engine": [
+        "Invokes Houdini Engine for each point on the object's geometry and instan",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_engine"
+    ],
+    "vm_geo_enginecurvegen": [
+        "Cooks a SOP asset for each point in the source geometry and instances the generated curves onto the point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_enginecurvegen"
+    ],
+    "vm_geo_enginepointgen": [
+        "Cooks a SOP asset for each point in the source geometry and instances the generated points onto the point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_enginepointgen"
+    ],
+    "vm_geo_file": [
+        "Replaces the object with the contents of a file at render time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_file"
+    ],
+    "vm_geo_fur": [
+        "Creates a set of hair-like curves across a surface at render time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_fur"
+    ],
+    "vm_geo_image3d": [
+        "Generates an iso-surface from a 3D texture image (.i3d) file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_image3d"
+    ],
+    "vm_geo_image3dvolume": [
+        "Replaces object's geometry with a volume primitive read from a 3D texture (.i3d) file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_image3dvolume"
+    ],
+    "vm_geo_program": [
+        "Runs an external program to generate geometry at render time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_program"
+    ],
+    "vm_geo_ptinstance": [
+        "The underlying procedural when using Fast Point Instancing with t",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_ptinstance"
+    ],
+    "vm_geo_ptreplicate": [
+        "The Point Replicate Procedural takes a number of input points and multipli",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_ptreplicate"
+    ],
+    "vm_geo_sprite": [
+        "Renders points as sprites, small textures that are always normal to the camera.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_sprite"
+    ],
+    "vm_geo_vexvolume": [
+        "Render a volume from fields created by a CVEX shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vm_geo_vexvolume"
+    ],
+    "vopcvex": [
+        "Container for a CVEX shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopcvex"
+    ],
+    "vopdisplace": [
+        "Container for a VEX displacement shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopdisplace"
+    ],
+    "vopfog": [
+        "Container for a VEX fog shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopfog"
+    ],
+    "vopimage3d": [
+        "Container for a VEX image3d shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopimage3d"
+    ],
+    "voplight": [
+        "Container for a VEX light shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/voplight"
+    ],
+    "vopmaterial": [
+        "A higher-level shader that can contain one or more sub-shade",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopmaterial"
+    ],
+    "vopphoton": [
+        "Container for a VEX photon shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopphoton"
+    ],
+    "vopshadow": [
+        "Container for a VEX shadow shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopshadow"
+    ],
+    "vopsurface": [
+        "A shader node containing a surface shader VOP network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/shop/vopsurface"
+    ]
+}

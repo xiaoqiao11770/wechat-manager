@@ -1,0 +1,4042 @@
+{
+    "CVEX_shader": [
+        "Container for a CVEX shader implementation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/CVEX_shader"
+    ],
+    "DelayedReadArchive": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/DelayedReadArchive"
+    ],
+    "_index": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/_index"
+    ],
+    "aaflownoise": [
+        "Generates anti-aliased (fractional brownian motion) noise by us",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/aaflownoise"
+    ],
+    "aanoise": [
+        "Generates anti-aliased noise by using the derivative information of the incoming position to compute band-limited noise.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/aanoise"
+    ],
+    "aarampparm": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/aarampparm"
+    ],
+    "abs": [
+        "Computes the absolute value of the argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/abs"
+    ],
+    "add": [
+        "Outputs the sum of its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/add"
+    ],
+    "addattrib": [
+        "Adds a new attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addattrib"
+    ],
+    "addconst": [
+        "Adds the specified constant value to the incoming integer, flo",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addconst"
+    ],
+    "addgroup": [
+        "Adds the point specified to the group given.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addgroup"
+    ],
+    "addpoint": [
+        "Adds points to the geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addpoint"
+    ],
+    "addprim": [
+        " Adds primitives to the geometry. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addprim"
+    ],
+    "addsteerforce": [
+        "Multiply steerforce by steerweight attributes and normalize results by total steerweight.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addsteerforce"
+    ],
+    "addvertex": [
+        " Adds vertices to the geometry. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addvertex"
+    ],
+    "addwindforce": [
+        "Layers a wind force onto a simulation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/addwindforce"
+    ],
+    "advectbyvolumes": [
+        "Advects a position by a set of volume primitives stored in a disk file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/advectbyvolumes"
+    ],
+    "agentaddclip": [
+        "Add a clip into an agent's definition.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentaddclip"
+    ],
+    "agentclipcatalog": [
+        "Returns all of the animation clips that have been loaded for an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentclipcatalog"
+    ],
+    "agentcliplength": [
+        "Returns the length (in seconds) of an agent's animation clip.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentcliplength"
+    ],
+    "agentclipnames": [
+        "Returns an agent primitive's current animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentclipnames"
+    ],
+    "agentclipsample": [
+        "Samples an agent's animation clip at a specific time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentclipsample"
+    ],
+    "agentclipsamplerate": [
+        "Returns the sample rate of an agent's animation clip.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentclipsamplerate"
+    ],
+    "agentcliptimes": [
+        "Returns the current times for an agent primitive's animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentcliptimes"
+    ],
+    "agentclipweights": [
+        "Returns the blend weights for an agent primitive's animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentclipweights"
+    ],
+    "agentconverttransforms": [
+        "Converts transforms between local space and world space for an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentconverttransforms"
+    ],
+    "agentlayerbindings": [
+        "Returns the transform that each shape in an agent's layer is bound to.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentlayerbindings"
+    ],
+    "agentlayername": [
+        "Returns the name of the current layer or collision layer of an agent.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentlayername"
+    ],
+    "agentlayers": [
+        "Returns all of the layers that have been loaded for an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentlayers"
+    ],
+    "agentlayershapes": [
+        "Returns the names of the shapes referenced by an agent primitive's layer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentlayershapes"
+    ],
+    "agentrigchildren": [
+        "Returns the child transforms of a transform in an agent primitive's rig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentrigchildren"
+    ],
+    "agentrigfind": [
+        "Finds the index of a transform in an agent primitive's rig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentrigfind"
+    ],
+    "agentrigparent": [
+        "Returns the parent transform of a transform in an agent primitive's rig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agentrigparent"
+    ],
+    "agenttransformcount": [
+        "Returns the number of transforms in an agent primitive's rig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agenttransformcount"
+    ],
+    "agenttransformnames": [
+        "Returns the name of each transform in an agent primitive's rig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agenttransformnames"
+    ],
+    "agenttransforms": [
+        "Returns the current local or world space transforms of an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/agenttransforms"
+    ],
+    "albedo": [
+        "Compute the reflectivity of a bsdf.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/albedo"
+    ],
+    "align": [
+        "Computes a matrix representing the rotation around the axes normal to two vectors by the angle which is between the two vectors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/align"
+    ],
+    "alphamix": [
+        "Takes two values for alpha based on the surface orientation relat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/alphamix"
+    ],
+    "ambient": [
+        "Generates a color using ambient lighting model calculation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ambient"
+    ],
+    "and": [
+        "Performs a logical \"and\" operation between its inputs and returns 1 or 0.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/and"
+    ],
+    "append": [
+        "Adds an item to an array or string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/append"
+    ],
+    "argsort": [
+        "Returns the indices of a sorted version of an array.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/argsort"
+    ],
+    "arraylength": [
+        "Produces the length of an array.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/arraylength"
+    ],
+    "atan": [
+        "Performs the atan2() function",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/atan"
+    ],
+    "atten": [
+        "Computes attenuated falloff.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/atten"
+    ],
+    "attenuate": [
+        "Computes an color attenuation based on surface depth and density.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/attenuate"
+    ],
+    "avg": [
+        "Outputs the average of its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/avg"
+    ],
+    "avgcomp": [
+        "Computes the average value of a vector argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/avgcomp"
+    ],
+    "bakeexports": [
+        "Export shading for use in bake image planes",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bakeexports"
+    ],
+    "banana": [
+        "Generates a material that simulates banana skin.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/banana"
+    ],
+    "bbox": [
+        "Returns two vectors representing the minimum and maximum corners of the bounding box for the specified geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bbox"
+    ],
+    "bias": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bias"
+    ],
+    "bind": [
+        "Represents an attribute bound to VEX.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bind"
+    ],
+    "blendregions": [
+        "Takes a float input as a bias to blend between three in",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/blendregions"
+    ],
+    "block_begin": [
+        "Marks the start of a code block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/block_begin"
+    ],
+    "block_begin_for": [
+        "Marks the start of a for loop block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/block_begin_for"
+    ],
+    "block_begin_foreach": [
+        "Marks the start of a for-each loop block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/block_begin_foreach"
+    ],
+    "block_begin_if": [
+        "Marks the start of an if code block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/block_begin_if"
+    ],
+    "block_end": [
+        "Marks the end of a code block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/block_end"
+    ],
+    "block_end_breakif": [
+        "Marks the end of a code block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/block_end_breakif"
+    ],
+    "block_end_while": [
+        "Marks the end of a while code block.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/block_end_while"
+    ],
+    "boxclip": [
+        "Clips the line segment defined by `p1` and `p2` to the bounding ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/boxclip"
+    ],
+    "boxes": [
+        "Generates repeating filtered squares.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/boxes"
+    ],
+    "boxtile": [
+        "Generates staggered rectangular tiles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/boxtile"
+    ],
+    "bricker": [
+        "Generates a brick pattern based on the parametric `s` and ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bricker"
+    ],
+    "bricks": [
+        "Simulates an anti-aliased brick wall.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bricks"
+    ],
+    "brushedcircles": [
+        "Outputs an angle that gives the appearance of a circular brush pattern when used with anisotropy direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/brushedcircles"
+    ],
+    "brushedmetalshader": [
+        "A basic brushed metal shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/brushedmetalshader"
+    ],
+    "bsdftint": [
+        "Tints a BSDF with separate control over colorization and luminance.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bsdftint"
+    ],
+    "buildarray": [
+        "Outputs the array consisting of its inputs as array elements.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/buildarray"
+    ],
+    "bumpmap": [
+        "Computes a filtered sample of the texture map specified and retu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bumpmap"
+    ],
+    "bumpnoise": [
+        "Displaces surfaces along their normal using anti-aliased noise, ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bumpnoise"
+    ],
+    "bumptonormalmap": [
+        "Compute a tangent-space normal map from a bump map",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/bumptonormalmap"
+    ],
+    "burlap": [
+        "Generates a burlap displacement pattern useful for simulating ro",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/burlap"
+    ],
+    "burlap_pattern": [
+        "Returns float between 0 and 1 which defines a burlap pattern useful for simulating rough cloth or weave patterns.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/burlap_pattern"
+    ],
+    "cardboard": [
+        "Simulates a rough, anti-aliased cardboard surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/cardboard"
+    ],
+    "carpaintshader": [
+        "Simulates car paint with embedded metallic flakes and a coat layer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/carpaintshader"
+    ],
+    "cavities": [
+        "Produces a surface displacement that simulates small surface dam",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/cavities"
+    ],
+    "ceiling": [
+        "Returns the smallest integer greater than or equal to ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ceiling"
+    ],
+    "cellcracks": [
+        "Generates a cellular crack displacement suitable for simulating sk",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/cellcracks"
+    ],
+    "cellnoise": [
+        "Computes 2D, anti-aliased cellular noise suitable for shading.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/cellnoise"
+    ],
+    "checkered": [
+        "Returns number between 0 and 1 which defines a checkered pattern useful for visualizing parametric or texture coordinates.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/checkered"
+    ],
+    "chinput": [
+        "Returns a sample value in one of the 4 input CHOPs connected to the Channel VOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/chinput"
+    ],
+    "chr": [
+        "Converts an unicode codepoint to a UTF8 string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/chr"
+    ],
+    "chromenv": [
+        "Simulates a chrome material defined solely by an environment map ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/chromenv"
+    ],
+    "clamp": [
+        "Clamps the input data between the minimum and maximum values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/clamp"
+    ],
+    "classcast": [
+        "Downcasts a generic (anonymous) co-shader object to a specific co-shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/classcast"
+    ],
+    "classicshader": [
+        "Flexible material including multiple reflection layers, subsurface scattering, refractions and displacement.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/classicshader"
+    ],
+    "classicshadercore": [
+        "A powerful, highly flexible, generic surface shader with displacement.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/classicshadercore"
+    ],
+    "cloudenv": [
+        "Simulates a simple cloud and sky reflection using anti-alia",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/cloudenv"
+    ],
+    "clouds": [
+        "Simulates a cloudy sky using 4-dimensional anti-aliased noise, wh",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/clouds"
+    ],
+    "collect": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/collect"
+    ],
+    "colorcorrection": [
+        "Provides a means to change the hue, saturation, intensity, bias, gain and gamma of the input color.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/colorcorrection"
+    ],
+    "colormap": [
+        "Looks up a single sample of RGB or RGBA color from a disk image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/colormap"
+    ],
+    "colormix": [
+        "Computes a blend (or a mix) of its two color inputs, and outputs ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/colormix"
+    ],
+    "compare": [
+        "Compares two values and returns true or false.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/compare"
+    ],
+    "complement": [
+        "Computes the complement of the argument by subtracting the argum",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/complement"
+    ],
+    "composite": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/composite"
+    ],
+    "computelighting": [
+        "Computes lighting using Physically Based Rendering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/computelighting"
+    ],
+    "computenormal": [
+        "This node gives finer control over handling of the normal attribute in VOPs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/computenormal"
+    ],
+    "computetan": [
+        "Compute surface tangents in different ways.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/computetan"
+    ],
+    "concrete": [
+        "Produces a surface displacement that simulates small surf",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/concrete"
+    ],
+    "conductorfresnel": [
+        "Outputs a physically correct reflection factor for conductive materials.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/conductorfresnel"
+    ],
+    "conserveenergy": [
+        "Clamp the reflectivity of a bsdf to 1.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/conserveenergy"
+    ],
+    "constant": [
+        "Outputs a constant value of any VEX data type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/constant"
+    ],
+    "contains": [
+        "Checks whether a value exists in an array.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/contains"
+    ],
+    "contour": [
+        "Increases or decreases contrast for values at the bottom of the input range.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/contour"
+    ],
+    "copinput": [
+        "Returns a pixel value in one of the 4 input COPs connected to the ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/copinput"
+    ],
+    "copy": [
+        "Takes a single input of any data type.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/copy"
+    ],
+    "cosine": [
+        "Performs a cosine function.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/cosine"
+    ],
+    "crackle": [
+        "Returns float between 0 and 1 which defines a crackle pattern useful for simulating the fine grain texture in skin or on a much larger scale dried mudflats.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/crackle"
+    ],
+    "cross": [
+        "Computes the cross product between two vectors, defined as the vec",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/cross"
+    ],
+    "ctransform": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ctransform"
+    ],
+    "curlnoise": [
+        "Creates divergence-free 3D noise using a curl function.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/curlnoise"
+    ],
+    "curlnoise2d": [
+        "Creates divergence-free 2D noise using a curl function.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/curlnoise2d"
+    ],
+    "curvature": [
+        "Computes surface curvature.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/curvature"
+    ],
+    "dampennoise": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/dampennoise"
+    ],
+    "decal_a": [
+        "An OTL that performs composting of texture maps.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/decal_a"
+    ],
+    "degtorad": [
+        "Converts degrees to radians.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/degtorad"
+    ],
+    "densitytoopacity": [
+        "Computes the opacity of a uniform volume given a density.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/densitytoopacity"
+    ],
+    "depthmap": [
+        "Works on an image which was rendered as a z-depth image, return",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/depthmap"
+    ],
+    "determinant": [
+        "Computes the determinant of a 4x4 or 3x3 matrix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/determinant"
+    ],
+    "dimport": [
+        "Imports the value of the specified variable from a displacem",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/dimport"
+    ],
+    "directlighting": [
+        "Internal VOP used to compute direct lighting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/directlighting"
+    ],
+    "dirtmask": [
+        "Masks crevices or exposed edges",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/dirtmask"
+    ],
+    "displace": [
+        "Displaces surface position and modifies surface normals.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/displace"
+    ],
+    "displacenml": [
+        "Displaces the surface along the surface normal by a given amount.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/displacenml"
+    ],
+    "displacetexture": [
+        "Modifies normals and/or positions based on a texture map.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/displacetexture"
+    ],
+    "distance": [
+        "Returns the distance between two 3D or 4D points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/distance"
+    ],
+    "divconst": [
+        "Divides the incoming integer, float, vector or vector4 value by ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/divconst"
+    ],
+    "divide": [
+        "Outputs the result of dividing each input value by the next.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/divide"
+    ],
+    "dot": [
+        "Computes the dot product between two vectors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/dot"
+    ],
+    "dualrest": [
+        "Outputs sanitized dual rest values based.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/dualrest"
+    ],
+    "dualrestsolver": [
+        "Sanitizes dual rest attribute data for easier use.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/dualrestsolver"
+    ],
+    "edgefalloff": [
+        "Creates a smooth roll-off of the input color from the center of ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/edgefalloff"
+    ],
+    "efit": [
+        "Takes the value in the source range and shifts it",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/efit"
+    ],
+    "egg_shell": [
+        "Returns a new surface normal (`N`) which has a slight fine grained bump on it.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/egg_shell"
+    ],
+    "eggshell": [
+        "Generates an anti-aliased egg-shell material with the typi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/eggshell"
+    ],
+    "eigenvalues": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/eigenvalues"
+    ],
+    "endswith": [
+        "Result 1 if the string ends with the specified string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/endswith"
+    ],
+    "enginecurvegen": [
+        "Cooks a SOP asset for each point in the source geometry and instances the generated curves onto the point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/enginecurvegen"
+    ],
+    "engineinstance": [
+        "Runs hscript for each point in the source geometry and instances the generated geometry to the point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/engineinstance"
+    ],
+    "enginepointgen": [
+        "Cooks a SOP asset for each point in the source geometry and instances the generated points onto the point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/enginepointgen"
+    ],
+    "envmap": [
+        "Sets the environment map (on an infinite sphere) and returns ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/envmap"
+    ],
+    "eulertoquat": [
+        "Builds a quaternion with the given euler rotation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/eulertoquat"
+    ],
+    "exp": [
+        "Computes the exponential function of the argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/exp"
+    ],
+    "extractxform": [
+        "Extracts the translation, rotation, or scale component of a ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/extractxform"
+    ],
+    "fakecaustics": [
+        "Outputs and opacity value which can be used to approximate caustic lighting effects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fakecaustics"
+    ],
+    "fastshadow": [
+        "Sends a ray from the position `P` along the direction specified by ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fastshadow"
+    ],
+    "fieldname": [
+        "Provides a \"fallback\" value for a field/attribute if the field does n",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fieldname"
+    ],
+    "fieldparm": [
+        "Provides a \"fallback\" value for a field/attribute if the field does n",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fieldparm"
+    ],
+    "filamentsample": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/filamentsample"
+    ],
+    "file": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/file"
+    ],
+    "filtershadow": [
+        "Sends a ray from the position P along the direction specified by ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/filtershadow"
+    ],
+    "filterstep": [
+        "Computes the anti-aliased weight of the step function.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/filterstep"
+    ],
+    "filterwidth": [
+        "This function returns the square root of the area of a 3D input or the length of the derivative of a float input, such as _s_ or _t_.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/filterwidth"
+    ],
+    "find": [
+        "Finds all locations of an item in an array or string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/find"
+    ],
+    "findattribval": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/findattribval"
+    ],
+    "findattribvalcount": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/findattribvalcount"
+    ],
+    "findattribvalindex": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/findattribvalindex"
+    ],
+    "findsingle": [
+        "Finds the first location of an item in an array or string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/findsingle"
+    ],
+    "fire": [
+        "Generates 2D fire by modulating the t parametric direction using",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fire"
+    ],
+    "fit": [
+        "Takes the value in the source range and shifts it",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fit"
+    ],
+    "floattohmatx": [
+        "Converts sixteen floating-point values to a 4x4 matrix value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floattohmatx"
+    ],
+    "floattohvec": [
+        "Converts four floating-point values to a vector4 value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floattohvec"
+    ],
+    "floattoint": [
+        "Converts a float value to an integer value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floattoint"
+    ],
+    "floattomatx": [
+        "Converts nine floating-point values to a matrix3 value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floattomatx"
+    ],
+    "floattomatx2": [
+        "Converts four floating-point values to a matrix2 value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floattomatx2"
+    ],
+    "floattovec": [
+        "Converts three floating-point values to a vector value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floattovec"
+    ],
+    "floattovec2": [
+        "Converts two floating-point values to a vector2 value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floattovec2"
+    ],
+    "floor": [
+        "Returns the largest integer less than or equal to the argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/floor"
+    ],
+    "flownoise": [
+        "Generates 1D and 3D Perlin Flow Noise from 3D and 4D data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/flownoise"
+    ],
+    "foamy": [
+        "Creates 4D noise patterns similar to foam patterns on wind-swept water.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/foamy"
+    ],
+    "for": [
+        "Runs the VOP nodes inside its subnetwork until a given condition is true.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/for"
+    ],
+    "forpoints": [
+        "Only available in Image3D VOP networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/forpoints"
+    ],
+    "frac": [
+        "Computes the fractional component of the argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/frac"
+    ],
+    "fresnel": [
+        "Computes the Fresnel reflection/refraction contributi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fresnel"
+    ],
+    "fromndc": [
+        "Transforms a position from normal device coordinates to ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fromndc"
+    ],
+    "fromndcgeo": [
+        "Transforms a position from normal device coordinates to ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fromndcgeo"
+    ],
+    "frompolar": [
+        "Converts polar coordinates to cartesian coordinates.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/frompolar"
+    ],
+    "frontface": [
+        "Returns the front facing normal of a surface, given a surface nor",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/frontface"
+    ],
+    "fur": [
+        "Creates a set of hair-like curves across a surface at render time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fur"
+    ],
+    "furguideglobal": [
+        "Provides outputs representing commonly used input variables of fur gu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/furguideglobal"
+    ],
+    "furguideoutput": [
+        "Provides inputs representing the output variables of a fur guide sha",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/furguideoutput"
+    ],
+    "furrows": [
+        "Displaces the surface along the surface normal by an amount equal",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/furrows"
+    ],
+    "furskinglobal": [
+        "Provides outputs representing commonly used input variables of fur s",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/furskinglobal"
+    ],
+    "furskinoutput": [
+        "Provides inputs representing the output variables of a fur skin sha",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/furskinoutput"
+    ],
+    "fuzzyand": [
+        "Performs a fuzzy \"and\" operation between its inputs and returns a value between 0 and 1.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzyand"
+    ],
+    "fuzzydefuzz": [
+        "Performs a defuzzify operation between its input fuzzy sets and returns a crisp value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzydefuzz"
+    ],
+    "fuzzyinference": [
+        "Performs a fuzzy inference operation over each input to determine the truth of the fuzzy set defined on this node.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzyinference"
+    ],
+    "fuzzyinferencemirror": [
+        "\"This node represents two inferred fuzzy sets that are mirrors of one another.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzyinferencemirror"
+    ],
+    "fuzzyinput": [
+        "Performs a \"fuzzify\" operation that calculates a fuzzy value given a membership function and an input crisp value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzyinput"
+    ],
+    "fuzzynot": [
+        "This operator performs a fuzzy `not` operation on an integer or float value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzynot"
+    ],
+    "fuzzyor": [
+        "Performs a fuzzy \"or\" operation between its inputs and returns a value between 0 and 1.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzyor"
+    ],
+    "fuzzysenseobs": [
+        "Detects obstacles in an agent's field of view.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/fuzzysenseobs"
+    ],
+    "gain": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/gain"
+    ],
+    "gather": [
+        "Sends rays into the scene and contains a subnetwork of VOPs to operate on the information gathered from the shaders of surfaces hit by the rays.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/gather"
+    ],
+    "generalfresnel": [
+        "Computes the Fresnel reflection/refraction contributions and vectors for objects with or without depth.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/generalfresnel"
+    ],
+    "geometryvopglobal": [
+        "Provides outputs that represent all the global variables for ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/geometryvopglobal"
+    ],
+    "geometryvopoutput": [
+        " Simple output variable for Geometry VOP Networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/geometryvopoutput"
+    ],
+    "getattrib": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/getattrib"
+    ],
+    "getblurP": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/getblurP"
+    ],
+    "getelement": [
+        "Gets a specified element from array.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/getelement"
+    ],
+    "getobjxform": [
+        "Gets the transform matrix of a named object in camera (current) space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/getobjxform"
+    ],
+    "getprimid": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/getprimid"
+    ],
+    "getptextureid": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/getptextureid"
+    ],
+    "gettransformchannels": [
+        "Returns a transform value built from 9 channels from one of the 4 input CHOPs connected to the Channel VOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/gettransformchannels"
+    ],
+    "gingham": [
+        "Generates anti-aliased gingham checks similar to a tablecl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/gingham"
+    ],
+    "glass": [
+        "Simulates a translucent material such as glass, and returns ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/glass"
+    ],
+    "glassshader": [
+        "A physically plausible glass shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/glassshader"
+    ],
+    "global": [
+        "Provides outputs that represent all the global variables for ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/global"
+    ],
+    "glow": [
+        "Simulates a hot glow effect to be used in the Fog context, ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/glow"
+    ],
+    "gradient3d": [
+        "Returns the gradient of a single channel 3D texture image a",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/gradient3d"
+    ],
+    "grandom": [
+        "Generates a random number fitting a Gaussian distribution.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/grandom"
+    ],
+    "grandomuv": [
+        "Generates a random number fitting a Gaussian distribution.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/grandomuv"
+    ],
+    "hair": [
+        "Simulates the look of hair.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hair"
+    ],
+    "hairdiff": [
+        "Generates a color specifically for curves (hairs) using a lambert lighting model calculation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hairdiff"
+    ],
+    "hairmodel": [
+        "A powerful, highly flexible, general model for hair/fur shading.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hairmodel"
+    ],
+    "hairnormal": [
+        "Generates a normal vector which always faces the camera, parallel to the incidence vector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hairnormal"
+    ],
+    "hairshader": [
+        "A powerful, highly flexible, general model for hair/fur shading.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hairshader"
+    ],
+    "hairspec": [
+        "Generates a color specifically for curves (hairs) using a specular lighting model calculation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hairspec"
+    ],
+    "halo": [
+        "Generates a soft halo effect to be used in the Fog context, ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/halo"
+    ],
+    "hasinput": [
+        "Returns 1 if the specified input (0-3) is connected.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hasinput"
+    ],
+    "hasmetadata": [
+        "Returns true if the specified metadata exists.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hasmetadata"
+    ],
+    "hextile": [
+        "Generates staggered hexagonal tiles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hextile"
+    ],
+    "hilownoise": [
+        "Computes a mix of high and low frequency, anti-aliased noise wit",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hilownoise"
+    ],
+    "hmatxgetcompon": [
+        "Extracts a 4x4 matrix component.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hmatxgetcompon"
+    ],
+    "hmatxsetcompon": [
+        "Assigns a value to one of the matrix's components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hmatxsetcompon"
+    ],
+    "hmatxtofloat": [
+        "Unpacks a 4x4 matrix into its sixteen components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hmatxtofloat"
+    ],
+    "hmatxtohvec": [
+        "Unpacks a 4x4 matrix into its rows.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hmatxtohvec"
+    ],
+    "hsvtorgb": [
+        "Converts HSV color space to RGB color space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hsvtorgb"
+    ],
+    "hueshift": [
+        "Uses the shift value to move the hue of the input color along the color wheel by the amount influenced by the amplitude.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hueshift"
+    ],
+    "hvecgetcompon": [
+        "Extracts a vector4 component.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hvecgetcompon"
+    ],
+    "hvecsetcompon": [
+        "Assigns a value to one of the vector4's components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hvecsetcompon"
+    ],
+    "hvectofloat": [
+        "Unpacks a vector4 into its four components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hvectofloat"
+    ],
+    "hvectohmatx": [
+        "Converts rows values to a 4x4 matrix value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hvectohmatx"
+    ],
+    "hvectovec": [
+        "Converts a vector4 to a vector and also returns the fourth compon",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hvectovec"
+    ],
+    "hvectovec2": [
+        "Converts a vector4 to a pair of vector2s..",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/hvectovec2"
+    ],
+    "if": [
+        "Contains other VOP operators.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/if"
+    ],
+    "ifconnected": [
+        "Passes through the value of the first input if the first input",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ifconnected"
+    ],
+    "illuminance": [
+        "Only available in Surface VOP networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/illuminance"
+    ],
+    "image3d": [
+        "This procedural will generate an iso-surface from a 3D texture image (.i3d file).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/image3d"
+    ],
+    "image3dvolume": [
+        "This procedural will generate a volume from a 3D texture image (.i3d file).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/image3dvolume"
+    ],
+    "importattrib": [
+        "Imports attribute data from the OP connected to the given input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/importattrib"
+    ],
+    "importdetail": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/importdetail"
+    ],
+    "importpoint": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/importpoint"
+    ],
+    "importprim": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/importprim"
+    ],
+    "importvertex": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/importvertex"
+    ],
+    "indirectlighting": [
+        "Internal VOP used to compute indirect lighting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/indirectlighting"
+    ],
+    "ingroup": [
+        "Returns 1 if the point specified by the point number is in the gr",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ingroup"
+    ],
+    "inline": [
+        "Write VEX code that is put directly into your shader or opera",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/inline"
+    ],
+    "inprimorptgroup": [
+        "Returns 1 if the point or primitive is in the group specified by the string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/inprimorptgroup"
+    ],
+    "insert": [
+        "Inserts an item, array, or string into an array or string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/insert"
+    ],
+    "integrate3d": [
+        "Integrates a 3D image along the line specified by two points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/integrate3d"
+    ],
+    "integrate3dclip": [
+        "Integrates a 3D image along the line specified by two points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/integrate3dclip"
+    ],
+    "intersect": [
+        "Computes the intersection of a ray with geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/intersect"
+    ],
+    "intersect3d": [
+        "Intersects a 3D image along the line specified by two points.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/intersect3d"
+    ],
+    "intersectall": [
+        "Computes all the intersections of a ray with geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/intersectall"
+    ],
+    "inttofloat": [
+        "Converts an integer value to a float value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/inttofloat"
+    ],
+    "inttovec": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/inttovec"
+    ],
+    "invert": [
+        "If given a 3x3 or 4x4 matrix, this operator computes its inverse (or just returns the input matrix if it detects singularity).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/invert"
+    ],
+    "irradiance": [
+        "Computes the irradiance (the global illumination) at the point `P` w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/irradiance"
+    ],
+    "isalpha": [
+        "Result 1 if all the characters in the string are alphabetic.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isalpha"
+    ],
+    "isconnected": [
+        "Outputs 1 if the input is ultimately connected, otherwise it outp",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isconnected"
+    ],
+    "isdigit": [
+        "Result 1 if all the characters in the string are numeric.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isdigit"
+    ],
+    "isfinite": [
+        "Returns 1 if the number is a normal number, ie, not infinite or NAN.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isfinite"
+    ],
+    "isfog": [
+        "Returns 1 if the shader is being evaluated from within a ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isfog"
+    ],
+    "isfrontface": [
+        "Returns true if the normal of the surface is forward facing, ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isfrontface"
+    ],
+    "isnan": [
+        "Returns 1 if the number is not a number.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isnan"
+    ],
+    "isshadow": [
+        "Returns 1 if the shader is being evaluated for shadow rays.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/isshadow"
+    ],
+    "jitteredhairnormal": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/jitteredhairnormal"
+    ],
+    "join": [
+        "Concatenate all the strings of an array inserting a common spacer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/join"
+    ],
+    "lambert": [
+        "Generates a color using the Lambert diffuse lighting model calculation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/lambert"
+    ],
+    "layercomp": [
+        "Combines two layers using standard compositing operations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/layercomp"
+    ],
+    "layermix": [
+        "Outputs a mix of the two input layers, blended using the alpha value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/layermix"
+    ],
+    "layerpack": [
+        "Creates a Layer from individual shading components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/layerpack"
+    ],
+    "layerunpack": [
+        "Unpacks the individual shading components from a layer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/layerunpack"
+    ],
+    "len": [
+        "Computes the length of an array",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/len"
+    ],
+    "length": [
+        "Computes the length of a 3D or 4D vector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/length"
+    ],
+    "lighting": [
+        "Performs a lighting model calculation to generate a color.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/lighting"
+    ],
+    "limits": [
+        "Selectively clamps values to a minimum and/or maximum value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/limits"
+    ],
+    "limport": [
+        "Imports the value of the specified variable from a light shader ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/limport"
+    ],
+    "logarithm": [
+        "Computes the natural logarithm function of the argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/logarithm"
+    ],
+    "lookat": [
+        "Computes a 3x3 rotation matrix to orient the z-axis along the vec",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/lookat"
+    ],
+    "luminance": [
+        "Computes the luminance of the RGB color specified by the input parameter.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/luminance"
+    ],
+    "m2tom3": [
+        "Converts a 2x2 matrix to a 3x3 matrix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/m2tom3"
+    ],
+    "m2tom4": [
+        "Converts a 2x2 matrix to a 4x4 matrix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/m2tom4"
+    ],
+    "m3tom2": [
+        "Converts a 3x3 matrix to a 2x2 matrix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/m3tom2"
+    ],
+    "m3tom4": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/m3tom4"
+    ],
+    "m4tom2": [
+        "Converts a 4x4 matrix to a 2x2 matrix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/m4tom2"
+    ],
+    "m4tom3": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/m4tom3"
+    ],
+    "maddconst": [
+        "Will take the input value, add the pre-add amount, multiply by ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/maddconst"
+    ],
+    "makeinstancexform": [
+        "Builds a general 4x4 transform matrix derived from ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/makeinstancexform"
+    ],
+    "makexform": [
+        "Builds a general 4x4 transform matrix.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/makexform"
+    ],
+    "mandel": [
+        "Generates a Mandelbrot pattern.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/mandel"
+    ],
+    "marble": [
+        "Simulates a shiny marble material.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/marble"
+    ],
+    "materialbuilder": [
+        "A higher-level shader that can contain one or more sub-shaders, such as surface shaders, displacement shaders, and rendering properties.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/materialbuilder"
+    ],
+    "matte": [
+        "Implements a matte shader that occludes geometry behind the surf",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matte"
+    ],
+    "matx2getcompon": [
+        "Extracts a 2x2 matrix3 component.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matx2getcompon"
+    ],
+    "matx2setcompon": [
+        "Assigns a value to one of the matrix2's components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matx2setcompon"
+    ],
+    "matx2tofloat": [
+        "Unpacks a 2x2 matrix2 into its four components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matx2tofloat"
+    ],
+    "matx2tovec2": [
+        "Unpacks a 2x2 matrix into its rows.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matx2tovec2"
+    ],
+    "matxgetcompon": [
+        "Extracts a 3x3 matrix3 component.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matxgetcompon"
+    ],
+    "matxsetcompon": [
+        "Assigns a value to one of the matrix3's components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matxsetcompon"
+    ],
+    "matxtofloat": [
+        "Unpacks a 3x3 matrix3 into its nine components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matxtofloat"
+    ],
+    "matxtoquat": [
+        "Converts a matrix3, representing a rotation, to a quatern",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matxtoquat"
+    ],
+    "matxtovec": [
+        "Unpacks a 3x3 matrix into its rows.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/matxtovec"
+    ],
+    "max": [
+        "Outputs the maximum value from its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/max"
+    ],
+    "maxcomp": [
+        "Computes the maximum value of a vector argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/maxcomp"
+    ],
+    "metaattrib": [
+        "Returns the value of the given point attribute at the specif",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metaattrib"
+    ],
+    "metadata": [
+        "Returns metadata from one of the 4 input COPs connected to the VEX COP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metadata"
+    ],
+    "metadensity": [
+        "Returns the density of the metaball field at the specif",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metadensity"
+    ],
+    "metaimport": [
+        "Takes a handle generated by the Meta-Loop Start operator and w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metaimport"
+    ],
+    "metanext": [
+        "Takes a handle generated by the Meta-Loop Start operator and w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metanext"
+    ],
+    "metaspace": [
+        "Transforms the specified position into the local space of ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metaspace"
+    ],
+    "metastart": [
+        "Opens a geometry file ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metastart"
+    ],
+    "metaweight": [
+        "Returns the metaweight of the geometry at a given position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/metaweight"
+    ],
+    "method": [
+        "Represents a method inside a class-based shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/method"
+    ],
+    "methodcall": [
+        "Invokes a given method on a given struct or co-shader object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/methodcall"
+    ],
+    "methodinput": [
+        "Represents a method argument list inside a class-based shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/methodinput"
+    ],
+    "methodsubnet": [
+        "Represents a method inside a class-based shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/methodsubnet"
+    ],
+    "min": [
+        "Outputs the minimum value from its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/min"
+    ],
+    "mincomp": [
+        "Computes the minimum value of a vector argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/mincomp"
+    ],
+    "minpos": [
+        "Finds closest position on a primitive in a given geometry file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/minpos"
+    ],
+    "mix": [
+        "Computes a blend (or a mix) of its input values using lin",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/mix"
+    ],
+    "modulo": [
+        "Computes the modulo of two values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/modulo"
+    ],
+    "mold": [
+        "Simulates anti-aliased mold.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/mold"
+    ],
+    "mosaic": [
+        "This operator generates an anti-aliased mosaic pattern using an im",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/mosaic"
+    ],
+    "mulconst": [
+        "Multiplies the incoming value by a constant.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/mulconst"
+    ],
+    "multiply": [
+        "Outputs the product of its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/multiply"
+    ],
+    "nearpoint": [
+        "Finds closest point in a given geometry file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/nearpoint"
+    ],
+    "negate": [
+        "Negates the incoming integer, float, vector or vector4 value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/negate"
+    ],
+    "neighbour": [
+        "Retrieves the index of the point which is the n-th connec",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/neighbour"
+    ],
+    "neighbourcount": [
+        "Calculates the number of points connected to the given point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/neighbourcount"
+    ],
+    "neighbourcountfile": [
+        "Count the number of connected points from a given point in a given geometry file (or op:path)",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/neighbourcountfile"
+    ],
+    "neighbourfile": [
+        "Finds the nth neighbouring point for a given point in a given geometry file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/neighbourfile"
+    ],
+    "neighbours": [
+        "Retrieves an array of indices to the points connected to the given point.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/neighbours"
+    ],
+    "newgroup": [
+        "Creates a new point group with the name specified.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/newgroup"
+    ],
+    "normalfalloff": [
+        "Generates a falloff value based on the relationship between the normal and incident vectors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/normalfalloff"
+    ],
+    "normalize": [
+        "Normalizes a vector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/normalize"
+    ],
+    "not": [
+        "This operator performs a logical `not` operation on an integer val",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/not"
+    ],
+    "npoints": [
+        "Returns the number of points for all primitives in the gi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/npoints"
+    ],
+    "nrandom": [
+        "A non-deterministic random number generator.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/nrandom"
+    ],
+    "null": [
+        "Passes the inputs to the output with an optional name change. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/null"
+    ],
+    "nuniqueval": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/nuniqueval"
+    ],
+    "occlusion": [
+        "Computes ambient occlusion at the point P with the normal N.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/occlusion"
+    ],
+    "oceansamplelayers": [
+        "Sample ocean values from layered ocean spectra at the specified position and time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/oceansamplelayers"
+    ],
+    "ocio_import": [
+        "Imports a color space property from Open Color IO.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ocio_import"
+    ],
+    "ocio_transform": [
+        "Transforms color spaces using Open Color IO.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ocio_transform"
+    ],
+    "oglass": [
+        "Simulates a translucent material such as glass, and returns the combined color, opacity, and alpha.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/oglass"
+    ],
+    "or": [
+        "This operator performs a logical \"or\" operation between its inputs and returns 1 or 0 .",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/or"
+    ],
+    "ord": [
+        "Converts an UTF8 string into a codepoint.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ord"
+    ],
+    "oren": [
+        "Generates a color using the Oren-Nayar diffuse lighting model calculation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/oren"
+    ],
+    "orient": [
+        "Reorients a vector representing a direction by multiplying it b",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/orient"
+    ],
+    "oscill": [
+        "Returns an anti-aliased cosine or sine wave.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/oscill"
+    ],
+    "osd_facecount": [
+        "Returns the number of coarse faces in the subdivision hull ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osd_facecount"
+    ],
+    "osd_firstpatch": [
+        "Returns the patch of the first patch for a given face in the subdivision hull.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osd_firstpatch"
+    ],
+    "osd_limitsurface": [
+        "Evaluates a point attribute on the limit of a subdivision surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osd_limitsurface"
+    ],
+    "osd_patchcount": [
+        "Returns the number of patches in the subdivision hull ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osd_patchcount"
+    ],
+    "osl_bias": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_bias"
+    ],
+    "osl_calculatenormal": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_calculatenormal"
+    ],
+    "osl_dxdydz": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_dxdydz"
+    ],
+    "osl_environment": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_environment"
+    ],
+    "osl_gain": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_gain"
+    ],
+    "osl_log": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_log"
+    ],
+    "osl_step": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_step"
+    ],
+    "osl_texture": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_texture"
+    ],
+    "osl_transform": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_transform"
+    ],
+    "osl_transformc": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/osl_transformc"
+    ],
+    "outerproduct": [
+        "Computes the outer product of a pair of vectors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/outerproduct"
+    ],
+    "output": [
+        "Provides inputs representing the writable output variables",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/output"
+    ],
+    "parameter": [
+        "Represents a user-controllable parameter.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/parameter"
+    ],
+    "pbrdiffuse": [
+        "Produce a normalized diffuse bsdf.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrdiffuse"
+    ],
+    "pbremission": [
+        "Makes a shaded surface emissive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbremission"
+    ],
+    "pbrhair_r": [
+        "Produce a hair BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrhair_r"
+    ],
+    "pbrhair_trt": [
+        "Produce a hair BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrhair_trt"
+    ],
+    "pbrhair_tt": [
+        "Produce a hair BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrhair_tt"
+    ],
+    "pbrlighting": [
+        "Evaluate Lighting Using PBR.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrlighting"
+    ],
+    "pbrmetallic": [
+        "Computes metallic reflections.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrmetallic"
+    ],
+    "pbrnonmetallic": [
+        "Computes reflections and refractions for dielectric (non-metallic) materials.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrnonmetallic"
+    ],
+    "pbrphase": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrphase"
+    ],
+    "pbrspecular": [
+        "Produce a normalized reflection bsdf.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrspecular"
+    ],
+    "pbrsss": [
+        "Creates an approximate SSS BSDF.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pbrsss"
+    ],
+    "pcclose": [
+        "This node closes a point cloud handle opened by pcopen.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcclose"
+    ],
+    "pcexport": [
+        "This node exports point data while inside a pcunshaded loop.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcexport"
+    ],
+    "pcfarthest": [
+        "This node finds the farthest query point produced by pcopen.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcfarthest"
+    ],
+    "pcfilter": [
+        "This node filters the points queried by pcopen.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcfilter"
+    ],
+    "pcfind": [
+        "Returns a list of closest points from a file",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcfind"
+    ],
+    "pcfind_radius": [
+        "Returns a list of closest points from a file taking into account their radii.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcfind_radius"
+    ],
+    "pcimport": [
+        "This node imports point data while inside a pciterate or pcunshaded loop.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcimport"
+    ],
+    "pcimportbyidx": [
+        "This node imports point data from a pcopen.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcimportbyidx"
+    ],
+    "pciterate": [
+        "This node advances to the next iteration point returned by pcopen.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pciterate"
+    ],
+    "pcnumfound": [
+        "This node returns the number of points found by pcopen.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcnumfound"
+    ],
+    "pcopen": [
+        "This node opens a point cloud file and searches for points around a source position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcopen"
+    ],
+    "pcunshaded": [
+        "This node advances to the next unshaded iteration point returned by pcopen.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcunshaded"
+    ],
+    "pcwrite": [
+        "This function writes data for the current shading point out to a point cloud file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pcwrite"
+    ],
+    "periodicnoise": [
+        "Generates 1D and 3D Perlin noise from 1D, 3D and 4D data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/periodicnoise"
+    ],
+    "photon_output": [
+        "Performs photon russian roulette.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/photon_output"
+    ],
+    "physicalsss": [
+        "Outputs surface color based on a physically-based subsurf",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/physicalsss"
+    ],
+    "pixelarea": [
+        "Returns the area of the current pixel after being transformed to ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pixelarea"
+    ],
+    "pixelderiv": [
+        "Returns U and V derivatives of the current pixel.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pixelderiv"
+    ],
+    "planeclip": [
+        "Clips the line segment defined by p1 and p2 against the 3D pl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/planeclip"
+    ],
+    "planecount": [
+        "Returns the number of planes in the input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/planecount"
+    ],
+    "planeexists": [
+        "Returns the name of the plane with the index `plane_index` in input `input_index`.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/planeexists"
+    ],
+    "planeindex": [
+        "Returns the index of the plane with the name `plane_index` in input `input_index`.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/planeindex"
+    ],
+    "planename": [
+        "Returns the name of the plane with the index `plane_index` in input `input_index`.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/planename"
+    ],
+    "planesize": [
+        "Returns the number of components in the plane with the in",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/planesize"
+    ],
+    "pointbbox": [
+        "Returns two vectors representing the minimum and maximum corners of the bounding box for the specified geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pointbbox"
+    ],
+    "pop": [
+        "Removes the last element of an array and returns it.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pop"
+    ],
+    "pow": [
+        "Raises the first argument to the power of the second argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pow"
+    ],
+    "primattrib": [
+        "Evaluates an attribute for a given primitive at the specified",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/primattrib"
+    ],
+    "primintrinsic": [
+        "Evaluates an intrinsic on a given primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/primintrinsic"
+    ],
+    "primnormal": [
+        "Returns the normal of a primitive (defined by its number) at ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/primnormal"
+    ],
+    "primuv": [
+        "Evaluates an attribute for a given primitive at the specified uv parametric location.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/primuv"
+    ],
+    "principledshader": [
+        "An artist-friendly shader that can model a large number of materials realistically.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/principledshader"
+    ],
+    "principledshadercore": [
+        "An artist-friendly shader that can model a large number of materials realistically.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/principledshadercore"
+    ],
+    "print": [
+        "Generate a formatted text string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/print"
+    ],
+    "program": [
+        "This procedural will run an external application in order to generate geometry at render time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/program"
+    ],
+    "properties": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/properties"
+    ],
+    "ptinstance": [
+        "The underlying procedural when using Fast Point Instancing with t",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ptinstance"
+    ],
+    "ptlinedistance": [
+        "Returns the closest distance between a point and a line segm",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ptlinedistance"
+    ],
+    "ptreplicate": [
+        "The Point Replicate Procedural takes a number of input points and multipli",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ptreplicate"
+    ],
+    "pulsetrain": [
+        "Filters the input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pulsetrain"
+    ],
+    "pxradjustnormal": [
+        "Pxr Adjust Normal shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxradjustnormal"
+    ],
+    "pxraovlight": [
+        "Pxr AOV Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxraovlight"
+    ],
+    "pxrarealight": [
+        "Pxr Area Light light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrarealight"
+    ],
+    "pxrattribute": [
+        "Pxr Attribute shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrattribute"
+    ],
+    "pxrbackgrounddisplayfilter": [
+        "Pxr Background Display Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrbackgrounddisplayfilter"
+    ],
+    "pxrbackgroundsamplefilter": [
+        "Pxr Background Sample Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrbackgroundsamplefilter"
+    ],
+    "pxrbakepointcloud": [
+        "Pxr Bake Point Cloud shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrbakepointcloud"
+    ],
+    "pxrbaketexture": [
+        "Pxr Bake Texture shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrbaketexture"
+    ],
+    "pxrbarnlightfilter": [
+        "Pxr Barn Light Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrbarnlightfilter"
+    ],
+    "pxrblack": [
+        "Pxr Black shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrblack"
+    ],
+    "pxrblackbody": [
+        "Pxr Black Body pattern shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrblackbody"
+    ],
+    "pxrblend": [
+        "Pxr Blend shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrblend"
+    ],
+    "pxrblocker": [
+        "Pxr Blocker light filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrblocker"
+    ],
+    "pxrblockerlightfilter": [
+        "Pxr Blocker Light Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrblockerlightfilter"
+    ],
+    "pxrbump": [
+        "Pxr Bump shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrbump"
+    ],
+    "pxrbumpmanifold2d": [
+        "Pxr Bump Manifold 2d shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrbumpmanifold2d"
+    ],
+    "pxrcamera": [
+        "Pxr Camera shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrcamera"
+    ],
+    "pxrchecker": [
+        "Pxr Checker shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrchecker"
+    ],
+    "pxrclamp": [
+        "Pxr Clamp shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrclamp"
+    ],
+    "pxrcolorcorrect": [
+        "Pxr Color Correct shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrcolorcorrect"
+    ],
+    "pxrcombinerlightfilter": [
+        "Pxr Combiner Light Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrcombinerlightfilter"
+    ],
+    "pxrconstant": [
+        "Pxr Constant shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrconstant"
+    ],
+    "pxrcookielightfilter": [
+        "Pxr Cookie Light Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrcookielightfilter"
+    ],
+    "pxrcopyaovdisplayfilter": [
+        "Pxr Copy AOV Display Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrcopyaovdisplayfilter"
+    ],
+    "pxrcopyaovsamplefilter": [
+        "Pxr Copy AOV Sample Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrcopyaovsamplefilter"
+    ],
+    "pxrcross": [
+        "Pxr Cross shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrcross"
+    ],
+    "pxrdebugshadingcontext": [
+        "Pxr DebugShadingContext shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdebugshadingcontext"
+    ],
+    "pxrdefaultintegrator": [
+        "Pxr Default integrator shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdefaultintegrator"
+    ],
+    "pxrdiffuse": [
+        "Pxr Diffuse bxdf shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdiffuse"
+    ],
+    "pxrdirectlighting": [
+        "Pxr Direct Lighting integrator shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdirectlighting"
+    ],
+    "pxrdirt": [
+        "Pxr Dirt shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdirt"
+    ],
+    "pxrdisklight": [
+        "Pxr Disk Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdisklight"
+    ],
+    "pxrdisney": [
+        "Pxr Disney bxdf shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdisney"
+    ],
+    "pxrdisplace": [
+        "Pxr Displace shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdisplace"
+    ],
+    "pxrdisplacement": [
+        "Pxr Displacement shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdisplacement"
+    ],
+    "pxrdisplayfiltercombiner": [
+        "Pxr Display Filter Combiner shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdisplayfiltercombiner"
+    ],
+    "pxrdispscalarlayer": [
+        "Pxr Disps Calar Layer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdispscalarlayer"
+    ],
+    "pxrdisptransform": [
+        "Pxr Disp Transform shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdisptransform"
+    ],
+    "pxrdispvectorlayer": [
+        "Pxr Disp Vector Layer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdispvectorlayer"
+    ],
+    "pxrdistantlight": [
+        "Pxr Distant Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdistantlight"
+    ],
+    "pxrdomelight": [
+        "Pxr Dome Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdomelight"
+    ],
+    "pxrdot": [
+        "Pxr Dot shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrdot"
+    ],
+    "pxrenvdaylight": [
+        "Pxr Envday Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrenvdaylight"
+    ],
+    "pxrexposure": [
+        "Pxr Exposure shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrexposure"
+    ],
+    "pxrfacingratio": [
+        "Pxr FacingRatio shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrfacingratio"
+    ],
+    "pxrfilmictonemapperdisplayfilter": [
+        "Pxr Filmic Tone Mapper Display Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrfilmictonemapperdisplayfilter"
+    ],
+    "pxrfilmictonemappersamplefilter": [
+        "Pxr Filmic Tone Mapper Sample Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrfilmictonemappersamplefilter"
+    ],
+    "pxrflakes": [
+        "Pxr Flakes shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrflakes"
+    ],
+    "pxrfractal": [
+        "Pxr Fractal pattern shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrfractal"
+    ],
+    "pxrfractalize": [
+        "Pxr Fractialize shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrfractalize"
+    ],
+    "pxrgamma": [
+        "Pxr Gamma shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrgamma"
+    ],
+    "pxrgeometricaovs": [
+        "Pxr Geometric AOVs shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrgeometricaovs"
+    ],
+    "pxrglass": [
+        "Pxr Glass shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrglass"
+    ],
+    "pxrgobo": [
+        "Pxr Gobo light filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrgobo"
+    ],
+    "pxrgobolightfilter": [
+        "Pxr Gobolight Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrgobolightfilter"
+    ],
+    "pxrgradedisplayfilter": [
+        "Pxr Grade Display Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrgradedisplayfilter"
+    ],
+    "pxrgradesamplefilter": [
+        "Pxr Grade Sample Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrgradesamplefilter"
+    ],
+    "pxrgrid": [
+        "Pxr Grid shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrgrid"
+    ],
+    "pxrhsl": [
+        "Pxr Hsl shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrhsl"
+    ],
+    "pxrimageplanefilter": [
+        "Pxr Image Plane Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrimageplanefilter"
+    ],
+    "pxrintmultlightfilter": [
+        "Pxr Int Mult Light Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrintmultlightfilter"
+    ],
+    "pxrinvert": [
+        "Pxr Invert shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrinvert"
+    ],
+    "pxrlayer": [
+        "Pxr Layer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlayer"
+    ],
+    "pxrlayeredblend": [
+        "Pxr Layeredblend shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlayeredblend"
+    ],
+    "pxrlayeredtexture": [
+        "Pxr Layered Texture shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlayeredtexture"
+    ],
+    "pxrlayermixer": [
+        "Pxr Layer Mixer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlayermixer"
+    ],
+    "pxrlightemission": [
+        "Pxr Lightemission shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlightemission"
+    ],
+    "pxrlightprobe": [
+        "Pxr Light Probe shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlightprobe"
+    ],
+    "pxrlmdiffuse": [
+        "Pxr Lmdiffuse shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlmdiffuse"
+    ],
+    "pxrlmglass": [
+        "Pxr Lmglass shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlmglass"
+    ],
+    "pxrlmlayer": [
+        "Pxr Lmlayer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlmlayer"
+    ],
+    "pxrlmmetal": [
+        "PxrLm Metal shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlmmetal"
+    ],
+    "pxrlmmixer": [
+        "Pxr Lmmixer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlmmixer"
+    ],
+    "pxrlmplastic": [
+        "Pxr Lmplastic shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlmplastic"
+    ],
+    "pxrlmsubsurface": [
+        "Pxr Lmsubsurface shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrlmsubsurface"
+    ],
+    "pxrmanifold2d": [
+        "Pxr Manifold2d shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmanifold2d"
+    ],
+    "pxrmanifold3d": [
+        "Pxr Manifold 3D manifold shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmanifold3d"
+    ],
+    "pxrmanifold3dn": [
+        "Pxr Manifold3dn shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmanifold3dn"
+    ],
+    "pxrmarschnerhair": [
+        "Pxr Marschnerhair shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmarschnerhair"
+    ],
+    "pxrmarschnerhair-2.0": [
+        "Pxr Marschner Hair shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmarschnerhair-2.0"
+    ],
+    "pxrmatteid": [
+        "Pxr Matteid shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmatteid"
+    ],
+    "pxrmeshlight": [
+        "Pxr Mesh Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmeshlight"
+    ],
+    "pxrmix": [
+        "Pxr Mix shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmix"
+    ],
+    "pxrmultitexture": [
+        "Pxr Multi Texture shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrmultitexture"
+    ],
+    "pxrnormalmap": [
+        "Pxr Normalmap shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrnormalmap"
+    ],
+    "pxrocclusion": [
+        "Pxr Occlusion shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrocclusion"
+    ],
+    "pxrosl": [
+        "Pxr Osl shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrosl"
+    ],
+    "pxrpathtracer": [
+        "Pxr Path Tracer integrator shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrpathtracer"
+    ],
+    "pxrportallight": [
+        "Pxr Portal Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrportallight"
+    ],
+    "pxrprimvar": [
+        "Pxr Primvar shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrprimvar"
+    ],
+    "pxrprojectionlayer": [
+        "Pxr Projectionlayer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrprojectionlayer"
+    ],
+    "pxrprojectionstack": [
+        "Pxr Projection Stack shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrprojectionstack"
+    ],
+    "pxrprojector": [
+        "Pxr Projector shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrprojector"
+    ],
+    "pxrptexture": [
+        "Pxr Ptexture shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrptexture"
+    ],
+    "pxrramp": [
+        "Pxr Ramp shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrramp"
+    ],
+    "pxrramplightfilter": [
+        "Pxr Ramp Light Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrramplightfilter"
+    ],
+    "pxrrectlight": [
+        "Pxr Rect Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrrectlight"
+    ],
+    "pxrremap": [
+        "Pxr Remap shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrremap"
+    ],
+    "pxrrodlightfilter": [
+        "Pxr Rod Light Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrrodlightfilter"
+    ],
+    "pxrrollingshutter": [
+        "Pxr Rolling Shutter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrrollingshutter"
+    ],
+    "pxrroundcube": [
+        "Pxr Roundcube shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrroundcube"
+    ],
+    "pxrroundcube-2.0": [
+        "Pxr Round Cube shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrroundcube-2.0"
+    ],
+    "pxrsamplefiltercombiner": [
+        "Pxr Sample Filter Combiner shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrsamplefiltercombiner"
+    ],
+    "pxrseexpr": [
+        "Pxr Seexpr shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrseexpr"
+    ],
+    "pxrshadedside": [
+        "Pxr Shaded Side shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrshadedside"
+    ],
+    "pxrshadowfilter": [
+        "Pxr Shadow Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrshadowfilter"
+    ],
+    "pxrskin": [
+        "Pxr Skin shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrskin"
+    ],
+    "pxrspherelight": [
+        "Pxr Sphere Light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrspherelight"
+    ],
+    "pxrstdarealight": [
+        "Pxr Std Area Light light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrstdarealight"
+    ],
+    "pxrstdenvdaylight": [
+        "Pxr Std Env Day Light light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrstdenvdaylight"
+    ],
+    "pxrstdenvmaplight": [
+        "Pxr Std Env Map Light light shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrstdenvmaplight"
+    ],
+    "pxrsurface": [
+        "Pxr Surface shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrsurface"
+    ],
+    "pxrtangentfield": [
+        "Pxr Tangentfield shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrtangentfield"
+    ],
+    "pxrtee": [
+        "Pxr Tee shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrtee"
+    ],
+    "pxrtexture": [
+        "Pxr Texture shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrtexture"
+    ],
+    "pxrthinfilm": [
+        "Pxr Thinfilm shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrthinfilm"
+    ],
+    "pxrthreshold": [
+        "Pxr Threshold shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrthreshold"
+    ],
+    "pxrtilemanifold": [
+        "Pxr Tile Manifold shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrtilemanifold"
+    ],
+    "pxrtofloat": [
+        "Pxr Tofloat shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrtofloat"
+    ],
+    "pxrtofloat3": [
+        "Pxr Tofloat3 shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrtofloat3"
+    ],
+    "pxrupbp": [
+        "Pxr UPBP shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrupbp"
+    ],
+    "pxrvalidatebxdf": [
+        "Pxr Validatebxdf shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrvalidatebxdf"
+    ],
+    "pxrvariable": [
+        "Pxr Variable shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrvariable"
+    ],
+    "pxrvary": [
+        "Pxr Vary shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrvary"
+    ],
+    "pxrvcm": [
+        "Pxr VCM integrator shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrvcm"
+    ],
+    "pxrvisualizer": [
+        "Pxr Visualizer shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrvisualizer"
+    ],
+    "pxrvolume": [
+        "Pxr Volume shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrvolume"
+    ],
+    "pxrvoronoise": [
+        "Pxr Voronoise pattern shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrvoronoise"
+    ],
+    "pxrwhitepointdisplayfilter": [
+        "Pxr White Point Display Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrwhitepointdisplayfilter"
+    ],
+    "pxrwhitepointsamplefilter": [
+        "Pxr White Point Sample Filter shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrwhitepointsamplefilter"
+    ],
+    "pxrworley": [
+        "Pxr Worley shader",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pxrworley"
+    ],
+    "pyroBlackbody": [
+        "Converts a temperature value into color (chroma) and intensity accordi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroBlackbody"
+    ],
+    "pyroColorCorrect": [
+        "Provides color correction functions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroColorCorrect"
+    ],
+    "pyroColorModel": [
+        "Provides constant, artistic, and physically correct (blackbody) tint",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroColorModel"
+    ],
+    "pyroColorVolume": [
+        "Provides functions for editing color fields by conditioning the fie",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroColorVolume"
+    ],
+    "pyroDensityVolume": [
+        "Provides functions for editing fields such as density by condition",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroDensityVolume"
+    ],
+    "pyroDisplace": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroDisplace"
+    ],
+    "pyroField": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroField"
+    ],
+    "pyroNoise": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroNoise"
+    ],
+    "pyroshadercore": [
+        "Provides the core functionality needed to build a high-quality volumetric shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/pyroshadercore"
+    ],
+    "qdistance": [
+        "Computes distance between quaternions in radians.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/qdistance"
+    ],
+    "qinvert": [
+        "Takes an quaternion inverts it..",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/qinvert"
+    ],
+    "qmultiply": [
+        "Performs a quaternion multiplication with its two inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/qmultiply"
+    ],
+    "qrotate": [
+        "Rotates a vector by a quaternion.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/qrotate"
+    ],
+    "quaternion": [
+        "Takes an angle and an axis and constructs the quaternion representing the rotation about that axis.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/quaternion"
+    ],
+    "quattomatx": [
+        "Converts a vector4, representing a quaternion, to a matrix3 val",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/quattomatx"
+    ],
+    "quattovec": [
+        "Converts a quaternion to angle/axis form.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/quattovec"
+    ],
+    "radtodeg": [
+        "Converts radians to degrees.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/radtodeg"
+    ],
+    "rainbow": [
+        "Generates a non-repeating rainbow color ramp by modulating the ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rainbow"
+    ],
+    "rampfilter": [
+        "Adds anti-aliased analytical filtering to the output of a Ramp Parame",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rampfilter"
+    ],
+    "rampparm": [
+        "Represents a user-editable ramp parameter.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rampparm"
+    ],
+    "ramps": [
+        "Generates repeating filtered ramps.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ramps"
+    ],
+    "random": [
+        "Generates a random number based on the position in one, three,",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/random"
+    ],
+    "random_sobol": [
+        "Generates a random number in a Sobol sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/random_sobol"
+    ],
+    "raybounce": [
+        "Returns the current ray-bounce level.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/raybounce"
+    ],
+    "rayhit": [
+        "This operator sends a ray from the position `P` along the direct",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rayhit"
+    ],
+    "rayimport": [
+        "Imports the value of the specified variable sent from a trace() function ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rayimport"
+    ],
+    "raytrace": [
+        "Sends a ray starting at origin P and in the direction specified",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/raytrace"
+    ],
+    "rayweight": [
+        "Returns the amount that the current bounce level will contribute",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rayweight"
+    ],
+    "reflect": [
+        "Returns the vector representing the reflection of the direct",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/reflect"
+    ],
+    "reflective": [
+        "Simulates a material with reflective properties and returns ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/reflective"
+    ],
+    "reflectlight": [
+        "Computes the amount of reflected light which hits the surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/reflectlight"
+    ],
+    "refract": [
+        "Computes the refraction ray given an incoming direction, ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/refract"
+    ],
+    "refractlight": [
+        "Sends a ray starting at origin P and in the direction specified",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/refractlight"
+    ],
+    "regex_find": [
+        "Finds the given regular expression in the string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/regex_find"
+    ],
+    "regex_findall": [
+        "Finds all instances of the given regular expression in the string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/regex_findall"
+    ],
+    "regex_match": [
+        "Result 1 if the entire input string matches the expression.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/regex_match"
+    ],
+    "regex_replace": [
+        "Replaces instances of find_regex with replace_regex.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/regex_replace"
+    ],
+    "regex_split": [
+        "Splits the given string based on regex match.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/regex_split"
+    ],
+    "relbbox": [
+        "Returns the relative position of the point given with respect to the bounding box of the specified geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/relbbox"
+    ],
+    "relpointbbox": [
+        "Returns the relative position of the point given with respect to the bounding box of the specified geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/relpointbbox"
+    ],
+    "removeindex": [
+        "Removes an item at the given index from an array.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/removeindex"
+    ],
+    "removepoint": [
+        "Removes points from the geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/removepoint"
+    ],
+    "removeprim": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/removeprim"
+    ],
+    "removevalue": [
+        "Removes an item from an array.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/removevalue"
+    ],
+    "renderstate": [
+        "Gets state information from the renderer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/renderstate"
+    ],
+    "reorder": [
+        "Reorders items in an array or string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/reorder"
+    ],
+    "reporterror": [
+        "Optionally report a custom VEX error or warning.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/reporterror"
+    ],
+    "res": [
+        "Returns the pixel resolution of an input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/res"
+    ],
+    "reshapevalue": [
+        "Modulates input value using a variety of methods.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/reshapevalue"
+    ],
+    "restpos": [
+        "Checks if the geometry attribute \"rest\" is bound and, if so, uses",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/restpos"
+    ],
+    "reverse": [
+        "Adds an item to an array or string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/reverse"
+    ],
+    "rgbtohsv": [
+        "Converts RGB color space to HSV color space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rgbtohsv"
+    ],
+    "rhexes": [
+        "Generates repeating filtered rounded hexagons.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rhexes"
+    ],
+    "rings": [
+        "Generates repeating filtered rings.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rings"
+    ],
+    "rint": [
+        "Rounds the argument to the closest integer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rint"
+    ],
+    "ripples": [
+        "Generates repeating ripples.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ripples"
+    ],
+    "ris_OSLshader": [
+        "Implements an OSL shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ris_OSLshader"
+    ],
+    "ris_RSLmaterial": [
+        "Implements an RSL material.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ris_RSLmaterial"
+    ],
+    "rotate": [
+        "Applies a rotation by 'angle' radians to the given 3x3 or ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rotate"
+    ],
+    "rsl_bias": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_bias"
+    ],
+    "rsl_calculatenormal": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_calculatenormal"
+    ],
+    "rsl_ctransform": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_ctransform"
+    ],
+    "rsl_depth": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_depth"
+    ],
+    "rsl_deriv": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_deriv"
+    ],
+    "rsl_dudv": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_dudv"
+    ],
+    "rsl_environment": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_environment"
+    ],
+    "rsl_gain": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_gain"
+    ],
+    "rsl_illuminance": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_illuminance"
+    ],
+    "rsl_illuminate": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_illuminate"
+    ],
+    "rsl_import": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_import"
+    ],
+    "rsl_indirectdiffuse": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_indirectdiffuse"
+    ],
+    "rsl_log": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_log"
+    ],
+    "rsl_occlusion": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_occlusion"
+    ],
+    "rsl_oglass": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_oglass"
+    ],
+    "rsl_random": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_random"
+    ],
+    "rsl_rayinfo": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_rayinfo"
+    ],
+    "rsl_renderstate": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_renderstate"
+    ],
+    "rsl_shadow": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_shadow"
+    ],
+    "rsl_step": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_step"
+    ],
+    "rsl_surfacecolor": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_surfacecolor"
+    ],
+    "rsl_texture": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_texture"
+    ],
+    "rsl_textureinfo": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_textureinfo"
+    ],
+    "rsl_transform": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rsl_transform"
+    ],
+    "rstars": [
+        "Generates repeating filtered rounded five-pointed stars.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rstars"
+    ],
+    "rust": [
+        "Simulates a rusty, possibly perforated material.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/rust"
+    ],
+    "samplesphere": [
+        "Samples the interior or surface of the unit circle, sphere, or hypersphere, within a max angle of a direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/samplesphere"
+    ],
+    "scale": [
+        "Scales a 3x3 or 4x4 matrix by 'amount' units along the x,y, an",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/scale"
+    ],
+    "scales": [
+        "Generates a scale-like pattern and returns the displaced positi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/scales"
+    ],
+    "sensor_panorama_color": [
+        "Requests the rendered color from a specified direction",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sensor_panorama_color"
+    ],
+    "sensor_panorama_cone": [
+        "Returns an average direction, color, depth, and strength.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sensor_panorama_cone"
+    ],
+    "sensor_panorama_create": [
+        "Renders the surrounding environment",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sensor_panorama_create"
+    ],
+    "sensor_panorama_depth": [
+        "Requests the rendered depth from a specified direction",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sensor_panorama_depth"
+    ],
+    "sensor_panorama_save": [
+        "Saves the rendered panorama to a specified output file",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sensor_panorama_save"
+    ],
+    "sensor_save": [
+        "Saves sensor data to image files.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sensor_save"
+    ],
+    "setagentclipnames": [
+        "Sets the current animation clips for an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setagentclipnames"
+    ],
+    "setagentcliptimes": [
+        "Sets the current times for an agent primitive's animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setagentcliptimes"
+    ],
+    "setagentclipweights": [
+        "Sets the blend weights for an agent primitive's animation clips.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setagentclipweights"
+    ],
+    "setagentlayer": [
+        "Sets the current layer or collision layer of an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setagentlayer"
+    ],
+    "setagenttransforms": [
+        "Overrides the transforms of an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setagenttransforms"
+    ],
+    "setattrib": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setattrib"
+    ],
+    "setelement": [
+        "Sets the element at the specified index.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setelement"
+    ],
+    "setlayercomponent": [
+        "Sets a layer's components to new values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setlayercomponent"
+    ],
+    "setprimvertex": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/setprimvertex"
+    ],
+    "settransformchannels": [
+        "Sets a transform value when evaluating a __Channel VOP__ in Tranlate/Rotate/Scale mode.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/settransformchannels"
+    ],
+    "shaderglobal": [
+        "Represents global variables that are bound as output parameters in a shader call.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shaderglobal"
+    ],
+    "shadingarea": [
+        "Computes the shading area of the given variable.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shadingarea"
+    ],
+    "shadingderiv": [
+        "Computes the derivative of a given variable with respect to the s",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shadingderiv"
+    ],
+    "shadinglayer": [
+        "Creates a parameter to appear in the signature of the VEX funct",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shadinglayer"
+    ],
+    "shadingnormal": [
+        "Computes the normal at the location specified by the P position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shadingnormal"
+    ],
+    "shadow": [
+        "This shader calls the shadow shader inside an illuminance loop.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shadow"
+    ],
+    "shadowmap": [
+        "Shadow Map treats the depth map as if the image were rendered fro",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shadowmap"
+    ],
+    "shadowmatte": [
+        "Implements a shadowmatte shader that occludes geometry behind ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shadowmatte"
+    ],
+    "sheen": [
+        "Generates a color using a specular lighting model with a Fresnel falloff calculation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sheen"
+    ],
+    "shinymetal": [
+        "Simulates a shiny metallic material with strong reflect",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/shinymetal"
+    ],
+    "sign": [
+        "Returns -1 if the input is less than 0, otherwise it returns 1.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sign"
+    ],
+    "simport": [
+        "Imports the value of the specified variable from a surface shader ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/simport"
+    ],
+    "sine": [
+        "Performs a sine function.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sine"
+    ],
+    "singleSSS": [
+        "A simple implementation of single sub-surface scattering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/singleSSS"
+    ],
+    "skin": [
+        "Generates anti-aliased skin with optional blemish.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/skin"
+    ],
+    "skinshadercore": [
+        "A skin shader with three levels of subsurface scattering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/skinshadercore"
+    ],
+    "slerp": [
+        "Computes a spherical linear interpolation between its two quatern",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/slerp"
+    ],
+    "slice": [
+        "Slices a sub-string or sub-array of a string or array.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/slice"
+    ],
+    "smoke": [
+        "Generates a material that simulates clouds, smoke, fire, and ot",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/smoke"
+    ],
+    "smooth": [
+        "Computes a number between zero and one.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/smooth"
+    ],
+    "smoothrotation": [
+        "Returns the closest equivalent Euler rotations to a reference rotation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/smoothrotation"
+    ],
+    "snippet": [
+        "Runs a VEX snippet to modify the incoming values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/snippet"
+    ],
+    "softclip": [
+        "Increases or decreases contrast for values at the _top_ of the input range.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/softclip"
+    ],
+    "softdots": [
+        "Generates repeating soft dots.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/softdots"
+    ],
+    "sort": [
+        "Returns the array sorted in increasing order.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sort"
+    ],
+    "specular": [
+        "Generates a color using the selected specular lighting model calculation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/specular"
+    ],
+    "splatter": [
+        "Generates a splatter pattern and returns the splatter amount.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/splatter"
+    ],
+    "spline": [
+        "Computes either a Catmull-Rom (`Cardinal`) spline or a Linear spl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/spline"
+    ],
+    "split": [
+        "Splits a string into tokens.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/split"
+    ],
+    "sprite": [
+        "This procedural will render points as sprites.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sprite"
+    ],
+    "sqrt": [
+        "Computes the square root of the argument.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/sqrt"
+    ],
+    "ssscomponent": [
+        "Adds energy conservation functionality and additional controls to the Physical SSS VOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/ssscomponent"
+    ],
+    "standard_shading_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/standard_shading_parms"
+    ],
+    "startswith": [
+        "Result 1 if the string starts with the specified string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/startswith"
+    ],
+    "stone": [
+        "Simulates a rough, non-descript stone material.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/stone"
+    ],
+    "stonewall": [
+        "Simulates an anti-aliased stone wall.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/stonewall"
+    ],
+    "strip": [
+        "Strips leading and trailing whitespace from a string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/strip"
+    ],
+    "stripes": [
+        "Generates repeating filtered stripes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/stripes"
+    ],
+    "strlen": [
+        "Returns the length of the string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/strlen"
+    ],
+    "struct": [
+        "Creates, modifies, or de-structures an instance of a structured datatype.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/struct"
+    ],
+    "structpack": [
+        "Bundles input values into an instance of an ad-hoc struct.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/structpack"
+    ],
+    "structunpack": [
+        "Extracts one or more values from a struct by member name.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/structunpack"
+    ],
+    "stucco": [
+        "Simulates an anti-aliased stucco material, with its typical bu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/stucco"
+    ],
+    "subconst": [
+        "Subtracts the specified constant value from the incoming integer, flo",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/subconst"
+    ],
+    "subinput": [
+        "Allows the connection of operators outside a subnet to operat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/subinput"
+    ],
+    "subnet": [
+        "Contains other VOP operators.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/subnet"
+    ],
+    "subnetconnector": [
+        "Represents an input or an output (or both) of the parent VOP subnet.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/subnetconnector"
+    ],
+    "subnetreturn": [
+        "Generates a return statement inside a method or a function defined by the parent subnet.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/subnetreturn"
+    ],
+    "suboutput": [
+        "Allows the connection of operators inside a subnet to operat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/suboutput"
+    ],
+    "subtract": [
+        "Outputs the result of subtracting all its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/subtract"
+    ],
+    "surfacecolor": [
+        "Generates a basic color with a choice of tinting with the point color and/or a color map.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/surfacecolor"
+    ],
+    "surfacemodel": [
+        "A powerful, highly flexible, general model for surface shading.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/surfacemodel"
+    ],
+    "switch": [
+        "Switches between network branches based on the value of an input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/switch"
+    ],
+    "switchlightingbsdf": [
+        "Use a different bsdf for direct or indirect lighting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/switchlightingbsdf"
+    ],
+    "swizzlehvec": [
+        "Rearranges components of a vector4.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/swizzlehvec"
+    ],
+    "swizzlevec": [
+        "Rearranges components of a vector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/swizzlevec"
+    ],
+    "swizzlevec2": [
+        "Rearranges components of a vector2.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/swizzlevec2"
+    ],
+    "tangent": [
+        "Performs a tangent function.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tangent"
+    ],
+    "tangentnormal": [
+        "Transform an input normal to UV/tangent space",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tangentnormal"
+    ],
+    "tangentnormalremap": [
+        "Transform an input normal from UV/tangent to current space",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tangentnormalremap"
+    ],
+    "tangentnormals": [
+        "Exports shader normals as a render plane.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tangentnormals"
+    ],
+    "tet_adjacent": [
+        "Returns primitive number of an adjacent tetrahedron.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tet_adjacent"
+    ],
+    "tet_faceindex": [
+        "Returns vertex indices of each face of a tetrahedron.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tet_faceindex"
+    ],
+    "texture": [
+        "Computes a filtered sample of the texture map specified and retu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/texture"
+    ],
+    "texture3d": [
+        "Returns the value of a 3D image at a specified position within t",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/texture3d"
+    ],
+    "texture3dbox": [
+        "Queries the 3D texture map specified and returns the bounding ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/texture3dbox"
+    ],
+    "texturemap": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/texturemap"
+    ],
+    "thinfilm": [
+        "Simulates the effect of light reflecting on surfaces with a thin-f",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/thinfilm"
+    ],
+    "thinfilmfresnel": [
+        "Computes the thin film reflection and refraction contributions given a normalized incident ray, a normalized surface normal, and an index of refraction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/thinfilmfresnel"
+    ],
+    "timing": [
+        "Returns the frame range and rate of the given input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/timing"
+    ],
+    "titlecase": [
+        "Returns a string that is the titlecase version of the input string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/titlecase"
+    ],
+    "tolower": [
+        "Returns a string that is the lower case version of the input string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tolower"
+    ],
+    "tondc": [
+        "Transforms a position into normal device coordinates.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tondc"
+    ],
+    "tondcgeo": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/tondcgeo"
+    ],
+    "topolar": [
+        "Converts cartesian coordinates to polar coordinates.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/topolar"
+    ],
+    "toupper": [
+        "Returns a string that is the upper case version of the input string.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/toupper"
+    ],
+    "trace": [
+        "Uses the vex gather function to send a ray and return with the reflected or refracted colors.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/trace"
+    ],
+    "transform": [
+        "Transforms a vector to or from an object's transform space, or one of several other spaces, such as world or camera space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/transform"
+    ],
+    "transformspace": [
+        "Returns the transformation matrix to transform from a transform space such as an object's transform space to another space, such as world space.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/transformspace"
+    ],
+    "translate": [
+        "Translates a 4x4 matrix 'amount' units along the x,y,z and possibl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/translate"
+    ],
+    "transpose": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/transpose"
+    ],
+    "trig": [
+        "Performs a variety of trigonometric functions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/trig"
+    ],
+    "turbnoise": [
+        "Can compute three types of 1D and 3D noise with the ability to compute turbulence with roughness and attenuation.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/turbnoise"
+    ],
+    "twosided": [
+        "Generates a two sided surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/twosided"
+    ],
+    "twotone": [
+        "Performs simple, cartoon-like shading.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/twotone"
+    ],
+    "twoway": [
+        "Takes an integer input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/twoway"
+    ],
+    "unifiednoise": [
+        "Presents a unified interface and uniform output range for all the noise types available in VEX.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/unifiednoise"
+    ],
+    "unifiednoise_static": [
+        "Presents a unified interface and uniform output range for all the noise types available in VEX.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/unifiednoise_static"
+    ],
+    "uniqueval": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uniqueval"
+    ],
+    "uvcoords": [
+        "Returns texture coordinates or geometric s and t, depending on what is defined.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvcoords"
+    ],
+    "uvnoise": [
+        "Disturbs the incoming parametric s and t coordinates using anti aliased noise generated from the Surface Position input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvnoise"
+    ],
+    "uvplanarproject": [
+        "Computes UV co-ordinates projected along a single axis, derived from the position of an object, and generates a mask relative to the projection axis.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvplanarproject"
+    ],
+    "uvposition": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvposition"
+    ],
+    "uvproject": [
+        "Assigns texture coordinates based on the specified project",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvproject"
+    ],
+    "uvspacechg": [
+        "Performs various space conversions of 3D positional data for",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvspacechg"
+    ],
+    "uvtriplanarproject": [
+        "Projects texture maps along X, Y, and Z axes and blends them together at the seams.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvtriplanarproject"
+    ],
+    "uvxform": [
+        "Transforms texture coordinates by the inverse of the mat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/uvxform"
+    ],
+    "vec2getcompon": [
+        "Extracts a vector2 component.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vec2getcompon"
+    ],
+    "vec2setcompon": [
+        "Assigns a value to one of the vector2's components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vec2setcompon"
+    ],
+    "vec2tofloat": [
+        "Unpacks a vector2 into its two components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vec2tofloat"
+    ],
+    "vec2tohvec": [
+        "Converts a pair of vector2s into a vector4.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vec2tohvec"
+    ],
+    "vec2tomatx2": [
+        "Converts rows values to a 2x2 matrix value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vec2tomatx2"
+    ],
+    "vec2tovec": [
+        "Converts a vector2 to a vector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vec2tovec"
+    ],
+    "veccast": [
+        "Converts between different vector types.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/veccast"
+    ],
+    "vecgetcompon": [
+        "Extracts a vector component.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vecgetcompon"
+    ],
+    "vecsetcompon": [
+        "Assigns a value to one of the vector's components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vecsetcompon"
+    ],
+    "vectofloat": [
+        "Unpacks a vector into its three components.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vectofloat"
+    ],
+    "vectohvec": [
+        "Converts a vector to a vector4.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vectohvec"
+    ],
+    "vectomatx": [
+        "Converts rows values to a 3x3 matrix value.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vectomatx"
+    ],
+    "vectoquat": [
+        "Takes an angle/axis vector and constructs the quaternion representing the rotation about that axis.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vectoquat"
+    ],
+    "vectovec2": [
+        "Converts a vector to a vector2 and also returns the third component of the vector.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vectovec2"
+    ],
+    "veins": [
+        "Generates an anti-aliased vein pattern that can be used in any ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/veins"
+    ],
+    "vexvolume": [
+        "This procedural will generate a volume from a CVEX shader.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vexvolume"
+    ],
+    "vgather": [
+        "Sends rays into the scene and contains a subnetwork of VOPs to operate on the information gathered from the shaders of surfaces hit by the rays.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vgather"
+    ],
+    "visualize": [
+        "Exports a vis_ prefixed attribute.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/visualize"
+    ],
+    "volumegradient": [
+        "Calculates the gradient of a volume primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumegradient"
+    ],
+    "volumegradientfile": [
+        "Calculates the gradient of a volume primitive stored in a d",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumegradientfile"
+    ],
+    "volumeindex": [
+        "Gets the value of a specific voxel.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeindex"
+    ],
+    "volumeindexfile": [
+        "Gets the value of a voxel from a volume primitive stored in a disk file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeindexfile"
+    ],
+    "volumeindextopos": [
+        "Converts a volume index into a position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeindextopos"
+    ],
+    "volumeindextoposfile": [
+        "Calculates the position of a voxel in a volume primitive stored",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeindextoposfile"
+    ],
+    "volumeindexvfile": [
+        "Gets the vector value of a voxel from a volume primitive stored in a disk file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeindexvfile"
+    ],
+    "volumemodel": [
+        "A shading model for volume rendering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumemodel"
+    ],
+    "volumepostoindex": [
+        "Converts a position into a volume index.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumepostoindex"
+    ],
+    "volumepostoindexfile": [
+        "Calculates the voxel closest to a voxel of a volume primitive stored",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumepostoindexfile"
+    ],
+    "volumeres": [
+        "Gets the resolution of a volume primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeres"
+    ],
+    "volumeresfile": [
+        "Gets the resolution of a volume primitive stored in a disk file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeresfile"
+    ],
+    "volumesample": [
+        "Samples the value of a volume primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumesample"
+    ],
+    "volumesamplefile": [
+        "Samples the value of a volume primitive stored in a disk file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumesamplefile"
+    ],
+    "volumesamplevfile": [
+        "Samples the vector value of a volume primitive stored in a disk file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumesamplevfile"
+    ],
+    "volumeshader": [
+        "A shading model for volume rendering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumeshader"
+    ],
+    "volumevopglobal": [
+        "Provides outputs that represent all the global variables for ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumevopglobal"
+    ],
+    "volumevopoutput": [
+        " Simple output variable for Volume VOP Networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/volumevopoutput"
+    ],
+    "vopforceglobal": [
+        "Provides outputs that represent all the global variables for ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vopforceglobal"
+    ],
+    "vopforceoutput": [
+        " Simple output variable for VOP Force Networks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/vopforceoutput"
+    ],
+    "voronoise": [
+        "Computes 1D, 3D, and 4D Voronoi noise, which is similar to Wor",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/voronoise"
+    ],
+    "watersurf": [
+        "Simulates marine water of variable depth and visibility.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/watersurf"
+    ],
+    "waves": [
+        "Simulates rolling waves with choppiness of various frequencies, ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/waves"
+    ],
+    "wavevector": [
+        "Computes the wave vector for a given index in a grid of specified size.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/wavevector"
+    ],
+    "while": [
+        "Runs the VOP nodes inside its subnetwork as long as a given condition is true.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/while"
+    ],
+    "wire_pattern": [
+        "Returns float between 0 and 1 which defines a wire grid pattern useful for simulating screens or visualizing parametric or texture coordinates.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/wire_pattern"
+    ],
+    "wireframe": [
+        "Implements a wireframe shader and outputs the final, lit color ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/wireframe"
+    ],
+    "wood": [
+        "Simulates shiny wood grain.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/wood"
+    ],
+    "woodplank": [
+        "Simulates anti-aliased wooden planks.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/woodplank"
+    ],
+    "worleynoise": [
+        "Computes 1D, 3D, and 4D Worley noise, which is synonymous with \"c",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/worleynoise"
+    ],
+    "woven": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/woven"
+    ],
+    "xform": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/xform"
+    ],
+    "xor": [
+        "Performs a logical \"xor\" operation between its inputs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/xor"
+    ],
+    "xyzdist": [
+        "Finds closest position on a primitive in a given geometry file.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/vop/xyzdist"
+    ]
+}

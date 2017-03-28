@@ -1,0 +1,492 @@
+{
+    "_index": [
+        "Object nodes represent objects in the scene, such as character parts, geometry objects, lights, cameras, and so on.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/_index"
+    ],
+    "agentcam": [
+        "Create and attach camera to a crowd agent.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/agentcam"
+    ],
+    "alembicarchive": [
+        "Loads the objects from an Alembic scene archive (`.abc`) file into the object level.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/alembicarchive"
+    ],
+    "alembicxform": [
+        "Loads only the transform from an object or objects in an Alembic sce",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/alembicxform"
+    ],
+    "ambient": [
+        "Adds a constant level of light to every surface in the scene (or in the light's mask), coming from no specific direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/ambient"
+    ],
+    "animation_rig_biped_arm": [
+        "Provides parameters to animate the arm for a biped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_biped_arm"
+    ],
+    "animation_rig_biped_hand_5f_3s": [
+        "Provides parameters to animate the hand for a biped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_biped_hand_5f_3s"
+    ],
+    "animation_rig_biped_head_and_neck": [
+        "Provides parameters to animate the head and neck for a biped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_biped_head_and_neck"
+    ],
+    "animation_rig_biped_leg": [
+        "Provides parameters to animate the leg for a biped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_biped_leg"
+    ],
+    "animation_rig_biped_spine_3pc": [
+        "Provides parameters to animate the spine for a biped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_biped_spine_3pc"
+    ],
+    "animation_rig_character_placer": [
+        "Provides parameters to animate the character placer.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_character_placer"
+    ],
+    "animation_rig_quadruped_back_leg": [
+        "Provides parameters to animate the back leg for a quadruped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_quadruped_back_leg"
+    ],
+    "animation_rig_quadruped_front_leg": [
+        "Provides parameters to animate the front leg for a quadruped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_quadruped_front_leg"
+    ],
+    "animation_rig_quadruped_head_and_neck": [
+        "Provides parameters to animate the head and neck for a quadruped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_quadruped_head_and_neck"
+    ],
+    "animation_rig_quadruped_ik_spine": [
+        "Provides parameters to animate the IK spine for a quadruped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_quadruped_ik_spine"
+    ],
+    "animation_rig_quadruped_tail": [
+        "Provides parameters to animate the tail for a quadruped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_quadruped_tail"
+    ],
+    "animation_rig_quadruped_toes_5f": [
+        "Provides parameters to animate the toes for a quadruped character.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/animation_rig_quadruped_toes_5f"
+    ],
+    "autobonechaininterface": [
+        "The Auto Bone Chain Interface is created by the IK from Objects and IK from Bones tools on the Rigging shelf.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/autobonechaininterface"
+    ],
+    "biped_animation_rig": [
+        "Provides parameters to animate the biped autorig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/biped_animation_rig"
+    ],
+    "biped_deform_rig": [
+        "Provides parameters to control the display of the biped autorig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/biped_deform_rig"
+    ],
+    "blend": [
+        "Switches or blends between the transformations of several input objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/blend"
+    ],
+    "blendsticky": [
+        "Computes its transform by blending between the transforms of two or more sticky objects, allowing you to blend a position across a polygonal surface.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/blendsticky"
+    ],
+    "bone": [
+        "The Bone Object is used to create hierarchies of limb-like obje",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/bone"
+    ],
+    "cam": [
+        "You can view your scene through a camera, and render from its po",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/cam"
+    ],
+    "common": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/common"
+    ],
+    "common_obj_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/common_obj_parms"
+    ],
+    "control_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/control_parms"
+    ],
+    "cop2plane": [
+        "Container for the Compositing operators (COP2) that define a picture.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/cop2plane"
+    ],
+    "debris": [
+        "Emits particles from the edges of separating fractured rigid bodies.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/debris"
+    ],
+    "dopnet": [
+        " The DOP Network Object contains a dynamic simulation. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/dopnet"
+    ],
+    "envlight": [
+        "Environment Lights provide background illumination from outside the scene.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/envlight"
+    ],
+    "extractgeo": [
+        "The Extract Transform Object gets its transform by comparing the points of two pieces of geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/extractgeo"
+    ],
+    "fetch": [
+        "The Fetch Object gets its transform by copying the transform",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/fetch"
+    ],
+    "fog": [
+        "Creates a fog effect when rendered.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/fog"
+    ],
+    "follow_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/follow_parms"
+    ],
+    "formationcrowdsexample": [
+        "Crowd example showing a changing formation setup",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/formationcrowdsexample"
+    ],
+    "frankenmuscle": [
+        "BETA: Creates a hybrid muscle made up of any number of geometry objects and any number of muscle rigs and pins.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/frankenmuscle"
+    ],
+    "fur": [
+        "Creates fur geometry for rendering with a Mantra Fur Procedural.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/fur"
+    ],
+    "fuzzyObstacleAvoidance": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/fuzzyObstacleAvoidance"
+    ],
+    "fuzzystatetransition": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/fuzzystatetransition"
+    ],
+    "geo": [
+        "Container for the geometry operators (SOPs) that define a mode",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/geo"
+    ],
+    "guidedeform": [
+        "Moves the curves of a groom with animated skin.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/guidedeform"
+    ],
+    "guidegroom": [
+        "Generates guide curves from a skin geometry and does furt",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/guidegroom"
+    ],
+    "guidesim": [
+        "Runs a physics simulation on the input guides.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/guidesim"
+    ],
+    "hairgen": [
+        "Generates hair from a skin geometry and guide curves.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/hairgen"
+    ],
+    "handle": [
+        "The Handle Object is an IK tool for manipulating bones.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/handle"
+    ],
+    "hlight": [
+        "Light Objects cast light on other objects in a scene.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/hlight"
+    ],
+    "indirectlight": [
+        "Indirect lights produce illumination that has reflected from other objects in the scene.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/indirectlight"
+    ],
+    "instance": [
+        "Instance Objects can instance other geometry, light, or even subnetworks of objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/instance"
+    ],
+    "light": [
+        "A very limited light object without any built-in render properties. Use this only if you want to build completely custom light with your choice of properties.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/light"
+    ],
+    "microphone": [
+        "The Microphone object specifies a listening point for ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/microphone"
+    ],
+    "misc_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/misc_parms"
+    ],
+    "mocapbiped1": [
+        "A male character with motion captured animations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/mocapbiped1"
+    ],
+    "mocapbiped2": [
+        "A male character with motion captured animations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/mocapbiped2"
+    ],
+    "mocapbiped3": [
+        "A male character with motion captured animations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/mocapbiped3"
+    ],
+    "muscle": [
+        "Creates a smooth muscle surface you can use",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/muscle"
+    ],
+    "musclepin": [
+        "BETA: Creates a simple rigging component for pinning regions of a Franken Muscle to your character rig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/musclepin"
+    ],
+    "musclerig": [
+        "BETA: Creates the internal components of a muscle (the rig), by stroking a curve onto a skin object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/musclerig"
+    ],
+    "null": [
+        "Serves as a place-holder in the scene, usually for parenting. this obj",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/null"
+    ],
+    "path": [
+        "The Path object creates an oriented curve (path)",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/path"
+    ],
+    "pathcv": [
+        "The PathCV object creates control vertices used by the Path object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pathcv"
+    ],
+    "pxraovlight": [
+        "Pxr AOV Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxraovlight"
+    ],
+    "pxrbarnlightfilter": [
+        "Pxr Barn Light Filter object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrbarnlightfilter"
+    ],
+    "pxrblockerlightfilter": [
+        "Pxr Blocker Light Filter object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrblockerlightfilter"
+    ],
+    "pxrcookielightfilter": [
+        "Pxr Cookie Light Filter object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrcookielightfilter"
+    ],
+    "pxrdisklight": [
+        "Pxr Disk Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrdisklight"
+    ],
+    "pxrdistantlight": [
+        "Pxr Distant Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrdistantlight"
+    ],
+    "pxrdomelight": [
+        "Pxr Dome Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrdomelight"
+    ],
+    "pxrenvdaylight": [
+        "Pxr Day Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrenvdaylight"
+    ],
+    "pxrgobolightfilter": [
+        "Pxr Gobo Light Filter object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrgobolightfilter"
+    ],
+    "pxrintmultlightfilter": [
+        "pxr Int Mult Light Filter object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrintmultlightfilter"
+    ],
+    "pxrportallight": [
+        "Pxr Portal Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrportallight"
+    ],
+    "pxrramplightfilter": [
+        "Pxr Ramp Light Filter object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrramplightfilter"
+    ],
+    "pxrrectlight": [
+        "Pxr Rectangle Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrrectlight"
+    ],
+    "pxrrodlightfilter": [
+        "Pxr Rod Light Filter object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrrodlightfilter"
+    ],
+    "pxrspherelight": [
+        "Pxr Sphere Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrspherelight"
+    ],
+    "pxrstdarealight": [
+        "Pxr Standard Area Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrstdarealight"
+    ],
+    "pxrstdenvdaylight": [
+        "Pxr Standard Environment Day Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrstdenvdaylight"
+    ],
+    "pxrstdenvmaplight": [
+        "Pxr Standard Environment Map Light object for RenderMan RIS.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pxrstdenvmaplight"
+    ],
+    "pythonscript": [
+        "The Python Script object is a container for the geometry operat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/pythonscript"
+    ],
+    "quadruped_animation_rig": [
+        "Provides parameters to animate the quadruped autorig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/quadruped_animation_rig"
+    ],
+    "quadruped_deform_rig": [
+        "Provides parameters to control the display of the quadruped autorig.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/quadruped_deform_rig"
+    ],
+    "ragdollrunexample": [
+        "Crowd example showing a simple ragdoll setup.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/ragdollrunexample"
+    ],
+    "riggedmuscle": [
+        "BETA: The Muscle object is a versatile tool that can be used when rigging characters and creatures with musculature.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/riggedmuscle"
+    ],
+    "rivet": [
+        "Creates a rivet on an objects surface, usually for parenting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/rivet"
+    ],
+    "simplebiped": [
+        "A simple and efficient animation rig with full controls.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/simplebiped"
+    ],
+    "simplefemale": [
+        "A simple and efficient female character animation rig with full controls.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/simplefemale"
+    ],
+    "simplemale": [
+        "A simple and efficient male character animation rig with full controls.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/simplemale"
+    ],
+    "sound": [
+        "The Sound object defines a sound emission point for the Spatial Au",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/sound"
+    ],
+    "stereocam": [
+        "Serves as a basis for constructing a more functional stereo camera rig as a digital asset.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/stereocam"
+    ],
+    "stereocamrig": [
+        "Provides parameters to manipulate the interaxial lens distance as well as the zero parallax setting plane in the scene.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/stereocamrig"
+    ],
+    "sticky": [
+        "Creates a sticky object based on the UV's of a surface, usually for parenting.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/sticky"
+    ],
+    "subnet": [
+        "Container for objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/subnet"
+    ],
+    "switcher": [
+        "Acts as a camera but switches between the views from other cameras.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/switcher"
+    ],
+    "three_point_light": [
+        "A classic lighting scheme for key, fill and rim lights. Use this light for a basic illumination of objects in a scene.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/three_point_light"
+    ],
+    "viewportisolator": [
+        "A Python Script HDA providing per viewport isolation controls from selection.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/viewportisolator"
+    ],
+    "vrcam": [
+        "Camera supporting VR image rendering.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/vrcam"
+    ],
+    "whitecaps": [
+        "Emits particles from the leading edges of a Particle Fluid wave, when the sharpness of the wave crest reaches a certain threshold.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/obj/whitecaps"
+    ]
+}

@@ -1,7 +1,0 @@
-#type: node
-#context: vop
-#internal: eigenvalues
-
-= Eigenvalues =
-
-Collects eigenvalues given an input matrix.

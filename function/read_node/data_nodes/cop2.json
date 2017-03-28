@@ -1,0 +1,727 @@
+{
+    "_generators": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/_generators"
+    ],
+    "_index": [
+        "Composite nodes create, filter, and manipulate image data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/_index"
+    ],
+    "add": [
+        "Adds two images together.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/add"
+    ],
+    "anaglyph": [
+        "Creates an anaglyph from a pair of input images.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/anaglyph"
+    ],
+    "atop": [
+        "Composites the first input (Foreground) over the second (backgroun",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/atop"
+    ],
+    "average": [
+        "Averages the foreground image and the background image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/average"
+    ],
+    "blend": [
+        "Blends frames from two sequences together using a simple lin",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/blend"
+    ],
+    "blur": [
+        "Blurs an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/blur"
+    ],
+    "border": [
+        "Adds a border to the image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/border"
+    ],
+    "bright": [
+        "Applies a brightness factor and bright shift to the first input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/bright"
+    ],
+    "bump": [
+        "Builds a bump map from a plane.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/bump"
+    ],
+    "channelcopy": [
+        "Copy channels from any of inputs into the output image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/channelcopy"
+    ],
+    "chromakey": [
+        "Mask or \"key\" an image based on its color.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/chromakey"
+    ],
+    "color": [
+        "Creates a constant color image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/color"
+    ],
+    "colorcorrect": [
+        "Applies a variety of color corrections to the image",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/colorcorrect"
+    ],
+    "colorcurve": [
+        "Adjusts the R,G,B and/or A channels based on a user-defi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/colorcurve"
+    ],
+    "colormap": [
+        "Maps a range of color to a new range.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/colormap"
+    ],
+    "colorreplace": [
+        "Replace a color region in an image with another region.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/colorreplace"
+    ],
+    "colorwheel": [
+        "Generates a simple HSV color wheel.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/colorwheel"
+    ],
+    "composite": [
+        "Does a composite (over, under, inside, add, etc) between ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/composite"
+    ],
+    "contrast": [
+        "Increases or decreases the contrast of an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/contrast"
+    ],
+    "convert": [
+        "Changes the data format of a plane.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/convert"
+    ],
+    "convolve": [
+        "Performs a generic convolve on the source image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/convolve"
+    ],
+    "coplocalvars": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/coplocalvars"
+    ],
+    "copmaskparms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/copmaskparms"
+    ],
+    "coppixelopparms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/coppixelopparms"
+    ],
+    "coppixelparms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/coppixelparms"
+    ],
+    "copvexnode": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/copvexnode"
+    ],
+    "cornerramp": [
+        "Generates a four corner ramp.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/cornerramp"
+    ],
+    "crop": [
+        "Crops an image and changes its resolution.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/crop"
+    ],
+    "defocus": [
+        "Defocuses an image similar to a real camera defocus.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/defocus"
+    ],
+    "deform": [
+        "Deforms an image by moving the underlying UV coordinates.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/deform"
+    ],
+    "degrain": [
+        "Removes film grain from an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/degrain"
+    ],
+    "deinterlace": [
+        "De-interlaces a frame of video by either averaging scanlines",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/deinterlace"
+    ],
+    "delete": [
+        "Removes planes or components from an input sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/delete"
+    ],
+    "denoise": [
+        "Removes white noise from an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/denoise"
+    ],
+    "depthdarken": [
+        "Darkens depth boundaries in an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/depthdarken"
+    ],
+    "diff": [
+        "Computes the difference between the foreground image and ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/diff"
+    ],
+    "dilateerode": [
+        "Expands and shrinks mattes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/dilateerode"
+    ],
+    "dof": [
+        "Creates a depth-of-field mask, which describes how out of focus pa",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/dof"
+    ],
+    "dropshadow": [
+        "Creates a blurred shadow offset of an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/dropshadow"
+    ],
+    "dsmflatten": [
+        "Flattens a Deep Shadow/Camera Map into a flat 2D raster.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/dsmflatten"
+    ],
+    "edge": [
+        "Detects edges in the input image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/edge"
+    ],
+    "edgeblur": [
+        "Blurs the edges of an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/edgeblur"
+    ],
+    "emboss": [
+        "Adds a lighting effect to the image by using a bump map.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/emboss"
+    ],
+    "env": [
+        "Applies an environment map to an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/env"
+    ],
+    "equalize": [
+        "Equalizes colors by stretching or shifting the image histogram.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/equalize"
+    ],
+    "erftable": [
+        "Creates an image containing precomputed error function terms for hair albedo computation",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/erftable"
+    ],
+    "expand": [
+        "Expands and shrinks mattes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/expand"
+    ],
+    "extend": [
+        "Extends the length of a sequence so that it can be animated bey",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/extend"
+    ],
+    "fetch": [
+        "Fetches a sequence of images from another COP, even in another network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/fetch"
+    ],
+    "fieldmerge": [
+        "Merges two fields into one Interlaced Frame.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/fieldmerge"
+    ],
+    "fieldsplit": [
+        "Splits an interlaced frame into two fields per frame (odd and e",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/fieldsplit"
+    ],
+    "fieldswap": [
+        "Swaps the two fields containing the even and odd scanlines of ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/fieldswap"
+    ],
+    "file": [
+        "Loads image files into Houdini.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/file"
+    ],
+    "flip": [
+        "Flips the image horizontally and/or vertically.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/flip"
+    ],
+    "fog": [
+        "Adds a variety of atmospheric effects to an image, including f",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/fog"
+    ],
+    "font": [
+        "Renders anti-aliased text.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/font"
+    ],
+    "frontface": [
+        "Cleans up flipped normals by making them face the camera. ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/frontface"
+    ],
+    "function": [
+        "Performs a variety of mathematical functions on the input image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/function"
+    ],
+    "gamma": [
+        "Applies gamma correction to the image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/gamma"
+    ],
+    "generator_parms": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/generator_parms"
+    ],
+    "geokey": [
+        "Keys out parts of the image based on pixel position or nor",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/geokey"
+    ],
+    "geometry": [
+        "Renders geometry from a SOP as a single color image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/geometry"
+    ],
+    "gradient": [
+        "Computes the gradient of an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/gradient"
+    ],
+    "grain": [
+        "Adds grain to an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/grain"
+    ],
+    "hsv": [
+        "Converts between RGB and HSV color spaces, or applies hue and saturation modifications.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/hsv"
+    ],
+    "huecurve": [
+        "Adjusts the saturation or luminance of the image based on hue.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/huecurve"
+    ],
+    "illpixel": [
+        "Detects illegal pixels, like NAN and INF, in images.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/illpixel"
+    ],
+    "inside": [
+        "Restricts the foreground color to the area of the background's al",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/inside"
+    ],
+    "interleave": [
+        "Interleaves image sequences.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/interleave"
+    ],
+    "invert": [
+        "Applies a photographic pixel inversion to the image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/invert"
+    ],
+    "is_a_generator": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/is_a_generator"
+    ],
+    "layer": [
+        "Layers a series of inputs together by compositing them one by one",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/layer"
+    ],
+    "levels": [
+        "Adjusts black point, white point, and midrange to increase, balan",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/levels"
+    ],
+    "light": [
+        "Adds a light to the image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/light"
+    ],
+    "limit": [
+        "Limits the pixel range at the high end, low end or both.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/limit"
+    ],
+    "lookup": [
+        "Applies a lookup table to the input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/lookup"
+    ],
+    "loop": [
+        "Cooks the subnet COPs multiple times in a loop, accumulating the results.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/loop"
+    ],
+    "loopdata": [
+        "Placeholder node within a Loop subnet for accessing the previous iteration's output.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/loopdata"
+    ],
+    "lumakey": [
+        "Keys the image based on luminance (or similar function).",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/lumakey"
+    ],
+    "lumamatte": [
+        "Sets the alpha to the luminance of the color.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/lumamatte"
+    ],
+    "mask": [
+        "Masks out an area of an image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/mask"
+    ],
+    "max": [
+        "Outputs the maximum value of the foreground and background images ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/max"
+    ],
+    "median": [
+        "Applies a 3 x 3 or 5 x 5 median filter to the input image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/median"
+    ],
+    "merge": [
+        "Merges the planes of several inputs together.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/merge"
+    ],
+    "metadata": [
+        "Applies metadata to an image sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/metadata"
+    ],
+    "min": [
+        "Outputs the minimum value of the foreground and background images ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/min"
+    ],
+    "mono": [
+        "Converts a color or vector into a scalar quantity, like luminance or length.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/mono"
+    ],
+    "mosaic": [
+        "Takes a sequence of images and combines them into 1 image by tiling them.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/mosaic"
+    ],
+    "multiply": [
+        "Multiplies the foreground image with the background image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/multiply"
+    ],
+    "noise": [
+        "Generates continuous noise patterns.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/noise"
+    ],
+    "null": [
+        "Does nothing.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/null"
+    ],
+    "outside": [
+        "Restricts the foreground color to the area outside of ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/outside"
+    ],
+    "over": [
+        "Composites the first input (Foreground) over the sec",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/over"
+    ],
+    "pin": [
+        "Fits an image into an arbitrary quadrilateral.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/pin"
+    ],
+    "pixel": [
+        "Modifies an image's pixels using expressions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/pixel"
+    ],
+    "premultiply": [
+        "Allows colour to be converted to or from a premultiplied form.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/premultiply"
+    ],
+    "pulldown": [
+        "Performs a pulldown (cine-expand) on the input sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/pulldown"
+    ],
+    "pushup": [
+        "Performs a pushup (cine-expand) on the input sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/pushup"
+    ],
+    "quantize": [
+        "Quantizes input data into discrete steps.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/quantize"
+    ],
+    "radialblur": [
+        "Does a radial or angular blur.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/radialblur"
+    ],
+    "ramp": [
+        "Generates a variety of linear and radial ramps, which are fu",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/ramp"
+    ],
+    "reference": [
+        "Copies the sequence information from its input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/reference"
+    ],
+    "rename": [
+        "Change the name a plane.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/rename"
+    ],
+    "render": [
+        "Renders a mantra output driver directly into a composite network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/render"
+    ],
+    "reverse": [
+        "Simply reverses the frames in the sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/reverse"
+    ],
+    "rop_comp": [
+        "Renders frames out to disk.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/rop_comp"
+    ],
+    "rotoshape": [
+        "Draws one or more curves or shapes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/rotoshape"
+    ],
+    "scale": [
+        "Changes the resolution of the image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/scale"
+    ],
+    "screen": [
+        "Adds two images together, saturating at white like photograp",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/screen"
+    ],
+    "sequence": [
+        "Sequences two or more inputs end to end.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/sequence"
+    ],
+    "shape": [
+        "Generates simple shapes, such as circles, stars and regular N-si",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/shape"
+    ],
+    "sharpen": [
+        "Sharpens an image by enhancing the contrast of edges.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/sharpen"
+    ],
+    "shift": [
+        "Shifts an image sequence in time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/shift"
+    ],
+    "shuffle": [
+        "Shuffle frames around to do out-of-order editing.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/shuffle"
+    ],
+    "skyenvmap": [
+        "Creates sky and ground images for use as environment maps.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/skyenvmap"
+    ],
+    "snip": [
+        "Either removes frames from a sequence or allows you to order them",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/snip"
+    ],
+    "sopimport": [
+        "Imports a 2d Volume from SOPs as planes into a composite network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/sopimport"
+    ],
+    "streak": [
+        "Streaks an image, adding a motion blur effect.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/streak"
+    ],
+    "subnet": [
+        "Contains networks of other COPs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/subnet"
+    ],
+    "subtract": [
+        "Subtracts the foreground image from the background image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/subtract"
+    ],
+    "switch": [
+        "Passes the input of one of its connected inputs through, acting l",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/switch"
+    ],
+    "switchalpha": [
+        "Replaces input 1's alpha with input 2's alpha.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/switchalpha"
+    ],
+    "terrain_noise": [
+        "Generate noise suitable for terrain height maps.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/terrain_noise"
+    ],
+    "tile": [
+        "Tiles the image sequence with multiple copies of the input image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/tile"
+    ],
+    "tima": [
+        "Uses a second input to time warp the first input on a per pi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/tima"
+    ],
+    "timefilter": [
+        "Blurs a pixel through several frames.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/timefilter"
+    ],
+    "timescale": [
+        "Stretches or compresses a sequence in time.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/timescale"
+    ],
+    "trim": [
+        "Trims an input sequence in time by adjusting the beginning or the ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/trim"
+    ],
+    "under": [
+        "Composites the first input (Foreground) under the sec",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/under"
+    ],
+    "unpin": [
+        "Extracts an arbitrary quadrilateral area out of the input image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/unpin"
+    ],
+    "uvmap": [
+        "Creates a UV map.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/uvmap"
+    ],
+    "vector": [
+        "Performs vector operations on the input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/vector"
+    ],
+    "velblur": [
+        "Blurs an image by using pixel velocity to produce a motion b",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/velblur"
+    ],
+    "vexfilter": [
+        "Runs a VEX script on its input planes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/vexfilter"
+    ],
+    "vexgenerate": [
+        "Runs a VEX script on the planes it generates.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/vexgenerate"
+    ],
+    "vopcop2filter": [
+        "Contains a VOP network that filters input image data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/vopcop2filter"
+    ],
+    "vopcop2gen": [
+        "Contains a VOP network that generates image data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/vopcop2gen"
+    ],
+    "warp": [
+        "Warps time by slowing or speeding it up throughout the sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/warp"
+    ],
+    "window": [
+        "Cuts a small window out of a larger image.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/window"
+    ],
+    "wipe": [
+        "Does a wipe between two input sequences.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/wipe"
+    ],
+    "xform": [
+        "Translates, rotates and/or scales the input image without chang",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/xform"
+    ],
+    "xor": [
+        "Makes two elements mutually exclusive; if their alpha mattes overl",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/xor"
+    ],
+    "zcomp": [
+        "Does a Z composite of two images.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/cop2/zcomp"
+    ]
+}

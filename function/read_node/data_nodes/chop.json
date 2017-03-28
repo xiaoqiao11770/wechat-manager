@@ -1,0 +1,597 @@
+{
+    "_index": [
+        "Channel nodes create, filter, and manipulate channel data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/_index"
+    ],
+    "acoustic": [
+        "Design audio filters and sound materials for the spatial au",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/acoustic"
+    ],
+    "agent": [
+        "Imports an animation clip from an agent primitive.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/agent"
+    ],
+    "area": [
+        "Calculates the area under a channel's graph, which is the same as calculating the integral of a channel, or integrating the channel.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/area"
+    ],
+    "attribute": [
+        "Adds, removes or updates attributes of the input chop.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/attribute"
+    ],
+    "audioin": [
+        "Receives audio input from the analog audio ports or the digi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/audioin"
+    ],
+    "band": [
+        "A 14-band equalizer which filters audio input channels in the same way that a conventional band equalizer uses a bank of sliders to filter fixed-frequency bands of sound.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/band"
+    ],
+    "beat": [
+        "Manually tap the beat of a piece of music, and automatica",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/beat"
+    ],
+    "blend": [
+        "Combines two or more chops in input 2, 3 and so on, by using a set",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/blend"
+    ],
+    "blendpose": [
+        "Performs multi-dimensional, example-based interpolation",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/blendpose"
+    ],
+    "channel": [
+        "Creates channels from the value of its parameters.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/channel"
+    ],
+    "common": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/common"
+    ],
+    "comp": [
+        "Layers (blends) the channels of one CHOP on the channels of another CHOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/comp"
+    ],
+    "constant": [
+        "Create up to forty new channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constant"
+    ],
+    "constraintblend": [
+        "Combines two or more chops by using a list of weights specified as parameters.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintblend"
+    ],
+    "constraintexport": [
+        "Export Constraints Network on any object",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintexport"
+    ],
+    "constraintgetlocalspace": [
+        "Returns an Object Local Transform.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintgetlocalspace"
+    ],
+    "constraintgetparentspace": [
+        "Returns an Object Parent Transform.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintgetparentspace"
+    ],
+    "constraintgetworldspace": [
+        "Returns an Object World Transform.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintgetworldspace"
+    ],
+    "constraintlookat": [
+        "Constrains rotation so it always points toward a target position.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintlookat"
+    ],
+    "constraintobject": [
+        "Compares two objects and returns information on their relative positions and orientations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintobject"
+    ],
+    "constraintobjectoffset": [
+        "Compares two objects and returns information on their relative positions and orientations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintobjectoffset"
+    ],
+    "constraintobjectpretransform": [
+        "Returns an Object Pretransform.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintobjectpretransform"
+    ],
+    "constraintoffset": [
+        "Applies an transformation offset after evaluating a constraint.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintoffset"
+    ],
+    "constraintparent": [
+        "Reparent an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintparent"
+    ],
+    "constraintparentx": [
+        "Reparent an object.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintparentx"
+    ],
+    "constraintpath": [
+        "Position an object on a path and orient it to the path's direction.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintpath"
+    ],
+    "constraintpoints": [
+        "Position and Orient an object using point positions from a geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintpoints"
+    ],
+    "constraintsequence": [
+        "Combines multiple chops by blending the inputs in sequence.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintsequence"
+    ],
+    "constraintsimpleblend": [
+        "Combines two chops by using a single weight specified as a parameter.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintsimpleblend"
+    ],
+    "constraintsurface": [
+        "Position and Orient an object using the surface of a geometry.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constraintsurface"
+    ],
+    "constrainttransform": [
+        "Takes translate, rotate, and/or scale channels and transforms them.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/constrainttransform"
+    ],
+    "copy": [
+        "Produces multiple copies of the second input along the timeline of the first input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/copy"
+    ],
+    "count": [
+        "Counts the number of times a channel crosses a trigger or rele",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/count"
+    ],
+    "cycle": [
+        "Creates cycles.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/cycle"
+    ],
+    "delay": [
+        "Delays the input, and can be run in normal or time-sliced mode.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/delay"
+    ],
+    "delete": [
+        "Removes channels coming from its input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/delete"
+    ],
+    "dynamics": [
+        "Extracts any information from a DOP simulation that is accessi",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/dynamics"
+    ],
+    "envelope": [
+        "Outputs the maximum amplitude in the vicinity of each sample of the input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/envelope"
+    ],
+    "export": [
+        "A convenient tool for exporting channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/export"
+    ],
+    "express": [
+        "Modify input channels by using expressions.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/express"
+    ],
+    "extend": [
+        "Only sets the \"extend conditions\" of a chop, which determines w",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/extend"
+    ],
+    "fan": [
+        "Used for controlling other CHOPs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/fan"
+    ],
+    "feedback": [
+        "Get the state of a chop as it was one frame or time slice ago.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/feedback"
+    ],
+    "fetch": [
+        "Imports channels from other OPs.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/fetch"
+    ],
+    "file": [
+        "Reads in channel and audio files for use by chops.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/file"
+    ],
+    "filter": [
+        "Smooths or sharpens the input channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/filter"
+    ],
+    "footplant": [
+        "Computes when position channels are stationary.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/footplant"
+    ],
+    "for": [
+        "Internal node used by the Foreach CHOP",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/for"
+    ],
+    "foreach": [
+        "Divides the input channels into groups, cooking the contained network for each group.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/foreach"
+    ],
+    "function": [
+        "Provides more complicated math functions than found in the Math CH",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/function"
+    ],
+    "geometry": [
+        "Uses a geometry object to choose a sop from which the channels will be created.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/geometry"
+    ],
+    "gesture": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/gesture"
+    ],
+    "handle": [
+        "The \"engine\" which drives Inverse Kinematic solutions using ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/handle"
+    ],
+    "hold": [
+        "Sample and hold the value of the first input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/hold"
+    ],
+    "identity": [
+        "Returns an identity transform.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/identity"
+    ],
+    "iksolver": [
+        "Solves inverse kinematics rotations for bone chains.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/iksolver"
+    ],
+    "image": [
+        "Converts rows and/or columns of pixels in an image to C",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/image"
+    ],
+    "interp": [
+        "Treats its multiple-inputs as keyframes and interpolates betw",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/interp"
+    ],
+    "inversekin": [
+        "Generates channels for bone objects based on a bone chain and an ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/inversekin"
+    ],
+    "invert": [
+        "Returns an invert transform of the input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/invert"
+    ],
+    "jiggle": [
+        "Creates a jiggling effect in the translate channels passed in.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/jiggle"
+    ],
+    "keyboard": [
+        "Turns key presses into channel output.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/keyboard"
+    ],
+    "lag": [
+        "Adds lag and overshoot to channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/lag"
+    ],
+    "layer": [
+        "Mix weighted layers of keyframed animation from multiple Channel CHOPs to a base Channel CHOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/layer"
+    ],
+    "limit": [
+        "Provides a variety of functions to limit and quantize the input channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/limit"
+    ],
+    "logic": [
+        "Converts channels of all its input chops into binary channels and combines them using a variety of logic operations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/logic"
+    ],
+    "lookup": [
+        "Uses a channel in the first input to index into a lookup table in ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/lookup"
+    ],
+    "math": [
+        "Perform a variety of arithmetic operations on and between channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/math"
+    ],
+    "merge": [
+        "Takes multiple inputs and merges them into the output.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/merge"
+    ],
+    "midiin": [
+        "The MIDI In CHOP reads Note events, Controller events, Program Cha",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/midiin"
+    ],
+    "midiout": [
+        "The MIDI Out CHOP sends MIDI events to any available M",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/midiout"
+    ],
+    "mouse": [
+        "Outputs X and Y screen values for the mouse device.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/mouse"
+    ],
+    "multiply": [
+        "Post multiplies all the input transformations.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/multiply"
+    ],
+    "network": [
+        "Similar to the Pipe In/Out CHOPs in Network mode.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/network"
+    ],
+    "noise": [
+        "Makes an irregular wave that never repeats, with values approximately in the range -1 to +1.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/noise"
+    ],
+    "null": [
+        "Used as a place-holder and does not have a function of its own.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/null"
+    ],
+    "object": [
+        "Compares two objects and returns information on their relat",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/object"
+    ],
+    "objectchain": [
+        "Creates channels representing the transforms for a chain of objects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/objectchain"
+    ],
+    "oscillator": [
+        "Generates sounds in two ways.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/oscillator"
+    ],
+    "output": [
+        "Marks the output of a sub-network.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/output"
+    ],
+    "para": [
+        "Filters an audio clip, and then applies other audio effects.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/para"
+    ],
+    "particle": [
+        "Produces translate and rotate channels to move Objects according",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/particle"
+    ],
+    "pass": [
+        "Filters audio input using one of four different filter types.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/pass"
+    ],
+    "phoneme": [
+        "Translates english text into a series of phonetic values.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/phoneme"
+    ],
+    "pipein": [
+        "Pipes data from custom devices into a CHOP, without needing the Houdini Developers' Kit or knowledge of Houdini internals.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/pipein"
+    ],
+    "pipeout": [
+        "Transmit data out of Houdini to other processes.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/pipeout"
+    ],
+    "pitch": [
+        "Attempts to extract the fundamental pitch of a musical tone from the input audio.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/pitch"
+    ],
+    "pose": [
+        "Store a transform pose for later use by evaluating the input.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/pose"
+    ],
+    "posedifference": [
+        "Computes the difference between two poses.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/posedifference"
+    ],
+    "pretransform": [
+        "Takes translate, rotate, and/or scale channels and transforms t",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/pretransform"
+    ],
+    "pulse": [
+        "Generates pulses at regular intervals of one channel.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/pulse"
+    ],
+    "record": [
+        null,
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/record"
+    ],
+    "rename": [
+        "Renames channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/rename"
+    ],
+    "reorder": [
+        "Reorders the first input CHOP's channels by numeric or alphabe",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/reorder"
+    ],
+    "resample": [
+        "Resamples an input's channels to a new rate and/or start/",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/resample"
+    ],
+    "sequence": [
+        "Takes all its inputs and appends one chop after another.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/sequence"
+    ],
+    "shift": [
+        "This time-shifts a CHOP, changing the start and end of the CHOP's interval.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/shift"
+    ],
+    "shuffle": [
+        "Reorganizes a list of channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/shuffle"
+    ],
+    "slope": [
+        "Calculates the slope (or derivative) of the input channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/slope"
+    ],
+    "spatial": [
+        "The rendering engine for producing 3D audio.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/spatial"
+    ],
+    "spectrum": [
+        "Calculates the frequency spectrum of the input channels, or a port",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/spectrum"
+    ],
+    "spline": [
+        "Edit the channel data by using direct manipulation of cubic or Bez",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/spline"
+    ],
+    "spring": [
+        "Creates vibrations influenced by the input channels, as if a mass was attached to a spring.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/spring"
+    ],
+    "stretch": [
+        "Preserves the shape of channels and the sampling rate, but resamples the channels into a new interval.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/stretch"
+    ],
+    "subnet": [
+        "Allows for the simplification of complex networks by collaps",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/subnet"
+    ],
+    "switch": [
+        "Control the flow of channels through a CHOPnet.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/switch"
+    ],
+    "transform": [
+        "Takes translate, rotate, and/or scale channels and transforms them.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/transform"
+    ],
+    "transformchain": [
+        "Combines a chain of translate, rotate, and/or scale channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/transformchain"
+    ],
+    "trigger": [
+        "Adds an audio-style attack/decay/sustain/release (ADSR) envelope to all trigger points in the input channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/trigger"
+    ],
+    "trim": [
+        "Shortens or lengthens the input's channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/trim"
+    ],
+    "vector": [
+        "Performs vector operations on a set or sets of channels.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/vector"
+    ],
+    "vex": [
+        "References a VEX program that can manipulate channel data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/vex"
+    ],
+    "voicesplit": [
+        "The Voice Split CHOP takes an audio track and separates \"words\" ",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/voicesplit"
+    ],
+    "voicesync": [
+        "The Voice Sync CHOP detects phonemes in an audio channel given s",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/voicesync"
+    ],
+    "vopchop": [
+        "Contains a VOP network that can manipulate channel data.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/vopchop"
+    ],
+    "warp": [
+        "Time-warps the channels of the first input (the Pre-Warp Channe",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/warp"
+    ],
+    "wave": [
+        "Creates a waveform that is repeated.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/wave"
+    ],
+    "waveform": [
+        "This function is a sub-set of the waveform CHOP.",
+        "icon",
+        "http://www.sidefx.com/docs/houdini/nodes/chop/waveform"
+    ]
+}

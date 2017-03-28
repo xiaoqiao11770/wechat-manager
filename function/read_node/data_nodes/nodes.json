@@ -1,0 +1,7090 @@
+{
+    "CVEX_shader": [
+        "vop"
+    ],
+    "DelayedReadArchive": [
+        "vop"
+    ],
+    "_generators": [
+        "cop2"
+    ],
+    "_heightfield_common": [
+        "sop"
+    ],
+    "_index": [
+        "sop",
+        "dop",
+        "shop",
+        "obj",
+        "pop",
+        "chop",
+        "cop2",
+        "vop",
+        "vex",
+        "out"
+    ],
+    "_parameter_locals": [
+        "dop"
+    ],
+    "aaflownoise": [
+        "vop"
+    ],
+    "aanoise": [
+        "vop"
+    ],
+    "aarampparm": [
+        "vop"
+    ],
+    "abs": [
+        "vop"
+    ],
+    "acceleration": [
+        "pop"
+    ],
+    "acoustic": [
+        "chop"
+    ],
+    "activevalue": [
+        "dop"
+    ],
+    "add": [
+        "sop",
+        "cop2",
+        "vop"
+    ],
+    "addattrib": [
+        "vop"
+    ],
+    "addconst": [
+        "vop"
+    ],
+    "addgroup": [
+        "vop"
+    ],
+    "addpoint": [
+        "vop"
+    ],
+    "addprim": [
+        "vop"
+    ],
+    "addsteerforce": [
+        "vop"
+    ],
+    "addvertex": [
+        "vop"
+    ],
+    "addwindforce": [
+        "vop"
+    ],
+    "advectbyvolumes": [
+        "pop",
+        "vop"
+    ],
+    "affector": [
+        "dop"
+    ],
+    "age": [
+        "pop"
+    ],
+    "agent": [
+        "sop",
+        "chop",
+        "out"
+    ],
+    "agentaddclip": [
+        "vop"
+    ],
+    "agentcam": [
+        "obj"
+    ],
+    "agentclip": [
+        "sop"
+    ],
+    "agentclipcatalog": [
+        "vop"
+    ],
+    "agentcliplayer": [
+        "dop"
+    ],
+    "agentcliplength": [
+        "vop"
+    ],
+    "agentclipnames": [
+        "vop"
+    ],
+    "agentclipproperties": [
+        "sop"
+    ],
+    "agentclipsample": [
+        "vop"
+    ],
+    "agentclipsamplerate": [
+        "vop"
+    ],
+    "agentcliptimes": [
+        "vop"
+    ],
+    "agentcliptransitiongraph": [
+        "sop"
+    ],
+    "agentclipweights": [
+        "vop"
+    ],
+    "agentcollisionlayer": [
+        "sop"
+    ],
+    "agentconfigurejoints": [
+        "sop"
+    ],
+    "agentconstraintnetwork": [
+        "sop"
+    ],
+    "agentconverttransforms": [
+        "vop"
+    ],
+    "agentedit": [
+        "sop"
+    ],
+    "agentlayer": [
+        "sop"
+    ],
+    "agentlayerbindings": [
+        "vop"
+    ],
+    "agentlayername": [
+        "vop"
+    ],
+    "agentlayers": [
+        "vop"
+    ],
+    "agentlayershapes": [
+        "vop"
+    ],
+    "agentlookat": [
+        "sop",
+        "dop"
+    ],
+    "agentlookat-": [
+        "sop"
+    ],
+    "agentlookatapply": [
+        "dop"
+    ],
+    "agentprep": [
+        "sop"
+    ],
+    "agentprep-": [
+        "sop"
+    ],
+    "agentprep-2.0": [
+        "sop"
+    ],
+    "agentproxy": [
+        "sop"
+    ],
+    "agentrigchildren": [
+        "vop"
+    ],
+    "agentrigfind": [
+        "vop"
+    ],
+    "agentrigparent": [
+        "vop"
+    ],
+    "agentterrainadaptation": [
+        "sop",
+        "dop"
+    ],
+    "agentterrainadaptation-": [
+        "dop"
+    ],
+    "agentterrainadaptation-2.0": [
+        "dop"
+    ],
+    "agentterrainprojection": [
+        "dop"
+    ],
+    "agenttransformcount": [
+        "vop"
+    ],
+    "agenttransformgroup": [
+        "sop"
+    ],
+    "agenttransformnames": [
+        "vop"
+    ],
+    "agenttransforms": [
+        "vop"
+    ],
+    "albedo": [
+        "vop"
+    ],
+    "alembic": [
+        "sop",
+        "out"
+    ],
+    "alembicarchive": [
+        "obj"
+    ],
+    "alembicgroup": [
+        "sop"
+    ],
+    "alembicprimitive": [
+        "sop"
+    ],
+    "alembicxform": [
+        "obj"
+    ],
+    "alf": [
+        "out"
+    ],
+    "align": [
+        "sop",
+        "vop"
+    ],
+    "alphamix": [
+        "vop"
+    ],
+    "ambient": [
+        "obj",
+        "vop"
+    ],
+    "anaglyph": [
+        "cop2"
+    ],
+    "anchoralignaxis": [
+        "dop"
+    ],
+    "anchorobjpointgrouppos": [
+        "dop"
+    ],
+    "anchorobjpointgrouprot": [
+        "dop"
+    ],
+    "anchorobjpointidpos": [
+        "dop"
+    ],
+    "anchorobjpointidrot": [
+        "dop"
+    ],
+    "anchorobjpointnumpos": [
+        "dop"
+    ],
+    "anchorobjpointnumrot": [
+        "dop"
+    ],
+    "anchorobjprimpos": [
+        "dop"
+    ],
+    "anchorobjspacepos": [
+        "dop"
+    ],
+    "anchorobjspacerot": [
+        "dop"
+    ],
+    "anchorobjsurfacepos": [
+        "dop"
+    ],
+    "anchorworldspacepos": [
+        "dop"
+    ],
+    "anchorworldspacerot": [
+        "dop"
+    ],
+    "and": [
+        "vop"
+    ],
+    "angvelocity": [
+        "pop"
+    ],
+    "animation_rig_biped_arm": [
+        "obj"
+    ],
+    "animation_rig_biped_hand_5f_3s": [
+        "obj"
+    ],
+    "animation_rig_biped_head_and_neck": [
+        "obj"
+    ],
+    "animation_rig_biped_leg": [
+        "obj"
+    ],
+    "animation_rig_biped_spine_3pc": [
+        "obj"
+    ],
+    "animation_rig_character_placer": [
+        "obj"
+    ],
+    "animation_rig_quadruped_back_leg": [
+        "obj"
+    ],
+    "animation_rig_quadruped_front_leg": [
+        "obj"
+    ],
+    "animation_rig_quadruped_head_and_neck": [
+        "obj"
+    ],
+    "animation_rig_quadruped_ik_spine": [
+        "obj"
+    ],
+    "animation_rig_quadruped_tail": [
+        "obj"
+    ],
+    "animation_rig_quadruped_toes_5f": [
+        "obj"
+    ],
+    "append": [
+        "vop"
+    ],
+    "applydata": [
+        "dop"
+    ],
+    "applyrel": [
+        "dop"
+    ],
+    "approxsss_eval": [
+        "shop"
+    ],
+    "approxsss_sample": [
+        "shop"
+    ],
+    "archive": [
+        "out"
+    ],
+    "area": [
+        "chop"
+    ],
+    "argsort": [
+        "vop"
+    ],
+    "arraylength": [
+        "vop"
+    ],
+    "assemble": [
+        "sop"
+    ],
+    "atan": [
+        "vop"
+    ],
+    "atop": [
+        "cop2"
+    ],
+    "atten": [
+        "vop"
+    ],
+    "attenuate": [
+        "vop"
+    ],
+    "attractor": [
+        "pop"
+    ],
+    "attribblur": [
+        "sop"
+    ],
+    "attribcast": [
+        "sop"
+    ],
+    "attribcomposite": [
+        "sop"
+    ],
+    "attribcopy": [
+        "sop"
+    ],
+    "attribcreate": [
+        "sop"
+    ],
+    "attribcreate-": [
+        "sop"
+    ],
+    "attribdelete": [
+        "sop"
+    ],
+    "attribexpression": [
+        "sop"
+    ],
+    "attribfade": [
+        "sop"
+    ],
+    "attribfrommap": [
+        "sop"
+    ],
+    "attribfromvolume": [
+        "sop"
+    ],
+    "attribinterpolate": [
+        "sop"
+    ],
+    "attribmirror": [
+        "sop"
+    ],
+    "attribpromote": [
+        "sop"
+    ],
+    "attribrandomize": [
+        "sop"
+    ],
+    "attribreorient": [
+        "sop"
+    ],
+    "attribstringedit": [
+        "sop"
+    ],
+    "attribswap": [
+        "sop"
+    ],
+    "attribtransfer": [
+        "sop",
+        "pop"
+    ],
+    "attribtransferbyuv": [
+        "sop"
+    ],
+    "attribute": [
+        "sop",
+        "pop",
+        "chop"
+    ],
+    "attribvop": [
+        "sop"
+    ],
+    "attribwrangle": [
+        "sop"
+    ],
+    "audioin": [
+        "chop"
+    ],
+    "autobonechaininterface": [
+        "obj"
+    ],
+    "average": [
+        "cop2"
+    ],
+    "avg": [
+        "vop"
+    ],
+    "avgcomp": [
+        "vop"
+    ],
+    "bakeexports": [
+        "vop"
+    ],
+    "bakeode": [
+        "sop"
+    ],
+    "baketexture": [
+        "out"
+    ],
+    "bakevolume": [
+        "sop"
+    ],
+    "banana": [
+        "vop"
+    ],
+    "band": [
+        "chop"
+    ],
+    "basis": [
+        "sop"
+    ],
+    "batch": [
+        "out"
+    ],
+    "bbox": [
+        "vop"
+    ],
+    "beat": [
+        "chop"
+    ],
+    "bend": [
+        "sop"
+    ],
+    "bias": [
+        "vop"
+    ],
+    "bind": [
+        "vop"
+    ],
+    "biped_animation_rig": [
+        "obj"
+    ],
+    "biped_deform_rig": [
+        "obj"
+    ],
+    "blast": [
+        "sop"
+    ],
+    "blend": [
+        "obj",
+        "chop",
+        "cop2"
+    ],
+    "blendfactor": [
+        "dop"
+    ],
+    "blendpose": [
+        "chop"
+    ],
+    "blendregions": [
+        "vop"
+    ],
+    "blendshapes": [
+        "sop"
+    ],
+    "blendsolver": [
+        "dop"
+    ],
+    "blendsticky": [
+        "obj"
+    ],
+    "block_begin": [
+        "sop",
+        "vop"
+    ],
+    "block_begin_for": [
+        "vop"
+    ],
+    "block_begin_foreach": [
+        "vop"
+    ],
+    "block_begin_if": [
+        "vop"
+    ],
+    "block_end": [
+        "sop",
+        "vop"
+    ],
+    "block_end_breakif": [
+        "vop"
+    ],
+    "block_end_while": [
+        "vop"
+    ],
+    "blur": [
+        "cop2"
+    ],
+    "bone": [
+        "obj"
+    ],
+    "bonecapturebiharmonic": [
+        "sop"
+    ],
+    "bonecapturelines": [
+        "sop"
+    ],
+    "bonelink": [
+        "sop"
+    ],
+    "boolean": [
+        "sop"
+    ],
+    "border": [
+        "cop2"
+    ],
+    "bound": [
+        "sop"
+    ],
+    "box": [
+        "sop"
+    ],
+    "boxclip": [
+        "vop"
+    ],
+    "boxes": [
+        "vop"
+    ],
+    "boxtile": [
+        "vop"
+    ],
+    "break": [
+        "sop"
+    ],
+    "bricker": [
+        "vop"
+    ],
+    "brickmap": [
+        "out"
+    ],
+    "bricks": [
+        "vop"
+    ],
+    "bridge": [
+        "sop"
+    ],
+    "bright": [
+        "cop2"
+    ],
+    "brushedcircles": [
+        "vop"
+    ],
+    "brushedmetalshader": [
+        "vop"
+    ],
+    "bsdftint": [
+        "vop"
+    ],
+    "buildarray": [
+        "vop"
+    ],
+    "bulge": [
+        "sop"
+    ],
+    "bullet_solver_parms": [
+        "dop"
+    ],
+    "bulletdata": [
+        "dop"
+    ],
+    "bulletrbdsolver": [
+        "dop"
+    ],
+    "bump": [
+        "cop2"
+    ],
+    "bumpmap": [
+        "vop"
+    ],
+    "bumpnoise": [
+        "vop"
+    ],
+    "bumptonormalmap": [
+        "vop"
+    ],
+    "buoyancyforce": [
+        "dop"
+    ],
+    "burlap": [
+        "vop"
+    ],
+    "burlap_pattern": [
+        "vop"
+    ],
+    "cache": [
+        "sop"
+    ],
+    "cam": [
+        "obj"
+    ],
+    "cap": [
+        "sop"
+    ],
+    "capture": [
+        "sop"
+    ],
+    "captureattribpack": [
+        "sop"
+    ],
+    "captureattribunpack": [
+        "sop"
+    ],
+    "capturecorrect": [
+        "sop"
+    ],
+    "capturelayerpaint": [
+        "sop"
+    ],
+    "capturemeta": [
+        "sop"
+    ],
+    "capturemirror": [
+        "sop"
+    ],
+    "captureoverride": [
+        "sop"
+    ],
+    "captureproximity": [
+        "sop"
+    ],
+    "cardboard": [
+        "vop"
+    ],
+    "carpaintshader": [
+        "vop"
+    ],
+    "carve": [
+        "sop"
+    ],
+    "cavities": [
+        "vop"
+    ],
+    "ceiling": [
+        "vop"
+    ],
+    "cellcracks": [
+        "vop"
+    ],
+    "cellnoise": [
+        "vop"
+    ],
+    "channel": [
+        "sop",
+        "chop",
+        "out"
+    ],
+    "channelcopy": [
+        "cop2"
+    ],
+    "checkered": [
+        "vop"
+    ],
+    "chinput": [
+        "vop"
+    ],
+    "chop": [
+        "vex"
+    ],
+    "chr": [
+        "vop"
+    ],
+    "chromakey": [
+        "cop2"
+    ],
+    "chromenv": [
+        "vop"
+    ],
+    "circle": [
+        "sop"
+    ],
+    "clamp": [
+        "vop"
+    ],
+    "classcast": [
+        "vop"
+    ],
+    "classicshader": [
+        "vop"
+    ],
+    "classicshadercore": [
+        "vop"
+    ],
+    "clay": [
+        "sop"
+    ],
+    "clean": [
+        "sop"
+    ],
+    "clip": [
+        "sop"
+    ],
+    "clothattachconstraint": [
+        "dop"
+    ],
+    "clothcapture": [
+        "sop"
+    ],
+    "clothconfigureobject": [
+        "dop"
+    ],
+    "clothdeform": [
+        "sop"
+    ],
+    "clothgeometry": [
+        "dop"
+    ],
+    "clothmassproperties": [
+        "dop"
+    ],
+    "clothmaterial": [
+        "dop"
+    ],
+    "clothmaterialbehavior": [
+        "dop"
+    ],
+    "clothobject": [
+        "dop"
+    ],
+    "clothobject-": [
+        "dop"
+    ],
+    "clothplasticityproperties": [
+        "dop"
+    ],
+    "clothsolver": [
+        "dop"
+    ],
+    "clothsolver-": [
+        "dop"
+    ],
+    "clothsolver-2.0": [
+        "dop"
+    ],
+    "clothstitchconstraint": [
+        "dop"
+    ],
+    "clothtargetproperties": [
+        "dop"
+    ],
+    "clothvisualization": [
+        "dop"
+    ],
+    "clothvolumecollider": [
+        "dop"
+    ],
+    "cloud": [
+        "sop"
+    ],
+    "cloudenv": [
+        "vop"
+    ],
+    "cloudlight": [
+        "sop"
+    ],
+    "cloudnoise": [
+        "sop"
+    ],
+    "clouds": [
+        "vop"
+    ],
+    "cluster": [
+        "sop"
+    ],
+    "clusterpoints": [
+        "sop"
+    ],
+    "collect": [
+        "pop",
+        "vop"
+    ],
+    "colliderel": [
+        "dop"
+    ],
+    "colliderlabel": [
+        "dop"
+    ],
+    "collision": [
+        "pop"
+    ],
+    "collisionsource": [
+        "sop"
+    ],
+    "color": [
+        "sop",
+        "pop",
+        "cop2"
+    ],
+    "colorcorrect": [
+        "cop2"
+    ],
+    "colorcorrection": [
+        "vop"
+    ],
+    "colorcurve": [
+        "cop2"
+    ],
+    "colormap": [
+        "cop2",
+        "vop"
+    ],
+    "colormix": [
+        "vop"
+    ],
+    "colorreplace": [
+        "cop2"
+    ],
+    "colorwheel": [
+        "cop2"
+    ],
+    "comb": [
+        "sop"
+    ],
+    "common": [
+        "obj",
+        "chop"
+    ],
+    "commonParms": [
+        "pop"
+    ],
+    "common_obj_parms": [
+        "obj"
+    ],
+    "comp": [
+        "chop",
+        "out"
+    ],
+    "compare": [
+        "vop"
+    ],
+    "compile_begin": [
+        "sop"
+    ],
+    "compile_end": [
+        "sop"
+    ],
+    "complement": [
+        "vop"
+    ],
+    "composite": [
+        "cop2",
+        "vop"
+    ],
+    "computelighting": [
+        "vop"
+    ],
+    "computenormal": [
+        "vop"
+    ],
+    "computetan": [
+        "vop"
+    ],
+    "concrete": [
+        "vop"
+    ],
+    "conductorfresnel": [
+        "vop"
+    ],
+    "conetwistconrel": [
+        "dop"
+    ],
+    "connectadjacentpieces": [
+        "sop"
+    ],
+    "connectivity": [
+        "sop"
+    ],
+    "conrelationship": [
+        "dop"
+    ],
+    "conserveenergy": [
+        "vop"
+    ],
+    "constant": [
+        "chop",
+        "vop"
+    ],
+    "constraint": [
+        "dop"
+    ],
+    "constraintblend": [
+        "chop"
+    ],
+    "constraintexport": [
+        "chop"
+    ],
+    "constraintgetlocalspace": [
+        "chop"
+    ],
+    "constraintgetparentspace": [
+        "chop"
+    ],
+    "constraintgetworldspace": [
+        "chop"
+    ],
+    "constraintlookat": [
+        "chop"
+    ],
+    "constraintnetwork": [
+        "dop"
+    ],
+    "constraintnetworkrelationship": [
+        "dop"
+    ],
+    "constraintobject": [
+        "chop"
+    ],
+    "constraintobjectoffset": [
+        "chop"
+    ],
+    "constraintobjectpretransform": [
+        "chop"
+    ],
+    "constraintoffset": [
+        "chop"
+    ],
+    "constraintparent": [
+        "chop"
+    ],
+    "constraintparentx": [
+        "chop"
+    ],
+    "constraintpath": [
+        "chop"
+    ],
+    "constraintpoints": [
+        "chop"
+    ],
+    "constraintsequence": [
+        "chop"
+    ],
+    "constraintsimpleblend": [
+        "chop"
+    ],
+    "constraintsurface": [
+        "chop"
+    ],
+    "constrainttransform": [
+        "chop"
+    ],
+    "container": [
+        "dop"
+    ],
+    "contains": [
+        "vop"
+    ],
+    "contour": [
+        "vop"
+    ],
+    "contrast": [
+        "cop2"
+    ],
+    "control": [
+        "sop"
+    ],
+    "control_parms": [
+        "obj"
+    ],
+    "control_settings": [
+        "dop"
+    ],
+    "convert": [
+        "sop",
+        "cop2"
+    ],
+    "convertheightfield": [
+        "sop"
+    ],
+    "convertline": [
+        "sop"
+    ],
+    "convertmeta": [
+        "sop"
+    ],
+    "convertvdb": [
+        "sop"
+    ],
+    "convertvdbpoints": [
+        "sop"
+    ],
+    "convertvolume": [
+        "sop"
+    ],
+    "convolve": [
+        "cop2"
+    ],
+    "cookie": [
+        "sop"
+    ],
+    "cop2filter": [
+        "vex"
+    ],
+    "cop2gen": [
+        "vex"
+    ],
+    "cop2plane": [
+        "obj"
+    ],
+    "copinput": [
+        "vop"
+    ],
+    "coplocalvars": [
+        "cop2"
+    ],
+    "copmaskparms": [
+        "cop2"
+    ],
+    "coppixelopparms": [
+        "cop2"
+    ],
+    "coppixelparms": [
+        "cop2"
+    ],
+    "copvexnode": [
+        "cop2"
+    ],
+    "copy": [
+        "sop",
+        "chop",
+        "vop"
+    ],
+    "copydata": [
+        "dop"
+    ],
+    "copyobject": [
+        "dop"
+    ],
+    "copyobjectinfo": [
+        "dop"
+    ],
+    "copysolver": [
+        "dop"
+    ],
+    "copytopoints": [
+        "sop"
+    ],
+    "copyxform": [
+        "sop"
+    ],
+    "cornerramp": [
+        "cop2"
+    ],
+    "cosine": [
+        "vop"
+    ],
+    "count": [
+        "chop"
+    ],
+    "crackle": [
+        "vop"
+    ],
+    "crease": [
+        "sop"
+    ],
+    "creep": [
+        "sop",
+        "pop"
+    ],
+    "cregion": [
+        "sop"
+    ],
+    "crop": [
+        "cop2"
+    ],
+    "cross": [
+        "vop"
+    ],
+    "crowd_fov_parms": [
+        "dop"
+    ],
+    "crowd_steer_parms": [
+        "dop"
+    ],
+    "crowdfuzzylogic": [
+        "dop"
+    ],
+    "crowdobject": [
+        "dop"
+    ],
+    "crowdsolver": [
+        "dop"
+    ],
+    "crowdsolver-": [
+        "dop"
+    ],
+    "crowdsolver-2.0": [
+        "dop"
+    ],
+    "crowdsource": [
+        "sop"
+    ],
+    "crowdsource-": [
+        "sop"
+    ],
+    "crowdsource-2.0": [
+        "sop"
+    ],
+    "crowdstate": [
+        "dop"
+    ],
+    "crowdstate-": [
+        "dop"
+    ],
+    "crowdstate-2.0": [
+        "dop"
+    ],
+    "crowdtransition": [
+        "dop"
+    ],
+    "crowdtransition-": [
+        "dop"
+    ],
+    "crowdtransition-2.0": [
+        "dop"
+    ],
+    "crowdtrigger": [
+        "dop"
+    ],
+    "crowdtrigger-": [
+        "dop"
+    ],
+    "crowdtriggerlogic": [
+        "dop"
+    ],
+    "ctransform": [
+        "vop"
+    ],
+    "curlnoise": [
+        "pop",
+        "vop"
+    ],
+    "curlnoise2d": [
+        "vop"
+    ],
+    "curvature": [
+        "vop"
+    ],
+    "curve": [
+        "sop"
+    ],
+    "curveclay": [
+        "sop"
+    ],
+    "curvesect": [
+        "sop"
+    ],
+    "cvex": [
+        "vex"
+    ],
+    "cycle": [
+        "chop"
+    ],
+    "dampennoise": [
+        "vop"
+    ],
+    "debris": [
+        "obj"
+    ],
+    "debrissource": [
+        "sop"
+    ],
+    "decal_a": [
+        "vop"
+    ],
+    "defocus": [
+        "cop2"
+    ],
+    "deform": [
+        "sop",
+        "cop2"
+    ],
+    "deformationwrangle": [
+        "sop"
+    ],
+    "deformmeta": [
+        "sop"
+    ],
+    "deformmuscle": [
+        "sop"
+    ],
+    "degrain": [
+        "cop2"
+    ],
+    "degtorad": [
+        "vop"
+    ],
+    "deinterlace": [
+        "cop2"
+    ],
+    "delay": [
+        "chop"
+    ],
+    "delete": [
+        "sop",
+        "dop",
+        "chop",
+        "cop2"
+    ],
+    "delete_overlapping_polygons": [
+        "sop"
+    ],
+    "deltamush": [
+        "sop"
+    ],
+    "denoise": [
+        "cop2"
+    ],
+    "densitytoopacity": [
+        "vop"
+    ],
+    "depthdarken": [
+        "cop2"
+    ],
+    "depthmap": [
+        "vop"
+    ],
+    "determinant": [
+        "vop"
+    ],
+    "diff": [
+        "cop2"
+    ],
+    "diffuse_eval": [
+        "shop"
+    ],
+    "diffuse_sample": [
+        "shop"
+    ],
+    "dilateerode": [
+        "cop2"
+    ],
+    "dimport": [
+        "vop"
+    ],
+    "directlighting": [
+        "vop"
+    ],
+    "dirtmask": [
+        "vop"
+    ],
+    "displace": [
+        "vop",
+        "vex"
+    ],
+    "displacenml": [
+        "vop"
+    ],
+    "displacetexture": [
+        "vop"
+    ],
+    "dissolve": [
+        "sop"
+    ],
+    "dissolve-": [
+        "sop"
+    ],
+    "distance": [
+        "vop"
+    ],
+    "divconst": [
+        "vop"
+    ],
+    "divide": [
+        "sop",
+        "vop"
+    ],
+    "dof": [
+        "cop2"
+    ],
+    "dop": [
+        "out"
+    ],
+    "dopimport": [
+        "sop"
+    ],
+    "dopimportfield": [
+        "sop"
+    ],
+    "dopimportrecords": [
+        "sop"
+    ],
+    "dopio": [
+        "sop"
+    ],
+    "dopnet": [
+        "sop",
+        "obj"
+    ],
+    "dot": [
+        "vop"
+    ],
+    "drag": [
+        "dop",
+        "pop"
+    ],
+    "dragproperties": [
+        "dop",
+        "dop"
+    ],
+    "drawcurve": [
+        "sop"
+    ],
+    "drawhairguides": [
+        "sop"
+    ],
+    "dropshadow": [
+        "cop2"
+    ],
+    "dsmflatten": [
+        "cop2"
+    ],
+    "dsmmerge": [
+        "out"
+    ],
+    "dualrest": [
+        "vop"
+    ],
+    "dualrestsolver": [
+        "vop"
+    ],
+    "duplicate": [
+        "sop"
+    ],
+    "dynamics": [
+        "chop"
+    ],
+    "each": [
+        "sop"
+    ],
+    "edge": [
+        "cop2"
+    ],
+    "edgeblur": [
+        "cop2"
+    ],
+    "edgecollapse": [
+        "sop"
+    ],
+    "edgecusp": [
+        "sop"
+    ],
+    "edgedivide": [
+        "sop"
+    ],
+    "edgefalloff": [
+        "vop"
+    ],
+    "edgeflip": [
+        "sop"
+    ],
+    "edgespec": [
+        "sop"
+    ],
+    "edit": [
+        "sop"
+    ],
+    "efit": [
+        "vop"
+    ],
+    "egg_shell": [
+        "vop"
+    ],
+    "eggshell": [
+        "vop"
+    ],
+    "eigenvalues": [
+        "vop"
+    ],
+    "embeddingproperties": [
+        "dop"
+    ],
+    "emboss": [
+        "cop2"
+    ],
+    "emptydata": [
+        "dop"
+    ],
+    "emptyobject": [
+        "dop"
+    ],
+    "emptyrel": [
+        "dop"
+    ],
+    "enablesolver": [
+        "dop"
+    ],
+    "ends": [
+        "sop"
+    ],
+    "endswith": [
+        "vop"
+    ],
+    "enginecurvegen": [
+        "vop"
+    ],
+    "engineinstance": [
+        "vop"
+    ],
+    "enginepointgen": [
+        "vop"
+    ],
+    "enumerate": [
+        "sop"
+    ],
+    "env": [
+        "cop2"
+    ],
+    "envelope": [
+        "chop"
+    ],
+    "envlight": [
+        "obj"
+    ],
+    "envmap": [
+        "vop"
+    ],
+    "equalize": [
+        "cop2"
+    ],
+    "erftable": [
+        "cop2"
+    ],
+    "error": [
+        "sop"
+    ],
+    "eulertoquat": [
+        "vop"
+    ],
+    "event": [
+        "pop"
+    ],
+    "exp": [
+        "vop"
+    ],
+    "expand": [
+        "cop2"
+    ],
+    "explodedview": [
+        "sop"
+    ],
+    "export": [
+        "chop"
+    ],
+    "express": [
+        "chop"
+    ],
+    "extend": [
+        "chop",
+        "cop2"
+    ],
+    "extra_image_planes": [
+        "out"
+    ],
+    "extractgeo": [
+        "obj"
+    ],
+    "extractxform": [
+        "vop"
+    ],
+    "extrude": [
+        "sop"
+    ],
+    "extrudevolume": [
+        "sop"
+    ],
+    "facet": [
+        "sop"
+    ],
+    "fakecaustics": [
+        "vop"
+    ],
+    "fan": [
+        "dop",
+        "pop",
+        "chop"
+    ],
+    "fastshadow": [
+        "vop"
+    ],
+    "feedback": [
+        "chop"
+    ],
+    "feoutputattributes": [
+        "dop"
+    ],
+    "fetch": [
+        "obj",
+        "pop",
+        "chop",
+        "cop2",
+        "out"
+    ],
+    "fetchdata": [
+        "dop"
+    ],
+    "fieldforce": [
+        "dop"
+    ],
+    "fieldmerge": [
+        "cop2"
+    ],
+    "fieldname": [
+        "vop"
+    ],
+    "fieldparm": [
+        "vop"
+    ],
+    "fieldsplit": [
+        "cop2"
+    ],
+    "fieldswap": [
+        "cop2"
+    ],
+    "filament_advect_pos": [
+        "sop"
+    ],
+    "filamentobject": [
+        "dop"
+    ],
+    "filamentsample": [
+        "vop"
+    ],
+    "filamentsolver": [
+        "dop"
+    ],
+    "file": [
+        "sop",
+        "dop",
+        "chop",
+        "cop2",
+        "vop"
+    ],
+    "filecache": [
+        "sop"
+    ],
+    "filedata": [
+        "dop"
+    ],
+    "filemerge": [
+        "sop"
+    ],
+    "fillet": [
+        "sop"
+    ],
+    "filmboxfbx": [
+        "out"
+    ],
+    "filter": [
+        "chop"
+    ],
+    "filtershadow": [
+        "vop"
+    ],
+    "filterstep": [
+        "vop"
+    ],
+    "filterwidth": [
+        "vop"
+    ],
+    "finalizewaves": [
+        "sop"
+    ],
+    "find": [
+        "vop"
+    ],
+    "findattribval": [
+        "vop"
+    ],
+    "findattribvalcount": [
+        "vop"
+    ],
+    "findattribvalindex": [
+        "vop"
+    ],
+    "findshortestpath": [
+        "sop"
+    ],
+    "findsingle": [
+        "vop"
+    ],
+    "finiteelementsolver": [
+        "dop"
+    ],
+    "finiteelementsolver-": [
+        "dop"
+    ],
+    "fire": [
+        "vop"
+    ],
+    "fireworks": [
+        "pop"
+    ],
+    "fit": [
+        "sop",
+        "vop"
+    ],
+    "flip": [
+        "cop2"
+    ],
+    "flipconfigureobject": [
+        "dop"
+    ],
+    "flipobject": [
+        "dop"
+    ],
+    "flipsolver": [
+        "dop"
+    ],
+    "flipsolver-": [
+        "dop"
+    ],
+    "floattohmatx": [
+        "vop"
+    ],
+    "floattohvec": [
+        "vop"
+    ],
+    "floattoint": [
+        "vop"
+    ],
+    "floattomatx": [
+        "vop"
+    ],
+    "floattomatx2": [
+        "vop"
+    ],
+    "floattovec": [
+        "vop"
+    ],
+    "floattovec2": [
+        "vop"
+    ],
+    "floor": [
+        "vop"
+    ],
+    "flownoise": [
+        "vop"
+    ],
+    "fluidcompress": [
+        "sop"
+    ],
+    "fluidconfigureobject": [
+        "dop"
+    ],
+    "fluidforce": [
+        "dop"
+    ],
+    "fluidobject": [
+        "dop"
+    ],
+    "fluidsolver": [
+        "dop"
+    ],
+    "fluidsolver-": [
+        "dop"
+    ],
+    "fluidsource": [
+        "sop"
+    ],
+    "foamy": [
+        "vop"
+    ],
+    "fog": [
+        "obj",
+        "cop2",
+        "vex"
+    ],
+    "follow": [
+        "pop"
+    ],
+    "follow_parms": [
+        "obj"
+    ],
+    "font": [
+        "sop",
+        "cop2"
+    ],
+    "footplant": [
+        "chop"
+    ],
+    "for": [
+        "chop",
+        "vop"
+    ],
+    "force": [
+        "sop",
+        "pop"
+    ],
+    "foreach": [
+        "sop",
+        "chop"
+    ],
+    "formationcrowdsexample": [
+        "obj"
+    ],
+    "forpoints": [
+        "vop"
+    ],
+    "frac": [
+        "vop"
+    ],
+    "fractal": [
+        "sop"
+    ],
+    "framecontainer": [
+        "out"
+    ],
+    "framedep": [
+        "out"
+    ],
+    "frankenmuscle": [
+        "obj"
+    ],
+    "fresnel": [
+        "vop"
+    ],
+    "fresneldiffuse_eval": [
+        "shop"
+    ],
+    "fresneldiffuse_sample": [
+        "shop"
+    ],
+    "fromndc": [
+        "vop"
+    ],
+    "fromndcgeo": [
+        "vop"
+    ],
+    "frompolar": [
+        "vop"
+    ],
+    "frontface": [
+        "cop2",
+        "vop"
+    ],
+    "function": [
+        "chop",
+        "cop2"
+    ],
+    "fur": [
+        "sop",
+        "obj",
+        "vop"
+    ],
+    "fur_common": [
+        "sop"
+    ],
+    "fur_density_map": [
+        "shop"
+    ],
+    "furguideglobal": [
+        "vop"
+    ],
+    "furguideoutput": [
+        "vop"
+    ],
+    "furrows": [
+        "vop"
+    ],
+    "furskinglobal": [
+        "vop"
+    ],
+    "furskinoutput": [
+        "vop"
+    ],
+    "fuse": [
+        "sop"
+    ],
+    "fuzzyObstacleAvoidance": [
+        "obj"
+    ],
+    "fuzzyand": [
+        "vop"
+    ],
+    "fuzzydefuzz": [
+        "vop"
+    ],
+    "fuzzyinference": [
+        "vop"
+    ],
+    "fuzzyinferencemirror": [
+        "vop"
+    ],
+    "fuzzyinput": [
+        "vop"
+    ],
+    "fuzzynot": [
+        "vop"
+    ],
+    "fuzzyor": [
+        "vop"
+    ],
+    "fuzzysenseobs": [
+        "vop"
+    ],
+    "fuzzystatetransition": [
+        "obj"
+    ],
+    "gain": [
+        "vop"
+    ],
+    "gamma": [
+        "cop2"
+    ],
+    "gasadjustelasticity": [
+        "dop"
+    ],
+    "gasadjustparticlecoordinates": [
+        "dop"
+    ],
+    "gasadvect": [
+        "dop"
+    ],
+    "gasadvectcl": [
+        "dop"
+    ],
+    "gasadvectfield": [
+        "dop"
+    ],
+    "gasanalysis": [
+        "dop"
+    ],
+    "gasattribswap": [
+        "dop"
+    ],
+    "gasblenddensity": [
+        "dop"
+    ],
+    "gasblur": [
+        "dop"
+    ],
+    "gasbuildcollisionmask": [
+        "dop"
+    ],
+    "gasbuildrelationshipmask": [
+        "dop"
+    ],
+    "gasbuoyancy": [
+        "dop"
+    ],
+    "gasburngeometry": [
+        "dop"
+    ],
+    "gasburngeometryobject": [
+        "dop"
+    ],
+    "gascalculate": [
+        "dop"
+    ],
+    "gascollisiondetect": [
+        "dop"
+    ],
+    "gascombustion": [
+        "dop"
+    ],
+    "gascomputeparticleattributes": [
+        "dop"
+    ],
+    "gascorrectbymarkers": [
+        "dop"
+    ],
+    "gascross": [
+        "dop"
+    ],
+    "gascurveforce": [
+        "dop"
+    ],
+    "gasdamp": [
+        "dop"
+    ],
+    "gasdiffuse": [
+        "dop"
+    ],
+    "gasdissipate": [
+        "dop"
+    ],
+    "gasdisturb": [
+        "dop"
+    ],
+    "gasdisturbfieldcl": [
+        "dop"
+    ],
+    "gasdsd": [
+        "dop"
+    ],
+    "gasdsdconfigureobject": [
+        "dop"
+    ],
+    "gasdsdsolver": [
+        "dop"
+    ],
+    "gaseachdatasolver": [
+        "dop"
+    ],
+    "gaselasticity": [
+        "dop"
+    ],
+    "gasembedfluid": [
+        "dop"
+    ],
+    "gasenforceboundary": [
+        "dop"
+    ],
+    "gasequalizedensity": [
+        "dop"
+    ],
+    "gasequalizevolume": [
+        "dop"
+    ],
+    "gasexternalforces": [
+        "dop"
+    ],
+    "gasextrapolate": [
+        "dop"
+    ],
+    "gasfeatherfield": [
+        "dop"
+    ],
+    "gasfeedback": [
+        "dop"
+    ],
+    "gasfetchfieldstoembed": [
+        "dop"
+    ],
+    "gasfieldtoparticle": [
+        "dop"
+    ],
+    "gasfieldvop": [
+        "dop"
+    ],
+    "gasfieldwrangle": [
+        "dop"
+    ],
+    "gasgeometrydefragment": [
+        "dop"
+    ],
+    "gasgeometrytosdf": [
+        "dop"
+    ],
+    "gasguidingvolume": [
+        "dop"
+    ],
+    "gasimpacttoattributes": [
+        "dop"
+    ],
+    "gasintegrator": [
+        "dop"
+    ],
+    "gasintermittentsolve": [
+        "dop"
+    ],
+    "gaslimit": [
+        "dop"
+    ],
+    "gaslimitparticles": [
+        "dop"
+    ],
+    "gaslinearcombination": [
+        "dop"
+    ],
+    "gaslocalsharpen": [
+        "dop"
+    ],
+    "gaslookup": [
+        "dop"
+    ],
+    "gasmatchfield": [
+        "dop"
+    ],
+    "gasmistsolver": [
+        "dop"
+    ],
+    "gasnetfetchdata": [
+        "dop"
+    ],
+    "gasnetfieldborderexchange": [
+        "dop"
+    ],
+    "gasnetslicebalance": [
+        "dop"
+    ],
+    "gasnetsliceexchange": [
+        "dop"
+    ],
+    "gasopencl": [
+        "dop"
+    ],
+    "gasparticlecount": [
+        "dop"
+    ],
+    "gasparticleforces": [
+        "dop"
+    ],
+    "gasparticlemovetoiso": [
+        "dop"
+    ],
+    "gasparticleneighbourupdate": [
+        "dop"
+    ],
+    "gasparticlepressure": [
+        "dop"
+    ],
+    "gasparticleseparate": [
+        "dop"
+    ],
+    "gasparticletofield": [
+        "dop"
+    ],
+    "gasparticletosdf": [
+        "dop"
+    ],
+    "gasprojectnondivergent": [
+        "dop"
+    ],
+    "gasprojectnondivergentmultigrid": [
+        "dop"
+    ],
+    "gasprojectnondivergentvariational": [
+        "dop"
+    ],
+    "gasreduce": [
+        "dop"
+    ],
+    "gasreducelocal": [
+        "dop"
+    ],
+    "gasreinitializesdf": [
+        "dop"
+    ],
+    "gasrepeatsolver": [
+        "dop"
+    ],
+    "gasresizefield": [
+        "dop"
+    ],
+    "gasresizefluid": [
+        "dop"
+    ],
+    "gasresizefluiddynamic": [
+        "dop"
+    ],
+    "gasrest": [
+        "dop"
+    ],
+    "gassandforces": [
+        "dop"
+    ],
+    "gassdftofog": [
+        "dop"
+    ],
+    "gasseedmarkers": [
+        "dop"
+    ],
+    "gasseedparticles": [
+        "dop"
+    ],
+    "gasseedvolume": [
+        "dop"
+    ],
+    "gasshred": [
+        "dop"
+    ],
+    "gasslicetoindexfield": [
+        "dop"
+    ],
+    "gassphdensity": [
+        "dop"
+    ],
+    "gassphforces": [
+        "dop"
+    ],
+    "gasstickoncollision": [
+        "dop"
+    ],
+    "gasstrainforces": [
+        "dop"
+    ],
+    "gasstrainintegrate": [
+        "dop"
+    ],
+    "gassubstep": [
+        "dop"
+    ],
+    "gassurfacesnap": [
+        "dop"
+    ],
+    "gassurfacetension": [
+        "dop"
+    ],
+    "gastargetforce": [
+        "dop"
+    ],
+    "gastemperatureupdate": [
+        "dop"
+    ],
+    "gasturbulence": [
+        "dop"
+    ],
+    "gasupres": [
+        "dop"
+    ],
+    "gasupres-": [
+        "dop"
+    ],
+    "gasupresobject": [
+        "dop"
+    ],
+    "gasvelocitystretch": [
+        "dop"
+    ],
+    "gasviscosity": [
+        "dop"
+    ],
+    "gasvolumeramp": [
+        "dop"
+    ],
+    "gasvortexboost": [
+        "dop"
+    ],
+    "gasvortexconfinement": [
+        "dop"
+    ],
+    "gasvortexequalizer": [
+        "dop"
+    ],
+    "gasvorticleforces": [
+        "dop"
+    ],
+    "gasvorticlegeometry": [
+        "dop"
+    ],
+    "gasvorticlerecycle": [
+        "dop"
+    ],
+    "gaswavelets": [
+        "dop"
+    ],
+    "gaswind": [
+        "dop"
+    ],
+    "gather": [
+        "vop"
+    ],
+    "gen_bsdfshader": [
+        "shop"
+    ],
+    "gen_displace": [
+        "shop"
+    ],
+    "gen_fog": [
+        "shop"
+    ],
+    "gen_generic": [
+        "shop"
+    ],
+    "gen_integrator": [
+        "shop"
+    ],
+    "gen_interior": [
+        "shop"
+    ],
+    "gen_light": [
+        "shop"
+    ],
+    "gen_locals": [
+        "pop"
+    ],
+    "gen_output": [
+        "shop"
+    ],
+    "gen_shadow": [
+        "shop"
+    ],
+    "gen_surface": [
+        "shop"
+    ],
+    "generalfresnel": [
+        "vop"
+    ],
+    "generator_parms": [
+        "cop2"
+    ],
+    "geo": [
+        "obj"
+    ],
+    "geo2i3d": [
+        "out"
+    ],
+    "geokey": [
+        "cop2"
+    ],
+    "geometry": [
+        "chop",
+        "cop2",
+        "out"
+    ],
+    "geometrycopy": [
+        "dop"
+    ],
+    "geometryvop": [
+        "dop"
+    ],
+    "geometryvopglobal": [
+        "vop"
+    ],
+    "geometryvopoutput": [
+        "vop"
+    ],
+    "geometrywrangle": [
+        "dop"
+    ],
+    "gesture": [
+        "chop"
+    ],
+    "getattrib": [
+        "vop"
+    ],
+    "getblurP": [
+        "vop"
+    ],
+    "getelement": [
+        "vop"
+    ],
+    "getobjxform": [
+        "vop"
+    ],
+    "getprimid": [
+        "vop"
+    ],
+    "getptextureid": [
+        "vop"
+    ],
+    "gettransformchannels": [
+        "vop"
+    ],
+    "ggx_eval": [
+        "shop"
+    ],
+    "ggx_sample": [
+        "shop"
+    ],
+    "gingham": [
+        "vop"
+    ],
+    "glass": [
+        "vop"
+    ],
+    "glassshader": [
+        "vop"
+    ],
+    "global": [
+        "vop"
+    ],
+    "glow": [
+        "vop"
+    ],
+    "gluecluster": [
+        "sop"
+    ],
+    "glueconrel": [
+        "dop"
+    ],
+    "gluenetworkconstraint": [
+        "dop"
+    ],
+    "gluenetworkrelationship": [
+        "dop"
+    ],
+    "gluepieces": [
+        "sop"
+    ],
+    "gradient": [
+        "cop2"
+    ],
+    "gradient3d": [
+        "vop"
+    ],
+    "grain": [
+        "cop2"
+    ],
+    "grainsource": [
+        "sop"
+    ],
+    "grandom": [
+        "vop"
+    ],
+    "grandomuv": [
+        "vop"
+    ],
+    "gravity": [
+        "dop"
+    ],
+    "grid": [
+        "sop"
+    ],
+    "groundplane": [
+        "dop"
+    ],
+    "group": [
+        "sop",
+        "dop",
+        "pop"
+    ],
+    "groupcombine": [
+        "sop"
+    ],
+    "groupcopy": [
+        "sop"
+    ],
+    "groupcreate": [
+        "sop"
+    ],
+    "groupdelete": [
+        "sop"
+    ],
+    "groupexpression": [
+        "sop"
+    ],
+    "grouppaint": [
+        "sop"
+    ],
+    "grouppromote": [
+        "sop"
+    ],
+    "grouprange": [
+        "sop"
+    ],
+    "grouprel": [
+        "dop"
+    ],
+    "grouprename": [
+        "sop"
+    ],
+    "grouptransfer": [
+        "sop"
+    ],
+    "guidecollidevdb": [
+        "sop"
+    ],
+    "guidedeform": [
+        "obj"
+    ],
+    "guidegroom": [
+        "sop",
+        "obj"
+    ],
+    "guidegroup": [
+        "sop"
+    ],
+    "guideinit": [
+        "sop"
+    ],
+    "guideprocess": [
+        "sop"
+    ],
+    "guidesim": [
+        "obj"
+    ],
+    "guidetangentspace": [
+        "sop"
+    ],
+    "hair": [
+        "vop"
+    ],
+    "hair_eval": [
+        "shop"
+    ],
+    "hair_sample": [
+        "shop"
+    ],
+    "hairclump": [
+        "sop"
+    ],
+    "hairdiff": [
+        "vop"
+    ],
+    "hairgen": [
+        "sop",
+        "obj"
+    ],
+    "hairgrowthfield": [
+        "sop"
+    ],
+    "hairmodel": [
+        "vop"
+    ],
+    "hairnormal": [
+        "vop"
+    ],
+    "hairshader": [
+        "shop",
+        "vop"
+    ],
+    "hairspec": [
+        "vop"
+    ],
+    "halo": [
+        "vop"
+    ],
+    "handle": [
+        "obj",
+        "chop"
+    ],
+    "hardconrel": [
+        "dop"
+    ],
+    "hasinput": [
+        "vop"
+    ],
+    "hasmetadata": [
+        "vop"
+    ],
+    "heightfield": [
+        "sop"
+    ],
+    "heightfield_blur": [
+        "sop"
+    ],
+    "heightfield_clip": [
+        "sop"
+    ],
+    "heightfield_copylayer": [
+        "sop"
+    ],
+    "heightfield_crop": [
+        "sop"
+    ],
+    "heightfield_distort": [
+        "sop"
+    ],
+    "heightfield_drawmask": [
+        "sop"
+    ],
+    "heightfield_erode": [
+        "sop"
+    ],
+    "heightfield_file": [
+        "sop"
+    ],
+    "heightfield_isolatelayer": [
+        "sop"
+    ],
+    "heightfield_layer": [
+        "sop"
+    ],
+    "heightfield_layerclear": [
+        "sop"
+    ],
+    "heightfield_layerproperty": [
+        "sop"
+    ],
+    "heightfield_maskbyconcavity": [
+        "sop"
+    ],
+    "heightfield_maskbyfeature": [
+        "sop"
+    ],
+    "heightfield_maskbyobject": [
+        "sop"
+    ],
+    "heightfield_maskbyshadow": [
+        "sop"
+    ],
+    "heightfield_noise": [
+        "sop"
+    ],
+    "heightfield_output": [
+        "sop"
+    ],
+    "heightfield_paint": [
+        "sop"
+    ],
+    "heightfield_pattern": [
+        "sop"
+    ],
+    "heightfield_project": [
+        "sop"
+    ],
+    "heightfield_quickshade": [
+        "sop"
+    ],
+    "heightfield_remap": [
+        "sop"
+    ],
+    "heightfield_resample": [
+        "sop"
+    ],
+    "heightfield_scatter": [
+        "sop"
+    ],
+    "heightfield_slump": [
+        "sop"
+    ],
+    "heightfield_terrace": [
+        "sop"
+    ],
+    "heightfield_tilesplice": [
+        "sop"
+    ],
+    "heightfield_tilesplit": [
+        "sop"
+    ],
+    "heightfield_visualize": [
+        "sop"
+    ],
+    "heightfield_xform": [
+        "sop"
+    ],
+    "henyeygreenstein_eval": [
+        "shop"
+    ],
+    "henyeygreenstein_sample": [
+        "shop"
+    ],
+    "hextile": [
+        "vop"
+    ],
+    "hilownoise": [
+        "vop"
+    ],
+    "hitinfo": [
+        "pop"
+    ],
+    "hlight": [
+        "obj"
+    ],
+    "hmatxgetcompon": [
+        "vop"
+    ],
+    "hmatxsetcompon": [
+        "vop"
+    ],
+    "hmatxtofloat": [
+        "vop"
+    ],
+    "hmatxtohvec": [
+        "vop"
+    ],
+    "hold": [
+        "chop"
+    ],
+    "hole": [
+        "sop"
+    ],
+    "hq_render": [
+        "out"
+    ],
+    "hq_sim": [
+        "out"
+    ],
+    "hsv": [
+        "cop2"
+    ],
+    "hsvtorgb": [
+        "vop"
+    ],
+    "huecurve": [
+        "cop2"
+    ],
+    "hueshift": [
+        "vop"
+    ],
+    "hvecgetcompon": [
+        "vop"
+    ],
+    "hvecsetcompon": [
+        "vop"
+    ],
+    "hvectofloat": [
+        "vop"
+    ],
+    "hvectohmatx": [
+        "vop"
+    ],
+    "hvectovec": [
+        "vop"
+    ],
+    "hvectovec2": [
+        "vop"
+    ],
+    "hybridconfigureobject": [
+        "dop"
+    ],
+    "hybridobject": [
+        "dop"
+    ],
+    "identity": [
+        "chop"
+    ],
+    "if": [
+        "vop"
+    ],
+    "ifconnected": [
+        "vop"
+    ],
+    "ifd": [
+        "out"
+    ],
+    "ifdarchive": [
+        "out"
+    ],
+    "iksolver": [
+        "chop"
+    ],
+    "illpixel": [
+        "cop2"
+    ],
+    "illuminance": [
+        "vop"
+    ],
+    "image": [
+        "chop"
+    ],
+    "image3d": [
+        "vop",
+        "vex",
+        "out"
+    ],
+    "image3dvolume": [
+        "vop"
+    ],
+    "impactanalysis": [
+        "dop"
+    ],
+    "importattrib": [
+        "vop"
+    ],
+    "importdetail": [
+        "vop"
+    ],
+    "importpoint": [
+        "vop"
+    ],
+    "importprim": [
+        "vop"
+    ],
+    "importvertex": [
+        "vop"
+    ],
+    "impulseforce": [
+        "dop"
+    ],
+    "indexfield": [
+        "dop"
+    ],
+    "indexfieldvisualization": [
+        "dop"
+    ],
+    "indirectlight": [
+        "obj"
+    ],
+    "indirectlighting": [
+        "vop"
+    ],
+    "inflate": [
+        "sop"
+    ],
+    "ingroup": [
+        "vop"
+    ],
+    "inline": [
+        "vop"
+    ],
+    "inprimorptgroup": [
+        "vop"
+    ],
+    "insert": [
+        "vop"
+    ],
+    "inside": [
+        "cop2"
+    ],
+    "instance": [
+        "sop",
+        "obj",
+        "pop"
+    ],
+    "instancedobject": [
+        "dop"
+    ],
+    "intangiblevalue": [
+        "dop"
+    ],
+    "integrate3d": [
+        "vop"
+    ],
+    "integrate3dclip": [
+        "vop"
+    ],
+    "interact": [
+        "pop"
+    ],
+    "interleave": [
+        "cop2"
+    ],
+    "interp": [
+        "chop"
+    ],
+    "intersect": [
+        "vop"
+    ],
+    "intersect3d": [
+        "vop"
+    ],
+    "intersectall": [
+        "vop"
+    ],
+    "intersectionanalysis": [
+        "sop"
+    ],
+    "intersectionstitch": [
+        "sop"
+    ],
+    "inttofloat": [
+        "vop"
+    ],
+    "inttovec": [
+        "vop"
+    ],
+    "inversekin": [
+        "chop"
+    ],
+    "invert": [
+        "chop",
+        "cop2",
+        "vop"
+    ],
+    "irradiance": [
+        "vop"
+    ],
+    "is_a_generator": [
+        "cop2"
+    ],
+    "isalpha": [
+        "vop"
+    ],
+    "isconnected": [
+        "vop"
+    ],
+    "isdigit": [
+        "vop"
+    ],
+    "isfinite": [
+        "vop"
+    ],
+    "isfog": [
+        "vop"
+    ],
+    "isfrontface": [
+        "vop"
+    ],
+    "isnan": [
+        "vop"
+    ],
+    "iso": [
+        "sop"
+    ],
+    "isooffset": [
+        "sop"
+    ],
+    "isshadow": [
+        "vop"
+    ],
+    "jiggle": [
+        "chop"
+    ],
+    "jitteredhairnormal": [
+        "vop"
+    ],
+    "join": [
+        "sop",
+        "vop"
+    ],
+    "keyboard": [
+        "chop"
+    ],
+    "kill": [
+        "pop"
+    ],
+    "knife": [
+        "sop"
+    ],
+    "lag": [
+        "chop"
+    ],
+    "lambert": [
+        "vop"
+    ],
+    "lattice": [
+        "sop"
+    ],
+    "layer": [
+        "sop",
+        "chop",
+        "cop2"
+    ],
+    "layercomp": [
+        "vop"
+    ],
+    "layermix": [
+        "vop"
+    ],
+    "layerpack": [
+        "vop"
+    ],
+    "layerunpack": [
+        "vop"
+    ],
+    "len": [
+        "vop"
+    ],
+    "length": [
+        "vop"
+    ],
+    "levels": [
+        "cop2"
+    ],
+    "lidarimport": [
+        "sop"
+    ],
+    "light": [
+        "obj",
+        "cop2",
+        "vex"
+    ],
+    "lighting": [
+        "vop"
+    ],
+    "limit": [
+        "pop",
+        "chop",
+        "cop2"
+    ],
+    "limits": [
+        "vop"
+    ],
+    "limport": [
+        "vop"
+    ],
+    "line": [
+        "sop"
+    ],
+    "lineage": [
+        "pop"
+    ],
+    "linktosourceobject": [
+        "dop"
+    ],
+    "loadslices": [
+        "sop"
+    ],
+    "location": [
+        "pop"
+    ],
+    "logarithm": [
+        "vop"
+    ],
+    "logic": [
+        "chop"
+    ],
+    "lookat": [
+        "pop",
+        "vop"
+    ],
+    "lookup": [
+        "chop",
+        "cop2"
+    ],
+    "loop": [
+        "cop2"
+    ],
+    "loopdata": [
+        "cop2"
+    ],
+    "lsystem": [
+        "sop"
+    ],
+    "lumakey": [
+        "cop2"
+    ],
+    "lumamatte": [
+        "cop2"
+    ],
+    "luminance": [
+        "vop"
+    ],
+    "m2tom3": [
+        "vop"
+    ],
+    "m2tom4": [
+        "vop"
+    ],
+    "m3tom2": [
+        "vop"
+    ],
+    "m3tom4": [
+        "vop"
+    ],
+    "m4tom2": [
+        "vop"
+    ],
+    "m4tom3": [
+        "vop"
+    ],
+    "maddconst": [
+        "vop"
+    ],
+    "magnet": [
+        "sop"
+    ],
+    "magnetforce": [
+        "dop"
+    ],
+    "makeinstancexform": [
+        "vop"
+    ],
+    "makexform": [
+        "vop"
+    ],
+    "mandel": [
+        "vop"
+    ],
+    "mantrasurface": [
+        "shop"
+    ],
+    "marble": [
+        "vop"
+    ],
+    "mask": [
+        "dop",
+        "cop2"
+    ],
+    "matchaxis": [
+        "sop"
+    ],
+    "matchsize": [
+        "sop"
+    ],
+    "matchtopology": [
+        "sop"
+    ],
+    "material": [
+        "sop",
+        "shop"
+    ],
+    "materialbuilder": [
+        "vop"
+    ],
+    "math": [
+        "chop"
+    ],
+    "matnet": [
+        "shop"
+    ],
+    "matrixfield": [
+        "dop"
+    ],
+    "matrixfieldvisualization": [
+        "dop"
+    ],
+    "matte": [
+        "vop"
+    ],
+    "matx2getcompon": [
+        "vop"
+    ],
+    "matx2setcompon": [
+        "vop"
+    ],
+    "matx2tofloat": [
+        "vop"
+    ],
+    "matx2tovec2": [
+        "vop"
+    ],
+    "matxgetcompon": [
+        "vop"
+    ],
+    "matxsetcompon": [
+        "vop"
+    ],
+    "matxtofloat": [
+        "vop"
+    ],
+    "matxtoquat": [
+        "vop"
+    ],
+    "matxtovec": [
+        "vop"
+    ],
+    "max": [
+        "cop2",
+        "vop"
+    ],
+    "maxcomp": [
+        "vop"
+    ],
+    "mdd": [
+        "sop",
+        "out"
+    ],
+    "measure": [
+        "sop"
+    ],
+    "median": [
+        "cop2"
+    ],
+    "merge": [
+        "sop",
+        "dop",
+        "chop",
+        "cop2",
+        "out"
+    ],
+    "mergecoshader": [
+        "shop"
+    ],
+    "metaattrib": [
+        "vop"
+    ],
+    "metaball": [
+        "sop"
+    ],
+    "metadata": [
+        "cop2",
+        "vop"
+    ],
+    "metadensity": [
+        "vop"
+    ],
+    "metagroups": [
+        "sop"
+    ],
+    "metaimport": [
+        "vop"
+    ],
+    "metanext": [
+        "vop"
+    ],
+    "metaspace": [
+        "vop"
+    ],
+    "metastart": [
+        "vop"
+    ],
+    "metaweight": [
+        "vop"
+    ],
+    "method": [
+        "vop"
+    ],
+    "methodcall": [
+        "vop"
+    ],
+    "methodinput": [
+        "vop"
+    ],
+    "methodsubnet": [
+        "vop"
+    ],
+    "microphone": [
+        "obj"
+    ],
+    "midiin": [
+        "chop"
+    ],
+    "midiout": [
+        "chop"
+    ],
+    "min": [
+        "cop2",
+        "vop"
+    ],
+    "mincomp": [
+        "vop"
+    ],
+    "minpos": [
+        "vop"
+    ],
+    "mirror": [
+        "sop"
+    ],
+    "misc_parms": [
+        "obj"
+    ],
+    "mix": [
+        "vop"
+    ],
+    "mocapbiped1": [
+        "obj"
+    ],
+    "mocapbiped2": [
+        "obj"
+    ],
+    "mocapbiped3": [
+        "obj"
+    ],
+    "modifydata": [
+        "dop"
+    ],
+    "modulo": [
+        "vop"
+    ],
+    "mold": [
+        "vop"
+    ],
+    "mono": [
+        "cop2"
+    ],
+    "mosaic": [
+        "cop2",
+        "vop"
+    ],
+    "motion": [
+        "dop"
+    ],
+    "mountain": [
+        "sop"
+    ],
+    "mountain-2.0": [
+        "sop"
+    ],
+    "mouse": [
+        "chop"
+    ],
+    "mulconst": [
+        "vop"
+    ],
+    "multifieldvisualization": [
+        "dop"
+    ],
+    "multiply": [
+        "chop",
+        "cop2",
+        "vop"
+    ],
+    "multisolver": [
+        "dop"
+    ],
+    "muscle": [
+        "sop",
+        "obj"
+    ],
+    "musclecapture": [
+        "sop"
+    ],
+    "muscledeform": [
+        "sop"
+    ],
+    "musclepin": [
+        "obj"
+    ],
+    "musclerig": [
+        "obj"
+    ],
+    "name": [
+        "sop"
+    ],
+    "nearpoint": [
+        "vop"
+    ],
+    "negate": [
+        "vop"
+    ],
+    "neighbour": [
+        "vop"
+    ],
+    "neighbourcount": [
+        "vop"
+    ],
+    "neighbourcountfile": [
+        "vop"
+    ],
+    "neighbourfile": [
+        "vop"
+    ],
+    "neighbours": [
+        "vop"
+    ],
+    "netbarrier": [
+        "out"
+    ],
+    "netfetchdata": [
+        "dop"
+    ],
+    "network": [
+        "chop"
+    ],
+    "newgroup": [
+        "vop"
+    ],
+    "no_vdb": [
+        "sop"
+    ],
+    "nocollider": [
+        "dop"
+    ],
+    "noconrel": [
+        "dop"
+    ],
+    "noise": [
+        "dop",
+        "chop",
+        "cop2"
+    ],
+    "normal": [
+        "sop"
+    ],
+    "normalfalloff": [
+        "vop"
+    ],
+    "normalize": [
+        "vop"
+    ],
+    "not": [
+        "vop"
+    ],
+    "npoints": [
+        "vop"
+    ],
+    "nrandom": [
+        "vop"
+    ],
+    "null": [
+        "sop",
+        "dop",
+        "obj",
+        "pop",
+        "chop",
+        "cop2",
+        "vop",
+        "out"
+    ],
+    "nuniqueval": [
+        "vop"
+    ],
+    "object": [
+        "chop"
+    ],
+    "object_merge": [
+        "sop"
+    ],
+    "objectchain": [
+        "chop"
+    ],
+    "objpos": [
+        "dop"
+    ],
+    "occlusion": [
+        "vop"
+    ],
+    "oceanevaluate": [
+        "sop"
+    ],
+    "oceanevaluate-": [
+        "sop"
+    ],
+    "oceanfoam": [
+        "sop"
+    ],
+    "oceansamplelayers": [
+        "vop"
+    ],
+    "oceansource": [
+        "sop"
+    ],
+    "oceansource-": [
+        "sop"
+    ],
+    "oceanspectrum": [
+        "sop"
+    ],
+    "oceanwaves": [
+        "sop"
+    ],
+    "ocio_import": [
+        "vop"
+    ],
+    "ocio_transform": [
+        "vop"
+    ],
+    "ode_solver_parms": [
+        "dop"
+    ],
+    "odeconfigureobject": [
+        "dop"
+    ],
+    "odesolver": [
+        "dop"
+    ],
+    "oglass": [
+        "vop"
+    ],
+    "old_relationships": [
+        "dop"
+    ],
+    "onlyonce": [
+        "dop"
+    ],
+    "opencl": [
+        "sop"
+    ],
+    "opengl": [
+        "out"
+    ],
+    "or": [
+        "vop"
+    ],
+    "orbit": [
+        "pop"
+    ],
+    "ord": [
+        "vop"
+    ],
+    "oren": [
+        "vop"
+    ],
+    "orient": [
+        "vop"
+    ],
+    "oscill": [
+        "vop"
+    ],
+    "oscillator": [
+        "chop"
+    ],
+    "osd_facecount": [
+        "vop"
+    ],
+    "osd_firstpatch": [
+        "vop"
+    ],
+    "osd_limitsurface": [
+        "vop"
+    ],
+    "osd_patchcount": [
+        "vop"
+    ],
+    "osl_bias": [
+        "vop"
+    ],
+    "osl_calculatenormal": [
+        "vop"
+    ],
+    "osl_dxdydz": [
+        "vop"
+    ],
+    "osl_environment": [
+        "vop"
+    ],
+    "osl_gain": [
+        "vop"
+    ],
+    "osl_log": [
+        "vop"
+    ],
+    "osl_step": [
+        "vop"
+    ],
+    "osl_texture": [
+        "vop"
+    ],
+    "osl_transform": [
+        "vop"
+    ],
+    "osl_transformc": [
+        "vop"
+    ],
+    "oslnet": [
+        "shop"
+    ],
+    "outerproduct": [
+        "vop"
+    ],
+    "output": [
+        "sop",
+        "dop",
+        "chop",
+        "vop"
+    ],
+    "outside": [
+        "cop2"
+    ],
+    "over": [
+        "cop2"
+    ],
+    "pack": [
+        "sop"
+    ],
+    "packeddiskedit": [
+        "sop"
+    ],
+    "packededit": [
+        "sop"
+    ],
+    "packgroom": [
+        "sop"
+    ],
+    "packpoints": [
+        "sop"
+    ],
+    "paint": [
+        "sop"
+    ],
+    "paintcolorvolume": [
+        "sop"
+    ],
+    "paintfogvolume": [
+        "sop"
+    ],
+    "paintsdfvolume": [
+        "sop"
+    ],
+    "para": [
+        "chop"
+    ],
+    "parameter": [
+        "vop"
+    ],
+    "particle": [
+        "sop",
+        "chop"
+    ],
+    "particlefieldvisualization": [
+        "dop"
+    ],
+    "particlefluidconfigureobject": [
+        "dop"
+    ],
+    "particlefluidemitter": [
+        "dop"
+    ],
+    "particlefluidmask": [
+        "sop"
+    ],
+    "particlefluidobject": [
+        "dop"
+    ],
+    "particlefluidsink": [
+        "dop"
+    ],
+    "particlefluidsolver": [
+        "dop"
+    ],
+    "particlefluidsurface": [
+        "sop"
+    ],
+    "particlefluidsurface-": [
+        "sop"
+    ],
+    "particlefluidtank": [
+        "sop"
+    ],
+    "partition": [
+        "sop",
+        "dop"
+    ],
+    "pass": [
+        "chop"
+    ],
+    "path": [
+        "obj"
+    ],
+    "pathcv": [
+        "obj"
+    ],
+    "pbrdiffuse": [
+        "vop"
+    ],
+    "pbremission": [
+        "vop"
+    ],
+    "pbrhair_r": [
+        "vop"
+    ],
+    "pbrhair_trt": [
+        "vop"
+    ],
+    "pbrhair_tt": [
+        "vop"
+    ],
+    "pbrlighting": [
+        "vop"
+    ],
+    "pbrmetallic": [
+        "vop"
+    ],
+    "pbrnonmetallic": [
+        "vop"
+    ],
+    "pbrphase": [
+        "vop"
+    ],
+    "pbrspecular": [
+        "vop"
+    ],
+    "pbrsss": [
+        "vop"
+    ],
+    "pcclose": [
+        "vop"
+    ],
+    "pcexport": [
+        "vop"
+    ],
+    "pcfarthest": [
+        "vop"
+    ],
+    "pcfilter": [
+        "vop"
+    ],
+    "pcfind": [
+        "vop"
+    ],
+    "pcfind_radius": [
+        "vop"
+    ],
+    "pcimport": [
+        "vop"
+    ],
+    "pcimportbyidx": [
+        "vop"
+    ],
+    "pciterate": [
+        "vop"
+    ],
+    "pcnumfound": [
+        "vop"
+    ],
+    "pcopen": [
+        "vop"
+    ],
+    "pcunshaded": [
+        "vop"
+    ],
+    "pcwrite": [
+        "vop"
+    ],
+    "peak": [
+        "sop"
+    ],
+    "periodicnoise": [
+        "vop"
+    ],
+    "phoneme": [
+        "chop"
+    ],
+    "phong_eval": [
+        "shop"
+    ],
+    "phong_sample": [
+        "shop"
+    ],
+    "photon": [
+        "vex"
+    ],
+    "photon_output": [
+        "vop"
+    ],
+    "physicalsss": [
+        "vop"
+    ],
+    "physparms": [
+        "dop"
+    ],
+    "pin": [
+        "cop2"
+    ],
+    "pipein": [
+        "chop"
+    ],
+    "pipeout": [
+        "chop"
+    ],
+    "pitch": [
+        "chop"
+    ],
+    "pixel": [
+        "cop2"
+    ],
+    "pixelarea": [
+        "vop"
+    ],
+    "pixelderiv": [
+        "vop"
+    ],
+    "planeclip": [
+        "vop"
+    ],
+    "planecount": [
+        "vop"
+    ],
+    "planeexists": [
+        "vop"
+    ],
+    "planeindex": [
+        "vop"
+    ],
+    "planename": [
+        "vop"
+    ],
+    "planesize": [
+        "vop"
+    ],
+    "platonic": [
+        "sop"
+    ],
+    "point": [
+        "sop"
+    ],
+    "pointbbox": [
+        "vop"
+    ],
+    "pointcloudiso": [
+        "sop"
+    ],
+    "pointcollider": [
+        "dop"
+    ],
+    "pointdeform": [
+        "sop"
+    ],
+    "pointforce": [
+        "dop"
+    ],
+    "pointgenerate": [
+        "sop"
+    ],
+    "pointjitter": [
+        "sop"
+    ],
+    "pointmap": [
+        "sop"
+    ],
+    "pointpos": [
+        "dop"
+    ],
+    "pointreplicate": [
+        "sop"
+    ],
+    "pointsfromvolume": [
+        "sop"
+    ],
+    "pointwrangle": [
+        "sop"
+    ],
+    "polybevel": [
+        "sop"
+    ],
+    "polybevel-": [
+        "sop"
+    ],
+    "polybridge": [
+        "sop"
+    ],
+    "polycap": [
+        "sop"
+    ],
+    "polycut": [
+        "sop"
+    ],
+    "polydoctor": [
+        "sop"
+    ],
+    "polyexpand2d": [
+        "sop"
+    ],
+    "polyextrude": [
+        "sop"
+    ],
+    "polyextrude-": [
+        "sop"
+    ],
+    "polyfill": [
+        "sop"
+    ],
+    "polyframe": [
+        "sop"
+    ],
+    "polyknit": [
+        "sop"
+    ],
+    "polyloft": [
+        "sop"
+    ],
+    "polypatch": [
+        "sop"
+    ],
+    "polypath": [
+        "sop"
+    ],
+    "polyreduce": [
+        "sop"
+    ],
+    "polysoup": [
+        "sop"
+    ],
+    "polyspline": [
+        "sop"
+    ],
+    "polysplit": [
+        "sop"
+    ],
+    "polysplit-": [
+        "sop"
+    ],
+    "polystitch": [
+        "sop"
+    ],
+    "polywire": [
+        "sop"
+    ],
+    "pop": [
+        "sop",
+        "vop",
+        "vex"
+    ],
+    "popCommonParms": [
+        "dop"
+    ],
+    "popLocals": [
+        "pop"
+    ],
+    "popadvectbyfilaments": [
+        "dop"
+    ],
+    "popadvectbyvolumes": [
+        "dop"
+    ],
+    "popattract": [
+        "dop"
+    ],
+    "popattribfromvolume": [
+        "dop"
+    ],
+    "popawaken": [
+        "dop"
+    ],
+    "popaxisforce": [
+        "dop"
+    ],
+    "popcollisionbehavior": [
+        "dop"
+    ],
+    "popcollisiondetect": [
+        "dop"
+    ],
+    "popcollisionignore": [
+        "dop"
+    ],
+    "popcolor": [
+        "dop"
+    ],
+    "popcurveforce": [
+        "dop"
+    ],
+    "popdrag": [
+        "dop"
+    ],
+    "popdragspin": [
+        "dop"
+    ],
+    "popfan": [
+        "dop"
+    ],
+    "popfireworks": [
+        "dop"
+    ],
+    "popfloatbyvolumes": [
+        "dop"
+    ],
+    "popflock": [
+        "dop"
+    ],
+    "popforce": [
+        "dop"
+    ],
+    "popgrains": [
+        "dop"
+    ],
+    "popgroup": [
+        "dop"
+    ],
+    "popinstance": [
+        "dop"
+    ],
+    "popinteract": [
+        "dop"
+    ],
+    "popkill": [
+        "dop"
+    ],
+    "poplimit": [
+        "dop"
+    ],
+    "poplocalforce": [
+        "dop"
+    ],
+    "poplocation": [
+        "dop"
+    ],
+    "poplookat": [
+        "dop"
+    ],
+    "popmetaballforce": [
+        "dop"
+    ],
+    "popnet": [
+        "sop"
+    ],
+    "popobject": [
+        "dop"
+    ],
+    "popproperty": [
+        "dop"
+    ],
+    "popproximity": [
+        "dop"
+    ],
+    "popreplicate": [
+        "dop"
+    ],
+    "popshapematch": [
+        "dop"
+    ],
+    "popsoftlimit": [
+        "dop"
+    ],
+    "popsolver": [
+        "dop"
+    ],
+    "popsolver-": [
+        "dop"
+    ],
+    "popsource": [
+        "dop"
+    ],
+    "popspeedlimit": [
+        "dop"
+    ],
+    "popspin": [
+        "dop"
+    ],
+    "popspinbyvolumes": [
+        "dop"
+    ],
+    "popsprite": [
+        "dop"
+    ],
+    "popsteeralign": [
+        "dop"
+    ],
+    "popsteeravoid": [
+        "dop"
+    ],
+    "popsteercohesion": [
+        "dop"
+    ],
+    "popsteercustom": [
+        "dop"
+    ],
+    "popsteerobstacle": [
+        "dop"
+    ],
+    "popsteerpath": [
+        "dop"
+    ],
+    "popsteerseek": [
+        "dop"
+    ],
+    "popsteerseparate": [
+        "dop"
+    ],
+    "popsteersolver": [
+        "dop"
+    ],
+    "popsteersolver-": [
+        "dop"
+    ],
+    "popsteerturnconstraint": [
+        "dop"
+    ],
+    "popsteerwander": [
+        "dop"
+    ],
+    "popstream": [
+        "dop"
+    ],
+    "poptorque": [
+        "dop"
+    ],
+    "popvelocity": [
+        "dop"
+    ],
+    "popvop": [
+        "dop"
+    ],
+    "popwind": [
+        "dop"
+    ],
+    "popwrangle": [
+        "dop"
+    ],
+    "pose": [
+        "chop"
+    ],
+    "posedifference": [
+        "chop"
+    ],
+    "posescope": [
+        "sop"
+    ],
+    "position": [
+        "dop",
+        "pop"
+    ],
+    "pow": [
+        "vop"
+    ],
+    "premultiply": [
+        "cop2"
+    ],
+    "prepost": [
+        "out"
+    ],
+    "pretransform": [
+        "chop"
+    ],
+    "primattrib": [
+        "vop"
+    ],
+    "primintrinsic": [
+        "vop"
+    ],
+    "primitive": [
+        "sop"
+    ],
+    "primitivesplit": [
+        "sop"
+    ],
+    "primnormal": [
+        "vop"
+    ],
+    "primuv": [
+        "vop"
+    ],
+    "principledshader": [
+        "shop",
+        "vop"
+    ],
+    "principledshadercore": [
+        "vop"
+    ],
+    "print": [
+        "vop"
+    ],
+    "profile": [
+        "sop"
+    ],
+    "program": [
+        "vop"
+    ],
+    "project": [
+        "sop"
+    ],
+    "properties": [
+        "shop",
+        "vop"
+    ],
+    "property": [
+        "pop"
+    ],
+    "proximity": [
+        "pop"
+    ],
+    "ptinstance": [
+        "vop"
+    ],
+    "ptlinedistance": [
+        "vop"
+    ],
+    "ptreplicate": [
+        "vop"
+    ],
+    "pulldown": [
+        "cop2"
+    ],
+    "pulse": [
+        "chop"
+    ],
+    "pulsetrain": [
+        "vop"
+    ],
+    "pumprel": [
+        "dop"
+    ],
+    "pushup": [
+        "cop2"
+    ],
+    "pxradjustnormal": [
+        "vop"
+    ],
+    "pxraovlight": [
+        "obj",
+        "vop"
+    ],
+    "pxrarealight": [
+        "vop"
+    ],
+    "pxrattribute": [
+        "vop"
+    ],
+    "pxrbackgrounddisplayfilter": [
+        "vop"
+    ],
+    "pxrbackgroundsamplefilter": [
+        "vop"
+    ],
+    "pxrbakepointcloud": [
+        "vop"
+    ],
+    "pxrbaketexture": [
+        "vop"
+    ],
+    "pxrbarnlightfilter": [
+        "obj",
+        "vop"
+    ],
+    "pxrblack": [
+        "vop"
+    ],
+    "pxrblackbody": [
+        "vop"
+    ],
+    "pxrblend": [
+        "vop"
+    ],
+    "pxrblocker": [
+        "vop"
+    ],
+    "pxrblockerlightfilter": [
+        "obj",
+        "vop"
+    ],
+    "pxrbump": [
+        "vop"
+    ],
+    "pxrbumpmanifold2d": [
+        "vop"
+    ],
+    "pxrcamera": [
+        "vop"
+    ],
+    "pxrchecker": [
+        "vop"
+    ],
+    "pxrclamp": [
+        "vop"
+    ],
+    "pxrcolorcorrect": [
+        "vop"
+    ],
+    "pxrcombinerlightfilter": [
+        "vop"
+    ],
+    "pxrconstant": [
+        "vop"
+    ],
+    "pxrcookielightfilter": [
+        "obj",
+        "vop"
+    ],
+    "pxrcopyaovdisplayfilter": [
+        "vop"
+    ],
+    "pxrcopyaovsamplefilter": [
+        "vop"
+    ],
+    "pxrcross": [
+        "vop"
+    ],
+    "pxrdebugshadingcontext": [
+        "vop"
+    ],
+    "pxrdefaultintegrator": [
+        "vop"
+    ],
+    "pxrdiffuse": [
+        "vop"
+    ],
+    "pxrdirectlighting": [
+        "vop"
+    ],
+    "pxrdirt": [
+        "vop"
+    ],
+    "pxrdisklight": [
+        "obj",
+        "vop"
+    ],
+    "pxrdisney": [
+        "vop"
+    ],
+    "pxrdisplace": [
+        "vop"
+    ],
+    "pxrdisplacement": [
+        "vop"
+    ],
+    "pxrdisplayfiltercombiner": [
+        "vop"
+    ],
+    "pxrdispscalarlayer": [
+        "vop"
+    ],
+    "pxrdisptransform": [
+        "vop"
+    ],
+    "pxrdispvectorlayer": [
+        "vop"
+    ],
+    "pxrdistantlight": [
+        "obj",
+        "vop"
+    ],
+    "pxrdomelight": [
+        "obj",
+        "vop"
+    ],
+    "pxrdot": [
+        "vop"
+    ],
+    "pxrenvdaylight": [
+        "obj",
+        "vop"
+    ],
+    "pxrexposure": [
+        "vop"
+    ],
+    "pxrfacingratio": [
+        "vop"
+    ],
+    "pxrfilmictonemapperdisplayfilter": [
+        "vop"
+    ],
+    "pxrfilmictonemappersamplefilter": [
+        "vop"
+    ],
+    "pxrflakes": [
+        "vop"
+    ],
+    "pxrfractal": [
+        "vop"
+    ],
+    "pxrfractalize": [
+        "vop"
+    ],
+    "pxrgamma": [
+        "vop"
+    ],
+    "pxrgeometricaovs": [
+        "vop"
+    ],
+    "pxrglass": [
+        "vop"
+    ],
+    "pxrgobo": [
+        "vop"
+    ],
+    "pxrgobolightfilter": [
+        "obj",
+        "vop"
+    ],
+    "pxrgradedisplayfilter": [
+        "vop"
+    ],
+    "pxrgradesamplefilter": [
+        "vop"
+    ],
+    "pxrgrid": [
+        "vop"
+    ],
+    "pxrhsl": [
+        "vop"
+    ],
+    "pxrimageplanefilter": [
+        "vop"
+    ],
+    "pxrintmultlightfilter": [
+        "obj",
+        "vop"
+    ],
+    "pxrinvert": [
+        "vop"
+    ],
+    "pxrlayer": [
+        "vop"
+    ],
+    "pxrlayeredblend": [
+        "vop"
+    ],
+    "pxrlayeredtexture": [
+        "vop"
+    ],
+    "pxrlayermixer": [
+        "vop"
+    ],
+    "pxrlightemission": [
+        "vop"
+    ],
+    "pxrlightprobe": [
+        "vop"
+    ],
+    "pxrlmdiffuse": [
+        "vop"
+    ],
+    "pxrlmglass": [
+        "vop"
+    ],
+    "pxrlmlayer": [
+        "vop"
+    ],
+    "pxrlmmetal": [
+        "vop"
+    ],
+    "pxrlmmixer": [
+        "vop"
+    ],
+    "pxrlmplastic": [
+        "vop"
+    ],
+    "pxrlmsubsurface": [
+        "vop"
+    ],
+    "pxrmanifold2d": [
+        "vop"
+    ],
+    "pxrmanifold3d": [
+        "vop"
+    ],
+    "pxrmanifold3dn": [
+        "vop"
+    ],
+    "pxrmarschnerhair": [
+        "vop"
+    ],
+    "pxrmarschnerhair-2.0": [
+        "vop"
+    ],
+    "pxrmatteid": [
+        "vop"
+    ],
+    "pxrmeshlight": [
+        "vop"
+    ],
+    "pxrmix": [
+        "vop"
+    ],
+    "pxrmultitexture": [
+        "vop"
+    ],
+    "pxrnormalmap": [
+        "vop"
+    ],
+    "pxrocclusion": [
+        "vop"
+    ],
+    "pxrosl": [
+        "vop"
+    ],
+    "pxrpathtracer": [
+        "vop"
+    ],
+    "pxrportallight": [
+        "obj",
+        "vop"
+    ],
+    "pxrprimvar": [
+        "vop"
+    ],
+    "pxrprojectionlayer": [
+        "vop"
+    ],
+    "pxrprojectionstack": [
+        "vop"
+    ],
+    "pxrprojector": [
+        "vop"
+    ],
+    "pxrptexture": [
+        "vop"
+    ],
+    "pxrramp": [
+        "vop"
+    ],
+    "pxrramplightfilter": [
+        "obj",
+        "vop"
+    ],
+    "pxrrectlight": [
+        "obj",
+        "vop"
+    ],
+    "pxrremap": [
+        "vop"
+    ],
+    "pxrrodlightfilter": [
+        "obj",
+        "vop"
+    ],
+    "pxrrollingshutter": [
+        "vop"
+    ],
+    "pxrroundcube": [
+        "vop"
+    ],
+    "pxrroundcube-2.0": [
+        "vop"
+    ],
+    "pxrsamplefiltercombiner": [
+        "vop"
+    ],
+    "pxrseexpr": [
+        "vop"
+    ],
+    "pxrshadedside": [
+        "vop"
+    ],
+    "pxrshadowfilter": [
+        "vop"
+    ],
+    "pxrskin": [
+        "vop"
+    ],
+    "pxrspherelight": [
+        "obj",
+        "vop"
+    ],
+    "pxrstdarealight": [
+        "obj",
+        "vop"
+    ],
+    "pxrstdenvdaylight": [
+        "obj",
+        "vop"
+    ],
+    "pxrstdenvmaplight": [
+        "obj",
+        "vop"
+    ],
+    "pxrsurface": [
+        "vop"
+    ],
+    "pxrtangentfield": [
+        "vop"
+    ],
+    "pxrtee": [
+        "vop"
+    ],
+    "pxrtexture": [
+        "vop"
+    ],
+    "pxrthinfilm": [
+        "vop"
+    ],
+    "pxrthreshold": [
+        "vop"
+    ],
+    "pxrtilemanifold": [
+        "vop"
+    ],
+    "pxrtofloat": [
+        "vop"
+    ],
+    "pxrtofloat3": [
+        "vop"
+    ],
+    "pxrupbp": [
+        "vop"
+    ],
+    "pxrvalidatebxdf": [
+        "vop"
+    ],
+    "pxrvariable": [
+        "vop"
+    ],
+    "pxrvary": [
+        "vop"
+    ],
+    "pxrvcm": [
+        "vop"
+    ],
+    "pxrvisualizer": [
+        "vop"
+    ],
+    "pxrvolume": [
+        "vop"
+    ],
+    "pxrvoronoise": [
+        "vop"
+    ],
+    "pxrwhitepointdisplayfilter": [
+        "vop"
+    ],
+    "pxrwhitepointsamplefilter": [
+        "vop"
+    ],
+    "pxrworley": [
+        "vop"
+    ],
+    "pyro": [
+        "shop"
+    ],
+    "pyro-": [
+        "shop"
+    ],
+    "pyroBlackbody": [
+        "vop"
+    ],
+    "pyroColorCorrect": [
+        "vop"
+    ],
+    "pyroColorModel": [
+        "vop"
+    ],
+    "pyroColorVolume": [
+        "vop"
+    ],
+    "pyroDensityVolume": [
+        "vop"
+    ],
+    "pyroDisplace": [
+        "vop"
+    ],
+    "pyroField": [
+        "vop"
+    ],
+    "pyroNoise": [
+        "vop"
+    ],
+    "pyroshadercore": [
+        "vop"
+    ],
+    "pyrosolver": [
+        "dop"
+    ],
+    "pyrosolver-": [
+        "dop"
+    ],
+    "python": [
+        "sop"
+    ],
+    "pythonscript": [
+        "obj"
+    ],
+    "qdistance": [
+        "vop"
+    ],
+    "qinvert": [
+        "vop"
+    ],
+    "qmultiply": [
+        "vop"
+    ],
+    "qrotate": [
+        "vop"
+    ],
+    "quadruped_animation_rig": [
+        "obj"
+    ],
+    "quadruped_deform_rig": [
+        "obj"
+    ],
+    "quantize": [
+        "cop2"
+    ],
+    "quaternion": [
+        "vop"
+    ],
+    "quattomatx": [
+        "vop"
+    ],
+    "quattovec": [
+        "vop"
+    ],
+    "radialblur": [
+        "cop2"
+    ],
+    "radtodeg": [
+        "vop"
+    ],
+    "ragdollrunexample": [
+        "obj"
+    ],
+    "rails": [
+        "sop"
+    ],
+    "rainbow": [
+        "vop"
+    ],
+    "ramp": [
+        "cop2"
+    ],
+    "rampfilter": [
+        "vop"
+    ],
+    "rampparm": [
+        "vop"
+    ],
+    "ramps": [
+        "vop"
+    ],
+    "random": [
+        "vop"
+    ],
+    "random_sobol": [
+        "vop"
+    ],
+    "ray": [
+        "sop"
+    ],
+    "raybounce": [
+        "vop"
+    ],
+    "rayhit": [
+        "vop"
+    ],
+    "rayimport": [
+        "vop"
+    ],
+    "raytrace": [
+        "vop"
+    ],
+    "rayweight": [
+        "vop"
+    ],
+    "rbd_solver_collisions": [
+        "dop"
+    ],
+    "rbd_solver_substeps": [
+        "dop"
+    ],
+    "rbdangularconstraint": [
+        "dop"
+    ],
+    "rbdangularspringconstraint": [
+        "dop"
+    ],
+    "rbdautofreeze": [
+        "dop"
+    ],
+    "rbdconetwistconstraint": [
+        "dop"
+    ],
+    "rbdconfigureobject": [
+        "dop"
+    ],
+    "rbdfracturedobject": [
+        "dop"
+    ],
+    "rbdglueobject": [
+        "dop"
+    ],
+    "rbdhingeconstraint": [
+        "dop"
+    ],
+    "rbdkeyactive": [
+        "dop"
+    ],
+    "rbdobject": [
+        "dop"
+    ],
+    "rbdpackedobject": [
+        "dop"
+    ],
+    "rbdpinconstraint": [
+        "dop"
+    ],
+    "rbdpointobject": [
+        "dop"
+    ],
+    "rbdsliderconstraint": [
+        "dop"
+    ],
+    "rbdsolver": [
+        "dop"
+    ],
+    "rbdspringconstraint": [
+        "dop"
+    ],
+    "rbdstate": [
+        "dop"
+    ],
+    "rbdvisualization": [
+        "dop"
+    ],
+    "record": [
+        "chop"
+    ],
+    "reference": [
+        "cop2"
+    ],
+    "referenceframeforce": [
+        "dop"
+    ],
+    "refine": [
+        "sop"
+    ],
+    "reflect": [
+        "vop"
+    ],
+    "reflective": [
+        "vop"
+    ],
+    "reflectlight": [
+        "vop"
+    ],
+    "refract": [
+        "vop"
+    ],
+    "refractlight": [
+        "vop"
+    ],
+    "regex_find": [
+        "vop"
+    ],
+    "regex_findall": [
+        "vop"
+    ],
+    "regex_match": [
+        "vop"
+    ],
+    "regex_replace": [
+        "vop"
+    ],
+    "regex_split": [
+        "vop"
+    ],
+    "reguide": [
+        "sop"
+    ],
+    "relax": [
+        "sop"
+    ],
+    "relbbox": [
+        "vop"
+    ],
+    "relpointbbox": [
+        "vop"
+    ],
+    "remesh": [
+        "sop"
+    ],
+    "removeindex": [
+        "vop"
+    ],
+    "removepoint": [
+        "vop"
+    ],
+    "removeprim": [
+        "vop"
+    ],
+    "removevalue": [
+        "vop"
+    ],
+    "rename": [
+        "chop",
+        "cop2"
+    ],
+    "render": [
+        "pop",
+        "cop2"
+    ],
+    "renderparms": [
+        "dop"
+    ],
+    "renderparmsvolatile": [
+        "dop"
+    ],
+    "renderstate": [
+        "vop"
+    ],
+    "reorder": [
+        "chop",
+        "vop"
+    ],
+    "repack": [
+        "sop"
+    ],
+    "reporterror": [
+        "vop"
+    ],
+    "res": [
+        "vop"
+    ],
+    "resample": [
+        "sop",
+        "chop"
+    ],
+    "reshapevalue": [
+        "vop"
+    ],
+    "resistance": [
+        "pop"
+    ],
+    "rest": [
+        "sop"
+    ],
+    "restpos": [
+        "vop"
+    ],
+    "reverse": [
+        "sop",
+        "cop2",
+        "vop"
+    ],
+    "revolve": [
+        "sop"
+    ],
+    "rewire": [
+        "sop"
+    ],
+    "rgbtohsv": [
+        "vop"
+    ],
+    "rhexes": [
+        "vop"
+    ],
+    "ri_bumpy": [
+        "shop"
+    ],
+    "ri_carpet": [
+        "shop"
+    ],
+    "ri_cloth": [
+        "shop"
+    ],
+    "ri_cmarble": [
+        "shop"
+    ],
+    "ri_constant": [
+        "shop"
+    ],
+    "ri_delayedreadarchive": [
+        "shop"
+    ],
+    "ri_depthcue": [
+        "shop"
+    ],
+    "ri_diaknurl": [
+        "shop"
+    ],
+    "ri_distantlight": [
+        "shop"
+    ],
+    "ri_dynamicload": [
+        "shop"
+    ],
+    "ri_fog": [
+        "shop"
+    ],
+    "ri_glass": [
+        "shop"
+    ],
+    "ri_glassbal": [
+        "shop"
+    ],
+    "ri_lightlight": [
+        "shop"
+    ],
+    "ri_matte": [
+        "shop"
+    ],
+    "ri_metal": [
+        "shop"
+    ],
+    "ri_paintplastic": [
+        "shop"
+    ],
+    "ri_plastic": [
+        "shop"
+    ],
+    "ri_pointnofallofflight": [
+        "shop"
+    ],
+    "ri_rmarble": [
+        "shop"
+    ],
+    "ri_rsmetal": [
+        "shop"
+    ],
+    "ri_runprogram": [
+        "shop"
+    ],
+    "ri_shadowdistantlight": [
+        "shop"
+    ],
+    "ri_shadowpointlight": [
+        "shop"
+    ],
+    "ri_shadowspotlight": [
+        "shop"
+    ],
+    "ri_shinymetal": [
+        "shop"
+    ],
+    "ri_sinknurl": [
+        "shop"
+    ],
+    "ri_spatter": [
+        "shop"
+    ],
+    "ri_spotlight": [
+        "shop"
+    ],
+    "ri_stippled": [
+        "shop"
+    ],
+    "ri_stone": [
+        "shop"
+    ],
+    "ri_threads": [
+        "shop"
+    ],
+    "rib": [
+        "out"
+    ],
+    "ribarchive": [
+        "out"
+    ],
+    "riggedmuscle": [
+        "obj"
+    ],
+    "rigidbodysolver": [
+        "dop"
+    ],
+    "rings": [
+        "vop"
+    ],
+    "rint": [
+        "vop"
+    ],
+    "ripple": [
+        "sop"
+    ],
+    "ripple-2.0": [
+        "sop"
+    ],
+    "rippleconfigureobject": [
+        "dop"
+    ],
+    "rippleobject": [
+        "dop"
+    ],
+    "ripples": [
+        "vop"
+    ],
+    "ripplesolver": [
+        "dop"
+    ],
+    "ris": [
+        "out"
+    ],
+    "ris_OSLshader": [
+        "vop"
+    ],
+    "ris_RSLmaterial": [
+        "vop"
+    ],
+    "rishader": [
+        "sop"
+    ],
+    "risnet": [
+        "shop"
+    ],
+    "rivet": [
+        "obj"
+    ],
+    "rop_alembic": [
+        "sop"
+    ],
+    "rop_comp": [
+        "cop2"
+    ],
+    "rop_dop": [
+        "dop"
+    ],
+    "rop_geometry": [
+        "sop"
+    ],
+    "rotate": [
+        "vop"
+    ],
+    "rotation": [
+        "pop"
+    ],
+    "rotoshape": [
+        "cop2"
+    ],
+    "round": [
+        "sop"
+    ],
+    "rsl_bias": [
+        "vop"
+    ],
+    "rsl_calculatenormal": [
+        "vop"
+    ],
+    "rsl_ctransform": [
+        "vop"
+    ],
+    "rsl_depth": [
+        "vop"
+    ],
+    "rsl_deriv": [
+        "vop"
+    ],
+    "rsl_displace": [
+        "vex"
+    ],
+    "rsl_dudv": [
+        "vop"
+    ],
+    "rsl_environment": [
+        "vop"
+    ],
+    "rsl_gain": [
+        "vop"
+    ],
+    "rsl_illuminance": [
+        "vop"
+    ],
+    "rsl_illuminate": [
+        "vop"
+    ],
+    "rsl_imager": [
+        "vex"
+    ],
+    "rsl_import": [
+        "vop"
+    ],
+    "rsl_indirectdiffuse": [
+        "vop"
+    ],
+    "rsl_light": [
+        "vex"
+    ],
+    "rsl_log": [
+        "vop"
+    ],
+    "rsl_occlusion": [
+        "vop"
+    ],
+    "rsl_oglass": [
+        "vop"
+    ],
+    "rsl_random": [
+        "vop"
+    ],
+    "rsl_rayinfo": [
+        "vop"
+    ],
+    "rsl_renderstate": [
+        "vop"
+    ],
+    "rsl_shadow": [
+        "vop"
+    ],
+    "rsl_step": [
+        "vop"
+    ],
+    "rsl_surface": [
+        "vex"
+    ],
+    "rsl_surfacecolor": [
+        "vop"
+    ],
+    "rsl_texture": [
+        "vop"
+    ],
+    "rsl_textureinfo": [
+        "vop"
+    ],
+    "rsl_transform": [
+        "vop"
+    ],
+    "rsl_volume": [
+        "vex"
+    ],
+    "rsl_vopdisplace": [
+        "shop"
+    ],
+    "rsl_vopimager": [
+        "shop"
+    ],
+    "rsl_voplight": [
+        "shop"
+    ],
+    "rsl_vopmaterial": [
+        "shop"
+    ],
+    "rsl_vopshaderclass": [
+        "shop"
+    ],
+    "rsl_vopstruct": [
+        "shop"
+    ],
+    "rsl_vopsurface": [
+        "shop"
+    ],
+    "rsl_vopvolume": [
+        "shop"
+    ],
+    "rstars": [
+        "vop"
+    ],
+    "rust": [
+        "vop"
+    ],
+    "samplesphere": [
+        "vop"
+    ],
+    "sandconfigureobject": [
+        "dop"
+    ],
+    "sandobject": [
+        "dop"
+    ],
+    "sandsolver": [
+        "dop"
+    ],
+    "sbdconstraint": [
+        "dop"
+    ],
+    "sbdpinconstraint": [
+        "dop"
+    ],
+    "sbdspringconstraint": [
+        "dop"
+    ],
+    "sblend": [
+        "sop"
+    ],
+    "scalarfield": [
+        "dop"
+    ],
+    "scalarfieldvisualization": [
+        "dop"
+    ],
+    "scale": [
+        "cop2",
+        "vop"
+    ],
+    "scales": [
+        "vop"
+    ],
+    "scatter": [
+        "sop"
+    ],
+    "scatter-": [
+        "sop"
+    ],
+    "screen": [
+        "cop2"
+    ],
+    "script": [
+        "sop"
+    ],
+    "scriptsolver": [
+        "dop"
+    ],
+    "sculpt": [
+        "sop"
+    ],
+    "seamproperties": [
+        "dop"
+    ],
+    "select": [
+        "shop"
+    ],
+    "sensor_panorama_color": [
+        "vop"
+    ],
+    "sensor_panorama_cone": [
+        "vop"
+    ],
+    "sensor_panorama_create": [
+        "vop"
+    ],
+    "sensor_panorama_depth": [
+        "vop"
+    ],
+    "sensor_panorama_save": [
+        "vop"
+    ],
+    "sensor_save": [
+        "vop"
+    ],
+    "sequence": [
+        "chop",
+        "cop2"
+    ],
+    "setagentclipnames": [
+        "vop"
+    ],
+    "setagentcliptimes": [
+        "vop"
+    ],
+    "setagentclipweights": [
+        "vop"
+    ],
+    "setagentlayer": [
+        "vop"
+    ],
+    "setagenttransforms": [
+        "vop"
+    ],
+    "setattrib": [
+        "vop"
+    ],
+    "setelement": [
+        "vop"
+    ],
+    "setlayercomponent": [
+        "vop"
+    ],
+    "setprimvertex": [
+        "vop"
+    ],
+    "settransformchannels": [
+        "vop"
+    ],
+    "shaderglobal": [
+        "vop"
+    ],
+    "shadingarea": [
+        "vop"
+    ],
+    "shadingderiv": [
+        "vop"
+    ],
+    "shadinglayer": [
+        "vop"
+    ],
+    "shadingnormal": [
+        "vop"
+    ],
+    "shadow": [
+        "vop",
+        "vex"
+    ],
+    "shadowmap": [
+        "vop"
+    ],
+    "shadowmatte": [
+        "vop"
+    ],
+    "shape": [
+        "cop2"
+    ],
+    "sharpen": [
+        "cop2"
+    ],
+    "sheen": [
+        "vop"
+    ],
+    "shell": [
+        "out"
+    ],
+    "shellmassproperties": [
+        "dop"
+    ],
+    "shift": [
+        "chop",
+        "cop2"
+    ],
+    "shinymetal": [
+        "vop"
+    ],
+    "shrinkwrap": [
+        "sop"
+    ],
+    "shrinkwrap-": [
+        "sop"
+    ],
+    "shuffle": [
+        "chop",
+        "cop2"
+    ],
+    "sign": [
+        "vop"
+    ],
+    "simplebiped": [
+        "obj"
+    ],
+    "simplefemale": [
+        "obj"
+    ],
+    "simplemale": [
+        "obj"
+    ],
+    "simport": [
+        "vop"
+    ],
+    "sine": [
+        "vop"
+    ],
+    "singleSSS": [
+        "vop"
+    ],
+    "sinkrel": [
+        "dop"
+    ],
+    "skin": [
+        "sop",
+        "vop"
+    ],
+    "skinshadercore": [
+        "vop"
+    ],
+    "sky": [
+        "sop"
+    ],
+    "skyenvmap": [
+        "cop2"
+    ],
+    "slerp": [
+        "vop"
+    ],
+    "slice": [
+        "vop"
+    ],
+    "slicealongline": [
+        "dop"
+    ],
+    "sliceplane": [
+        "dop"
+    ],
+    "slidemodifierpaint": [
+        "sop"
+    ],
+    "sliderconrel": [
+        "dop"
+    ],
+    "slope": [
+        "chop"
+    ],
+    "smoke": [
+        "vop"
+    ],
+    "smokeconfigureobject": [
+        "dop"
+    ],
+    "smokeobject": [
+        "dop"
+    ],
+    "smokesolver": [
+        "dop"
+    ],
+    "smokesolver-": [
+        "dop"
+    ],
+    "smooth": [
+        "sop",
+        "vop"
+    ],
+    "smooth-": [
+        "sop"
+    ],
+    "smoothrotation": [
+        "vop"
+    ],
+    "snip": [
+        "cop2"
+    ],
+    "snippet": [
+        "vop"
+    ],
+    "softattachconrel": [
+        "dop"
+    ],
+    "softbody": [
+        "pop"
+    ],
+    "softbodycollisionproperties": [
+        "dop"
+    ],
+    "softbodyfractureproperties": [
+        "dop"
+    ],
+    "softbodymaterialbehavior": [
+        "dop"
+    ],
+    "softbodyplasticityproperties": [
+        "dop"
+    ],
+    "softbodyrestproperties": [
+        "dop"
+    ],
+    "softbodysolver": [
+        "dop"
+    ],
+    "softbodytargetproperties": [
+        "dop"
+    ],
+    "softclip": [
+        "vop"
+    ],
+    "softdots": [
+        "vop"
+    ],
+    "softlimit": [
+        "pop"
+    ],
+    "softpeak": [
+        "sop"
+    ],
+    "softxform": [
+        "sop"
+    ],
+    "solidanisoproperties": [
+        "dop"
+    ],
+    "solidconfigureobject": [
+        "dop"
+    ],
+    "solidconform": [
+        "sop"
+    ],
+    "solidembed": [
+        "sop"
+    ],
+    "solidfracture": [
+        "sop"
+    ],
+    "solidify": [
+        "sop"
+    ],
+    "solidmassproperties": [
+        "dop"
+    ],
+    "solidmodeldata": [
+        "dop"
+    ],
+    "solidobject": [
+        "dop"
+    ],
+    "solidobject-": [
+        "dop"
+    ],
+    "solidsolver-": [
+        "dop"
+    ],
+    "solidsolver-2.0": [
+        "dop"
+    ],
+    "solidvisualization": [
+        "dop"
+    ],
+    "solver": [
+        "sop"
+    ],
+    "sop": [
+        "vex"
+    ],
+    "sopgeo": [
+        "dop"
+    ],
+    "sopguide": [
+        "dop"
+    ],
+    "sopimport": [
+        "cop2"
+    ],
+    "sopscalarfield": [
+        "dop"
+    ],
+    "sopsolver": [
+        "dop"
+    ],
+    "sopvectorfield": [
+        "dop"
+    ],
+    "sort": [
+        "sop",
+        "vop"
+    ],
+    "sound": [
+        "obj"
+    ],
+    "source": [
+        "pop"
+    ],
+    "sourceapply": [
+        "dop"
+    ],
+    "sourcefilaments": [
+        "dop"
+    ],
+    "sourcerel": [
+        "dop"
+    ],
+    "sourcevolume": [
+        "dop"
+    ],
+    "spatial": [
+        "chop"
+    ],
+    "spectrum": [
+        "chop"
+    ],
+    "specular": [
+        "vop"
+    ],
+    "speedlimit": [
+        "pop"
+    ],
+    "sphdensitytest": [
+        "pop"
+    ],
+    "sphere": [
+        "sop"
+    ],
+    "sphereedgetree": [
+        "dop"
+    ],
+    "spherepointtree": [
+        "dop"
+    ],
+    "splatter": [
+        "vop"
+    ],
+    "spline": [
+        "chop",
+        "vop"
+    ],
+    "split": [
+        "sop",
+        "dop",
+        "pop",
+        "vop"
+    ],
+    "spraypaint": [
+        "sop"
+    ],
+    "spring": [
+        "sop",
+        "chop"
+    ],
+    "springconrel": [
+        "dop"
+    ],
+    "springnetworkconstraint": [
+        "dop"
+    ],
+    "springnetworkrelationship": [
+        "dop"
+    ],
+    "sprinkler": [
+        "pop"
+    ],
+    "sprite": [
+        "sop",
+        "pop",
+        "vop"
+    ],
+    "sqrt": [
+        "vop"
+    ],
+    "squishyobject": [
+        "dop"
+    ],
+    "ssscomponent": [
+        "vop"
+    ],
+    "sssscatter": [
+        "sop"
+    ],
+    "standard": [
+        "out"
+    ],
+    "standard_brush": [
+        "sop"
+    ],
+    "standard_bulletconstraint_parm": [
+        "dop"
+    ],
+    "standard_bulletdata_parm": [
+        "dop"
+    ],
+    "standard_clothcollision_parms": [
+        "dop"
+    ],
+    "standard_clothinitial_parms": [
+        "dop"
+    ],
+    "standard_clothmaterial_parms": [
+        "dop"
+    ],
+    "standard_clothobjectattribs": [
+        "dop"
+    ],
+    "standard_clothshell_parms": [
+        "dop"
+    ],
+    "standard_clothvisualization": [
+        "dop"
+    ],
+    "standard_clothvisualization_parms": [
+        "dop"
+    ],
+    "standard_conanchorpos_parms": [
+        "dop"
+    ],
+    "standard_conanchorrot_parms": [
+        "dop"
+    ],
+    "standard_conetwistconrelguide_parms": [
+        "dop"
+    ],
+    "standard_conguide_parms": [
+        "dop"
+    ],
+    "standard_conrel_parms": [
+        "dop"
+    ],
+    "standard_conrelguide_parms": [
+        "dop"
+    ],
+    "standard_conspring_parms": [
+        "dop"
+    ],
+    "standard_constraintnetworkattribs": [
+        "dop"
+    ],
+    "standard_crowdsim_parms": [
+        "sop"
+    ],
+    "standard_data_idparms": [
+        "dop"
+    ],
+    "standard_data_inputs": [
+        "dop"
+    ],
+    "standard_data_locals": [
+        "dop"
+    ],
+    "standard_data_outputs": [
+        "dop"
+    ],
+    "standard_data_parms": [
+        "dop"
+    ],
+    "standard_dataactive_parms": [
+        "dop"
+    ],
+    "standard_datagroup_parms": [
+        "dop"
+    ],
+    "standard_dataname_parms": [
+        "dop"
+    ],
+    "standard_dataop_parms": [
+        "dop"
+    ],
+    "standard_datashare_parms": [
+        "dop"
+    ],
+    "standard_distribution": [
+        "dop"
+    ],
+    "standard_embedding_parms": [
+        "dop"
+    ],
+    "standard_febody_parms": [
+        "dop"
+    ],
+    "standard_fehybridshell_parms": [
+        "dop"
+    ],
+    "standard_fehybridsolid_parms": [
+        "dop"
+    ],
+    "standard_feinitial_parms": [
+        "dop"
+    ],
+    "standard_feoutputattributes_parms": [
+        "dop"
+    ],
+    "standard_ferest_parms": [
+        "dop"
+    ],
+    "standard_fesolid_parms": [
+        "dop"
+    ],
+    "standard_fetarget_parms": [
+        "dop"
+    ],
+    "standard_finiteelement_attribs": [
+        "dop"
+    ],
+    "standard_fluidpositionpath": [
+        "dop"
+    ],
+    "standard_force_parms": [
+        "dop"
+    ],
+    "standard_gas_calculate": [
+        "dop"
+    ],
+    "standard_gas_divisions": [
+        "dop"
+    ],
+    "standard_gas_slice": [
+        "dop"
+    ],
+    "standard_gas_timestep": [
+        "dop"
+    ],
+    "standard_locals": [
+        "dop",
+        "pop"
+    ],
+    "standard_objcreation": [
+        "dop"
+    ],
+    "standard_ode_parms": [
+        "dop"
+    ],
+    "standard_physparms": [
+        "dop"
+    ],
+    "standard_pop_inputs": [
+        "dop"
+    ],
+    "standard_pop_outputs": [
+        "dop"
+    ],
+    "standard_pop_parms": [
+        "dop"
+    ],
+    "standard_rbdphysparms_attribs": [
+        "dop"
+    ],
+    "standard_rbdvolume_parms": [
+        "dop"
+    ],
+    "standard_reldata_inputs": [
+        "dop"
+    ],
+    "standard_reldata_outputs": [
+        "dop"
+    ],
+    "standard_reldata_parms": [
+        "dop"
+    ],
+    "standard_rorcollider_parms": [
+        "dop"
+    ],
+    "standard_shading_parms": [
+        "shop",
+        "vop"
+    ],
+    "standard_sliderconrelguide_parms": [
+        "dop"
+    ],
+    "standard_softbodycollision_parms": [
+        "dop"
+    ],
+    "standard_softbodydrag_parms": [
+        "dop"
+    ],
+    "standard_softbodyrest_parms": [
+        "dop"
+    ],
+    "standard_softbodytarget_parms": [
+        "dop"
+    ],
+    "standard_solidcollision_parms": [
+        "dop"
+    ],
+    "standard_solidinitial_parms": [
+        "dop"
+    ],
+    "standard_solidmaterial_parms": [
+        "dop"
+    ],
+    "standard_solidmodel_parms": [
+        "dop"
+    ],
+    "standard_solidobjectattribs": [
+        "dop"
+    ],
+    "standard_solver_mutualparms": [
+        "dop"
+    ],
+    "standard_solver_parms": [
+        "dop"
+    ],
+    "standard_springnetworkattribs": [
+        "dop"
+    ],
+    "standard_voronoifracture_parms": [
+        "dop"
+    ],
+    "standard_wave_attribs": [
+        "dop"
+    ],
+    "standard_wireelasticity_parms": [
+        "dop"
+    ],
+    "standard_wireobjectattribs": [
+        "dop"
+    ],
+    "standard_wireobjecttabs": [
+        "dop"
+    ],
+    "standard_wirephys_parms": [
+        "dop"
+    ],
+    "standard_wireplasticity_parms": [
+        "dop"
+    ],
+    "standard_wirevisualization_parms": [
+        "dop"
+    ],
+    "standardvariables": [
+        "sop"
+    ],
+    "starburst": [
+        "sop"
+    ],
+    "startswith": [
+        "vop"
+    ],
+    "stash": [
+        "sop"
+    ],
+    "state": [
+        "pop"
+    ],
+    "staticobject": [
+        "dop"
+    ],
+    "staticsolver": [
+        "dop"
+    ],
+    "staticvisualization": [
+        "dop"
+    ],
+    "stereocam": [
+        "obj"
+    ],
+    "stereocamrig": [
+        "obj"
+    ],
+    "sticky": [
+        "obj"
+    ],
+    "stitch": [
+        "sop"
+    ],
+    "stone": [
+        "vop"
+    ],
+    "stonewall": [
+        "vop"
+    ],
+    "streak": [
+        "cop2"
+    ],
+    "stream": [
+        "pop"
+    ],
+    "stretch": [
+        "chop"
+    ],
+    "strip": [
+        "vop"
+    ],
+    "stripes": [
+        "vop"
+    ],
+    "strlen": [
+        "vop"
+    ],
+    "stroke": [
+        "sop"
+    ],
+    "strokecache": [
+        "sop"
+    ],
+    "struct": [
+        "vop"
+    ],
+    "structpack": [
+        "vop"
+    ],
+    "structunpack": [
+        "vop"
+    ],
+    "stucco": [
+        "vop"
+    ],
+    "subconst": [
+        "vop"
+    ],
+    "subdivide": [
+        "sop"
+    ],
+    "subinput": [
+        "vop"
+    ],
+    "subnet": [
+        "sop",
+        "dop",
+        "shop",
+        "obj",
+        "pop",
+        "chop",
+        "cop2",
+        "vop",
+        "vex",
+        "out"
+    ],
+    "subnetconnector": [
+        "vop"
+    ],
+    "subnetreturn": [
+        "vop"
+    ],
+    "suboutput": [
+        "shop",
+        "vop"
+    ],
+    "subtract": [
+        "cop2",
+        "vop"
+    ],
+    "superquad": [
+        "sop"
+    ],
+    "suppress": [
+        "pop"
+    ],
+    "surface": [
+        "vex"
+    ],
+    "surfacecollisionparms": [
+        "dop"
+    ],
+    "surfacecolor": [
+        "vop"
+    ],
+    "surfacemodel": [
+        "vop"
+    ],
+    "surfsect": [
+        "sop"
+    ],
+    "sweep": [
+        "sop"
+    ],
+    "switch": [
+        "sop",
+        "dop",
+        "shop",
+        "pop",
+        "chop",
+        "cop2",
+        "vop",
+        "out"
+    ],
+    "switchalpha": [
+        "cop2"
+    ],
+    "switcher": [
+        "obj"
+    ],
+    "switchlightingbsdf": [
+        "vop"
+    ],
+    "switchsolver": [
+        "dop"
+    ],
+    "switchvalue": [
+        "dop"
+    ],
+    "swizzlehvec": [
+        "vop"
+    ],
+    "swizzlevec": [
+        "vop"
+    ],
+    "swizzlevec2": [
+        "vop"
+    ],
+    "tableimport": [
+        "sop"
+    ],
+    "tangent": [
+        "vop"
+    ],
+    "tangentnormal": [
+        "vop"
+    ],
+    "tangentnormalremap": [
+        "vop"
+    ],
+    "tangentnormals": [
+        "vop"
+    ],
+    "targetconstraint": [
+        "dop"
+    ],
+    "targetrel": [
+        "dop"
+    ],
+    "terrain_noise": [
+        "cop2"
+    ],
+    "terrainobject": [
+        "dop"
+    ],
+    "testgeometry_pighead": [
+        "sop"
+    ],
+    "testgeometry_rubbertoy": [
+        "sop"
+    ],
+    "testgeometry_shaderball": [
+        "sop"
+    ],
+    "testgeometry_squab": [
+        "sop"
+    ],
+    "testsim_crowdtransition": [
+        "sop"
+    ],
+    "testsim_ragdoll": [
+        "sop"
+    ],
+    "tet_adjacent": [
+        "vop"
+    ],
+    "tet_faceindex": [
+        "vop"
+    ],
+    "tetpartition": [
+        "sop"
+    ],
+    "tetrahedralize": [
+        "sop"
+    ],
+    "tetrasurface": [
+        "sop"
+    ],
+    "texture": [
+        "sop",
+        "vop"
+    ],
+    "texture3d": [
+        "vop"
+    ],
+    "texture3dbox": [
+        "vop"
+    ],
+    "texture_common": [
+        "sop"
+    ],
+    "texturemap": [
+        "vop"
+    ],
+    "thinfilm": [
+        "vop"
+    ],
+    "thinfilmfresnel": [
+        "vop"
+    ],
+    "thinplatecollider": [
+        "dop"
+    ],
+    "three_point_light": [
+        "obj"
+    ],
+    "tile": [
+        "cop2"
+    ],
+    "tima": [
+        "cop2"
+    ],
+    "timeblend": [
+        "sop"
+    ],
+    "timefilter": [
+        "cop2"
+    ],
+    "timescale": [
+        "cop2"
+    ],
+    "timeshift": [
+        "sop"
+    ],
+    "timewarp": [
+        "sop"
+    ],
+    "timing": [
+        "vop"
+    ],
+    "tissuesolver": [
+        "sop"
+    ],
+    "titlecase": [
+        "vop"
+    ],
+    "tolower": [
+        "vop"
+    ],
+    "tondc": [
+        "vop"
+    ],
+    "tondcgeo": [
+        "vop"
+    ],
+    "tooncolorshader": [
+        "shop"
+    ],
+    "toonoutlineshader": [
+        "shop"
+    ],
+    "toonshaderattribs": [
+        "sop"
+    ],
+    "topobuild": [
+        "sop"
+    ],
+    "topolar": [
+        "vop"
+    ],
+    "torque": [
+        "pop"
+    ],
+    "torus": [
+        "sop"
+    ],
+    "toupper": [
+        "vop"
+    ],
+    "trace": [
+        "sop",
+        "vop"
+    ],
+    "trail": [
+        "sop"
+    ],
+    "transferguides": [
+        "sop"
+    ],
+    "transform": [
+        "chop",
+        "vop"
+    ],
+    "transformchain": [
+        "chop"
+    ],
+    "transformspace": [
+        "vop"
+    ],
+    "translate": [
+        "vop"
+    ],
+    "translation": [
+        "pop"
+    ],
+    "transpose": [
+        "vop"
+    ],
+    "triangulate2d": [
+        "sop"
+    ],
+    "triangulate2d-": [
+        "sop"
+    ],
+    "tribez": [
+        "sop"
+    ],
+    "tridivide": [
+        "sop"
+    ],
+    "trig": [
+        "vop"
+    ],
+    "trigger": [
+        "chop"
+    ],
+    "trim": [
+        "sop",
+        "chop",
+        "cop2"
+    ],
+    "tristrip": [
+        "sop"
+    ],
+    "tube": [
+        "sop"
+    ],
+    "turbnoise": [
+        "vop"
+    ],
+    "turn": [
+        "pop"
+    ],
+    "twist": [
+        "sop"
+    ],
+    "twosided": [
+        "vop"
+    ],
+    "twostateconrel": [
+        "dop"
+    ],
+    "twotone": [
+        "vop"
+    ],
+    "twoway": [
+        "vop"
+    ],
+    "under": [
+        "cop2"
+    ],
+    "unifiednoise": [
+        "vop"
+    ],
+    "unifiednoise_static": [
+        "vop"
+    ],
+    "uniformforce": [
+        "dop"
+    ],
+    "uniqueval": [
+        "vop"
+    ],
+    "unix": [
+        "sop"
+    ],
+    "unpack": [
+        "sop"
+    ],
+    "unpackgroom": [
+        "sop"
+    ],
+    "unpackpoints": [
+        "sop"
+    ],
+    "unpaste": [
+        "sop"
+    ],
+    "unpin": [
+        "cop2"
+    ],
+    "upvector": [
+        "pop"
+    ],
+    "uvbrush": [
+        "sop"
+    ],
+    "uvcoords": [
+        "vop"
+    ],
+    "uvedit": [
+        "sop"
+    ],
+    "uvflatten": [
+        "sop"
+    ],
+    "uvfuse": [
+        "sop"
+    ],
+    "uvlayout": [
+        "sop"
+    ],
+    "uvmap": [
+        "cop2"
+    ],
+    "uvnoise": [
+        "vop"
+    ],
+    "uvpelt": [
+        "sop"
+    ],
+    "uvpelt-": [
+        "sop"
+    ],
+    "uvplanarproject": [
+        "vop"
+    ],
+    "uvposition": [
+        "vop"
+    ],
+    "uvproject": [
+        "sop",
+        "vop"
+    ],
+    "uvquickshade": [
+        "sop"
+    ],
+    "uvspacechg": [
+        "vop"
+    ],
+    "uvtransform": [
+        "sop"
+    ],
+    "uvtriplanarproject": [
+        "vop"
+    ],
+    "uvunwrap": [
+        "sop"
+    ],
+    "uvxform": [
+        "vop"
+    ],
+    "v_aluminum": [
+        "shop"
+    ],
+    "v_ambient": [
+        "shop"
+    ],
+    "v_asadlens": [
+        "shop"
+    ],
+    "v_asadlight": [
+        "shop"
+    ],
+    "v_attenlight": [
+        "shop"
+    ],
+    "v_attenspot": [
+        "shop"
+    ],
+    "v_blurshadow": [
+        "shop"
+    ],
+    "v_burlap": [
+        "shop"
+    ],
+    "v_cartoon": [
+        "shop"
+    ],
+    "v_choppywater": [
+        "shop"
+    ],
+    "v_clay": [
+        "shop"
+    ],
+    "v_collada": [
+        "shop"
+    ],
+    "v_constant": [
+        "shop"
+    ],
+    "v_corrugated": [
+        "shop"
+    ],
+    "v_decal": [
+        "shop"
+    ],
+    "v_dented": [
+        "shop"
+    ],
+    "v_diffuselighting": [
+        "shop"
+    ],
+    "v_distant": [
+        "shop"
+    ],
+    "v_dmap": [
+        "shop"
+    ],
+    "v_fastzmap": [
+        "shop"
+    ],
+    "v_fbx": [
+        "shop"
+    ],
+    "v_fluffy": [
+        "shop"
+    ],
+    "v_gilight": [
+        "shop"
+    ],
+    "v_gingham": [
+        "shop"
+    ],
+    "v_glass": [
+        "shop"
+    ],
+    "v_hair": [
+        "shop"
+    ],
+    "v_krinkle": [
+        "shop"
+    ],
+    "v_lighttracer": [
+        "shop"
+    ],
+    "v_litfog": [
+        "shop"
+    ],
+    "v_matte": [
+        "shop"
+    ],
+    "v_metacloud": [
+        "shop"
+    ],
+    "v_metal": [
+        "shop"
+    ],
+    "v_mislighting": [
+        "shop"
+    ],
+    "v_oglmaterial": [
+        "shop"
+    ],
+    "v_pathtracer": [
+        "shop"
+    ],
+    "v_photontracer": [
+        "shop"
+    ],
+    "v_plastic": [
+        "shop"
+    ],
+    "v_pointlight": [
+        "shop"
+    ],
+    "v_polka": [
+        "shop"
+    ],
+    "v_rayshadow": [
+        "shop"
+    ],
+    "v_riverbed": [
+        "shop"
+    ],
+    "v_sampler_uvlens": [
+        "shop"
+    ],
+    "v_shadowmatte": [
+        "shop"
+    ],
+    "v_softtoon": [
+        "shop"
+    ],
+    "v_supermat": [
+        "shop"
+    ],
+    "v_tracer_pcphoton": [
+        "shop"
+    ],
+    "v_uniform": [
+        "shop"
+    ],
+    "v_uvlens": [
+        "shop"
+    ],
+    "v_volumecloud": [
+        "shop"
+    ],
+    "v_volumefire": [
+        "shop"
+    ],
+    "v_vrlens": [
+        "shop"
+    ],
+    "v_window": [
+        "shop"
+    ],
+    "v_zdepth": [
+        "shop"
+    ],
+    "vdb": [
+        "sop"
+    ],
+    "vdbactivate": [
+        "sop"
+    ],
+    "vdbactivatesdf": [
+        "sop"
+    ],
+    "vdbadvectpoints": [
+        "sop"
+    ],
+    "vdbadvectsdf": [
+        "sop"
+    ],
+    "vdbanalysis": [
+        "sop"
+    ],
+    "vdbclip": [
+        "sop"
+    ],
+    "vdbcombine": [
+        "sop"
+    ],
+    "vdbdiagnostics": [
+        "sop"
+    ],
+    "vdbfracture": [
+        "sop"
+    ],
+    "vdbfromparticlefluid": [
+        "sop"
+    ],
+    "vdbfromparticles": [
+        "sop"
+    ],
+    "vdbfrompolygons": [
+        "sop"
+    ],
+    "vdblod": [
+        "sop"
+    ],
+    "vdbmorphsdf": [
+        "sop"
+    ],
+    "vdbocclusionmask": [
+        "sop"
+    ],
+    "vdbpointsgroup": [
+        "sop"
+    ],
+    "vdbprojectnondivergent": [
+        "sop"
+    ],
+    "vdbrenormalizesdf": [
+        "sop"
+    ],
+    "vdbresample": [
+        "sop"
+    ],
+    "vdbreshapesdf": [
+        "sop"
+    ],
+    "vdbsegmentbyconnectivity": [
+        "sop"
+    ],
+    "vdbsmooth": [
+        "sop"
+    ],
+    "vdbsmoothsdf": [
+        "sop"
+    ],
+    "vdbtopologytosdf": [
+        "sop"
+    ],
+    "vdbtospheres": [
+        "sop"
+    ],
+    "vdbvectormerge": [
+        "sop"
+    ],
+    "vdbvectorsplit": [
+        "sop"
+    ],
+    "vdbvisualizetree": [
+        "sop"
+    ],
+    "vec2getcompon": [
+        "vop"
+    ],
+    "vec2setcompon": [
+        "vop"
+    ],
+    "vec2tofloat": [
+        "vop"
+    ],
+    "vec2tohvec": [
+        "vop"
+    ],
+    "vec2tomatx2": [
+        "vop"
+    ],
+    "vec2tovec": [
+        "vop"
+    ],
+    "veccast": [
+        "vop"
+    ],
+    "vecgetcompon": [
+        "vop"
+    ],
+    "vecsetcompon": [
+        "vop"
+    ],
+    "vectofloat": [
+        "vop"
+    ],
+    "vectohvec": [
+        "vop"
+    ],
+    "vectomatx": [
+        "vop"
+    ],
+    "vectoquat": [
+        "vop"
+    ],
+    "vector": [
+        "chop",
+        "cop2"
+    ],
+    "vectorfield": [
+        "dop"
+    ],
+    "vectorfieldvisualization": [
+        "dop"
+    ],
+    "vectovec2": [
+        "vop"
+    ],
+    "veins": [
+        "vop"
+    ],
+    "velblur": [
+        "cop2"
+    ],
+    "velimpulseforce": [
+        "dop"
+    ],
+    "velocity": [
+        "pop"
+    ],
+    "velocitystream": [
+        "pop"
+    ],
+    "verify_bsdf": [
+        "sop"
+    ],
+    "vertex": [
+        "sop"
+    ],
+    "vertexsplit": [
+        "sop"
+    ],
+    "vex": [
+        "sop",
+        "pop",
+        "chop"
+    ],
+    "vexfilter": [
+        "cop2"
+    ],
+    "vexgenerate": [
+        "cop2"
+    ],
+    "vexvolume": [
+        "vop"
+    ],
+    "vgather": [
+        "vop"
+    ],
+    "viewportisolator": [
+        "obj"
+    ],
+    "visibility": [
+        "sop"
+    ],
+    "visualize": [
+        "sop",
+        "vop"
+    ],
+    "visualizegeometry": [
+        "dop"
+    ],
+    "vm_geo_agent": [
+        "shop"
+    ],
+    "vm_geo_alembic": [
+        "shop"
+    ],
+    "vm_geo_engine": [
+        "shop"
+    ],
+    "vm_geo_enginecurvegen": [
+        "shop"
+    ],
+    "vm_geo_enginepointgen": [
+        "shop"
+    ],
+    "vm_geo_file": [
+        "shop"
+    ],
+    "vm_geo_fur": [
+        "shop"
+    ],
+    "vm_geo_image3d": [
+        "shop"
+    ],
+    "vm_geo_image3dvolume": [
+        "shop"
+    ],
+    "vm_geo_program": [
+        "shop"
+    ],
+    "vm_geo_ptinstance": [
+        "shop"
+    ],
+    "vm_geo_ptreplicate": [
+        "shop"
+    ],
+    "vm_geo_sprite": [
+        "shop"
+    ],
+    "vm_geo_vexvolume": [
+        "shop"
+    ],
+    "voicesplit": [
+        "chop"
+    ],
+    "voicesync": [
+        "chop"
+    ],
+    "volume": [
+        "sop",
+        "dop"
+    ],
+    "volume_types": [
+        "sop"
+    ],
+    "volumeanalysis": [
+        "sop"
+    ],
+    "volumearrivaltime": [
+        "sop"
+    ],
+    "volumeblur": [
+        "sop"
+    ],
+    "volumebound": [
+        "sop"
+    ],
+    "volumebreak": [
+        "sop"
+    ],
+    "volumecollider": [
+        "dop"
+    ],
+    "volumecompress": [
+        "sop"
+    ],
+    "volumeconvolve3": [
+        "sop"
+    ],
+    "volumefeather": [
+        "sop"
+    ],
+    "volumefft": [
+        "sop"
+    ],
+    "volumefromattrib": [
+        "sop"
+    ],
+    "volumegradient": [
+        "vop"
+    ],
+    "volumegradientfile": [
+        "vop"
+    ],
+    "volumeindex": [
+        "vop"
+    ],
+    "volumeindexfile": [
+        "vop"
+    ],
+    "volumeindextopos": [
+        "vop"
+    ],
+    "volumeindextoposfile": [
+        "vop"
+    ],
+    "volumeindexvfile": [
+        "vop"
+    ],
+    "volumemerge": [
+        "sop"
+    ],
+    "volumemix": [
+        "sop"
+    ],
+    "volumemodel": [
+        "vop"
+    ],
+    "volumepostoindex": [
+        "vop"
+    ],
+    "volumepostoindexfile": [
+        "vop"
+    ],
+    "volumeramp": [
+        "sop"
+    ],
+    "volumerasterize": [
+        "sop"
+    ],
+    "volumerasterizecurve": [
+        "sop"
+    ],
+    "volumerasterizehair": [
+        "sop"
+    ],
+    "volumerasterizeparticles": [
+        "sop"
+    ],
+    "volumerasterizepoints": [
+        "sop"
+    ],
+    "volumereduce": [
+        "sop"
+    ],
+    "volumeres": [
+        "vop"
+    ],
+    "volumeresample": [
+        "sop"
+    ],
+    "volumeresfile": [
+        "vop"
+    ],
+    "volumeresize": [
+        "sop"
+    ],
+    "volumesample": [
+        "vop"
+    ],
+    "volumesamplefile": [
+        "vop"
+    ],
+    "volumesamplevfile": [
+        "vop"
+    ],
+    "volumesdf": [
+        "sop"
+    ],
+    "volumeshader": [
+        "vop"
+    ],
+    "volumeslice": [
+        "sop"
+    ],
+    "volumesplice": [
+        "sop"
+    ],
+    "volumestamp": [
+        "sop"
+    ],
+    "volumesurface": [
+        "sop"
+    ],
+    "volumetrail": [
+        "sop"
+    ],
+    "volumevelocity": [
+        "sop"
+    ],
+    "volumevisualization": [
+        "sop"
+    ],
+    "volumevop": [
+        "sop"
+    ],
+    "volumevopglobal": [
+        "vop"
+    ],
+    "volumevopoutput": [
+        "vop"
+    ],
+    "volumewrangle": [
+        "sop"
+    ],
+    "vopchop": [
+        "chop"
+    ],
+    "vopcop2filter": [
+        "cop2"
+    ],
+    "vopcop2gen": [
+        "cop2"
+    ],
+    "vopcvex": [
+        "shop"
+    ],
+    "vopdisplace": [
+        "shop"
+    ],
+    "vopfog": [
+        "shop"
+    ],
+    "vopforce": [
+        "dop"
+    ],
+    "vopforceglobal": [
+        "vop"
+    ],
+    "vopforceoutput": [
+        "vop"
+    ],
+    "vopimage3d": [
+        "shop"
+    ],
+    "voplight": [
+        "shop"
+    ],
+    "vopmaterial": [
+        "shop"
+    ],
+    "vopphoton": [
+        "shop"
+    ],
+    "voppop": [
+        "pop"
+    ],
+    "vopshadow": [
+        "shop"
+    ],
+    "vopsop": [
+        "sop"
+    ],
+    "vopsurface": [
+        "shop"
+    ],
+    "voronoi_fracture_solver_parms": [
+        "dop"
+    ],
+    "voronoifracture": [
+        "sop"
+    ],
+    "voronoifractureconfigureobject": [
+        "dop"
+    ],
+    "voronoifractureparms": [
+        "dop"
+    ],
+    "voronoifracturepoints": [
+        "sop"
+    ],
+    "voronoifracturesolver": [
+        "dop"
+    ],
+    "voronoise": [
+        "vop"
+    ],
+    "voronoisplit": [
+        "sop"
+    ],
+    "vortexforce": [
+        "dop"
+    ],
+    "vortexforceattribs": [
+        "sop"
+    ],
+    "vrcam": [
+        "obj"
+    ],
+    "warp": [
+        "chop",
+        "cop2"
+    ],
+    "watersurf": [
+        "vop"
+    ],
+    "wave": [
+        "chop"
+    ],
+    "waveform": [
+        "sop",
+        "chop"
+    ],
+    "waves": [
+        "vop"
+    ],
+    "wavevector": [
+        "vop"
+    ],
+    "wedge": [
+        "out"
+    ],
+    "while": [
+        "vop"
+    ],
+    "whitecaps": [
+        "obj"
+    ],
+    "whitewateremitter": [
+        "dop"
+    ],
+    "whitewaterobject": [
+        "dop"
+    ],
+    "whitewatersolver": [
+        "dop"
+    ],
+    "whitewatersource": [
+        "sop"
+    ],
+    "wind": [
+        "pop"
+    ],
+    "windforce": [
+        "dop"
+    ],
+    "window": [
+        "cop2"
+    ],
+    "wipe": [
+        "cop2"
+    ],
+    "wire": [
+        "sop"
+    ],
+    "wire_pattern": [
+        "vop"
+    ],
+    "wireangularconstraint": [
+        "dop"
+    ],
+    "wireangularspringconstraint": [
+        "dop"
+    ],
+    "wireblend": [
+        "sop"
+    ],
+    "wirecapture": [
+        "sop"
+    ],
+    "wireconfigureobject": [
+        "dop"
+    ],
+    "wiredeform": [
+        "sop"
+    ],
+    "wireelasticity": [
+        "dop"
+    ],
+    "wireframe": [
+        "vop"
+    ],
+    "wireglueconstraint": [
+        "dop"
+    ],
+    "wireobject": [
+        "dop"
+    ],
+    "wirephysparms": [
+        "dop"
+    ],
+    "wireplasticity": [
+        "dop"
+    ],
+    "wiresolver": [
+        "dop"
+    ],
+    "wiretransfershape": [
+        "sop"
+    ],
+    "wirevisualization": [
+        "dop"
+    ],
+    "wirevolumecollider": [
+        "dop"
+    ],
+    "wirewirecollider": [
+        "dop"
+    ],
+    "wood": [
+        "vop"
+    ],
+    "woodplank": [
+        "vop"
+    ],
+    "worleynoise": [
+        "vop"
+    ],
+    "woven": [
+        "vop"
+    ],
+    "wrangle_syntax": [
+        "sop"
+    ],
+    "wren": [
+        "out"
+    ],
+    "xform": [
+        "sop",
+        "cop2",
+        "vop"
+    ],
+    "xformaxis": [
+        "sop"
+    ],
+    "xformbyattrib": [
+        "sop"
+    ],
+    "xformpieces": [
+        "sop"
+    ],
+    "xor": [
+        "cop2",
+        "vop"
+    ],
+    "xyzdist": [
+        "vop"
+    ],
+    "zcomp": [
+        "cop2"
+    ]
+}
