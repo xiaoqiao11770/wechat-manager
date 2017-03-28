@@ -62,7 +62,7 @@ def wechat():
                 run_content = node_data[0] + '\n' + node_data[2]
             else:
                 run_content = tuling.result(user_content)
-            run_content = run_content.encoed('utf-8')
+            run_content = run_content
             print('run_content:', run_content)
             reply = create_reply(run_content, msg)
         else:

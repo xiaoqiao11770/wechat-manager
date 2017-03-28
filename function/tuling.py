@@ -10,7 +10,7 @@ raw_TULINURL = "http://www.tuling123.com/openapi/api?key=%s&info=" % API_KEY
 
 def result(query):
     for i in range(1,100):
-        TULINURL = "%s%s" % (raw_TULINURL,urllib2.quote(query))
+        TULINURL = "%s%s" % (raw_TULINURL, urllib2.quote(query))
         req = urllib2.Request(url=TULINURL)
         result = urllib2.urlopen(req).read()
         hjson=json.loads(result)
@@ -23,4 +23,4 @@ def result(query):
 
 
 if __name__ == '__main__':
-    print result('有意思吗？')
+    print result('\u4jhf603')
