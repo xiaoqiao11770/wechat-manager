@@ -23,4 +23,5 @@ def result(query):
 
 
 if __name__ == '__main__':
-    print result('\u4jhf603')
+    print result( '\u4jhf603'.decode())
+    print '\u4jhf603'.decode()
