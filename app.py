@@ -60,9 +60,17 @@ def wechat():
             node_data = read.parse_node(user_content)
             if node_data:
                 run_content = node_data[0] + '\n' + node_data[2]
-                for i in range(3):
-                    reple = create_reply(node_data[i-1], msg)
-                    return reple.render()
+                articles = [
+                    {
+                        'title': 'test',
+                        'description': 'test',
+                        'image': 'image url',
+                        'url': 'url'
+                    },
+                    # add more ...
+                ]
+                reple = create_reply(articles, msg)
+                return reple.render()
             else:
                 run_content = tuling.result(user_content.encode("utf-8"))
             print('run_content:', run_content)
