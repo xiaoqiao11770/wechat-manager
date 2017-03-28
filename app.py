@@ -62,10 +62,10 @@ def wechat():
                 run_content = node_data[0] + '\n' + node_data[2]
                 articles = [
                     {
-                        'title': 'test',
-                        'description': 'test',
-                        'image': 'image url',
-                        'url': 'url'
+                        'title': user_content.upper(),
+                        'description': node_data[0],
+                        'image': 'https://a-ssl.duitang.com/uploads/item/201601/28/20160128230209_iSYUx.jpeg',
+                        'url': node_data[2]
                     },
                     # add more ...
                 ]
