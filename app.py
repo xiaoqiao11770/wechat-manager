@@ -40,20 +40,30 @@ def wechat():
         abort(403)
     if request.method == 'GET':
         echo_str = request.args.get('echostr', '')
+        print('echo_str:', echo_str)
         return echo_str
+    print '============ successful validation ============'
+    print('signature:', signature)
+    print('timestamp: ', timestamp)
+    print('nonce:', nonce)
+    print('encrypt_type:', encrypt_type)
+    print('msg_signature:', msg_signature)
 
     # POST request
     if encrypt_type == 'raw':
         # plaintext mode
         msg = parse_message(request.data)
         if msg.type == 'text':
+            print '============ text mag ============'
             user_content = msg.content
+            print('user_content:', user_content)
             node_data = read.parse_node(user_content)
             if node_data:
                 run_content = node_data[0] + '\n' + node_data[2]
             else:
                 run_content = tuling.result(user_content)
             run_content = run_content.encoed('utf-8')
+            print('run_content:', run_content)
             reply = create_reply(run_content, msg)
         else:
             reply = create_reply('Sorry, can not handle this for now', msg)
