@@ -64,7 +64,7 @@ def wechat():
                     {
                         'title': user_content.upper(),
                         'description': node_data[0],
-                        'image': 'https://a-ssl.duitang.com/uploads/item/201601/28/20160128230209_iSYUx.jpeg',
+                        'image': 'http://www.sidefx.com/docs/houdini/icons/SOP/%s.svg' % user_content,
                         'url': node_data[2]
                     },
                     # add more ...
