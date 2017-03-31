@@ -54,6 +54,7 @@ def wechat():
         # plaintext mode
         msg = parse_message(request.data)
         print 'Msg Type: ', msg.type
+        print 'Msg event', msg.event
         if msg.type == 'text':
             print '============ text mag ============'
             user_content = msg.content
