@@ -91,8 +91,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+            <state relative-caret-position="567">
+              <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
               <folding>
                 <element signature="e#24#80#0" expanded="true" />
               </folding>
@@ -865,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490986687328</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="test_43">
+      <created>1490986777634</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1490986777634</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -958,7 +965,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test_16&#10;" />
     <MESSAGE value="test_17&#10;" />
     <MESSAGE value="test_18&#10;" />
     <MESSAGE value="test_20&#10;" />
@@ -983,7 +989,8 @@
     <MESSAGE value="test_40" />
     <MESSAGE value="test_41" />
     <MESSAGE value="test_42" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_42" />
+    <MESSAGE value="test_43" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_43" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1275,8 +1282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        <state relative-caret-position="567">
+          <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
           <folding>
             <element signature="e#24#80#0" expanded="true" />
           </folding>

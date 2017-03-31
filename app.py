@@ -100,7 +100,8 @@ def wechat():
             else:
                 reply = create_reply('Sorry, can not handle this for now', msg)
             return crypto.encrypt_message(reply.render(), nonce, timestamp)
-
+    print "暂且不处理"
+    return "success"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='80')
