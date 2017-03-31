@@ -53,6 +53,7 @@ def wechat():
     if encrypt_type == 'raw':
         # plaintext mode
         msg = parse_message(request.data)
+        print 'Msg Type: ', msg.type
         if msg.type == 'text':
             print '============ text mag ============'
             user_content = msg.content
@@ -80,6 +81,7 @@ def wechat():
         return reply.render()
 
     elif encrypt_type == 'subscribe':
+        print '===> The is subscribe'
         msg = parse_message(request.data)
         content = '欢迎关注特效Houdini，这里有个聊天机器人，你可以调戏她。'
         reply = create_reply(content, message=msg)
