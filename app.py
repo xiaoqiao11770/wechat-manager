@@ -52,11 +52,6 @@ def wechat():
     # POST request
     if encrypt_type == 'raw':
         msg = parse_message(request.data)
-        if msg.get('event') == 'subscribe':
-            msg = parse_message(request.data)
-            content = '欢迎关注特效Houdini，这里有个聊天机器人，你可以调戏她。'
-            reply = create_reply(content, message=msg)
-            return reply.render()
         # plaintext mode
         if msg.type == 'text':
             print '============ text mag ============'
@@ -64,7 +59,6 @@ def wechat():
             print('user_content:', user_content)
             node_data = read.parse_node(user_content)
             if node_data:
-                run_content = node_data[0] + '\n' + node_data[2]
                 articles = [
                     {
                         'title': user_content.upper(),
@@ -81,7 +75,10 @@ def wechat():
             print('run_content:', run_content)
             reply = create_reply(run_content, msg)
         else:
-            reply = create_reply('Sorry, can not handle this for now', msg)
+            if msg.get('event') == 'subscribe':
+                msg = parse_message(request.data)
+                content = '欢迎关注特效Houdini，这里有个聊天机器人，你可以调戏她。'
+                reply = create_reply(content, message=msg)
         return reply.render()
     else:
         # encryption mode
