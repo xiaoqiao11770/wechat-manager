@@ -59,7 +59,7 @@ def wechat():
             print('user_content:', user_content)
             node_data = read.parse_node(user_content)
             if node_data:
-                articles = [
+                run_content = [
                     {
                         'title': user_content.upper(),
                         'description': node_data[0],
@@ -68,12 +68,11 @@ def wechat():
                     },
                     # add more ...
                 ]
-                reple = create_reply(articles, msg)
-                return reple.render()
             else:
                 run_content = tuling.result(user_content.encode("utf-8"))
-            print('run_content:', run_content)
-            reply = create_reply(run_content, msg)
+                print('run_content:', run_content)
+            reple = create_reply(run_content, msg)
+            return reple.render()
         else:
             if msg.event == 'subscribe':
                 msg = parse_message(request.data)
