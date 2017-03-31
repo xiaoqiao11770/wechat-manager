@@ -52,8 +52,6 @@ def wechat():
     # POST request
     if encrypt_type == 'raw':
         msg = parse_message(request.data)
-        print 'Msg Type: ', msg.type
-        print 'Msg event:', msg.event
         if msg.get('event') == 'subscribe':
             msg = parse_message(request.data)
             content = '欢迎关注特效Houdini，这里有个聊天机器人，你可以调戏她。'
