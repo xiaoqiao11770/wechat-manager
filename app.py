@@ -54,12 +54,12 @@ def wechat():
         msg = parse_message(request.data)
         print 'Msg Type: ', msg.type
         print 'Msg event:', msg.event
-        if msg.envnt == 'subscribe':
+        if msg.event == 'subscribe':
             msg = parse_message(request.data)
             content = '欢迎关注特效Houdini，这里有个聊天机器人，你可以调戏她。'
             reply = create_reply(content, message=msg)
             return reply.render()
-        elif msg.envnt == 'unsubscribe':
+        elif msg.event == 'unsubscribe':
             msg = parse_message(request.data)
             content = '恕不远送，用空常来啊！'
             reply = create_reply(content, message=msg)
