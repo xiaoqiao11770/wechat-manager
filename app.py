@@ -78,7 +78,7 @@ def wechat():
                 msg = parse_message(request.data)
                 content = '欢迎关注特效Houdini，这里有个聊天机器人，你可以调戏她。'
                 reply = create_reply(content, message=msg)
-            return reply.render()
+                return reply.render()
     else:
         # encryption mode
         from wechatpy.crypto import WeChatCrypto
