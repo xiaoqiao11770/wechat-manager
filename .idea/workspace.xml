@@ -91,8 +91,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="486">
+              <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
               <folding>
                 <element signature="e#24#80#0" expanded="true" />
               </folding>
@@ -802,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490983821575</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="test_34">
+      <created>1490984191514</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1490984191514</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -916,7 +923,8 @@
     <MESSAGE value="test_31&#10;" />
     <MESSAGE value="test_32" />
     <MESSAGE value="test_33" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_33" />
+    <MESSAGE value="test_34" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_34" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1208,8 +1216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="486">
+          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
           <folding>
             <element signature="e#24#80#0" expanded="true" />
           </folding>
