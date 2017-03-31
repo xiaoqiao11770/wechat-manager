@@ -75,7 +75,7 @@ def wechat():
             print('run_content:', run_content)
             reply = create_reply(run_content, msg)
         else:
-            if msg.get('event') == 'subscribe':
+            if msg.event == 'subscribe':
                 msg = parse_message(request.data)
                 content = '欢迎关注特效Houdini，这里有个聊天机器人，你可以调戏她。'
                 reply = create_reply(content, message=msg)
